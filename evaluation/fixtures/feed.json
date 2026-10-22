@@ -1,0 +1,56 @@
+{
+  "format": "iz-feed-v1",
+  "note": "Fictional synthetic examples. Exact campaignRef or replyTo establish association, not common domains.",
+  "posts": [
+    {
+      "id": "p-1",
+      "campaignRef": "DRAW-017",
+      "title": "Ұтыс: условия в трёх постах",
+      "author": "Qadam · пример",
+      "synthetic": true,
+      "text": "Жаңа смартфон ойнатамыз! #DRAW_017",
+      "url": "https://example.com/channel/post-1"
+    },
+    {
+      "id": "p-2",
+      "campaignRef": "DRAW-017",
+      "author": "Qadam · пример",
+      "synthetic": true,
+      "text": "Для участия обязательно оплатить билет за 3 000 ₸. #DRAW_017",
+      "url": "https://example.com/channel/post-2"
+    },
+    {
+      "id": "p-3",
+      "replyTo": "p-1",
+      "author": "Qadam · пример",
+      "synthetic": true,
+      "text": "Победителя выберет рандомайзер среди участников.",
+      "url": "https://example.com/channel/post-3"
+    },
+    {
+      "id": "p-4",
+      "campaignRef": "FREE-028",
+      "title": "Бесплатный розыгрыш книги",
+      "author": "Kitap · пример",
+      "synthetic": true,
+      "text": "Разыгрываем книгу. Участие бесплатное, без покупки и без взносов.",
+      "url": "https://example.com/book/post-1"
+    },
+    {
+      "id": "p-5",
+      "campaignRef": "FREE-028",
+      "author": "Kitap · пример",
+      "synthetic": true,
+      "text": "Победителя определит генератор случайных чисел.",
+      "url": "https://example.com/book/post-2"
+    },
+    {
+      "id": "p-6",
+      "title": "Обычная продажа",
+      "author": "Dala · пример",
+      "synthetic": true,
+      "text": "Продаём наушники за 8 000 тенге. Каждый покупатель получает свой заказ.",
+      "url": "https://example.com/store/post-1"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "engineVersion": "1.4.0-track1-rules",
+  "engineSha256": "d10e829b016d789ef09661bb7c64a065e609ee51fed3683fcda2cd7ee87a5c08",
+  "frozenBeforeIndependentEvaluation": true,
+  "protocol": "Parent developed rules using prior data and five explicit development probes. Independent v2 cases and labels had not been opened or evaluated by parent. No engine tuning after first v2 evaluation is allowed for this release.",
+  "labelScope": "Textual indicators and triage priority; not fraud or legal status.",
+  "developmentProbes": [
+    {"expected":"low","text":"Разыграем планшет. Для участия покупать не нужно. Победителя определит рандом."},
+    {"expected":"low","text":"Ұтыс: сыйлық — сағат. Қатысу үшін төлеу керек емес. Жеңімпаз кездейсоқ таңдалады."},
+    {"expected":"low","text":"Разыграем книгу. Ничего покупать не требуется. Случайный выбор."},
+    {"expected":"low","text":"Жүлде бар. Қазылар алқасы жеңімпазды таңдайды, кездейсоқ таңдау емес."},
+    {"expected":"medium","text":"Розыгрыш смартфона. Покупать товар не нужно, но билет за 2000 тенге обязателен. Победителя выберет рандом."}
+  ],
+  "note": "The last probe remains medium conservatively: a no-purchase clause plus a mandatory ticket requires manual reconciliation. It is not treated as free participation."
+}

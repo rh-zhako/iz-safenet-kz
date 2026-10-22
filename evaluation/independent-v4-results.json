@@ -1,0 +1,1732 @@
+{
+  "engineVersion": "1.6.0-track1-context",
+  "dataset": "160 synthetic cases authored by a separate engine-blinded AI agent; not human or real-world validation",
+  "synthetic": true,
+  "total": 160,
+  "positiveDefinition": "high: observed prize + mandatory entry payment + random selection, without unresolved contradiction",
+  "precision": 0.9090909090909091,
+  "recall": 0.46875,
+  "falsePositiveRate": 0.03125,
+  "accuracy": 0.6125,
+  "decisionCoverage": 0.56875,
+  "tp": 30,
+  "fp": 3,
+  "tn": 93,
+  "fn": 34,
+  "matrix": {
+    "high": {
+      "high": 30,
+      "medium": 29,
+      "low": 5
+    },
+    "medium": {
+      "high": 1,
+      "medium": 23,
+      "low": 8
+    },
+    "low": {
+      "high": 2,
+      "medium": 17,
+      "low": 45
+    }
+  },
+  "quoteErrors": 0,
+  "cases": [
+    {
+      "id": "iv4-gfvtl9i6lff",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-y7uga50wfq8",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "translit",
+      "category": "conflicting_entry"
+    },
+    {
+      "id": "iv4-2ky3msswcma",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "mixed",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-30jjtsy5k85",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "aquarium"
+    },
+    {
+      "id": "iv4-0hzop2eaepc",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "mixed",
+      "category": "unclear_reward"
+    },
+    {
+      "id": "iv4-nv0wpeeuy0d",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "travel_goods"
+    },
+    {
+      "id": "iv4-fkfj3jzcq1s",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "ru",
+      "category": "unclear_selection"
+    },
+    {
+      "id": "iv4-al1huoe285o",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "mixed",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-1gqe0wgu3cy",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "kk",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-4eiyfn08m3e",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "translit",
+      "category": "skill"
+    },
+    {
+      "id": "iv4-ta58v2v67ll",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "ru",
+      "category": "jury"
+    },
+    {
+      "id": "iv4-1zmid3an48f",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "mixed",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-43tkl7o4irx",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "digital_goods"
+    },
+    {
+      "id": "iv4-a4p7eqfl2ww",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "kk",
+      "category": "conflicting_entry"
+    },
+    {
+      "id": "iv4-hmw678mlxdd",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "baking"
+    },
+    {
+      "id": "iv4-kt8puqgll9n",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "ru",
+      "category": "home"
+    },
+    {
+      "id": "iv4-hkco6r4erds",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "lighting"
+    },
+    {
+      "id": "iv4-tjrzftkpp7",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "mixed",
+      "category": "jury"
+    },
+    {
+      "id": "iv4-yd36dq1w6uj",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 58,
+      "language": "ru",
+      "category": "conflicting_selection"
+    },
+    {
+      "id": "iv4-9ic2sgwqklh",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "translit",
+      "category": "collecting"
+    },
+    {
+      "id": "iv4-c6xu17en50e",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 58,
+      "language": "ru",
+      "category": "unclear_reward"
+    },
+    {
+      "id": "iv4-z15liqteghd",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "category": "skill"
+    },
+    {
+      "id": "iv4-8negn9s9h8x",
+      "expected": "low",
+      "predicted": "high",
+      "baseline": "high",
+      "match": false,
+      "score": 90,
+      "language": "ru",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-25iup83tj4l",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "ru",
+      "category": "games"
+    },
+    {
+      "id": "iv4-syx9b96jzak",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "kk",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-04pw0m50pw4",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "ru",
+      "category": "ordinary_sale"
+    },
+    {
+      "id": "iv4-81inngyefio",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 45,
+      "language": "translit",
+      "category": "unclear_entry"
+    },
+    {
+      "id": "iv4-mlezs3g5y9",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "mixed",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-29vc62zlobr",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "translit",
+      "category": "conflicting_selection"
+    },
+    {
+      "id": "iv4-9iy234zej3w",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "translit",
+      "category": "cycling"
+    },
+    {
+      "id": "iv4-b7pwydzbtsi",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "puzzle"
+    },
+    {
+      "id": "iv4-x854z4qq4u",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "ru",
+      "category": "stream"
+    },
+    {
+      "id": "iv4-m5es7kwltm",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "pets_goods"
+    },
+    {
+      "id": "iv4-6l4xvlea7m3",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "mixed",
+      "category": "gaming"
+    },
+    {
+      "id": "iv4-hmy7yis7mtt",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "kk",
+      "category": "recycling"
+    },
+    {
+      "id": "iv4-fp2av5baggo",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "mixed",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-biohewrfma7",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "translit",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-xq37x03cbx9",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "kk",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-ogedo4y97l",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "translit",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-1vqs8lfqwcn",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "mixed",
+      "category": "art"
+    },
+    {
+      "id": "iv4-46lw8bplhu1",
+      "expected": "high",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "translit",
+      "category": "workspace"
+    },
+    {
+      "id": "iv4-bwnnt2xto2",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "kk",
+      "category": "skill"
+    },
+    {
+      "id": "iv4-0em3btllp0l",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "translit",
+      "category": "kitchen"
+    },
+    {
+      "id": "iv4-nphpgsj222g",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "mixed",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-68fy9yw3btj",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "kk",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-zqzq1mrtbs",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 45,
+      "language": "kk",
+      "category": "unclear_entry"
+    },
+    {
+      "id": "iv4-xpuspmwnfbi",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "mixed",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-p99y5km23sn",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "translit",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-vfwgmetxjcj",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "kk",
+      "category": "filmclub"
+    },
+    {
+      "id": "iv4-rjjruo5wlh",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "translit",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-5f4bffdrug7",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "kk",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-if4a9f8rkqh",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "mixed",
+      "category": "unclear_entry"
+    },
+    {
+      "id": "iv4-mue8xmgjuse",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "not-high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "workshop"
+    },
+    {
+      "id": "iv4-n6yqz0mjv8k",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 58,
+      "language": "mixed",
+      "category": "unclear_selection"
+    },
+    {
+      "id": "iv4-epmhwwok7aj",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "mixed",
+      "category": "unclear_selection"
+    },
+    {
+      "id": "iv4-t4s0dw2zfa",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "mixed",
+      "category": "ordinary_sale"
+    },
+    {
+      "id": "iv4-zn2x9ua6oa",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "garden"
+    },
+    {
+      "id": "iv4-rwp38xhjgtl",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "kk",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-zl7y2tg9ak",
+      "expected": "medium",
+      "predicted": "high",
+      "baseline": "high",
+      "match": false,
+      "score": 90,
+      "language": "mixed",
+      "category": "conflicting_selection"
+    },
+    {
+      "id": "iv4-looov0qghnp",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 12,
+      "language": "mixed",
+      "category": "jury"
+    },
+    {
+      "id": "iv4-4oj1dpwdc94",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "kk",
+      "category": "boardgames"
+    },
+    {
+      "id": "iv4-ittlkuoqcu",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "ru",
+      "category": "beauty"
+    },
+    {
+      "id": "iv4-lihosxxhfpl",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "kk",
+      "category": "jury"
+    },
+    {
+      "id": "iv4-ncjoanirs8q",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "outdoors"
+    },
+    {
+      "id": "iv4-eaev6fwstcw",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "ru",
+      "category": "craft"
+    },
+    {
+      "id": "iv4-s8e6634t6c",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 12,
+      "language": "kk",
+      "category": "skill"
+    },
+    {
+      "id": "iv4-qjhqmmmt1ee",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "clay"
+    },
+    {
+      "id": "iv4-bxqplj90v6k",
+      "expected": "low",
+      "predicted": "high",
+      "baseline": "high",
+      "match": false,
+      "score": 90,
+      "language": "ru",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-0qlhxednwso",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "camping"
+    },
+    {
+      "id": "iv4-fqilrqzj5f7",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "ru",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-wtkhyniq93q",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "ru",
+      "category": "plants"
+    },
+    {
+      "id": "iv4-ljzsg47v9m",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 12,
+      "language": "kk",
+      "category": "jury"
+    },
+    {
+      "id": "iv4-mo0d6yebw5l",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "mixed",
+      "category": "ordinary_sale"
+    },
+    {
+      "id": "iv4-3rt34njlbrv",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "translit",
+      "category": "sports"
+    },
+    {
+      "id": "iv4-ymp4j875hqk",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "not-high",
+      "match": true,
+      "score": 90,
+      "language": "translit",
+      "category": "hobby"
+    },
+    {
+      "id": "iv4-xm3u5m2rbhc",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "travel"
+    },
+    {
+      "id": "iv4-g3fgezj6lxs",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-godj9uy1qc",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "mixed",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-tcezxzkhy3d",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-iv2g8euwyic",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "ru",
+      "category": "skill"
+    },
+    {
+      "id": "iv4-xxotu17b5i",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 12,
+      "language": "kk",
+      "category": "skill"
+    },
+    {
+      "id": "iv4-xpl72cvovn",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "mixed",
+      "category": "conflicting_entry"
+    },
+    {
+      "id": "iv4-53mtkgj8miq",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "ru",
+      "category": "ordinary_sale"
+    },
+    {
+      "id": "iv4-5ai1yzn9etl",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "subscription"
+    },
+    {
+      "id": "iv4-14nllrnz4et",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "translit",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-l4euqy4qkp",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 45,
+      "language": "ru",
+      "category": "unclear_entry"
+    },
+    {
+      "id": "iv4-g4fvi50vliv",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 58,
+      "language": "translit",
+      "category": "unclear_selection"
+    },
+    {
+      "id": "iv4-nu91es4q7x",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "kk",
+      "category": "ordinary_sale"
+    },
+    {
+      "id": "iv4-eeryp3ju3fn",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 45,
+      "language": "mixed",
+      "category": "unclear_entry"
+    },
+    {
+      "id": "iv4-ap6pvc5dsz4",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "ru",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-juzfcotqnkb",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "translit",
+      "category": "ordinary_sale"
+    },
+    {
+      "id": "iv4-ci0qyze90bi",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "community"
+    },
+    {
+      "id": "iv4-vlpnbmijzks",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "kk",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-62r8vj38p0n",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "kk",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-9cj5acv7z8b",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "translit",
+      "category": "jury"
+    },
+    {
+      "id": "iv4-emwxd5yt1is",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "ru",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-f8apzkwxrl",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 45,
+      "language": "kk",
+      "category": "unclear_entry"
+    },
+    {
+      "id": "iv4-r7hpadrixoo",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "kk",
+      "category": "ordinary_sale"
+    },
+    {
+      "id": "iv4-do4eqo3jq9q",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "mixed",
+      "category": "school_goods"
+    },
+    {
+      "id": "iv4-w1pl1yffyc",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "mixed",
+      "category": "reading"
+    },
+    {
+      "id": "iv4-lviqfc6zwup",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "mixed",
+      "category": "transport"
+    },
+    {
+      "id": "iv4-0fevfvaeuhb",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "not-high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "sewing"
+    },
+    {
+      "id": "iv4-h1qi3x30mwj",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "ru",
+      "category": "coffee"
+    },
+    {
+      "id": "iv4-2x0c7lhd75c",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "mixed",
+      "category": "conflicting_selection"
+    },
+    {
+      "id": "iv4-lreyphu1ncd",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "not-high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "ceramics"
+    },
+    {
+      "id": "iv4-qg7vug0jux",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "translit",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-2p61tl27skk",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "kk",
+      "category": "conflicting_selection"
+    },
+    {
+      "id": "iv4-wkgl6f38sc8",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "ru",
+      "category": "unclear_selection"
+    },
+    {
+      "id": "iv4-x7sp10ry4gl",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "dance"
+    },
+    {
+      "id": "iv4-g5q983uj6q",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "ru",
+      "category": "conflicting_entry"
+    },
+    {
+      "id": "iv4-w3yoqe3h9ls",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "translit",
+      "category": "bags"
+    },
+    {
+      "id": "iv4-ibx92mv2pq",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "ru",
+      "category": "music"
+    },
+    {
+      "id": "iv4-egp5mmrt5ai",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "mixed",
+      "category": "home_textile"
+    },
+    {
+      "id": "iv4-6mlilz2f3d3",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "translit",
+      "category": "skill"
+    },
+    {
+      "id": "iv4-yadvzrs294r",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "ru",
+      "category": "jury"
+    },
+    {
+      "id": "iv4-2t77ijc2u4e",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "ru",
+      "category": "clothing"
+    },
+    {
+      "id": "iv4-mlbd2yjmzri",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "kk",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-ey3csztg2b7",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "mixed",
+      "category": "ordinary_sale"
+    },
+    {
+      "id": "iv4-sy9i0yq7htj",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "food_delivery"
+    },
+    {
+      "id": "iv4-f96lsm2ij7",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "mixed",
+      "category": "skill"
+    },
+    {
+      "id": "iv4-lpte0615a7e",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "translit",
+      "category": "ordinary_sale"
+    },
+    {
+      "id": "iv4-9hgk8k9062",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "kk",
+      "category": "science"
+    },
+    {
+      "id": "iv4-rckgiqsxi5j",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "mixed",
+      "category": "skill"
+    },
+    {
+      "id": "iv4-5joujwtr14l",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "translit",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-i1wxi8rbjn",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "ru",
+      "category": "free_entry"
+    },
+    {
+      "id": "iv4-esiw0vsmtmt",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "stationery"
+    },
+    {
+      "id": "iv4-azavb7hg8vc",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "translit",
+      "category": "bath"
+    },
+    {
+      "id": "iv4-8baqeaj89t7",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "ru",
+      "category": "sports"
+    },
+    {
+      "id": "iv4-8dkrz0j0x5t",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "ru",
+      "category": "ordinary_sale"
+    },
+    {
+      "id": "iv4-u3gb5r9dsc",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "ru",
+      "category": "ordinary_sale"
+    },
+    {
+      "id": "iv4-7eu5fpju4df",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "ru",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-vc9sb3m12in",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "fitness"
+    },
+    {
+      "id": "iv4-v2st3240pw",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "ru",
+      "category": "unclear_selection"
+    },
+    {
+      "id": "iv4-imd58qrh7xh",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "kk",
+      "category": "textile"
+    },
+    {
+      "id": "iv4-bz77u9ehzt7",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "kk",
+      "category": "conflicting_entry"
+    },
+    {
+      "id": "iv4-wq1xoy7beve",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 58,
+      "language": "kk",
+      "category": "unclear_selection"
+    },
+    {
+      "id": "iv4-hjtamccxgn",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "ru",
+      "category": "conflicting_selection"
+    },
+    {
+      "id": "iv4-80ft8lmmlcg",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "accessories"
+    },
+    {
+      "id": "iv4-emw9elt79ov",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 45,
+      "language": "ru",
+      "category": "unclear_entry"
+    },
+    {
+      "id": "iv4-dvt683uijtp",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "kk",
+      "category": "tea"
+    },
+    {
+      "id": "iv4-o5yewqmrbr",
+      "expected": "high",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 5,
+      "language": "kk",
+      "category": "local_history"
+    },
+    {
+      "id": "iv4-ussegrc7oxp",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 58,
+      "language": "kk",
+      "category": "unclear_reward"
+    },
+    {
+      "id": "iv4-wnevwbm6szm",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "photography"
+    },
+    {
+      "id": "iv4-zrwzt7lgb6",
+      "expected": "high",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "ru",
+      "category": "food"
+    },
+    {
+      "id": "iv4-tppywx9f4ad",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "mixed",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-mc8j26djlue",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "ru",
+      "category": "wellness"
+    },
+    {
+      "id": "iv4-dx55izzgb8i",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 58,
+      "language": "kk",
+      "category": "unclear_selection"
+    },
+    {
+      "id": "iv4-00am5cwvar3",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 3,
+      "language": "kk",
+      "category": "warning"
+    },
+    {
+      "id": "iv4-l12eo4gxm7n",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "chess"
+    },
+    {
+      "id": "iv4-3cicu2sb2om",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "bicycle"
+    },
+    {
+      "id": "iv4-m8043lboj2",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "ru",
+      "category": "conflicting_entry"
+    },
+    {
+      "id": "iv4-bhu2d8jc44",
+      "expected": "high",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 8,
+      "language": "kk",
+      "category": "cooking"
+    },
+    {
+      "id": "iv4-e893qs9icsh",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "orchard"
+    },
+    {
+      "id": "iv4-507j4w6r8mk",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "kk",
+      "category": "unclear_selection"
+    },
+    {
+      "id": "iv4-bfl7icl7kit",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "mixed",
+      "category": "fishing_goods"
+    },
+    {
+      "id": "iv4-xlzdx0xq43s",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "sound"
+    },
+    {
+      "id": "iv4-8umjottbmt7",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "kk",
+      "category": "unclear_entry"
+    },
+    {
+      "id": "iv4-px793qpu7dc",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "mixed",
+      "category": "craftfair"
+    },
+    {
+      "id": "iv4-2hhlh5zu8hj",
+      "expected": "high",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "ru",
+      "category": "books"
+    },
+    {
+      "id": "iv4-ptu95dafupj",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "kk",
+      "category": "ordinary_sale"
+    }
+  ],
+  "baseline": {
+    "name": "Any single source classified high",
+    "precision": 0.896551724137931,
+    "recall": 0.40625,
+    "falsePositiveRate": 0.03125
+  },
+  "limitations": [
+    "Engine-blinded synthetic corpus authored by a separate AI agent, not human expert validation.",
+    "Expected labels are AI-authored; second AI annotation does not establish real-world ground truth.",
+    "Medium cases count as not-high in strict binary metrics.",
+    "Text metrics exclude OCR/ASR and real social media prevalence."
+  ],
+  "triage": {
+    "tp": 83,
+    "fp": 19,
+    "fn": 13,
+    "tn": 45,
+    "positiveDefinition": "high + medium vs low",
+    "precision": 0.8137254901960784,
+    "recall": 0.8645833333333334,
+    "falsePositiveRate": 0.296875,
+    "confidence95": {
+      "precision": [
+        0.7272970187923337,
+        0.8773801591792768
+      ],
+      "recall": [
+        0.7819868570932831,
+        0.9191237020323721
+      ],
+      "falsePositiveRate": [
+        0.19904999589075245,
+        0.4177043259412798
+      ]
+    }
+  },
+  "confidence95": {
+    "precision": [
+      0.7642705646564897,
+      0.968596628950737
+    ],
+    "recall": [
+      0.3517578764404486,
+      0.5892812499952487
+    ],
+    "falsePositiveRate": [
+      0.010683876777878007,
+      0.08788826148913696
+    ]
+  },
+  "byLanguage": {
+    "ru": {
+      "n": 48,
+      "tp": 7,
+      "fp": 2,
+      "tn": 26,
+      "fn": 13,
+      "precision": 0.7777777777777778,
+      "recall": 0.35,
+      "falsePositiveRate": 0.07142857142857142,
+      "accuracy": 0.5
+    },
+    "translit": {
+      "n": 24,
+      "tp": 3,
+      "fp": 0,
+      "tn": 16,
+      "fn": 5,
+      "precision": 1,
+      "recall": 0.375,
+      "falsePositiveRate": 0,
+      "accuracy": 0.75
+    },
+    "mixed": {
+      "n": 40,
+      "tp": 8,
+      "fp": 1,
+      "tn": 23,
+      "fn": 8,
+      "precision": 0.8888888888888888,
+      "recall": 0.5,
+      "falsePositiveRate": 0.041666666666666664,
+      "accuracy": 0.6
+    },
+    "kk": {
+      "n": 48,
+      "tp": 12,
+      "fp": 0,
+      "tn": 28,
+      "fn": 8,
+      "precision": 1,
+      "recall": 0.6,
+      "falsePositiveRate": 0,
+      "accuracy": 0.6666666666666666
+    }
+  }
+}

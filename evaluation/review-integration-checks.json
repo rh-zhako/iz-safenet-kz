@@ -1,0 +1,68 @@
+{
+  "at": "2026-10-22T18:50:11.068Z",
+  "scope": "Functional integration only; no human annotation or usability experiment.",
+  "passed": 15,
+  "total": 15,
+  "checks": [
+    {
+      "name": "structured review resolves queue without changing model",
+      "passed": true
+    },
+    {
+      "name": "structured review appears in resolved filter",
+      "passed": true
+    },
+    {
+      "name": "structured review leaves pending filter",
+      "passed": true
+    },
+    {
+      "name": "changed material makes manual review stale",
+      "passed": true
+    },
+    {
+      "name": "structured time included once in summary",
+      "passed": true
+    },
+    {
+      "name": "newer deferred quick mark reopens the case",
+      "passed": true
+    },
+    {
+      "name": "newer structured review supersedes old quick mark",
+      "passed": true
+    },
+    {
+      "name": "manual priority can differ from automatic and stays separate",
+      "passed": true
+    },
+    {
+      "name": "HTML full case report contains structured review and safe payload",
+      "passed": true
+    },
+    {
+      "name": "JSON ID remapping preserves current review",
+      "passed": true
+    },
+    {
+      "name": "old structured engine version cannot resolve queue",
+      "passed": true
+    },
+    {
+      "name": "latest decision uses timestamps across timezones",
+      "passed": true
+    },
+    {
+      "name": "invalid quick date cannot supersede valid manual date",
+      "passed": true
+    },
+    {
+      "name": "context includes actual accepted mentions and source positions",
+      "passed": true
+    },
+    {
+      "name": "context never displays invalid evidence",
+      "passed": true
+    }
+  ]
+}

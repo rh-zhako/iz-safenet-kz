@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="600" viewBox="0 0 840 600" role="img" aria-labelledby="title desc">
+  <title id="title">Синтетический скриншот условий розыгрыша Qadam Club</title>
+  <desc id="desc">Бір нөмір — 3 000 ₸. Для участия обязательно оплатить номер; после оплаты добавим вас в список.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#192c3c"/><stop offset="1" stop-color="#0d1b28"/></linearGradient>
+    <linearGradient id="card" x2="1" y2="1"><stop stop-color="#253f50"/><stop offset="1" stop-color="#1b3040"/></linearGradient>
+  </defs>
+  <rect width="840" height="600" fill="url(#bg)"/>
+  <path d="M0 470 840 100M0 550 840 180M0 390 840 20" stroke="#8bb0ba" opacity=".035" stroke-width="38"/>
+  <rect width="840" height="88" fill="#142532"/>
+  <circle cx="52" cy="43" r="24" fill="#bee76f"/>
+  <text x="52" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#173022">Q</text>
+  <text x="92" y="39" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#edf6fa">Qadam Club · демо</text>
+  <text x="92" y="64" font-family="Arial, sans-serif" font-size="13" fill="#8aabbc">Вымышленный канал · 20 октября</text>
+  <rect x="568" y="25" width="244" height="35" rx="17.5" fill="#263e4b"/>
+  <circle cx="589" cy="42" r="4" fill="#bce96c"/>
+  <text x="603" y="47" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#cfe3ee">СИНТЕТИЧЕСКИЙ ПРИМЕР</text>
+  <rect x="68" y="126" width="704" height="382" rx="25" fill="url(#card)" stroke="#476777" stroke-opacity=".45"/>
+  <rect x="98" y="157" width="151" height="31" rx="15.5" fill="#bce96c" fill-opacity=".12"/>
+  <text x="116" y="177" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#bfeb77">ШАРТТАР / УСЛОВИЯ</text>
+  <text x="98" y="254" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#f4fbff">Бір нөмір — 3 000 ₸.</text>
+  <path d="M100 278h373" stroke="#bce96c" stroke-width="3" opacity=".7"/>
+  <text x="98" y="330" font-family="Arial, sans-serif" font-size="28" fill="#e5f0f6">Для участия обязательно</text>
+  <text x="98" y="369" font-family="Arial, sans-serif" font-size="28" fill="#e5f0f6">оплатить номер; после оплаты</text>
+  <text x="98" y="408" font-family="Arial, sans-serif" font-size="28" fill="#e5f0f6">добавим вас в список.</text>
+  <text x="713" y="476" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#8cabb9">11:15  ✓✓</text>
+  <text x="420" y="554" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7794a3">Учебный материал ІЗ · содержит вымышленные условия</text>
+</svg>

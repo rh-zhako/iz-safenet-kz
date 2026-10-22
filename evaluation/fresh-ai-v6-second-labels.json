@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "provenance": "Independent second AI annotation; no engine, first labels or predictions read; no humans"
+  },
+  "cases": [
+    {
+      "id": "fresh-v6-ru-01",
+      "expectedRisk": "high",
+      "rationale": "Buying a cup is mandatory; a random receipt determines the final kettle winner."
+    },
+    {
+      "id": "fresh-v6-ru-02",
+      "expectedRisk": "high",
+      "rationale": "Only paid 700-tenge numbers enter, and the generator selects the final watercolor-set winner."
+    },
+    {
+      "id": "fresh-v6-ru-03",
+      "expectedRisk": "high",
+      "rationale": "The paid baking class is required; a blind card draw awards the coffee grinder without further judging."
+    },
+    {
+      "id": "fresh-v6-ru-04",
+      "expectedRisk": "high",
+      "rationale": "A minimum 500-tenge contribution is mandatory for a number; one random number finally wins the owl figurine."
+    },
+    {
+      "id": "fresh-v6-ru-05",
+      "expectedRisk": "high",
+      "rationale": "The free draft was cancelled before entries opened; current rules require a paid coupon and randomly award the backpack."
+    },
+    {
+      "id": "fresh-v6-ru-06",
+      "expectedRisk": "high",
+      "rationale": "A paid monthly pass is required, and the bot randomly selects the final star-projector recipient."
+    },
+    {
+      "id": "fresh-v6-ru-07",
+      "expectedRisk": "high",
+      "rationale": "Only paid digital-brush orders enter; a random order wins the tablet without any artwork assessment."
+    },
+    {
+      "id": "fresh-v6-ru-08",
+      "expectedRisk": "high",
+      "rationale": "Every eligible application requires an advance processing payment; a blind draw finally awards the bicycle."
+    },
+    {
+      "id": "fresh-v6-ru-09",
+      "expectedRisk": "medium",
+      "rationale": "Current purchase-only rules conflict with a current equal free-entry instruction, and the applicable rule remains undecided."
+    },
+    {
+      "id": "fresh-v6-ru-10",
+      "expectedRisk": "medium",
+      "rationale": "Paid registration and random finalist selection are stated, but the final bag-winner selection method is unconfirmed."
+    },
+    {
+      "id": "fresh-v6-ru-11",
+      "expectedRisk": "medium",
+      "rationale": "An active random suitcase giveaway is announced, but entry eligibility and the application process are missing."
+    },
+    {
+      "id": "fresh-v6-ru-12",
+      "expectedRisk": "medium",
+      "rationale": "The active paid campaign simultaneously assigns the e-reader through a random ticket and jury scoring without resolving the contradiction."
+    },
+    {
+      "id": "fresh-v6-ru-13",
+      "expectedRisk": "low",
+      "rationale": "Entry is explicitly free; donations are optional and provide neither extra entries nor a condition for receiving the lamp."
+    },
+    {
+      "id": "fresh-v6-ru-14",
+      "expectedRisk": "low",
+      "rationale": "Comments enter free; optional courier charges arise only after winning and free collection is available."
+    },
+    {
+      "id": "fresh-v6-ru-15",
+      "expectedRisk": "low",
+      "rationale": "The sewing-machine award follows jury scores and further judging for ties; random drawing only sets performance order."
+    },
+    {
+      "id": "fresh-v6-ru-16",
+      "expectedRisk": "low",
+      "rationale": "Every buyer receives the listed coffee-and-spoon bundle; the offer explicitly has no giveaway or winner selection."
+    },
+    {
+      "id": "fresh-v6-ru-17",
+      "expectedRisk": "low",
+      "rationale": "The paid random scooter offer is an educational quotation; the speaker runs no active giveaway or registration."
+    },
+    {
+      "id": "fresh-v6-ru-18",
+      "expectedRisk": "low",
+      "rationale": "The paid draft was cancelled before sales; the sole current scarf campaign uses free entries without a purchase."
+    },
+    {
+      "id": "fresh-v6-ru-19",
+      "expectedRisk": "low",
+      "rationale": "Technical performance determines the tool award, with an additional task for ties and no random final award."
+    },
+    {
+      "id": "fresh-v6-ru-20",
+      "expectedRisk": "low",
+      "rationale": "The flashlight giveaway has equal free entry for buyers and nonbuyers; thermomug purchases are separate."
+    },
+    {
+      "id": "fresh-v6-kk-01",
+      "expectedRisk": "high",
+      "rationale": "A pillow purchase is required for a number; a random verified receipt immediately wins the electric blanket."
+    },
+    {
+      "id": "fresh-v6-kk-02",
+      "expectedRisk": "high",
+      "rationale": "Only paid 750-tenge numbers are registered; a blind draw selects the final wooden-lamp winner."
+    },
+    {
+      "id": "fresh-v6-kk-03",
+      "expectedRisk": "high",
+      "rationale": "The 8000-tenge cooking class is mandatory, and random selection finally awards the coffee machine without food judging."
+    },
+    {
+      "id": "fresh-v6-kk-04",
+      "expectedRisk": "high",
+      "rationale": "A contribution of at least 1000 tenge is required; a random number determines the final printer recipient."
+    },
+    {
+      "id": "fresh-v6-kk-05",
+      "expectedRisk": "high",
+      "rationale": "The free-comment draft was cancelled before entry; current rules require a fabric purchase and randomly award the bag."
+    },
+    {
+      "id": "fresh-v6-kk-06",
+      "expectedRisk": "high",
+      "rationale": "Paid monthly membership is necessary; the generator randomly selects the final telescope winner."
+    },
+    {
+      "id": "fresh-v6-kk-07",
+      "expectedRisk": "high",
+      "rationale": "Only paid electronic-pattern orders enter; a randomly drawn order receives the iron without submitting sewing work."
+    },
+    {
+      "id": "fresh-v6-kk-08",
+      "expectedRisk": "high",
+      "rationale": "An advance application-processing payment is compulsory; one random application finally wins the scooter."
+    },
+    {
+      "id": "fresh-v6-kk-09",
+      "expectedRisk": "medium",
+      "rationale": "Two current instructions disagree about purchase-only versus equal free entry, with the applied version unresolved."
+    },
+    {
+      "id": "fresh-v6-kk-10",
+      "expectedRisk": "medium",
+      "rationale": "Paid registration leads to random finalist selection, but the final camera-winner selection method is not set."
+    },
+    {
+      "id": "fresh-v6-kk-11",
+      "expectedRisk": "medium",
+      "rationale": "The active travel-bag campaign promises a random winner but defers entry eligibility and registration conditions."
+    },
+    {
+      "id": "fresh-v6-kk-12",
+      "expectedRisk": "medium",
+      "rationale": "Current paid-entry rules conflict between a random final winner and the jury-best reading, without explaining their relationship."
+    },
+    {
+      "id": "fresh-v6-kk-13",
+      "expectedRisk": "low",
+      "rationale": "The quilt campaign explicitly permits free entry; voluntary support creates no extra numbers or later compulsory payment."
+    },
+    {
+      "id": "fresh-v6-kk-14",
+      "expectedRisk": "low",
+      "rationale": "The wall-clock giveaway is free; only a winner choosing courier delivery pays after results, with free collection available."
+    },
+    {
+      "id": "fresh-v6-kk-15",
+      "expectedRisk": "low",
+      "rationale": "Jury scores determine the dombra award, including another performance for ties; randomness only orders stage appearances."
+    },
+    {
+      "id": "fresh-v6-kk-16",
+      "expectedRisk": "low",
+      "rationale": "The kitchen set is an ordinary fixed-price bundle provided to each buyer, with no giveaway or winner."
+    },
+    {
+      "id": "fresh-v6-kk-17",
+      "expectedRisk": "low",
+      "rationale": "The paid random tablet offer is solely a lesson example; the speaker accepts neither money nor entrants."
+    },
+    {
+      "id": "fresh-v6-kk-18",
+      "expectedRisk": "low",
+      "rationale": "The old paid-ticket draft was cancelled without sales; current jacket entries are explicitly free and require no purchase."
+    },
+    {
+      "id": "fresh-v6-kk-19",
+      "expectedRisk": "low",
+      "rationale": "Baking quality scores determine the mixer recipient, with an additional task for ties and no prize drawing."
+    },
+    {
+      "id": "fresh-v6-kk-20",
+      "expectedRisk": "low",
+      "rationale": "The pen set has equal free entries regardless of notebook purchases; buyers receive no extra chance."
+    },
+    {
+      "id": "fresh-v6-mixed-01",
+      "expectedRisk": "high",
+      "rationale": "A paid mouse purchase is mandatory; a random verified receipt immediately wins the speaker with no further final."
+    },
+    {
+      "id": "fresh-v6-mixed-02",
+      "expectedRisk": "high",
+      "rationale": "Participation numbers require 850 tenge; a blind number draw determines the final headphone winner."
+    },
+    {
+      "id": "fresh-v6-mixed-03",
+      "expectedRisk": "high",
+      "rationale": "The 6500-tenge photo walk must be paid for; a random card finally awards the tripod without photograph judging."
+    },
+    {
+      "id": "fresh-v6-mixed-04",
+      "expectedRisk": "high",
+      "rationale": "At least 1400 tenge is required for every entry number; a random number finally wins the radio-controlled model."
+    },
+    {
+      "id": "fresh-v6-mixed-05",
+      "expectedRisk": "high",
+      "rationale": "The free-entry draft was cancelled before registration; current rules require a thermos purchase and randomly award the tea set."
+    },
+    {
+      "id": "fresh-v6-mixed-06",
+      "expectedRisk": "high",
+      "rationale": "A paid club subscription is mandatory, and the generator randomly determines the final binocular winner."
+    },
+    {
+      "id": "fresh-v6-mixed-07",
+      "expectedRisk": "high",
+      "rationale": "Only paid digital-album orders enter; a random final order wins the drawing lamp without completing assignments."
+    },
+    {
+      "id": "fresh-v6-mixed-08",
+      "expectedRisk": "high",
+      "rationale": "Every application requires an advance 950-tenge payment; a blind card draw finally awards the florarium."
+    },
+    {
+      "id": "fresh-v6-mixed-09",
+      "expectedRisk": "medium",
+      "rationale": "The current purchase-only condition conflicts with an equally current free-form entry instruction; the final list is undecided."
+    },
+    {
+      "id": "fresh-v6-mixed-10",
+      "expectedRisk": "medium",
+      "rationale": "Payment and random finalist selection are clear, but the final ukulele-winner selection method remains undecided."
+    },
+    {
+      "id": "fresh-v6-mixed-11",
+      "expectedRisk": "medium",
+      "rationale": "The active board-game giveaway announces random final selection but has not published eligibility or application conditions."
+    },
+    {
+      "id": "fresh-v6-mixed-12",
+      "expectedRisk": "medium",
+      "rationale": "Current paid-entry rules give incompatible random and jury-best methods for awarding the microphone, without resolving them."
+    },
+    {
+      "id": "fresh-v6-mixed-13",
+      "expectedRisk": "low",
+      "rationale": "The picnic-set entry is explicitly free; optional donations provide no additional chances or payment condition for the prize."
+    },
+    {
+      "id": "fresh-v6-mixed-14",
+      "expectedRisk": "low",
+      "rationale": "The vase giveaway has free entries; optional delivery is charged only after winning, and collection is free."
+    },
+    {
+      "id": "fresh-v6-mixed-15",
+      "expectedRisk": "low",
+      "rationale": "Jury scoring determines the pottery-wheel award, with an additional task for ties; randomness only assigns initial pairs."
+    },
+    {
+      "id": "fresh-v6-mixed-16",
+      "expectedRisk": "low",
+      "rationale": "Every buyer receives the organizer-and-tag bundle; the offer expressly has no drawing or winner selection."
+    },
+    {
+      "id": "fresh-v6-mixed-17",
+      "expectedRisk": "low",
+      "rationale": "The paid random console advertisement is a fictional media lesson quotation; the speaker conducts no giveaway or registration."
+    },
+    {
+      "id": "fresh-v6-mixed-18",
+      "expectedRisk": "low",
+      "rationale": "The paid-ticket draft was cancelled before registrations; current backpack entry is entirely free without a purchase."
+    },
+    {
+      "id": "fresh-v6-mixed-19",
+      "expectedRisk": "low",
+      "rationale": "Calligraphy judges award the pens to the highest-scoring work, with extra writing for ties and no random final selection."
+    },
+    {
+      "id": "fresh-v6-mixed-20",
+      "expectedRisk": "low",
+      "rationale": "The cooler-bag giveaway uses equal free forms; buying a lunchbox is optional and provides no extra entry or chance."
+    },
+    {
+      "id": "fresh-v6-translit-01",
+      "expectedRisk": "high",
+      "rationale": "A blanket purchase is mandatory; a random paid receipt immediately receives the humidifier with no further final."
+    },
+    {
+      "id": "fresh-v6-translit-02",
+      "expectedRisk": "high",
+      "rationale": "Only paid 650-tenge numbers enter, and a blind draw immediately awards the globe as the final result."
+    },
+    {
+      "id": "fresh-v6-translit-03",
+      "expectedRisk": "high",
+      "rationale": "The 9000-tenge shelf-building course is required; a random card finally wins the drill regardless of shelf quality."
+    },
+    {
+      "id": "fresh-v6-translit-04",
+      "expectedRisk": "high",
+      "rationale": "A payment of at least 800 tenge is required for entry; a random number finally awards the construction set."
+    },
+    {
+      "id": "fresh-v6-translit-05",
+      "expectedRisk": "high",
+      "rationale": "The free-comment version was cancelled before registration; current rules require a travel-pillow purchase and randomly award the suitcase."
+    },
+    {
+      "id": "fresh-v6-translit-06",
+      "expectedRisk": "high",
+      "rationale": "A paid club card is mandatory; one registered cardholder randomly wins the projector as the final result."
+    },
+    {
+      "id": "fresh-v6-translit-07",
+      "expectedRisk": "high",
+      "rationale": "The digital-sketch collection must be purchased; a random paid order finally wins the tablet without artwork submission."
+    },
+    {
+      "id": "fresh-v6-translit-08",
+      "expectedRisk": "high",
+      "rationale": "Advance application-processing payment is required and no free entry exists; a blind card draw finally awards the bicycle."
+    },
+    {
+      "id": "fresh-v6-translit-09",
+      "expectedRisk": "medium",
+      "rationale": "Current purchase-only rules conflict with a current equal free-form route, and the final entry list is still undecided."
+    },
+    {
+      "id": "fresh-v6-translit-10",
+      "expectedRisk": "medium",
+      "rationale": "Registration payment and random finalist selection are stated, but the final e-book winner selection method is undecided."
+    },
+    {
+      "id": "fresh-v6-translit-11",
+      "expectedRisk": "medium",
+      "rationale": "An active random robot-vacuum giveaway lacks published entry conditions, including whether a purchase is required."
+    },
+    {
+      "id": "fresh-v6-translit-12",
+      "expectedRisk": "medium",
+      "rationale": "The current paid campaign simultaneously states random final selection and jury-best recording, with their relationship unresolved."
+    },
+    {
+      "id": "fresh-v6-translit-13",
+      "expectedRisk": "low",
+      "rationale": "Drawing-set entry is explicitly free; optional support changes neither entry count nor eligibility to receive the prize."
+    },
+    {
+      "id": "fresh-v6-translit-14",
+      "expectedRisk": "low",
+      "rationale": "The projector giveaway is free; courier payment occurs only if the winner chooses delivery after results, and collection is free."
+    },
+    {
+      "id": "fresh-v6-translit-15",
+      "expectedRisk": "low",
+      "rationale": "Judges award the airbrush for model quality, with an additional task for ties; randomness only sets work-start order."
+    },
+    {
+      "id": "fresh-v6-translit-16",
+      "expectedRisk": "low",
+      "rationale": "The mug-and-stand bundle goes to every purchaser; there are no entry numbers, drawing or winners."
+    },
+    {
+      "id": "fresh-v6-translit-17",
+      "expectedRisk": "low",
+      "rationale": "The paid random camera offer is only an educational example; the speaker has no active giveaway and accepts no entries."
+    },
+    {
+      "id": "fresh-v6-translit-18",
+      "expectedRisk": "low",
+      "rationale": "The paid-ticket draft was cancelled without sales; current thermal-mitten entries are free and require no purchase."
+    },
+    {
+      "id": "fresh-v6-translit-19",
+      "expectedRisk": "low",
+      "rationale": "Ceramics judges determine the tool recipient through scores and extra work for ties; no random number decides the award."
+    },
+    {
+      "id": "fresh-v6-translit-20",
+      "expectedRisk": "low",
+      "rationale": "The desk-lamp giveaway has one equal free entry for buyers and nonbuyers; buying a desk mat is optional."
+    }
+  ]
+}

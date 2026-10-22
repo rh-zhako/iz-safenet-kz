@@ -1,0 +1,113 @@
+{
+  "format": "iz-campaign-integrity-checks-v1",
+  "createdAt": "2026-10-22T18:50:11.316Z",
+  "engineVersion": "2.0.0-track1-evidence",
+  "scope": "Deterministic synthetic contract checks for preserving legacy campaign sources and producing unreviewed separate copies; not an independent benchmark or human validation.",
+  "moduleSha256": "73208a82504507bd531de065a2b950d77e69c627e594c8fce88e1ac4ff45607b",
+  "engineSha256": "e598edfd05ca82d55ea6c2e519c7343398dfad08d579a7a03925857554bf1009",
+  "total": 25,
+  "passed": 25,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "empty or one reference does not produce a conflict",
+      "passed": true
+    },
+    {
+      "name": "two different nonempty references are reported without alteration",
+      "passed": true
+    },
+    {
+      "name": "reference whitespace normalizes while original metadata remains intact",
+      "passed": true
+    },
+    {
+      "name": "blank and absent references are ignored by conflict detection",
+      "passed": true
+    },
+    {
+      "name": "splitting a nonconflicting campaign is refused",
+      "passed": true
+    },
+    {
+      "name": "equal references are grouped and different references split",
+      "passed": true
+    },
+    {
+      "name": "every source without a reference gets its own independent copy",
+      "passed": true
+    },
+    {
+      "name": "unassigned-source-3 as an actual reference cannot collide with an unassigned source",
+      "passed": true
+    },
+    {
+      "name": "ref and unassigned key namespaces remain separate for punctuation",
+      "passed": true
+    },
+    {
+      "name": "frozen parent and frozen nested source metadata are not mutated",
+      "passed": true
+    },
+    {
+      "name": "source text image OCR and original provenance survive without edits",
+      "passed": true
+    },
+    {
+      "name": "earliest original source ID is retained rather than replaced by local ID",
+      "passed": true
+    },
+    {
+      "name": "all child and source IDs are fresh and unique with injected factory",
+      "passed": true
+    },
+    {
+      "name": "each source appears exactly once across the new copies",
+      "passed": true
+    },
+    {
+      "name": "each copy records its parent and a new unreviewed status",
+      "passed": true
+    },
+    {
+      "name": "quick review structured review drafts and old analysis are never transferred",
+      "passed": true
+    },
+    {
+      "name": "source-level edits on a copy do not alter original source fields",
+      "passed": true
+    },
+    {
+      "name": "pure synthetic provenance stays pure per resulting campaign",
+      "passed": true
+    },
+    {
+      "name": "mixed synthetic provenance is recalculated within each split",
+      "passed": true
+    },
+    {
+      "name": "source flags override campaign demo fallback conservatively",
+      "passed": true
+    },
+    {
+      "name": "campaign metadata and long title remain bounded",
+      "passed": true
+    },
+    {
+      "name": "engine prevents composite high for conflicting originals even after manualGrouping true",
+      "passed": true
+    },
+    {
+      "name": "engine recomputes split parts separately instead of retaining composite high",
+      "passed": true
+    },
+    {
+      "name": "a valid same-ref paid campaign remains eligible for high",
+      "passed": true
+    },
+    {
+      "name": "engine identity conflict is based on included sources only",
+      "passed": true
+    }
+  ]
+}

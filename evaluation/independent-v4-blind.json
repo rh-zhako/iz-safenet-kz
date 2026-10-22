@@ -1,0 +1,2429 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "version": "independent-v4-blind",
+    "createdOn": "2026-10-20",
+    "provenance": {
+      "corpusType": "AI-synthetic",
+      "authorship": "Independently authored by an AI agent from the supplied task brief.",
+      "humanCollected": false,
+      "realWorldCampaigns": false,
+      "projectSourcesRead": false,
+      "existingDatasetsRead": false,
+      "engineOutputsUsed": false,
+      "note": "All campaigns and source texts are invented; this is not a human-authored or real-world corpus."
+    }
+  },
+  "cases": [
+    {
+      "id": "iv4-gfvtl9i6lff",
+      "campaignRef": "iv4-gfvtl9i6lff",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-gfvtl9i6lff-source-1",
+          "text": "На день рождения кружка подарим одному читателю электронную книгу. Для участия достаточно оставить слово «читаю» под этим постом, вход бесплатный.",
+          "campaignRef": "iv4-gfvtl9i6lff"
+        },
+        {
+          "id": "iv4-gfvtl9i6lff-source-2",
+          "text": "Никаких покупок, взносов и донатов для заявки не требуется. Победителя случайно выберем из комментариев в пятницу.",
+          "campaignRef": "iv4-gfvtl9i6lff"
+        },
+        {
+          "id": "iv4-gfvtl9i6lff-source-3",
+          "text": "Забрать книгу в клубе можно бесплатно. Если победитель захочет курьерскую доставку после результата, он оплатит только её.",
+          "campaignRef": "iv4-gfvtl9i6lff"
+        }
+      ]
+    },
+    {
+      "id": "iv4-y7uga50wfq8",
+      "campaignRef": "iv4-y7uga50wfq8",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-y7uga50wfq8-source-1",
+          "text": "Klub razigryvaet odin fotoapparat sluchainim nomerom. V afishe napisano: vhod besplatnii, pokupok net.",
+          "campaignRef": "iv4-y7uga50wfq8"
+        },
+        {
+          "id": "iv4-y7uga50wfq8-source-2",
+          "text": "Forma toi zhe kampanii trebuet obyazatelno kupit uchastnicheskii paket za 1500 tenge. Bez paketa ona obeshchaet ne aktivirovat zayavku.",
+          "campaignRef": "iv4-y7uga50wfq8"
+        },
+        {
+          "id": "iv4-y7uga50wfq8-source-3",
+          "text": "Vopros pod kampaniei: dlya fotoapparata zapis besplatnaya ili paket nuzhen vsem? Zhdyom otveta, obe ssylki na zapis poka otkryty.",
+          "campaignRef": "iv4-y7uga50wfq8"
+        }
+      ]
+    },
+    {
+      "id": "iv4-2ky3msswcma",
+      "campaignRef": "iv4-2ky3msswcma",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-2ky3msswcma-source-1",
+          "text": "Жастар, мына «взнос — рандом — айфон» дегені семинардағы мысал ғой. Разбираем чужую схему на слайде, нам ничего кидать не надо. У себя такой розыгрыш не запускаем.",
+          "campaignRef": "iv4-2ky3msswcma"
+        }
+      ]
+    },
+    {
+      "id": "iv4-30jjtsy5k85",
+      "campaignRef": "iv4-30jjtsy5k85",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-30jjtsy5k85-source-1",
+          "text": "Аквариумға арналған сыртқы сүзгіні сыйлаймыз: қатысу ашық. Тізімге қосу 3 600 теңге тұрады, тегін қосу жоқ. Төлем жасағандар ішінен бір қатысушыны кездейсоқ таңдап, сүзгіні береміз.",
+          "campaignRef": "iv4-30jjtsy5k85"
+        }
+      ]
+    },
+    {
+      "id": "iv4-0hzop2eaepc",
+      "campaignRef": "iv4-0hzop2eaepc",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-0hzop2eaepc-source-1",
+          "text": "Қатысушы нөмірі 350 теңгеге сатылады, оны алу міндетті. Из купленных номеров случайно отметим один в эфире. Отмеченный участник сможет поговорить с командой о планах клуба.",
+          "campaignRef": "iv4-0hzop2eaepc"
+        }
+      ]
+    },
+    {
+      "id": "iv4-nv0wpeeuy0d",
+      "campaignRef": "iv4-nv0wpeeuy0d",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-nv0wpeeuy0d-source-1",
+          "text": "Чемодан ждёт победителя среди участников с платной регистрацией. Регистрация в розыгрыше стоит 1 800 тенге. Завтра сервис случайно выберет одного зарегистрированного и присудит ему чемодан.",
+          "campaignRef": "iv4-nv0wpeeuy0d"
+        }
+      ]
+    },
+    {
+      "id": "iv4-fkfj3jzcq1s",
+      "campaignRef": "iv4-fkfj3jzcq1s",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-fkfj3jzcq1s-source-1",
+          "text": "Оплатите 800 тенге за заявку на подарочный термос. После закрытия заявок назовём получателя подарка. Список заявок с номерами появится в ленте клуба вечером.",
+          "campaignRef": "iv4-fkfj3jzcq1s"
+        }
+      ]
+    },
+    {
+      "id": "iv4-al1huoe285o",
+      "campaignRef": "iv4-al1huoe285o",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-al1huoe285o-source-1",
+          "text": "Участие в случайном выборе корзины сухофруктов бесплатное, заполните форму. Жобаны қолдау донаты ерікті. Можно не донатить и получить те же шансы, обязательных платежей нет.",
+          "campaignRef": "iv4-al1huoe285o"
+        }
+      ]
+    },
+    {
+      "id": "iv4-1gqe0wgu3cy",
+      "campaignRef": "iv4-1gqe0wgu3cy",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-1gqe0wgu3cy-source-1",
+          "text": "Құс бақылау клубы бір дүрбіні сыйға береді. Қатысуға арналған сауал-нама толтыру тегін. Дүрбінің дүкендегі бағасы 32 000 теңге деп көрсетілген. Ол бағаны қатысушы төлемейді. Барлық тегін өтінімнен біреуін кездейсоқ таңдаймыз. Жеңімпазға дүрбіні ешқандай сатып алу талабынсыз тапсырамыз.",
+          "campaignRef": "iv4-1gqe0wgu3cy"
+        }
+      ]
+    },
+    {
+      "id": "iv4-4eiyfn08m3e",
+      "campaignRef": "iv4-4eiyfn08m3e",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-4eiyfn08m3e-source-1",
+          "text": "En kop durys esep shygarghan bala planshet alady. Qatysu 500 tenge, biraq natizhe tek durys jauap sanimen esepteledi. Kezdeisoq tandau bolmaidy.",
+          "campaignRef": "iv4-4eiyfn08m3e"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ta58v2v67ll",
+      "campaignRef": "iv4-ta58v2v67ll",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ta58v2v67ll-source-1",
+          "text": "Набор кистей получит автор лучшей росписи кружки по решению жюри. Работу присылайте бесплатно. Мы не выбираем случайно; при равенстве оценок судьи обсудят технику линий.",
+          "campaignRef": "iv4-ta58v2v67ll"
+        }
+      ]
+    },
+    {
+      "id": "iv4-1zmid3an48f",
+      "campaignRef": "iv4-1zmid3an48f",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-1zmid3an48f-source-1",
+          "text": "В воскресенье случайно выберем читателя и подарим маленький телескоп. Тегін тіркелу жеткілікті, қатысуға ақша қажет емес. Оплатить курьера сможет только победитель после результата, самовывоз бесплатный.",
+          "campaignRef": "iv4-1zmid3an48f"
+        }
+      ]
+    },
+    {
+      "id": "iv4-43tkl7o4irx",
+      "campaignRef": "iv4-43tkl7o4irx",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-43tkl7o4irx-source-1",
+          "text": "Главный приз — графический монитор. Войти в розыгрыш можно только через платный пакет участника за 3 000 тенге. Среди пакетов бот случайно выберет один, владельцу вручим монитор.",
+          "campaignRef": "iv4-43tkl7o4irx"
+        }
+      ]
+    },
+    {
+      "id": "iv4-a4p7eqfl2ww",
+      "campaignRef": "iv4-a4p7eqfl2ww",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-a4p7eqfl2ww-source-1",
+          "text": "Сыйлық — проектор, иесін рандоммен табамыз. Постта «тегін қатысасың» дейді ғой, ал сол форманың төменінде «900 тг төле-мей өтінім іске қосылмайды» деп тұр. Қай шарт дұрыс екенін жазбапты.",
+          "campaignRef": "iv4-a4p7eqfl2ww"
+        }
+      ]
+    },
+    {
+      "id": "iv4-hmw678mlxdd",
+      "campaignRef": "iv4-hmw678mlxdd",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-hmw678mlxdd-source-1",
+          "text": "В субботу один участник получит годовой запас печенья: по коробке каждый месяц. Для участия надо заказать платный дегустационный набор этой недели. Номер участника кладём только в оплаченный заказ. Все номера перемешаем в прозрачном барабане. Один номер вытянем вслепую, и его владелец заберёт приз. За красивую фотографию заказа дополнительных номеров нет.",
+          "campaignRef": "iv4-hmw678mlxdd"
+        }
+      ]
+    },
+    {
+      "id": "iv4-kt8puqgll9n",
+      "campaignRef": "iv4-kt8puqgll9n",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-kt8puqgll9n-source-1",
+          "text": "Среди владельцев оплаченных участнических карточек разыграем робот-пылесос. Карточка стоит 2 600 тенге и нужна для входа в розыгрыш. Победную карточку выберут наугад из общей стопки.",
+          "campaignRef": "iv4-kt8puqgll9n"
+        }
+      ]
+    },
+    {
+      "id": "iv4-hkco6r4erds",
+      "campaignRef": "iv4-hkco6r4erds",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-hkco6r4erds-source-1",
+          "text": "Жарық сақинасы мен штатив — жұмадағы жүлде. Для участия требуется платная регистрация за 1 600 тенге. Бот зарегистрированных ішінен бір адамды кездейсоқ таңдайды, комплект ему.",
+          "campaignRef": "iv4-hkco6r4erds"
+        }
+      ]
+    },
+    {
+      "id": "iv4-tjrzftkpp7",
+      "campaignRef": "iv4-tjrzftkpp7",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-tjrzftkpp7-source-1",
+          "text": "Лучший перевод получит набор словарей. Қазылар мағына дәлдігі мен тіл тазалығын бағалайды, өтінім тегін. Случайного выбора победителя не будет.",
+          "campaignRef": "iv4-tjrzftkpp7"
+        }
+      ]
+    },
+    {
+      "id": "iv4-yd36dq1w6uj",
+      "campaignRef": "iv4-yd36dq1w6uj",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-yd36dq1w6uj-source-1",
+          "text": "Лучшему эскизу подарят кресло, заявки принимаются после обязательной оплаты 2 000 тенге. В условиях указано решение экспертного совета по качеству эскиза. Внизу тех же условий написано, что финального обладателя кресла выбирают случайно из всех заявок; связи этих правил не объяснены.",
+          "campaignRef": "iv4-yd36dq1w6uj"
+        }
+      ]
+    },
+    {
+      "id": "iv4-9ic2sgwqklh",
+      "campaignRef": "iv4-9ic2sgwqklh",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-9ic2sgwqklh-source-1",
+          "text": "Rebyat, redkaya figurka idet v priz, norm tema 👀 Vhod v rozigrish cherez obyazatelniy donat 950 tg, bez oplati zayavki net. Bot randomom tyanet odnogo donatera, figurka ego.",
+          "campaignRef": "iv4-9ic2sgwqklh"
+        }
+      ]
+    },
+    {
+      "id": "iv4-c6xu17en50e",
+      "campaignRef": "iv4-c6xu17en50e",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-c6xu17en50e-source-1",
+          "text": "Для участия в клубном эксперименте покупается номер за 300 тенге. Один из купленных номеров выберет случайный генератор. Выбранного участника пригласим в студию поговорить о проекте; подробности встречи будут позже.",
+          "campaignRef": "iv4-c6xu17en50e"
+        }
+      ]
+    },
+    {
+      "id": "iv4-z15liqteghd",
+      "campaignRef": "iv4-z15liqteghd",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-z15liqteghd-source-1",
+          "text": "За самый точный прогноз температуры в нашем учебном задании — метеостанция. Участие бесплатное. Сравним прогноз с показанием датчика; победит минимальная ошибка, а при равенстве — более ранний ответ. Жребия нет.",
+          "campaignRef": "iv4-z15liqteghd"
+        }
+      ]
+    },
+    {
+      "id": "iv4-8negn9s9h8x",
+      "campaignRef": "iv4-8negn9s9h8x",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-8negn9s9h8x-source-1",
+          "text": "В подкасте цитируем старое объявление: «Обязательный взнос, случайный победитель, смартфон в подарок». Обсуждаем, почему важно читать условия. Записи в тот розыгрыш здесь нет, денег мы не собираем.",
+          "campaignRef": "iv4-8negn9s9h8x"
+        }
+      ]
+    },
+    {
+      "id": "iv4-25iup83tj4l",
+      "campaignRef": "iv4-25iup83tj4l",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-25iup83tj4l-source-1",
+          "text": "Разыгрываем коробку настольной игры. Один платный слот участника — 600 тенге, бесплатной записи нет. Слоты перемешает бот, случайно выбранному отдадим коробку.",
+          "campaignRef": "iv4-25iup83tj4l"
+        }
+      ]
+    },
+    {
+      "id": "iv4-syx9b96jzak",
+      "campaignRef": "iv4-syx9b96jzak",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-syx9b96jzak-source-1",
+          "text": "Балаларға арналған пазлды бір тегін өтінімге сыйлаймыз. Өтінімді толтыру үшін зат сатып алу, жарна немесе донат қажет емес. Бағдарлама өтінімді кездейсоқ таңдайды.",
+          "campaignRef": "iv4-syx9b96jzak"
+        }
+      ]
+    },
+    {
+      "id": "iv4-04pw0m50pw4",
+      "campaignRef": "iv4-04pw0m50pw4",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-04pw0m50pw4-source-1",
+          "text": "Номерные наклейки для шкафчиков: лист 300 тенге. Номер можно выбрать из свободных, лист получит каждый оплативший заказ. Это каталог товара, случайных призов здесь нет.",
+          "campaignRef": "iv4-04pw0m50pw4"
+        }
+      ]
+    },
+    {
+      "id": "iv4-81inngyefio",
+      "campaignRef": "iv4-81inngyefio",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-81inngyefio-source-1",
+          "text": "Aga, priz tam normal: bolshoi monitor. Pobeditelya bot randomom vyberet iz spiska. A paket uchas-tiya tam nado oplachivat ili prosto zaregatsya, kto v kurse?",
+          "campaignRef": "iv4-81inngyefio"
+        }
+      ]
+    },
+    {
+      "id": "iv4-mlezs3g5y9",
+      "campaignRef": "iv4-mlezs3g5y9",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-mlezs3g5y9-source-1",
+          "text": "Бір тегін тіркелген адамға 20% купонды кездейсоқ береміз. Для участия деньги и покупки не нужны. Минимальный заказ 9 000 тенге нужен только при использовании уже выигранного купона.",
+          "campaignRef": "iv4-mlezs3g5y9"
+        }
+      ]
+    },
+    {
+      "id": "iv4-29vc62zlobr",
+      "campaignRef": "iv4-29vc62zlobr",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-29vc62zlobr-source-1",
+          "text": "Qatysu jarnasy 800 tenge, juldege termos jiyny bar. Bir erejede qazylar en jaksy suratty tandaydy dep tur. Sol jerdiñ ekinshi jolynda barlyq qatysushydan bireui kezdeisoq tandalady delingen, tusindirme joq.",
+          "campaignRef": "iv4-29vc62zlobr"
+        }
+      ]
+    },
+    {
+      "id": "iv4-9iy234zej3w",
+      "campaignRef": "iv4-9iy234zej3w",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-9iy234zej3w-source-1",
+          "text": "Velosipedke arnalgan bala oryndygy juldege qoyyldy. Qatysu ushin 1200 tengelik aqyly talon satyp alu mindetti. Tegín talon joq.",
+          "campaignRef": "iv4-9iy234zej3w"
+        },
+        {
+          "id": "iv4-9iy234zej3w-source-2",
+          "text": "Tirkelgen talondardy aralastyryp, bireuin kezdeisoq alamyz. Oryndyq sol talon iesine beriledi. Talon satyp almastan otinish qabyldanbaidy.",
+          "campaignRef": "iv4-9iy234zej3w"
+        }
+      ]
+    },
+    {
+      "id": "iv4-b7pwydzbtsi",
+      "campaignRef": "iv4-b7pwydzbtsi",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-b7pwydzbtsi-source-1",
+          "text": "Үлкен ағаш басқатырғышты кім алады? Ұтысқа 2 700 теңгелік қатысу конвертін сатып алғандар ғана кіреді. Конверттердің бірін қарамай кездейсоқ суырып, жүлдені иесіне табыстаймыз.",
+          "campaignRef": "iv4-b7pwydzbtsi"
+        }
+      ]
+    },
+    {
+      "id": "iv4-x854z4qq4u",
+      "campaignRef": "iv4-x854z4qq4u",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-x854z4qq4u-source-1",
+          "text": "Сегодня в эфире отдаём подписчику планшет для рисования. В список претендентов попадают только зрители, отправившие обязательный донат 900 тенге с пометкой «участвую». Подписка на канал сама по себе заявки не даёт.",
+          "campaignRef": "iv4-x854z4qq4u"
+        },
+        {
+          "id": "iv4-x854z4qq4u-source-2",
+          "text": "В конце эфира бот случайно выберет одного из донатеров и передаст ему планшет. Размер доната выше 900 тенге не добавляет шансов. Чат можно смотреть бесплатно.",
+          "campaignRef": "iv4-x854z4qq4u"
+        }
+      ]
+    },
+    {
+      "id": "iv4-m5es7kwltm",
+      "campaignRef": "iv4-m5es7kwltm",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-m5es7kwltm-source-1",
+          "text": "Дарим кошачий игровой комплекс одному покупателю. Для участия обязательна покупка любого ошейника из акции. Чек регистрируем, затем случайный чек определит получателя комплекса.",
+          "campaignRef": "iv4-m5es7kwltm"
+        }
+      ]
+    },
+    {
+      "id": "iv4-6l4xvlea7m3",
+      "campaignRef": "iv4-6l4xvlea7m3",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-6l4xvlea7m3-source-1",
+          "text": "Коврик и игровая мышь ждут одного победителя. Қатысу үшін 650 теңгелік слотты сатып алу керек; ақысыз слот жоқ. Победный слот выберем случайно в эфире.",
+          "campaignRef": "iv4-6l4xvlea7m3"
+        }
+      ]
+    },
+    {
+      "id": "iv4-hmy7yis7mtt",
+      "campaignRef": "iv4-hmy7yis7mtt",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-hmy7yis7mtt-source-1",
+          "text": "Қайта өңделген матадан тігілген рюкзак — жүлдеміз. Үміткер болу үшін шеберхананың 650 теңгелік ақылы значогін алу керек. Значок нөмірін жеребе кездейсоқ таңдаса, рюкзак сіздікі.",
+          "campaignRef": "iv4-hmy7yis7mtt"
+        }
+      ]
+    },
+    {
+      "id": "iv4-fp2av5baggo",
+      "campaignRef": "iv4-fp2av5baggo",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-fp2av5baggo-source-1",
+          "text": "Таңғы чатта тегін сауалнама арқылы бір адамға шай топтамасын береміз. Ничего покупать не требуется, оплата участия нулевая. Случайно выберем один ответ и свяжемся с автором.",
+          "campaignRef": "iv4-fp2av5baggo"
+        }
+      ]
+    },
+    {
+      "id": "iv4-biohewrfma7",
+      "campaignRef": "iv4-biohewrfma7",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-biohewrfma7-source-1",
+          "text": "Qatysushylar ishinen bireuge 5000 tengelik kupon kezdeisoq beriledi. Qatysu tolygymen tegin, tolem joq. Kupondy qoldanganda gana 12000 tengelik tapsyrys qajet, bul kiru sharty emes.",
+          "campaignRef": "iv4-biohewrfma7"
+        }
+      ]
+    },
+    {
+      "id": "iv4-xq37x03cbx9",
+      "campaignRef": "iv4-xq37x03cbx9",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-xq37x03cbx9-source-1",
+          "text": "Аула мерекесінде бір қонаққа жиналмалы орындық сыйлаймыз. Қатысу үшін тегін парақшаға есіміңізді жазу жеткілікті.",
+          "campaignRef": "iv4-xq37x03cbx9"
+        },
+        {
+          "id": "iv4-xq37x03cbx9-source-2",
+          "text": "Кеш соңында парақшалардың бірін кездейсоқ аламыз. Қатысуға ақша төлеу де, дүкеннен зат алу да қажет емес.",
+          "campaignRef": "iv4-xq37x03cbx9"
+        },
+        {
+          "id": "iv4-xq37x03cbx9-source-3",
+          "text": "Орындықты сол жерде тегін тапсырамыз. Мереке үстеліне ақша қосу ерікті және ұтысқа әсер етпейді.",
+          "campaignRef": "iv4-xq37x03cbx9"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ogedo4y97l",
+      "campaignRef": "iv4-ogedo4y97l",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ogedo4y97l-source-1",
+          "text": "Julde retinde bir adamga shai demdegish beremiz. Qatysu tegin, tek qysqa saualnama toltirasyz. Satyp alu talaby joq.",
+          "campaignRef": "iv4-ogedo4y97l"
+        },
+        {
+          "id": "iv4-ogedo4y97l-source-2",
+          "text": "Bir jauap kezdeisoq tandalady. Juldeni tegin alyp ketuge bolady. Jetkizudi tek jengennen keyin qalasanyz aqyly tapsyrasyz.",
+          "campaignRef": "iv4-ogedo4y97l"
+        }
+      ]
+    },
+    {
+      "id": "iv4-1vqs8lfqwcn",
+      "campaignRef": "iv4-1vqs8lfqwcn",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-1vqs8lfqwcn-source-1",
+          "text": "В художественном чате будет один приз — набор акварели в деревянном ящике. Қатысу үшін студияның ақылы ашықхатын сатып алу міндетті.",
+          "campaignRef": "iv4-1vqs8lfqwcn"
+        },
+        {
+          "id": "iv4-1vqs8lfqwcn-source-2",
+          "text": "Открытка стоит 1 100 тенге и даёт один номер в этом розыгрыше. Нөмірсіз тізімге кіре алмайсыз.",
+          "campaignRef": "iv4-1vqs8lfqwcn"
+        },
+        {
+          "id": "iv4-1vqs8lfqwcn-source-3",
+          "text": "Нөмірлерді кездейсоқ араластырып, біреуін аламыз. Владельцу этого номера подарим весь набор.",
+          "campaignRef": "iv4-1vqs8lfqwcn"
+        }
+      ]
+    },
+    {
+      "id": "iv4-46lw8bplhu1",
+      "campaignRef": "iv4-46lw8bplhu1",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-46lw8bplhu1-source-1",
+          "text": "Otdaem odnomu uchastniku novoe ofisnoe kreslo. Zapisyvaem v rozigrish tolko posle pokupki billeta za 2300 tenge. Sluchainii bilet iz korobki opredelit, kto zaberyot kreslo.",
+          "campaignRef": "iv4-46lw8bplhu1"
+        }
+      ]
+    },
+    {
+      "id": "iv4-bwnnt2xto2",
+      "campaignRef": "iv4-bwnnt2xto2",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-bwnnt2xto2-source-1",
+          "text": "Жады сайысында суреттерді ең көп дұрыс есте сақтаған адамға планшет беріледі. Қатысу жарнасы 900 теңге. Жеңімпаз тек дұрыс жауап санымен анықталады, жеребе қолданылмайды.",
+          "campaignRef": "iv4-bwnnt2xto2"
+        }
+      ]
+    },
+    {
+      "id": "iv4-0em3btllp0l",
+      "campaignRef": "iv4-0em3btllp0l",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-0em3btllp0l-source-1",
+          "text": "Asui kombainy oinatylady. Qatysu ushin dukennin aqyly resept kitapshasyn alu shart. Kitapsha algan adamdardyn bireuin kezdeisoq tandap, kombaindy sogan beremiz.",
+          "campaignRef": "iv4-0em3btllp0l"
+        }
+      ]
+    },
+    {
+      "id": "iv4-nphpgsj222g",
+      "campaignRef": "iv4-nphpgsj222g",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-nphpgsj222g-source-1",
+          "text": "Просто напишите название любимого созвездия — один случайный комментарий получит настольную лампу. Қатысу тегін, ақылы жазылым да, сатып алу да қажет емес.",
+          "campaignRef": "iv4-nphpgsj222g"
+        }
+      ]
+    },
+    {
+      "id": "iv4-68fy9yw3btj",
+      "campaignRef": "iv4-68fy9yw3btj",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-68fy9yw3btj-source-1",
+          "text": "Көрме қонақтарының арасынан біреуіне альбом сыйлаймыз. Көрмеге кіру де, сыйлыққа арналған тіркелу де тегін. Тіркелген нөмірді кездейсоқ аламыз, ешқандай ақша жинамаймыз.",
+          "campaignRef": "iv4-68fy9yw3btj"
+        }
+      ]
+    },
+    {
+      "id": "iv4-zqzq1mrtbs",
+      "campaignRef": "iv4-zqzq1mrtbs",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-zqzq1mrtbs-source-1",
+          "text": "Кітапхана достары шағын проекторды бір адамға сыйламақ. Жеңімпаз тізімнен кездейсоқ таңдалады.",
+          "campaignRef": "iv4-zqzq1mrtbs"
+        },
+        {
+          "id": "iv4-zqzq1mrtbs-source-2",
+          "text": "Қатысу коды кітапхана формасына тіркеледі. Бір адам бір код енгізе алады.",
+          "campaignRef": "iv4-zqzq1mrtbs"
+        },
+        {
+          "id": "iv4-zqzq1mrtbs-source-3",
+          "text": "Код тіркеу дүйсенбі күні басталады. Жаңалықтарды осы хабарлама астына қосамыз.",
+          "campaignRef": "iv4-zqzq1mrtbs"
+        }
+      ]
+    },
+    {
+      "id": "iv4-xpuspmwnfbi",
+      "campaignRef": "iv4-xpuspmwnfbi",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-xpuspmwnfbi-source-1",
+          "text": "На выставке висит фрагмент исторической рекламы с платными номерами и случайным призом. Бұл — архив мысалы, қазіргі қатысу ұсынысы емес. Номеров по этому объявлению не продают и заявок не принимают.",
+          "campaignRef": "iv4-xpuspmwnfbi"
+        }
+      ]
+    },
+    {
+      "id": "iv4-p99y5km23sn",
+      "campaignRef": "iv4-p99y5km23sn",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-p99y5km23sn-source-1",
+          "text": "V uchebnom zhurnale napechatali vymyshlennoe ob yavlenie. Tam napisano: kupi bilet, sluchainii uchastnik poluchit noutbuk.",
+          "campaignRef": "iv4-p99y5km23sn"
+        },
+        {
+          "id": "iv4-p99y5km23sn-source-2",
+          "text": "Eto tsitata dlya razbora uslovii, a ne zapis v aktsiyu. Zhurnal ne prodaet eti bileti.",
+          "campaignRef": "iv4-p99y5km23sn"
+        },
+        {
+          "id": "iv4-p99y5km23sn-source-3",
+          "text": "Na uroke my naidem upominanie deneg i priza. Uchastvovat v opisannom rozigrishe u nas nelzya.",
+          "campaignRef": "iv4-p99y5km23sn"
+        }
+      ]
+    },
+    {
+      "id": "iv4-vfwgmetxjcj",
+      "campaignRef": "iv4-vfwgmetxjcj",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-vfwgmetxjcj-source-1",
+          "text": "Киноклубтың ұтысында үй проекторы бар. Үміткер болу үшін ақылы маусымдық клуб картасын алу міндетті. Жеңімпаз карта нөмірін кездейсоқ сандар бағдарламасы шығарады.",
+          "campaignRef": "iv4-vfwgmetxjcj"
+        }
+      ]
+    },
+    {
+      "id": "iv4-rjjruo5wlh",
+      "campaignRef": "iv4-rjjruo5wlh",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-rjjruo5wlh-source-1",
+          "text": "Rebyat, eto primer iz razbora: 'zakinesh 300 tg — popadesh v random na konsol'. My ego tolko obsuzhdaem, eto ne nasha dvizhuha. Zayavok i oplat po nemu ne prinimaem.",
+          "campaignRef": "iv4-rjjruo5wlh"
+        }
+      ]
+    },
+    {
+      "id": "iv4-5f4bffdrug7",
+      "campaignRef": "iv4-5f4bffdrug7",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-5f4bffdrug7-source-1",
+          "text": "Ақпараттық сабақта мынадай ойдан шығарылған жарнаманы оқимыз: «Ақылы билет ал, кездейсоқ жеңімпазға велосипед беріледі». Бұл үзінді шарттарды табуға арналған.",
+          "campaignRef": "iv4-5f4bffdrug7"
+        },
+        {
+          "id": "iv4-5f4bffdrug7-source-2",
+          "text": "Біз мұндай билет сатпаймыз. Үзіндідегі ұтысқа тіркеу де жүргізілмейді.",
+          "campaignRef": "iv4-5f4bffdrug7"
+        },
+        {
+          "id": "iv4-5f4bffdrug7-source-3",
+          "text": "Тыңдаушылар мәтіндегі төлем мен жүлде туралы жолдарды белгілейді. Сабақтың өзіне қатысу тегін.",
+          "campaignRef": "iv4-5f4bffdrug7"
+        }
+      ]
+    },
+    {
+      "id": "iv4-if4a9f8rkqh",
+      "campaignRef": "iv4-if4a9f8rkqh",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-if4a9f8rkqh-source-1",
+          "text": "Домашняя метеостанция будет подарком одному человеку. Оны тіркелген нөмірлердің ішінен кездейсоқ таңдаймыз.",
+          "campaignRef": "iv4-if4a9f8rkqh"
+        },
+        {
+          "id": "iv4-if4a9f8rkqh-source-2",
+          "text": "Номера выдаёт клубная форма. Открыть её обещают в день старта.",
+          "campaignRef": "iv4-if4a9f8rkqh"
+        },
+        {
+          "id": "iv4-if4a9f8rkqh-source-3",
+          "text": "Қатысушы нөмірі туралы хабарлама электрондық поштаға келеді. Письмо с номером сохраните до эфира с выбором победителя.",
+          "campaignRef": "iv4-if4a9f8rkqh"
+        }
+      ]
+    },
+    {
+      "id": "iv4-mue8xmgjuse",
+      "campaignRef": "iv4-mue8xmgjuse",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-mue8xmgjuse-source-1",
+          "text": "Шеберхана жүлдеге үй құралдарының толық қобдишасын қойды. Для участия нужен обязательный взнос 2 800 тенге, он открывает заявку. Посещение мастерской для наблюдателей бесплатное.",
+          "campaignRef": "iv4-mue8xmgjuse"
+        },
+        {
+          "id": "iv4-mue8xmgjuse-source-2",
+          "text": "Ақша төлеген өтінімдердің бірін жеребемен кездейсоқ таңдаймыз. Қобдиша сол өтінім иесіне беріледі. Можно присутствовать при вытяжке номера.",
+          "campaignRef": "iv4-mue8xmgjuse"
+        }
+      ]
+    },
+    {
+      "id": "iv4-n6yqz0mjv8k",
+      "campaignRef": "iv4-n6yqz0mjv8k",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-n6yqz0mjv8k-source-1",
+          "text": "Сыйлық қорабына шағын музыкалық орталық қойдық. Войти в число участников можно после обязательной покупки значка за 1 050 тенге. Покупатель регистрирует свой значок. После закрытия регистрации назовём обладателя центра. Белгішенің екі түсі бар. Для этой акции подходят оба цвета.",
+          "campaignRef": "iv4-n6yqz0mjv8k"
+        }
+      ]
+    },
+    {
+      "id": "iv4-epmhwwok7aj",
+      "campaignRef": "iv4-epmhwwok7aj",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-epmhwwok7aj-source-1",
+          "text": "Ұтысқа үміткер болу үшін 2 400 теңгелік клуб альбомын міндетті түрде аласыз. Подарок одному участнику — проектор для рисования. На обороте альбома есть поле для номера заявки; итоговое имя разместим в клубной ленте.",
+          "campaignRef": "iv4-epmhwwok7aj"
+        }
+      ]
+    },
+    {
+      "id": "iv4-t4s0dw2zfa",
+      "campaignRef": "iv4-t4s0dw2zfa",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-t4s0dw2zfa-source-1",
+          "text": "Клубный значок теперь можно купить отдельно за 800 тенге. Әр тапсырыс беруші төлеген соң өз значогін алады. Покупка не открывает конкурсную заявку.",
+          "campaignRef": "iv4-t4s0dw2zfa"
+        },
+        {
+          "id": "iv4-t4s0dw2zfa-source-2",
+          "text": "Бізде жеңімпаз таңдау жоқ. Значок доступен всем желающим до окончания тиража. Оставшиеся цвета видны в каталоге.",
+          "campaignRef": "iv4-t4s0dw2zfa"
+        }
+      ]
+    },
+    {
+      "id": "iv4-zn2x9ua6oa",
+      "campaignRef": "iv4-zn2x9ua6oa",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-zn2x9ua6oa-source-1",
+          "text": "Осы айда бақша клубы суару сорғысын ойнатады. Әр қатысушы клубтың 1 300 теңгелік тұқым пакетін сатып алуы шарт.",
+          "campaignRef": "iv4-zn2x9ua6oa"
+        },
+        {
+          "id": "iv4-zn2x9ua6oa-source-2",
+          "text": "Ақылы пакеттегі нөмірді тіркеу ұтысқа кіруді білдіреді. Барлық тіркелген нөмірді араластырып, біреуін кездейсоқ суырамыз.",
+          "campaignRef": "iv4-zn2x9ua6oa"
+        },
+        {
+          "id": "iv4-zn2x9ua6oa-source-3",
+          "text": "Сорғы сол нөмірге беріледі. Пакет сатып алмай нөмір берілмейді.",
+          "campaignRef": "iv4-zn2x9ua6oa"
+        }
+      ]
+    },
+    {
+      "id": "iv4-rwp38xhjgtl",
+      "campaignRef": "iv4-rwp38xhjgtl",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-rwp38xhjgtl-source-1",
+          "text": "Жастар кездесуіне арналған карточкада бөтен хабарламаның үлгісі тұр: «Нөмір сатып алсаң, телефонға үміткерсің; жеңімпаз кездейсоқ». Карточка тек талқылауға арналған. Біздің жобада осы ұтысқа қатысу ұсынылмайды.",
+          "campaignRef": "iv4-rwp38xhjgtl"
+        }
+      ]
+    },
+    {
+      "id": "iv4-zl7y2tg9ak",
+      "campaignRef": "iv4-zl7y2tg9ak",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-zl7y2tg9ak-source-1",
+          "text": "Гончарная студия обещает одному участнику набор форм. Қатысу жарнасы 1 600 теңге, төлеу міндетті. В верхней части поста победителя выбирают мастера по форме изделия. В конце стоит фраза: «Барлық қатысушыдан бір адамды кездейсоқ аламыз». Отбор финалистов или отдельные призы нигде не названы. Как совместить два способа выбора, не поясняется.",
+          "campaignRef": "iv4-zl7y2tg9ak"
+        }
+      ]
+    },
+    {
+      "id": "iv4-looov0qghnp",
+      "campaignRef": "iv4-looov0qghnp",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-looov0qghnp-source-1",
+          "text": "Шеберлер байқауының жүлдесі — құралдар сандығы. Подача работы стоит 1 400 тенге, поэтому заранее сохраните подтверждение.",
+          "campaignRef": "iv4-looov0qghnp"
+        },
+        {
+          "id": "iv4-looov0qghnp-source-2",
+          "text": "Қазылар бұйымның беріктігі мен өңдеу сапасын бағалайды. Их общий балл определит победителя.",
+          "campaignRef": "iv4-looov0qghnp"
+        },
+        {
+          "id": "iv4-looov0qghnp-source-3",
+          "text": "Рандом бізде қолданылмайды. Если баллы равны, комиссия сравнит качество креплений.",
+          "campaignRef": "iv4-looov0qghnp"
+        }
+      ]
+    },
+    {
+      "id": "iv4-4oj1dpwdc94",
+      "campaignRef": "iv4-4oj1dpwdc94",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-4oj1dpwdc94-source-1",
+          "text": "Сөз құрау ойынының сыйлық қорабы дайын. Оны ұту үшін 400 теңгелік қатысушы фишкасын сатып алу қажет. Фишкалар арасынан біреуін кездейсоқ алып, қорапты соның иесіне береміз.",
+          "campaignRef": "iv4-4oj1dpwdc94"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ittlkuoqcu",
+      "campaignRef": "iv4-ittlkuoqcu",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ittlkuoqcu-source-1",
+          "text": "Девчата, бокс косметики — приз! Чтоб попасть в рандом, берите мини-набор за 2 400 тг, без него заявки мимо. Бот выберет случайного покупателя мини-набора, бокс его 🙌",
+          "campaignRef": "iv4-ittlkuoqcu"
+        }
+      ]
+    },
+    {
+      "id": "iv4-lihosxxhfpl",
+      "campaignRef": "iv4-lihosxxhfpl",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-lihosxxhfpl-source-1",
+          "text": "Саздан жасалған ең ұқыпты кесе авторына электр дөңгелегі сыйланады. Жұмысты сарапшылар қалыңдығы мен пішіні бойынша бағалайды, кездейсоқ таңдау жоқ.",
+          "campaignRef": "iv4-lihosxxhfpl"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ncjoanirs8q",
+      "campaignRef": "iv4-ncjoanirs8q",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ncjoanirs8q-source-1",
+          "text": "Жаяу серуен тобы жиналмалы дүрбіні сыйлыққа береді. Үміткер болғысы келген адам ақылы қатысушы жапсырмасын сатып алады. Жапсырмасыз өтінім болмайды. Жапсырманың қорғалған нөмірін хабарлау жеткілікті. Тіркелген нөмірлердің біреуін бот кездейсоқ таңдап, иесіне дүрбіні береді. Серуенге бару ұтыстың қосымша шарты емес.",
+          "campaignRef": "iv4-ncjoanirs8q"
+        }
+      ]
+    },
+    {
+      "id": "iv4-eaev6fwstcw",
+      "campaignRef": "iv4-eaev6fwstcw",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-eaev6fwstcw-source-1",
+          "text": "В мастерской освободился один плед с лисами, и мы отдаём его участнику осеннего круга. Вход в круг стоит 1 600 тенге, без взноса заявки не принимаются.",
+          "campaignRef": "iv4-eaev6fwstcw"
+        },
+        {
+          "id": "iv4-eaev6fwstcw-source-2",
+          "text": "Каждая оплаченная заявка получает один номер. В субботу случайный генератор выберет из этих номеров обладателя пледа.",
+          "campaignRef": "iv4-eaev6fwstcw"
+        },
+        {
+          "id": "iv4-eaev6fwstcw-source-3",
+          "text": "Плед уже готов и ждёт отправки. Забрать его можно в мастерской или заказать доставку после результата.",
+          "campaignRef": "iv4-eaev6fwstcw"
+        }
+      ]
+    },
+    {
+      "id": "iv4-s8e6634t6c",
+      "campaignRef": "iv4-s8e6634t6c",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-s8e6634t6c-source-1",
+          "text": "Тіл викторинасында ең жоғары ұпай жинаған қатысушы сөздік алады. Жауаптарды кілтпен тексереміз, тең ұпайда бұрын тапсырған жұмыс басым. Кездейсоқ іріктеу болмайды.",
+          "campaignRef": "iv4-s8e6634t6c"
+        }
+      ]
+    },
+    {
+      "id": "iv4-qjhqmmmt1ee",
+      "campaignRef": "iv4-qjhqmmmt1ee",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-qjhqmmmt1ee-source-1",
+          "text": "Үлкен керамикалық ваза ұтыста! В список попадаешь после обязательного доната 800 тг, иначе заявки нет. Бот рандоммен бір қатысушыны таңдайды, ваза соған кетеді ✨",
+          "campaignRef": "iv4-qjhqmmmt1ee"
+        }
+      ]
+    },
+    {
+      "id": "iv4-bxqplj90v6k",
+      "campaignRef": "iv4-bxqplj90v6k",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-bxqplj90v6k-source-1",
+          "text": "Наш приз — купон на 8 000 тенге в лавке посуды. Заявку на случайный выбор может бесплатно оставить любой читатель формы. Платежей ради участия нет.",
+          "campaignRef": "iv4-bxqplj90v6k"
+        },
+        {
+          "id": "iv4-bxqplj90v6k-source-2",
+          "text": "Купон получит один случайно выбранный участник. Уже выигранный купон работает при заказе от 15 000 тенге, разницу оплачивает покупатель. Покупка понадобится только при использовании купона после победы.",
+          "campaignRef": "iv4-bxqplj90v6k"
+        }
+      ]
+    },
+    {
+      "id": "iv4-0qlhxednwso",
+      "campaignRef": "iv4-0qlhxednwso",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-0qlhxednwso-source-1",
+          "text": "У нас приз — двухместная палатка. Для участия покупается отдельный билет за 1 050 тенге. В воскресенье билет победителя случайно достанем из мешка.",
+          "campaignRef": "iv4-0qlhxednwso"
+        }
+      ]
+    },
+    {
+      "id": "iv4-fqilrqzj5f7",
+      "campaignRef": "iv4-fqilrqzj5f7",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-fqilrqzj5f7-source-1",
+          "text": "Подарим плёнку для камеры случайному автору комментария. Комментарий — бесплатная заявка, покупать у нас что-либо не надо. Цена самой плёнки в магазине 6 000 тенге, платить её участнику не нужно.",
+          "campaignRef": "iv4-fqilrqzj5f7"
+        }
+      ]
+    },
+    {
+      "id": "iv4-wtkhyniq93q",
+      "campaignRef": "iv4-wtkhyniq93q",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-wtkhyniq93q-source-1",
+          "text": "Мы вырастили большой лимон в кадке и решили сделать его призом. Место в списке участников стоит 750 тенге. Бесплатных мест в списке нет. После закрытия списка про-грамма случайно укажет одну строку. Автору этой строки подарим лимон вместе с кадкой. Самовывоз согласуем уже с победителем.",
+          "campaignRef": "iv4-wtkhyniq93q"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ljzsg47v9m",
+      "campaignRef": "iv4-ljzsg47v9m",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ljzsg47v9m-source-1",
+          "text": "Бағбандық байқауында жүлде — тұқым жинағы. Қазылар көшеттің күйі мен өсіру күнделігін бағалайды. Біз жеңімпазды кездейсоқ таңдамаймыз.",
+          "campaignRef": "iv4-ljzsg47v9m"
+        }
+      ]
+    },
+    {
+      "id": "iv4-mo0d6yebw5l",
+      "campaignRef": "iv4-mo0d6yebw5l",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-mo0d6yebw5l-source-1",
+          "text": "Термокружка 3 200 тенге тұрады. Оплатив заказ, каждый получает свою кружку и одинаковую крышку в комплекте. Жеребе өткізбейміз, бұл жай сатылым.",
+          "campaignRef": "iv4-mo0d6yebw5l"
+        }
+      ]
+    },
+    {
+      "id": "iv4-3rt34njlbrv",
+      "campaignRef": "iv4-3rt34njlbrv",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-3rt34njlbrv-source-1",
+          "text": "Julde — badminton jiyny. Qatysushy ornyn 700 tengege satyp alu kerek, aqysyz oryn joq. Kezdeisoq tandalgan oryn iesi jiynqty alady.",
+          "campaignRef": "iv4-3rt34njlbrv"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ymp4j875hqk",
+      "campaignRef": "iv4-ymp4j875hqk",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ymp4j875hqk-source-1",
+          "text": "U modelnogo kluba est priz: bolshoi korabl dlya sborki. V spisok na ego rozigrish popadayut tolko kupivshie paket uchastnika za 1800 tenge.",
+          "campaignRef": "iv4-ymp4j875hqk"
+        },
+        {
+          "id": "iv4-ymp4j875hqk-source-2",
+          "text": "Vnutri paketa odin zheton, ego nomer nuzhno zaregistrirovat. Besplatnih zhetonov ne budet, pokupka obyazatelna.",
+          "campaignRef": "iv4-ymp4j875hqk"
+        },
+        {
+          "id": "iv4-ymp4j875hqk-source-3",
+          "text": "Posle zakrytiya spiska generator sluchaino vyberet zheton. Ego hozyain poluchit korabl, uroven sborki ne otsenivaem.",
+          "campaignRef": "iv4-ymp4j875hqk"
+        }
+      ]
+    },
+    {
+      "id": "iv4-xm3u5m2rbhc",
+      "campaignRef": "iv4-xm3u5m2rbhc",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-xm3u5m2rbhc-source-1",
+          "text": "Екі адамдық демалыс жолдамасын ұтысқа салдық. Қатысушы коды 1 250 теңгеге сатылады, оны алмай қатысуға болмайды. Кодтардың бірін кездейсоқ таңдап, иесіне жолдаманы береміз.",
+          "campaignRef": "iv4-xm3u5m2rbhc"
+        }
+      ]
+    },
+    {
+      "id": "iv4-g3fgezj6lxs",
+      "campaignRef": "iv4-g3fgezj6lxs",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-g3fgezj6lxs-source-1",
+          "text": "На сцене выберем наугад одного из бесплатно зарегистрированных гостей и вручим термокружку. Регистрация и участие без оплаты, покупать входной билет не требуется. Сам концерт тоже открыт.",
+          "campaignRef": "iv4-g3fgezj6lxs"
+        }
+      ]
+    },
+    {
+      "id": "iv4-godj9uy1qc",
+      "campaignRef": "iv4-godj9uy1qc",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-godj9uy1qc-source-1",
+          "text": "Журнал дарит водонепроницаемую колонку за 45 000 тенге одному читателю. Это стоимость приза, заявку по этой цене покупать не нужно.",
+          "campaignRef": "iv4-godj9uy1qc"
+        },
+        {
+          "id": "iv4-godj9uy1qc-source-2",
+          "text": "Қатысу толығымен тегін, қысқа форманы толтырыңыз. Донат та, тауар сатып алу да талап етілмейді.",
+          "campaignRef": "iv4-godj9uy1qc"
+        },
+        {
+          "id": "iv4-godj9uy1qc-source-3",
+          "text": "Формалар арасынан бір адамды кездейсоқ таңдаймыз. Колонку передадим выбранному читателю без оплаты за неё.",
+          "campaignRef": "iv4-godj9uy1qc"
+        }
+      ]
+    },
+    {
+      "id": "iv4-tcezxzkhy3d",
+      "campaignRef": "iv4-tcezxzkhy3d",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-tcezxzkhy3d-source-1",
+          "text": "В анкете соседского клуба случайно выберем человека для подарка — корзины фруктов. Подача анкеты и участие полностью бесплатны. Никаких обязательных сборов даже после включения в список нет.",
+          "campaignRef": "iv4-tcezxzkhy3d"
+        }
+      ]
+    },
+    {
+      "id": "iv4-iv2g8euwyic",
+      "campaignRef": "iv4-iv2g8euwyic",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-iv2g8euwyic-source-1",
+          "text": "Кто быстрее соберёт головоломку, получит кубок. Участие стоит 700 тенге.",
+          "campaignRef": "iv4-iv2g8euwyic"
+        },
+        {
+          "id": "iv4-iv2g8euwyic-source-2",
+          "text": "Секундомер фиксирует результат каждого игрока. Случайный выбор победителя не применяется.",
+          "campaignRef": "iv4-iv2g8euwyic"
+        }
+      ]
+    },
+    {
+      "id": "iv4-xxotu17b5i",
+      "campaignRef": "iv4-xxotu17b5i",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-xxotu17b5i-source-1",
+          "text": "Қалалық каллиграфия сайысында жеңімпазға қалам жиынтығы беріледі. Жұмыс жіберу үшін 600 теңге төлем алынады. Бұл төлем бағалау құнын жабады.",
+          "campaignRef": "iv4-xxotu17b5i"
+        },
+        {
+          "id": "iv4-xxotu17b5i-source-2",
+          "text": "Үздік жұмысты қазылар әріптің біркелкілігі мен композициясына қарап анықтайды. Біз рандом қолданбаймыз. Ұпай тең болса, қазылар қосымша жазба тапсырмасын бағалайды.",
+          "campaignRef": "iv4-xxotu17b5i"
+        }
+      ]
+    },
+    {
+      "id": "iv4-xpl72cvovn",
+      "campaignRef": "iv4-xpl72cvovn",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-xpl72cvovn-source-1",
+          "text": "Рюкзак уйдёт случайному участнику кампании. Афишада «қатысу тегін» деп жазылған. В форме той же кампании нужна обязательная покупка номерка за 500 тенге; какое правило действует, ответа нет.",
+          "campaignRef": "iv4-xpl72cvovn"
+        }
+      ]
+    },
+    {
+      "id": "iv4-53mtkgj8miq",
+      "campaignRef": "iv4-53mtkgj8miq",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-53mtkgj8miq-source-1",
+          "text": "Швейный набор продаём за 2 900 тенге. В каждую коробку уже вложена одинаковая игольница в подарок, её получит каждый покупатель. Выбирать одного счастливчика не будем.",
+          "campaignRef": "iv4-53mtkgj8miq"
+        }
+      ]
+    },
+    {
+      "id": "iv4-5ai1yzn9etl",
+      "campaignRef": "iv4-5ai1yzn9etl",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-5ai1yzn9etl-source-1",
+          "text": "Годовой доступ к библиотеке аудиосказок ойнатылады. Қатысу тек 450 теңгелік билет сатып алғандарға ашық. Случайный билет из барабана выберет обладателя годового доступа.",
+          "campaignRef": "iv4-5ai1yzn9etl"
+        }
+      ]
+    },
+    {
+      "id": "iv4-14nllrnz4et",
+      "campaignRef": "iv4-14nllrnz4et",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-14nllrnz4et-source-1",
+          "text": "Vyigrai koshelek: odin kommentarii vyberem sluchaino. Ostavit komment i uchastvovat mozhno besplatno, pokupki ne nuzhni. 7000 tenge v kartochke — tsena samogo priza, ne vznos.",
+          "campaignRef": "iv4-14nllrnz4et"
+        }
+      ]
+    },
+    {
+      "id": "iv4-l4euqy4qkp",
+      "campaignRef": "iv4-l4euqy4qkp",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-l4euqy4qkp-source-1",
+          "text": "Подарим одному участнику набор для похода с рюкзаком. Победителя определит случайный номер в общем списке.",
+          "campaignRef": "iv4-l4euqy4qkp"
+        },
+        {
+          "id": "iv4-l4euqy4qkp-source-2",
+          "text": "Список ведёт администратор кружка. На этой неделе уже есть первые зарегистрированные номера.",
+          "campaignRef": "iv4-l4euqy4qkp"
+        },
+        {
+          "id": "iv4-l4euqy4qkp-source-3",
+          "text": "Форму регистрации откроем завтра утром. Подготовьте название вашего населённого пункта для карточки участника.",
+          "campaignRef": "iv4-l4euqy4qkp"
+        }
+      ]
+    },
+    {
+      "id": "iv4-g4fvi50vliv",
+      "campaignRef": "iv4-g4fvi50vliv",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-g4fvi50vliv-source-1",
+          "text": "Julde — elektr tikin quraly. Qatysu ushin 1400 tenge toleu mindetti. Otinish nomerin saqtanyz, qural iesin juma kuni ataimyz.",
+          "campaignRef": "iv4-g4fvi50vliv"
+        }
+      ]
+    },
+    {
+      "id": "iv4-nu91es4q7x",
+      "campaignRef": "iv4-nu91es4q7x",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-nu91es4q7x-source-1",
+          "text": "Термос қапшығы 2 200 теңгеден сатылады. Әр сатып алған адамға бірдей бау қоса беріледі. Бау кез келген қапшықтың құрамында бар, кездейсоқ таратылмайды.",
+          "campaignRef": "iv4-nu91es4q7x"
+        }
+      ]
+    },
+    {
+      "id": "iv4-eeryp3ju3fn",
+      "campaignRef": "iv4-eeryp3ju3fn",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-eeryp3ju3fn-source-1",
+          "text": "Ребят, акустика в призе, одного рандом выберет 👀 Қатысу пакетпен болады дейді. А пакет ақылы ма, и без него в список реально залететь?",
+          "campaignRef": "iv4-eeryp3ju3fn"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ap6pvc5dsz4",
+      "campaignRef": "iv4-ap6pvc5dsz4",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ap6pvc5dsz4-source-1",
+          "text": "На стенде показан образец подозрительного сообщения с покупкой билета и случайной выдачей приза. Подпись поясняет, какие условия в нём стоит проверять. Это экспонат занятия, участвовать или оплачивать по нему нельзя.",
+          "campaignRef": "iv4-ap6pvc5dsz4"
+        }
+      ]
+    },
+    {
+      "id": "iv4-juzfcotqnkb",
+      "campaignRef": "iv4-juzfcotqnkb",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-juzfcotqnkb-source-1",
+          "text": "Jundy jipek jiyny 2800 tenge turady. Tolengen ar tapsyrysqa birdey jiyn beriledi. Bul satylymda kezdeisoq julde ne jengimpaz joq.",
+          "campaignRef": "iv4-juzfcotqnkb"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ci0qyze90bi",
+      "campaignRef": "iv4-ci0qyze90bi",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ci0qyze90bi-source-1",
+          "text": "На новый проект собираем обязательный взнос: 500 тенге с каждого участника розыгрыша. Из внесших деньги случайно выберем одного и вручим ему электросамокат. Без взноса участвовать нельзя.",
+          "campaignRef": "iv4-ci0qyze90bi"
+        }
+      ]
+    },
+    {
+      "id": "iv4-vlpnbmijzks",
+      "campaignRef": "iv4-vlpnbmijzks",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-vlpnbmijzks-source-1",
+          "text": "Онлайн кездесуде үстел ойынына арналған сыйлық купоны беріледі. Қатысу тегін, өтінім үшін төлем сұралмайды.",
+          "campaignRef": "iv4-vlpnbmijzks"
+        },
+        {
+          "id": "iv4-vlpnbmijzks-source-2",
+          "text": "Жеңімпазды өтінімдер арасынан кездейсоқ табамыз. Купон ұтқаннан кейін оны 10 000 теңгеден жоғары тапсырысқа қолдана аласыз.",
+          "campaignRef": "iv4-vlpnbmijzks"
+        },
+        {
+          "id": "iv4-vlpnbmijzks-source-3",
+          "text": "Мұндай тапсырыс жасау ұтысқа кіру шарты емес. Купонды қолданбауды таңдасаңыз да, нәтижедегі орныңыз өзгермейді.",
+          "campaignRef": "iv4-vlpnbmijzks"
+        }
+      ]
+    },
+    {
+      "id": "iv4-62r8vj38p0n",
+      "campaignRef": "iv4-62r8vj38p0n",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-62r8vj38p0n-source-1",
+          "text": "Семинар слайды міндетті донат пен кездейсоқ жүлде уәде ететін сыртқы жарнаманы мысалға келтіреді. Слайдтан сол шарттарды іздеп көріңіз. Семинар тобы донат та қабылдамайды, ұтыс та өткізбейді.",
+          "campaignRef": "iv4-62r8vj38p0n"
+        }
+      ]
+    },
+    {
+      "id": "iv4-9cj5acv7z8b",
+      "campaignRef": "iv4-9cj5acv7z8b",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-9cj5acv7z8b-source-1",
+          "text": "Fotokonkurs besplatnii, za luchshii svet v kadre dadim shtativ. Otsenivayut dva fotografa po opublikovannim kriteriyam. Random ne ispolzuem.",
+          "campaignRef": "iv4-9cj5acv7z8b"
+        }
+      ]
+    },
+    {
+      "id": "iv4-emwxd5yt1is",
+      "campaignRef": "iv4-emwxd5yt1is",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-emwxd5yt1is-source-1",
+          "text": "В школьной памятке разбираем выдуманный рекламный текст. В нём сказано: «Купи номер за 900 тенге, и случайный участник получит игровую приставку».",
+          "campaignRef": "iv4-emwxd5yt1is"
+        },
+        {
+          "id": "iv4-emwxd5yt1is-source-2",
+          "text": "Это пример чужого приглашения, приведённый для обсуждения его условий. Наша группа такую акцию не проводит.",
+          "campaignRef": "iv4-emwxd5yt1is"
+        },
+        {
+          "id": "iv4-emwxd5yt1is-source-3",
+          "text": "Участникам занятия ничего покупать и перечислять не надо. На встрече разберём, где в тексте указаны плата, приз и способ выбора.",
+          "campaignRef": "iv4-emwxd5yt1is"
+        }
+      ]
+    },
+    {
+      "id": "iv4-f8apzkwxrl",
+      "campaignRef": "iv4-f8apzkwxrl",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-f8apzkwxrl-source-1",
+          "text": "Бір көрерменге жаңа мониторды кездейсоқ таңдап сыйлаймыз. Тіркелуге арналған пакет туралы сұраңыз. Пакеттерді клуб әкімшісі сәрсенбі күні таныстырады.",
+          "campaignRef": "iv4-f8apzkwxrl"
+        }
+      ]
+    },
+    {
+      "id": "iv4-r7hpadrixoo",
+      "campaignRef": "iv4-r7hpadrixoo",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-r7hpadrixoo-source-1",
+          "text": "Шеберханада ағаш сөрелер сатылады. Бір сөренің бағасы 7 500 теңге.",
+          "campaignRef": "iv4-r7hpadrixoo"
+        },
+        {
+          "id": "iv4-r7hpadrixoo-source-2",
+          "text": "Сатып алушы өлшемді каталогтан таңдайды. Төленген тапсырыстың бәрін жасап береміз.",
+          "campaignRef": "iv4-r7hpadrixoo"
+        },
+        {
+          "id": "iv4-r7hpadrixoo-source-3",
+          "text": "Сөре алу үшін жеребе өткізілмейді. Баға материал мен жұмысты қамтиды.",
+          "campaignRef": "iv4-r7hpadrixoo"
+        }
+      ]
+    },
+    {
+      "id": "iv4-do4eqo3jq9q",
+      "campaignRef": "iv4-do4eqo3jq9q",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-do4eqo3jq9q-source-1",
+          "text": "Приз — электронный словарь. Қатысу картасы 2 000 теңге тұрады және оны алу міндетті. Программа кездейсоқ бір карта нөмірін шығарады; словарь получит её владелец.",
+          "campaignRef": "iv4-do4eqo3jq9q"
+        }
+      ]
+    },
+    {
+      "id": "iv4-w1pl1yffyc",
+      "campaignRef": "iv4-w1pl1yffyc",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-w1pl1yffyc-source-1",
+          "text": "Оқырман марафонында планшет ойнатылады. Сколько страниц вы прочитали, на этот отдельный приз не влияет. Для входа именно в розыгрыш обязательно купить блокнот клуба за 1 900 тенге.",
+          "campaignRef": "iv4-w1pl1yffyc"
+        },
+        {
+          "id": "iv4-w1pl1yffyc-source-2",
+          "text": "Блокноттағы кодтар ортақ тізімге түседі. Один код случайно выберет программа, его владелец получит планшет. Тегін код таратылмайды.",
+          "campaignRef": "iv4-w1pl1yffyc"
+        }
+      ]
+    },
+    {
+      "id": "iv4-lviqfc6zwup",
+      "campaignRef": "iv4-lviqfc6zwup",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-lviqfc6zwup-source-1",
+          "text": "Городской клуб приготовил абонемент на прокат велосипедов в подарок. Тегін өтінім қабылданбайды: қатысушыға 500 теңгелік ұтыс талонын алу керек.",
+          "campaignRef": "iv4-lviqfc6zwup"
+        },
+        {
+          "id": "iv4-lviqfc6zwup-source-2",
+          "text": "Талоны продаём до пятницы, потом список закрывается. Бот тізімдегі бір талонды кездейсоқ таңдайды.",
+          "campaignRef": "iv4-lviqfc6zwup"
+        },
+        {
+          "id": "iv4-lviqfc6zwup-source-3",
+          "text": "Абонемент заберёт владелец выбранного талона. Ешқандай жарыс нәтижесі есепке алынбайды.",
+          "campaignRef": "iv4-lviqfc6zwup"
+        }
+      ]
+    },
+    {
+      "id": "iv4-0fevfvaeuhb",
+      "campaignRef": "iv4-0fevfvaeuhb",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-0fevfvaeuhb-source-1",
+          "text": "Тігін бұрышында мата қиюға арналған үстел сыйлыққа тұр. Оны ұтуға тек 700 теңге міндетті жарна төлеп жазылғандар қатысады. Ақша қатысу орнын бекітеді.",
+          "campaignRef": "iv4-0fevfvaeuhb"
+        },
+        {
+          "id": "iv4-0fevfvaeuhb-source-2",
+          "text": "Үстел иесін қатысушылар арасынан кездейсоқ таңдаймыз. Тігілген киімнің суретін жіберудің қажеті жоқ. Таңдау сәтін клуб экранында көрсетеміз.",
+          "campaignRef": "iv4-0fevfvaeuhb"
+        }
+      ]
+    },
+    {
+      "id": "iv4-h1qi3x30mwj",
+      "campaignRef": "iv4-h1qi3x30mwj",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-h1qi3x30mwj-source-1",
+          "text": "Приз для кофейного чата — ручная кофемолка. Запись в жеребьёвку после покупки пачки зерна за 4 100 тенге; без покупки не записываем. Победителя выберем случайно из записавшихся.",
+          "campaignRef": "iv4-h1qi3x30mwj"
+        }
+      ]
+    },
+    {
+      "id": "iv4-2x0c7lhd75c",
+      "campaignRef": "iv4-2x0c7lhd75c",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-2x0c7lhd75c-source-1",
+          "text": "Приз для участников — велосипед, регистрационный взнос 1 800 тенге обязателен. Қазақша бөлімде қазылар ең мазмұнды эссені таңдайды делінген. Русский раздел тех же условий обещает случайный выбор из всех зарегистрированных; пояснения о приоритете разделов нет.",
+          "campaignRef": "iv4-2x0c7lhd75c"
+        }
+      ]
+    },
+    {
+      "id": "iv4-lreyphu1ncd",
+      "campaignRef": "iv4-lreyphu1ncd",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-lreyphu1ncd-source-1",
+          "text": "Керамика студиясының жаңа пеші келді, ал ескі шағын пешті сыйлық ретінде ойнатамыз. Қатысуға арналған 2 100 теңгелік талон тек студия кассасында сатылады. Талон алмай ұтысқа қосылу мүмкін емес.",
+          "campaignRef": "iv4-lreyphu1ncd"
+        },
+        {
+          "id": "iv4-lreyphu1ncd-source-2",
+          "text": "Талондарды бір ыдысқа жинаймыз, кеш соңында біреуін кездейсоқ аламыз. Пешті сол талонның иесіне береміз. Құмыра жасау тәжірибесі талап етілмейді.",
+          "campaignRef": "iv4-lreyphu1ncd"
+        }
+      ]
+    },
+    {
+      "id": "iv4-qg7vug0jux",
+      "campaignRef": "iv4-qg7vug0jux",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-qg7vug0jux-source-1",
+          "text": "Odin podpisavshiisya na besplatnuyu rassylku sluchaino poluchit nabor semyan. Platnoi podpiski ili pokupok ne trebuem. Donat po zhelaniyu, bez nego uchastie tozhe deistvuet.",
+          "campaignRef": "iv4-qg7vug0jux"
+        }
+      ]
+    },
+    {
+      "id": "iv4-2p61tl27skk",
+      "campaignRef": "iv4-2p61tl27skk",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-2p61tl27skk-source-1",
+          "text": "Жүлде — былғары портфель, қатысу жарнасы міндетті 2 200 теңге. Ереженің басында қазылар ең жақсы жұмысты таңдайды делінген. Сол ереженің соңында барлық қатысушы арасынан кездейсоқ жеңімпаз алынады деп тұр; қайсысы шешуші екені ашылмаған.",
+          "campaignRef": "iv4-2p61tl27skk"
+        }
+      ]
+    },
+    {
+      "id": "iv4-wkgl6f38sc8",
+      "campaignRef": "iv4-wkgl6f38sc8",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-wkgl6f38sc8-source-1",
+          "text": "Участнический сертификат стоит 1 600 тенге и необходим для подачи заявки. Одному участнику обещан годовой запас корма для кошки. Сертификаты выдаём в конверте с рисунком кота, храните конверт до итогов.",
+          "campaignRef": "iv4-wkgl6f38sc8"
+        }
+      ]
+    },
+    {
+      "id": "iv4-x7sp10ry4gl",
+      "campaignRef": "iv4-x7sp10ry4gl",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-x7sp10ry4gl-source-1",
+          "text": "Би кешіне кіру бөлек, а приз — домашняя аудиосистема. Для участия в её розыгрыше обязателен отдельный билет за 1 700 тенге. Сол билеттердің біреуін кездейсоқ таңдап, жүйені иесіне береміз.",
+          "campaignRef": "iv4-x7sp10ry4gl"
+        }
+      ]
+    },
+    {
+      "id": "iv4-g5q983uj6q",
+      "campaignRef": "iv4-g5q983uj6q",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-g5q983uj6q-source-1",
+          "text": "Случайно выберем одного получателя кофейного набора. В шапке: «вход свободный, ничего покупать не нужно». В форме этой же акции: «заявка активируется только после покупки набора пробников»; пояснений к расхождению нет.",
+          "campaignRef": "iv4-g5q983uj6q"
+        }
+      ]
+    },
+    {
+      "id": "iv4-w3yoqe3h9ls",
+      "campaignRef": "iv4-w3yoqe3h9ls",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-w3yoqe3h9ls-source-1",
+          "text": "Sayahat riukzagy julde bolady. Oinynga kiru ushin 600 tengelik aqyly kartany mindetti turde alasiz. Kartalar ishinen bireui kezdeisoq shygady, riukzak sol iesiniki.",
+          "campaignRef": "iv4-w3yoqe3h9ls"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ibx92mv2pq",
+      "campaignRef": "iv4-ibx92mv2pq",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ibx92mv2pq-source-1",
+          "text": "К нашему музыкальному вечеру подготовлен приз — виниловый проигрыватель. Входной билет вечера включает участие в его розыгрыше.",
+          "campaignRef": "iv4-ibx92mv2pq"
+        },
+        {
+          "id": "iv4-ibx92mv2pq-source-2",
+          "text": "Бесплатных заявок на проигрыватель нет: сначала нужен билет за 3 500 тенге. Победителя определим случайной вытяжкой билета из общей коробки.",
+          "campaignRef": "iv4-ibx92mv2pq"
+        },
+        {
+          "id": "iv4-ibx92mv2pq-source-3",
+          "text": "Место в зале на результат не влияет. Номер билета сохраняйте до конца вечера.",
+          "campaignRef": "iv4-ibx92mv2pq"
+        }
+      ]
+    },
+    {
+      "id": "iv4-egp5mmrt5ai",
+      "campaignRef": "iv4-egp5mmrt5ai",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-egp5mmrt5ai-source-1",
+          "text": "Бір адамға мақта перделер жинағын сыйлаймыз. Войти можно только покупкой пробного комплекта ткани за 1 000 тенге. Из оплативших случайно выберем владельца подарка.",
+          "campaignRef": "iv4-egp5mmrt5ai"
+        }
+      ]
+    },
+    {
+      "id": "iv4-6mlilz2f3d3",
+      "campaignRef": "iv4-6mlilz2f3d3",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-6mlilz2f3d3-source-1",
+          "text": "Priz za samii tochnyi maket mosta — nabor instrumentov. Zayavka platnaya, 900 tenge. Jury sravnit prochnost i tochnost masshtaba; sluchaino pobeditelya ne vybiraem.",
+          "campaignRef": "iv4-6mlilz2f3d3"
+        }
+      ]
+    },
+    {
+      "id": "iv4-yadvzrs294r",
+      "campaignRef": "iv4-yadvzrs294r",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-yadvzrs294r-source-1",
+          "text": "Конкурс коротких комиксов открыт до воскресенья. За подачу работы взимается 1 000 тенге, победителю дадим графический планшет.",
+          "campaignRef": "iv4-yadvzrs294r"
+        },
+        {
+          "id": "iv4-yadvzrs294r-source-2",
+          "text": "Работы оценивают три художника по композиции, ясности сюжета и выразительности персонажей. Итоговый балл определяет победителя.",
+          "campaignRef": "iv4-yadvzrs294r"
+        },
+        {
+          "id": "iv4-yadvzrs294r-source-3",
+          "text": "Случайную жеребьёвку и генератор мы не используем. При равном балле жюри дополнительно сравнит последний кадр.",
+          "campaignRef": "iv4-yadvzrs294r"
+        }
+      ]
+    },
+    {
+      "id": "iv4-2t77ijc2u4e",
+      "campaignRef": "iv4-2t77ijc2u4e",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-2t77ijc2u4e-source-1",
+          "text": "Пуховик из новой коллекции отдаём по жребию. Участвуют лишь купившие сертификат магазина на 5 000 тенге; без покупки участия нет. Один номер сертификата случайно выберет генератор, его владельцу — пуховик.",
+          "campaignRef": "iv4-2t77ijc2u4e"
+        }
+      ]
+    },
+    {
+      "id": "iv4-mlbd2yjmzri",
+      "campaignRef": "iv4-mlbd2yjmzri",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-mlbd2yjmzri-source-1",
+          "text": "Жеңімпазға бейнекамера сыйлаймыз, оны тегін пікір қалдырғандардың ішінен кездейсоқ таңдаймыз. Қатысу ақысыз және сатып алу қажет емес. Жеткізу керек болса, оның ақысын тек жеңгеннен кейін таңдауыңызбен төлейсіз; тегін алып кету бар.",
+          "campaignRef": "iv4-mlbd2yjmzri"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ey3csztg2b7",
+      "campaignRef": "iv4-ey3csztg2b7",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ey3csztg2b7-source-1",
+          "text": "Шарф пен бөрік жиынтығы 6 500 теңгеден сатылуда. Всем покупателям кладём одну и ту же подарочную открытку. Кому достанется комплект, решает заказ, ешқандай ұтыс жоқ.",
+          "campaignRef": "iv4-ey3csztg2b7"
+        }
+      ]
+    },
+    {
+      "id": "iv4-sy9i0yq7htj",
+      "campaignRef": "iv4-sy9i0yq7htj",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-sy9i0yq7htj-source-1",
+          "text": "Один участник получит десять ужинов от кухни. Ұтысқа кіру үшін ақылы дегустацияға тапсырыс беру міндетті. Из чеков этой дегустации случайно выберем один — ему все десять ужинов.",
+          "campaignRef": "iv4-sy9i0yq7htj"
+        }
+      ]
+    },
+    {
+      "id": "iv4-f96lsm2ij7",
+      "campaignRef": "iv4-f96lsm2ij7",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-f96lsm2ij7-source-1",
+          "text": "Жеңімпазды дәл ату нысанасындағы ұпай анықтайды, сыйлық — спорттық сөмке. Участие стоит 1 100 тенге. Не используем рандом, при равных очках делаем дополнительный выстрел.",
+          "campaignRef": "iv4-f96lsm2ij7"
+        }
+      ]
+    },
+    {
+      "id": "iv4-lpte0615a7e",
+      "campaignRef": "iv4-lpte0615a7e",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-lpte0615a7e-source-1",
+          "text": "Kalendar za 1900 tenge mozhno zakazat iz kataloga. Kazhdomu pokupatelyu prilozen odin i tot zhe mini-plakat. Nikakogo vyibora schastlivchika sredi pokupatelei net.",
+          "campaignRef": "iv4-lpte0615a7e"
+        }
+      ]
+    },
+    {
+      "id": "iv4-9hgk8k9062",
+      "campaignRef": "iv4-9hgk8k9062",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-9hgk8k9062-source-1",
+          "text": "Жұлдыз бақылау үйірмесі телескопты жүлдеге шығарды. Қатысуға өтінім ашу үшін ақылы аспан картасын сатып алу қажет.",
+          "campaignRef": "iv4-9hgk8k9062"
+        },
+        {
+          "id": "iv4-9hgk8k9062-source-2",
+          "text": "Картасыз өтінім тіркелмейді. Ашылған өтінімдердің арасынан бағдарлама біреуін кездейсоқ белгілейді.",
+          "campaignRef": "iv4-9hgk8k9062"
+        },
+        {
+          "id": "iv4-9hgk8k9062-source-3",
+          "text": "Телескоп сол өтінімнің иесіне сыйға беріледі. Нәтиже бақылау кешінің соңында жарияланады.",
+          "campaignRef": "iv4-9hgk8k9062"
+        }
+      ]
+    },
+    {
+      "id": "iv4-rckgiqsxi5j",
+      "campaignRef": "iv4-rckgiqsxi5j",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-rckgiqsxi5j-source-1",
+          "text": "Роботты лабиринттен ең тез өткізген командаға кубок береміз. Вступительный взнос команды 2 000 тенге. Секундомер решает результат; кездейсоқ таңдау қолданылмайды.",
+          "campaignRef": "iv4-rckgiqsxi5j"
+        }
+      ]
+    },
+    {
+      "id": "iv4-5joujwtr14l",
+      "campaignRef": "iv4-5joujwtr14l",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-5joujwtr14l-source-1",
+          "text": "Sabaqta boten jarnamany talqylaimyz: aqyly nomer, kezdeisoq tañdau, kamera juldege. Bul tek taldau materiali. Biz sol utysty otkizbeimiz jane aqsha qabyldamaimyz.",
+          "campaignRef": "iv4-5joujwtr14l"
+        }
+      ]
+    },
+    {
+      "id": "iv4-i1wxi8rbjn",
+      "campaignRef": "iv4-i1wxi8rbjn",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-i1wxi8rbjn-source-1",
+          "text": "Разыграем складной зонт к началу дождей. Чтобы участвовать, заполните бесплатную ан-кету о любимой осенней прогулке. Покупать зонты у нас не требуется. Донат на работу кружка можно оставить по желанию. Отказ от доната никак не меняет участие и шансы. Один ответ выберем случайно и подарим автору зонт.",
+          "campaignRef": "iv4-i1wxi8rbjn"
+        }
+      ]
+    },
+    {
+      "id": "iv4-esiw0vsmtmt",
+      "campaignRef": "iv4-esiw0vsmtmt",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-esiw0vsmtmt-source-1",
+          "text": "Қағаз дүкеніндегі жүлдеміз — жұмыс үстеліне арналған жарық шам. Қатысушылар тізіміне кіру үшін ақылы жазу дәптерін алу мін-детті. Дәптер бағасы 950 теңге. Сатып алғандардың есімін тізімге бір рет енгіземіз. Жабылған тізімнен бір адамды кездейсоқ таңдап, шамды соған сыйлаймыз. Жазудың әдемілігіне баға қойылмайды.",
+          "campaignRef": "iv4-esiw0vsmtmt"
+        }
+      ]
+    },
+    {
+      "id": "iv4-azavb7hg8vc",
+      "campaignRef": "iv4-azavb7hg8vc",
+      "language": "translit",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-azavb7hg8vc-source-1",
+          "text": "Priz v etot raz — nabor polotenets. Uchastie tolko s oplachennim nomerom za 500 tenge, nomer nado kupit obyazatelno. Odin iz nomerov vytyanem sluchaino, ego vladeltsy polotentsa.",
+          "campaignRef": "iv4-azavb7hg8vc"
+        }
+      ]
+    },
+    {
+      "id": "iv4-8baqeaj89t7",
+      "campaignRef": "iv4-8baqeaj89t7",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-8baqeaj89t7-source-1",
+          "text": "На закрытии велосезона разыгрываем новый городской велосипед. Чтобы оказаться в списке участников, нужно купить за 2 200 тенге браслет именно этого розыгрыша. Обычный вход на площадку свободный.",
+          "campaignRef": "iv4-8baqeaj89t7"
+        },
+        {
+          "id": "iv4-8baqeaj89t7-source-2",
+          "text": "Вечером программа случайно выберет один оплаченный браслет, его владельцу достанется велосипед. Умение ездить и время приезда на выбор не влияют. Один человек может купить только один браслет.",
+          "campaignRef": "iv4-8baqeaj89t7"
+        }
+      ]
+    },
+    {
+      "id": "iv4-8dkrz0j0x5t",
+      "campaignRef": "iv4-8dkrz0j0x5t",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-8dkrz0j0x5t-source-1",
+          "text": "В продаже появился набор посуды «Утренний свет». Полная цена коробки — 18 000 тенге. При покупке двух коробок доставка будет бесплатной. Каждому покупателю передадим именно оплаченный набор. Победителей или случайного распределения товара у нас нет. Заказы принимаем до конца недели.",
+          "campaignRef": "iv4-8dkrz0j0x5t"
+        }
+      ]
+    },
+    {
+      "id": "iv4-u3gb5r9dsc",
+      "campaignRef": "iv4-u3gb5r9dsc",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-u3gb5r9dsc-source-1",
+          "text": "Подарочный сертификат стоит 12 000 тенге и продаётся любому желающему. После оплаты вы получаете сертификат на ту же сумму. Никого для получения покупки не разыгрываем.",
+          "campaignRef": "iv4-u3gb5r9dsc"
+        }
+      ]
+    },
+    {
+      "id": "iv4-7eu5fpju4df",
+      "campaignRef": "iv4-7eu5fpju4df",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-7eu5fpju4df-source-1",
+          "text": "Пацаны, это скрин для урока, не наша акция: «скинь 500, попадёшь в рандом на наушники». Разбираем чужую фразу и её условия. Нам переводить ничего не надо, запись на розыгрыш тут не ведём.",
+          "campaignRef": "iv4-7eu5fpju4df"
+        }
+      ]
+    },
+    {
+      "id": "iv4-vc9sb3m12in",
+      "campaignRef": "iv4-vc9sb3m12in",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-vc9sb3m12in-source-1",
+          "text": "Спорт студиясының кілемше жинағы ойнатылады. Қатысу орны ақылы, 900 теңге төлеп орын алу міндетті. Жинақ кездейсоқ таңдалған орын иесіне тиеді.",
+          "campaignRef": "iv4-vc9sb3m12in"
+        }
+      ]
+    },
+    {
+      "id": "iv4-v2st3240pw",
+      "campaignRef": "iv4-v2st3240pw",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-v2st3240pw-source-1",
+          "text": "За участие в осенней акции нужно заплатить 1 200 тенге. Главный приз — компактный фотопринтер. Оплаченная заявка получает регистрационную карточку.",
+          "campaignRef": "iv4-v2st3240pw"
+        },
+        {
+          "id": "iv4-v2st3240pw-source-2",
+          "text": "Карточки соберём к выходным. Фотопринтер уже упакован для вручения. Дату объявления получателя вынесем в шапку группы.",
+          "campaignRef": "iv4-v2st3240pw"
+        }
+      ]
+    },
+    {
+      "id": "iv4-imd58qrh7xh",
+      "campaignRef": "iv4-imd58qrh7xh",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-imd58qrh7xh-source-1",
+          "text": "Жаңа көрпе қаптары топтамасын бір оқырманға сыйға тартамыз. Қатысу донаты — міндетті 1 700 теңге; донатсыз өтінім қабылданбайды. Өтінімдер ішінен біреуін кездейсоқ алып, сыйлықты жібереміз.",
+          "campaignRef": "iv4-imd58qrh7xh"
+        }
+      ]
+    },
+    {
+      "id": "iv4-bz77u9ehzt7",
+      "campaignRef": "iv4-bz77u9ehzt7",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-bz77u9ehzt7-source-1",
+          "text": "«Жылы үй» акциясы бір адамға электр жылытқышын береді. Негізгі постта қатысу тегін, ештеңе сатып алудың қажеті жоқ деп тұр.",
+          "campaignRef": "iv4-bz77u9ehzt7"
+        },
+        {
+          "id": "iv4-bz77u9ehzt7-source-2",
+          "text": "Сол акцияның тіркелу бетінде 600 теңгелік ақылы нөмірді алу міндетті деп жазылған. Жылытқыш кездейсоқ нөмір иесіне тиеді.",
+          "campaignRef": "iv4-bz77u9ehzt7"
+        },
+        {
+          "id": "iv4-bz77u9ehzt7-source-3",
+          "text": "Осы жылытқышқа арналған екі нұсқа да тіркелу бетінде ашылып тұр. Пікірдегі сұрақ: тегін өтінім жеткілікті ме, әлде нөмірді міндетті түрде алу керек пе?",
+          "campaignRef": "iv4-bz77u9ehzt7"
+        }
+      ]
+    },
+    {
+      "id": "iv4-wq1xoy7beve",
+      "campaignRef": "iv4-wq1xoy7beve",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-wq1xoy7beve-source-1",
+          "text": "Тоқыма клубының сыйлығы — жіп орайтын құрылғы. Қатысуға 1 000 теңге жарна міндетті. Құрылғыны кім алатынын келесі жұмада жариялаймыз, өтінім нөміріңізді сақтаңыз.",
+          "campaignRef": "iv4-wq1xoy7beve"
+        }
+      ]
+    },
+    {
+      "id": "iv4-hjtamccxgn",
+      "campaignRef": "iv4-hjtamccxgn",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-hjtamccxgn-source-1",
+          "text": "Приз — швейная машинка, вход по обязательному взносу 1 500 тг. В афише: победителя оценит жюри по фото работы. В подписи: «всех в рандом, вытащим случайного». Что действует, не уточ-нили.",
+          "campaignRef": "iv4-hjtamccxgn"
+        }
+      ]
+    },
+    {
+      "id": "iv4-80ft8lmmlcg",
+      "campaignRef": "iv4-80ft8lmmlcg",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-80ft8lmmlcg-source-1",
+          "text": "Кожаный дорожный органайзер подарим одному участнику. Ұтысқа қатысу үшін ақылы брелок сатып алу міндетті. Чеки покупателей брелока перемешаем и случайно достанем один победный.",
+          "campaignRef": "iv4-80ft8lmmlcg"
+        }
+      ]
+    },
+    {
+      "id": "iv4-emw9elt79ov",
+      "campaignRef": "iv4-emw9elt79ov",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-emw9elt79ov-source-1",
+          "text": "Разыгрываем одну переносную колонку случайным выбором из списка. Рядом в карточке указано «логистика — 1 800 тенге». Вопрос к этой акции: логистика оплачивается уже победителем или без неё не внесут в список?",
+          "campaignRef": "iv4-emw9elt79ov"
+        }
+      ]
+    },
+    {
+      "id": "iv4-dvt683uijtp",
+      "campaignRef": "iv4-dvt683uijtp",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-dvt683uijtp-source-1",
+          "text": "Шайсүйерлер, әдемі шәйнек ұтыста ғой ☕ Кіру үшін 1 900 тг шай жиынтығын алу шарт, жай коммент жеткіліксіз. Жиынтық алған бір адам рандоммен таңдалады, шәйнек соған.",
+          "campaignRef": "iv4-dvt683uijtp"
+        }
+      ]
+    },
+    {
+      "id": "iv4-o5yewqmrbr",
+      "campaignRef": "iv4-o5yewqmrbr",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-o5yewqmrbr-source-1",
+          "text": "Өлкетану жобасында сандық диктофон жүлде болады. Оған үміткерлер жобаның 1 500 теңгелік қағаз күнтізбесін міндетті түрде алады.",
+          "campaignRef": "iv4-o5yewqmrbr"
+        },
+        {
+          "id": "iv4-o5yewqmrbr-source-2",
+          "text": "Күнтізбе түбіртегінің нөмірі ұтыс тізіміне түседі. Тізімнен бір нөмірді компьютер кездейсоқ таңдайды.",
+          "campaignRef": "iv4-o5yewqmrbr"
+        },
+        {
+          "id": "iv4-o5yewqmrbr-source-3",
+          "text": "Диктофон таңдалған нөмір иесіне беріледі. Күнтізбесіз қатысатын бөлек тізім жоқ.",
+          "campaignRef": "iv4-o5yewqmrbr"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ussegrc7oxp",
+      "campaignRef": "iv4-ussegrc7oxp",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ussegrc7oxp-source-1",
+          "text": "Жобаның ақылы қатысушы конверті 450 теңге тұрады. Тіркелген конверттердің біреуін кездейсоқ суырамыз. Таңдалған конверт иесімен жоба туралы эфирде сөйлесеміз.",
+          "campaignRef": "iv4-ussegrc7oxp"
+        }
+      ]
+    },
+    {
+      "id": "iv4-wnevwbm6szm",
+      "campaignRef": "iv4-wnevwbm6szm",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-wnevwbm6szm-source-1",
+          "text": "Приз фотоклуба — моментальная камера. Участники перечисляют обязательный оргвзнос 2 000 тенге, после него получают жетон. Камеру отдадим владельцу случайно вытянутого жетона; снимки на оценку не нужны.",
+          "campaignRef": "iv4-wnevwbm6szm"
+        }
+      ]
+    },
+    {
+      "id": "iv4-zrwzt7lgb6",
+      "campaignRef": "iv4-zrwzt7lgb6",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-zrwzt7lgb6-source-1",
+          "text": "Подарочная корзина сыров уйдёт случайному участнику. В участники записываем только после покупки билета за 800 тенге. Билеты бесплатно не выдаём.",
+          "campaignRef": "iv4-zrwzt7lgb6"
+        }
+      ]
+    },
+    {
+      "id": "iv4-tppywx9f4ad",
+      "campaignRef": "iv4-tppywx9f4ad",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-tppywx9f4ad-source-1",
+          "text": "Для медиаклуба написали учебную карточку с чужим приглашением. Внутри цитата: «Купи слот, и случайный номер получит ноутбук».",
+          "campaignRef": "iv4-tppywx9f4ad"
+        },
+        {
+          "id": "iv4-tppywx9f4ad-source-2",
+          "text": "Бұл біздің акция емес, тек мәтін талдауға арналған үлгі. Карточкадағы слоттар сатылмайды.",
+          "campaignRef": "iv4-tppywx9f4ad"
+        },
+        {
+          "id": "iv4-tppywx9f4ad-source-3",
+          "text": "Участникам занятия предлагают подчеркнуть условия входа. Осы жүлдеге өтінім жинамаймыз.",
+          "campaignRef": "iv4-tppywx9f4ad"
+        }
+      ]
+    },
+    {
+      "id": "iv4-mc8j26djlue",
+      "campaignRef": "iv4-mc8j26djlue",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-mc8j26djlue-source-1",
+          "text": "Кому достанется массажное кресло? Только купившие за 1 200 тенге номер для участия попадут в выборку. Из оплаченных номеров генератор случайных чисел выберет обладателя кресла.",
+          "campaignRef": "iv4-mc8j26djlue"
+        }
+      ]
+    },
+    {
+      "id": "iv4-dx55izzgb8i",
+      "campaignRef": "iv4-dx55izzgb8i",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-dx55izzgb8i-source-1",
+          "text": "Аспаздар клубының акциясында миксер жүлде болады. Өтінімді тіркеу үшін 1 800 теңге төлеу міндетті. Ақша төленген соң өтінім нөмірі беріледі.",
+          "campaignRef": "iv4-dx55izzgb8i"
+        },
+        {
+          "id": "iv4-dx55izzgb8i-source-2",
+          "text": "Нөмірлер тізімі сенбіде жабылады. Миксердің суретін дүкен терезесінен де көре аласыз. Сыйлықты табыстау күнін бөлек хабарлаймыз.",
+          "campaignRef": "iv4-dx55izzgb8i"
+        }
+      ]
+    },
+    {
+      "id": "iv4-00am5cwvar3",
+      "campaignRef": "iv4-00am5cwvar3",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-00am5cwvar3-source-1",
+          "text": "Мынау тренингтегі мысал ғана ғой: «500 тг таста, рандомға кір, сағат ұт». Хабарлама бөтен ұсынысты талқылау үшін жазылған. Бізге ақша жібермеңіз, бұнда ұтысқа жазылу жоқ.",
+          "campaignRef": "iv4-00am5cwvar3"
+        }
+      ]
+    },
+    {
+      "id": "iv4-l12eo4gxm7n",
+      "campaignRef": "iv4-l12eo4gxm7n",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-l12eo4gxm7n-source-1",
+          "text": "Турнирден бөлек сағат ұтысы бар: кім жылдам ойнайтыны есептелмейді. Сағатқа үміткерлер 550 теңгелік жеке ұтыс билетін сатып алуы керек. Билет жеңімпазын жеребе кездейсоқ анықтайды.",
+          "campaignRef": "iv4-l12eo4gxm7n"
+        }
+      ]
+    },
+    {
+      "id": "iv4-3cicu2sb2om",
+      "campaignRef": "iv4-3cicu2sb2om",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-3cicu2sb2om-source-1",
+          "text": "Велосипед дулығасына арналған ұтысқа тек ақылы жарықшам сатып алғандар кіреді. Сатып алынған шамдарға берілген кодтардың бірін кездейсоқ таңдаймыз. Сол кодтың иесі дулығаны ұтады.",
+          "campaignRef": "iv4-3cicu2sb2om"
+        }
+      ]
+    },
+    {
+      "id": "iv4-m8043lboj2",
+      "campaignRef": "iv4-m8043lboj2",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-m8043lboj2-source-1",
+          "text": "Кампания «Новая полка» дарит одному участнику стеллаж. В закреплённом посте сказано, что участие бесплатное и покупок не требует.",
+          "campaignRef": "iv4-m8043lboj2"
+        },
+        {
+          "id": "iv4-m8043lboj2-source-2",
+          "text": "На карточке той же кампании написано: «Для включения в список обязательно купите талон за 900 тенге». Стеллаж обещан одному случайно выбранному номеру.",
+          "campaignRef": "iv4-m8043lboj2"
+        },
+        {
+          "id": "iv4-m8043lboj2-source-3",
+          "text": "Вопрос под кампанией: бесплатная форма и платный талон сейчас оба доступны, какой выбрать для стеллажа? Оставили этот вопрос организаторам, ждём ответ.",
+          "campaignRef": "iv4-m8043lboj2"
+        }
+      ]
+    },
+    {
+      "id": "iv4-bhu2d8jc44",
+      "campaignRef": "iv4-bhu2d8jc44",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-bhu2d8jc44-source-1",
+          "text": "Біреу асүй таразысын алып кетеді! Қатысуға тек 1 100 теңгелік алжапқыш алғандар жіберіледі. Алжапқыш чектерінің арасынан кездейсоқ шыққан чекке таразы береміз.",
+          "campaignRef": "iv4-bhu2d8jc44"
+        }
+      ]
+    },
+    {
+      "id": "iv4-e893qs9icsh",
+      "campaignRef": "iv4-e893qs9icsh",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-e893qs9icsh-source-1",
+          "text": "Бақша арбасын ұтып алуға өтінім аштық. Заявка принимается только после покупки платного купона участия за 750 тенге. Арба иесін купондар арасындағы кездейсоқ жеребе анықтайды.",
+          "campaignRef": "iv4-e893qs9icsh"
+        }
+      ]
+    },
+    {
+      "id": "iv4-507j4w6r8mk",
+      "campaignRef": "iv4-507j4w6r8mk",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-507j4w6r8mk-source-1",
+          "text": "Үйге арналған ауа ылғалдандырғышты бір қатысушы алады. Қатысуға арналған ақылы белгішені 750 теңгеге сатып алу керек. Белгішелердің түсі бірдей, нөмірлері әртүрлі болады.",
+          "campaignRef": "iv4-507j4w6r8mk"
+        }
+      ]
+    },
+    {
+      "id": "iv4-bfl7icl7kit",
+      "campaignRef": "iv4-bfl7icl7kit",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-bfl7icl7kit-source-1",
+          "text": "Рыболовная сумка с коробками будет подарком. Қатысушы нөмірін 1 450 теңгеге сатып алу шарт. Одна случайная вытяжка номера определит, кому отдадим сумку.",
+          "campaignRef": "iv4-bfl7icl7kit"
+        }
+      ]
+    },
+    {
+      "id": "iv4-xlzdx0xq43s",
+      "campaignRef": "iv4-xlzdx0xq43s",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-xlzdx0xq43s-source-1",
+          "text": "Портативті колонканы сыйлыққа береміз. Ұтыс тізіміне жазылу тек ақылы, әр өтінім үшін 2 300 теңге төленуі тиіс. Төленген өтінімдердің біреуін кездейсоқ таңдаймыз.",
+          "campaignRef": "iv4-xlzdx0xq43s"
+        }
+      ]
+    },
+    {
+      "id": "iv4-8umjottbmt7",
+      "campaignRef": "iv4-8umjottbmt7",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-8umjottbmt7-source-1",
+          "text": "Көрме естелігі ретінде бір адамға фотоаппаратты жеребемен кездейсоқ береміз. Үміткерлер арнайы тізімде болады. Тізімге арналған үстел негізгі залдың оң жағында ашылады.",
+          "campaignRef": "iv4-8umjottbmt7"
+        }
+      ]
+    },
+    {
+      "id": "iv4-px793qpu7dc",
+      "campaignRef": "iv4-px793qpu7dc",
+      "language": "mixed",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-px793qpu7dc-source-1",
+          "text": "Жәрмеңкеде жасалған ағаш сөре — наш приз. Кто хочет участвовать, обязательно берёт платный жетон за 900 тенге. Жетондарды араластырып, біреуін кездейсоқ суырамыз, сөре соның иесіне.",
+          "campaignRef": "iv4-px793qpu7dc"
+        }
+      ]
+    },
+    {
+      "id": "iv4-2hhlh5zu8hj",
+      "campaignRef": "iv4-2hhlh5zu8hj",
+      "language": "ru",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-2hhlh5zu8hj-source-1",
+          "text": "Издательский клуб приготовил подарочный ящик из десяти книг. Участие доступно только купившим сборник «Тихий берег» в дни акции.",
+          "campaignRef": "iv4-2hhlh5zu8hj"
+        },
+        {
+          "id": "iv4-2hhlh5zu8hj-source-2",
+          "text": "За каждый купленный сборник выдаётся код, без покупки код получить нельзя. Ящик уйдёт владельцу кода, который случайно вытянет электронный барабан.",
+          "campaignRef": "iv4-2hhlh5zu8hj"
+        },
+        {
+          "id": "iv4-2hhlh5zu8hj-source-3",
+          "text": "Содержание отзывов мы не оцениваем. Результат опубликуем после закрытия списка кодов.",
+          "campaignRef": "iv4-2hhlh5zu8hj"
+        }
+      ]
+    },
+    {
+      "id": "iv4-ptu95dafupj",
+      "campaignRef": "iv4-ptu95dafupj",
+      "language": "kk",
+      "synthetic": true,
+      "sources": [
+        {
+          "id": "iv4-ptu95dafupj-source-1",
+          "text": "Домбыра ішектері жиынтығы 1 800 теңге тұрады. Төлем жасаған әр адамға бір толық жиынтық береміз. Сатып алушыларды жеңімпаздарға бөлмейміз.",
+          "campaignRef": "iv4-ptu95dafupj"
+        }
+      ]
+    }
+  ]
+}

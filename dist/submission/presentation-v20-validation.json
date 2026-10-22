@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "presentation-finalization.v1",
+  "finalSha256": "afc7e93599519d6d3744856412ed9d5ab3965d5f5cc3b76e7eee09e08879ed43",
+  "byteCount": 6042094,
+  "packageIntegrity": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 8,
+    "relationship_part_count": 26,
+    "slide_count": 8,
+    "status": "pass",
+    "exitCode": 0,
+    "findingCount": 0,
+    "warnings": []
+  },
+  "presentationLayout": {
+    "finding_count": 0,
+    "findings": [],
+    "font_policy": {
+      "checked_text_script_count": 130,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Inter",
+        "Manrope"
+      ],
+      "observed_font_use_counts": {
+        "Inter": 63,
+        "Manrope": 67
+      },
+      "passed": true,
+      "performed": true
+    },
+    "slide_count": 8,
+    "slide_size_in": [
+      13.3333,
+      7.5
+    ],
+    "warning_count": 0,
+    "warnings": [],
+    "exitCode": 0,
+    "findingCount": 0,
+    "fontPolicy": {
+      "checked_text_script_count": 130,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Inter",
+        "Manrope"
+      ],
+      "observed_font_use_counts": {
+        "Inter": 63,
+        "Manrope": 67
+      },
+      "passed": true,
+      "performed": true
+    }
+  },
+  "fontSelection": {
+    "basis": "user_request",
+    "approvedFamilies": [
+      "Manrope",
+      "Inter"
+    ],
+    "scriptFonts": {},
+    "referenceSha256": null,
+    "referenceFontsVerifiedInEncodedText": false,
+    "checked_text_script_count": 130,
+    "native_font_rendering_verified": false,
+    "observed_font_families": [
+      "Inter",
+      "Manrope"
+    ],
+    "observed_font_use_counts": {
+      "Inter": 63,
+      "Manrope": 67
+    },
+    "passed": true,
+    "performed": true
+  },
+  "firstPartyImport": {
+    "performed": true,
+    "passed": true,
+    "slideCount": 8,
+    "sha256": "6757b08f4ff82524c467a003e868d18e87f31fe6ac56dd018399d935bb436661",
+    "runtimeNodeModules": "[local runtime path omitted]",
+    "nodeExecutable": "[local runtime path omitted]"
+  },
+  "nativeTableArithmetic": {
+    "performed": true,
+    "checked_column_count": 0,
+    "checks": [],
+    "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+    "eligible_table_count": 0,
+    "finding_count": 0,
+    "findings": [],
+    "native_table_count": 1,
+    "passed": true,
+    "schema_version": "presentation-native-table-arithmetic.v1",
+    "skipped_tables": [
+      {
+        "reason": "insufficient_rows",
+        "slide": 6,
+        "table": 1
+      }
+    ],
+    "slide_count": 8,
+    "warning_count": 0,
+    "warnings": []
+  },
+  "nativeChartTitles": {
+    "performed": true,
+    "checks": [],
+    "finding_count": 0,
+    "findings": [],
+    "native_chart_count": 0,
+    "native_powerpoint_verified": false,
+    "passed": true,
+    "presentation_sha256": "6757b08f4ff82524c467a003e868d18e87f31fe6ac56dd018399d935bb436661",
+    "schema_version": "presentation-native-chart-titles.v1",
+    "slide_count": 8,
+    "source_text_emitted": false,
+    "unresolved_linked_title_count": 0
+  },
+  "sourceDerivedPolicyFlags": [
+    "--expected-slide-size-emu",
+    "12192000,6858000",
+    "--validate-bullet-geometry",
+    "--validate-heading-fit",
+    "--require-native-table-slide",
+    "6",
+    "--cover-role",
+    "none",
+    "--expected-slide-count",
+    "8",
+    "--approved-font-family",
+    "Manrope",
+    "--approved-font-family",
+    "Inter"
+  ],
+  "nativeChartValidation": {
+    "detectedOwnerSlides": [],
+    "detectedChartCount": 0,
+    "targetApplication": "portable",
+    "sourceChartOwnersExplicitlyDeclared": true,
+    "validatorRan": false,
+    "passed": true
+  },
+  "privacySanitization": {
+    "sourceSha256": "6757b08f4ff82524c467a003e868d18e87f31fe6ac56dd018399d935bb436661",
+    "finalSha256": "afc7e93599519d6d3744856412ed9d5ab3965d5f5cc3b76e7eee09e08879ed43",
+    "changedParts": [
+      "ppt/notesSlides/notesSlide1.xml",
+      "ppt/notesSlides/notesSlide2.xml",
+      "ppt/notesSlides/notesSlide3.xml",
+      "ppt/notesSlides/notesSlide4.xml",
+      "ppt/notesSlides/notesSlide5.xml",
+      "ppt/notesSlides/notesSlide6.xml",
+      "ppt/notesSlides/notesSlide7.xml",
+      "ppt/notesSlides/notesSlide8.xml"
+    ],
+    "localPathPrefixesRemoved": 18,
+    "allOtherPackagePartsByteIdentical": true,
+    "scope": "Removed local filesystem prefixes from speaker-note source citations. Prior validation results refer to sourceSha256; visible slide parts and all other package members are byte-identical."
+  }
+}

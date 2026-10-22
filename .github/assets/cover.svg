@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">ІЗ — Розыгрыши под контролем</title>
+  <desc id="desc">Проект команды TEMIR для SafeNet KZ. Три основания, исходные цитаты и отдельное решение аналитика.</desc>
+  <defs>
+    <pattern id="lines" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)">
+      <path d="M0 0V24" stroke="#101010" stroke-width="1" opacity=".09"/>
+    </pattern>
+    <filter id="paper-shadow" x="-15%" y="-15%" width="140%" height="150%">
+      <feDropShadow dx="10" dy="15" stdDeviation="0" flood-color="#101010" flood-opacity=".13"/>
+    </filter>
+  </defs>
+  <path fill="#f5f0e6" d="M0 0h1600v760H0z"/>
+  <path fill="#ed1765" d="M1090 0h510v620h-446L1034 80z"/>
+  <path fill="url(#lines)" d="M1090 0h510v620h-446L1034 80z"/>
+  <g fill="#101010" font-family="Inter,Arial,sans-serif">
+    <text x="64" y="111" font-size="78" font-weight="900" letter-spacing="-6">ІЗ</text>
+    <circle cx="142" cy="51" r="7" fill="#ed1765"/>
+    <path d="M198 46v60" stroke="#c9c2b7"/>
+    <text x="228" y="68" font-size="16" font-weight="750" letter-spacing="2.5">TEMIR</text>
+    <text x="228" y="94" font-size="14" fill="#625e57" letter-spacing=".7">SAFENET KZ · TRACK 1</text>
+    <text x="64" y="250" font-size="90" font-weight="900" letter-spacing="-5.4">Розыгрыши</text>
+    <text x="64" y="348" font-size="90" font-weight="900" letter-spacing="-5.4">под контролем.</text>
+    <path d="M67 376c180-17 390-14 594-3m-570 13c142-9 330-7 477-1" stroke="#ed1765" stroke-width="8" stroke-linecap="round"/>
+    <text x="67" y="442" font-size="27" letter-spacing="-.7">Из условий розыгрыша —</text>
+    <text x="67" y="479" font-size="27" letter-spacing="-.7">в прозрачный разбор с цитатами.</text>
+    <rect x="66" y="528" width="394" height="53" rx="4" fill="#101010"/>
+    <text x="90" y="562" font-size="19" font-weight="650" fill="#fbf8f1" letter-spacing="-.2">Материалы → основания → решение</text>
+  </g>
+  <g transform="rotate(5 1270 325)">
+    <rect x="995" y="152" width="510" height="398" rx="5" fill="#fbf8f1" stroke="#101010" stroke-width="2" filter="url(#paper-shadow)"/>
+    <g font-family="Inter,Arial,sans-serif" fill="#101010">
+      <text x="1026" y="199" font-size="12" font-weight="750" letter-spacing="2">ОСНОВАНИЯ ДЛЯ ПРОВЕРКИ</text>
+      <path d="M1026 220h447" stroke="#c9c2b7"/>
+      <text x="1026" y="263" font-size="15" fill="#aa1749" font-weight="750">01</text>
+      <text x="1070" y="265" font-size="25" font-weight="750" letter-spacing="-.5">Приз</text>
+      <rect x="1070" y="283" width="267" height="10" rx="2" fill="#f9e4ec"/>
+      <path d="M1070 288h237" stroke="#aa1749" stroke-width="1.5"/>
+      <path d="M1026 316h447" stroke="#c9c2b7"/>
+      <text x="1026" y="357" font-size="15" fill="#aa1749" font-weight="750">02</text>
+      <text x="1070" y="359" font-size="25" font-weight="750" letter-spacing="-.5">Обязательная оплата</text>
+      <rect x="1070" y="377" width="332" height="10" rx="2" fill="#f9e4ec"/>
+      <path d="M1070 382h302" stroke="#aa1749" stroke-width="1.5"/>
+      <path d="M1026 410h447" stroke="#c9c2b7"/>
+      <text x="1026" y="451" font-size="15" fill="#aa1749" font-weight="750">03</text>
+      <text x="1070" y="453" font-size="25" font-weight="750" letter-spacing="-.5">Случайный финальный</text>
+      <text x="1070" y="483" font-size="25" font-weight="750" letter-spacing="-.5">победитель</text>
+      <text x="1026" y="526" font-size="12" fill="#625e57">Исходный текст остаётся рядом с выводом</text>
+    </g>
+  </g>
+  <path d="M946 484c-63 24-91 36-144 31m13-22-22 22 25 18" stroke="#101010" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 620h1472" stroke="#8e877b"/>
+  <g fill="#101010" font-family="Inter,Arial,sans-serif">
+    <text x="64" y="666" font-size="13" font-weight="750" letter-spacing="1.6">НА КАЖДОМ ШАГЕ — ОСНОВАНИЕ</text>
+    <text x="64" y="711" font-size="24" font-weight="650" letter-spacing="-.5">Точные цитаты</text>
+    <path d="M492 650v66" stroke="#c9c2b7"/>
+    <text x="532" y="666" font-size="13" font-weight="750" letter-spacing="1.6">ЧЕЛОВЕК ПРИНИМАЕТ РЕШЕНИЕ</text>
+    <text x="532" y="711" font-size="24" font-weight="650" letter-spacing="-.5">Отдельный ручной разбор</text>
+    <path d="M1062 650v66" stroke="#c9c2b7"/>
+    <text x="1102" y="666" font-size="13" font-weight="750" letter-spacing="1.6">ЛОКАЛЬНЫЙ MVP</text>
+    <text x="1102" y="711" font-size="24" font-weight="650" letter-spacing="-.5">В браузере · RU / KK</text>
+  </g>
+</svg>

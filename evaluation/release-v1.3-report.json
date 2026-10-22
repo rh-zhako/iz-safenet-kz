@@ -1,0 +1,1317 @@
+{
+  "schemaVersion": 2,
+  "engineVersion": "1.3.0-track1-rules",
+  "evaluatedAt": "2026-10-20T13:43:57.147Z",
+  "datasetSha256": "7b70134f79eca9d35758039495a50e0b3240c9530ce642489ab55da0b630136b",
+  "synthetic": true,
+  "positiveDefinition": "Explicit prize/raffle + mandatory entry payment + random winner, no unresolved contradiction",
+  "provenance": "Authored synthetic text scenarios; no real persons or accounts. Labels fixed before engine changes. Same developer authored dataset and engine; not independently blinded.",
+  "headlineSplit": "holdout",
+  "holdout": {
+    "engineVersion": "1.3.0-track1-rules",
+    "dataset": "24 frozen authored holdout scenarios; not independently blinded",
+    "synthetic": true,
+    "total": 24,
+    "positiveDefinition": "high: observed prize + mandatory entry payment + random selection, without unresolved contradiction",
+    "precision": 1,
+    "recall": 1,
+    "falsePositiveRate": 0,
+    "accuracy": 0.9583333333333334,
+    "decisionCoverage": 0.7083333333333334,
+    "tp": 8,
+    "fp": 0,
+    "tn": 16,
+    "fn": 0,
+    "matrix": {
+      "high": {
+        "high": 8,
+        "medium": 0,
+        "low": 0
+      },
+      "medium": {
+        "high": 0,
+        "medium": 6,
+        "low": 0
+      },
+      "low": {
+        "high": 0,
+        "medium": 1,
+        "low": 9
+      }
+    },
+    "quoteErrors": 0,
+    "cases": [
+      {
+        "id": "holdout-01",
+        "title": "holdout: slots",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "tag": "slots"
+      },
+      {
+        "id": "holdout-02",
+        "title": "holdout: entry-price",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "tag": "entry-price"
+      },
+      {
+        "id": "holdout-03",
+        "title": "holdout: cross-post",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "mix",
+        "tag": "cross-post"
+      },
+      {
+        "id": "holdout-04",
+        "title": "holdout: ticket-translit",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "translit",
+        "tag": "ticket-translit"
+      },
+      {
+        "id": "holdout-05",
+        "title": "holdout: mandatory-donation",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "tag": "mandatory-donation"
+      },
+      {
+        "id": "holdout-06",
+        "title": "holdout: gift-purchase",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "tag": "gift-purchase"
+      },
+      {
+        "id": "holdout-07",
+        "title": "holdout: paid",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "tag": "paid"
+      },
+      {
+        "id": "holdout-08",
+        "title": "holdout: wheel-live",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 95,
+        "language": "ru",
+        "tag": "wheel-live"
+      },
+      {
+        "id": "holdout-09",
+        "title": "holdout: no-payment",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "tag": "no-payment"
+      },
+      {
+        "id": "holdout-10",
+        "title": "holdout: no-payment-kz",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "kk",
+        "tag": "no-payment-kz"
+      },
+      {
+        "id": "holdout-11",
+        "title": "holdout: educational",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 3,
+        "language": "ru",
+        "tag": "educational"
+      },
+      {
+        "id": "holdout-12",
+        "title": "holdout: warning",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 3,
+        "language": "kk",
+        "tag": "warning"
+      },
+      {
+        "id": "holdout-13",
+        "title": "holdout: skills",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 12,
+        "language": "ru",
+        "tag": "skills"
+      },
+      {
+        "id": "holdout-14",
+        "title": "holdout: retail-negated",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "ru",
+        "tag": "retail-negated"
+      },
+      {
+        "id": "holdout-15",
+        "title": "holdout: shipping",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "tag": "shipping"
+      },
+      {
+        "id": "holdout-16",
+        "title": "holdout: free-mixed",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mix",
+        "tag": "free-mixed"
+      },
+      {
+        "id": "holdout-17",
+        "title": "holdout: free",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "translit",
+        "tag": "free"
+      },
+      {
+        "id": "holdout-18",
+        "title": "holdout: prize-price",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "ru",
+        "tag": "prize-price"
+      },
+      {
+        "id": "holdout-19",
+        "title": "holdout: no-method",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "ru",
+        "tag": "no-method"
+      },
+      {
+        "id": "holdout-20",
+        "title": "holdout: no-method-kz",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "kk",
+        "tag": "no-method-kz"
+      },
+      {
+        "id": "holdout-21",
+        "title": "holdout: conflict",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "mix",
+        "tag": "conflict"
+      },
+      {
+        "id": "holdout-22",
+        "title": "holdout: incomplete",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "ru",
+        "tag": "incomplete"
+      },
+      {
+        "id": "holdout-23",
+        "title": "holdout: jury-conflict",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "ru",
+        "tag": "jury-conflict"
+      },
+      {
+        "id": "holdout-24",
+        "title": "holdout: teaser",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 35,
+        "language": "ru",
+        "tag": "teaser"
+      }
+    ],
+    "baseline": {
+      "name": "Any single source classified high",
+      "precision": 1,
+      "recall": 0.875,
+      "falsePositiveRate": 0
+    },
+    "limitations": [
+      "Synthetic authored scenarios with limited wording variation.",
+      "Used for implementation checks; not an independently blinded evaluation.",
+      "Medium cases remain in the denominator for binary metrics.",
+      "OCR quality is not evaluated by this text scenario benchmark."
+    ],
+    "confidence95": {
+      "precision": [
+        0.6755843804891231,
+        1
+      ],
+      "recall": [
+        0.6755843804891231,
+        1
+      ],
+      "falsePositiveRate": [
+        0,
+        0.19361341827271994
+      ]
+    },
+    "byLanguage": {
+      "ru": {
+        "n": 14,
+        "tp": 4,
+        "fp": 0,
+        "tn": 10,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0,
+        "accuracy": 0.9285714285714286
+      },
+      "kk": {
+        "n": 5,
+        "tp": 2,
+        "fp": 0,
+        "tn": 3,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0,
+        "accuracy": 1
+      },
+      "mix": {
+        "n": 3,
+        "tp": 1,
+        "fp": 0,
+        "tn": 2,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0,
+        "accuracy": 1
+      },
+      "translit": {
+        "n": 2,
+        "tp": 1,
+        "fp": 0,
+        "tn": 1,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0,
+        "accuracy": 1
+      }
+    },
+    "triage": {
+      "positiveDefinition": "expected high or medium vs low; queue predicts high or medium",
+      "tp": 14,
+      "fp": 1,
+      "tn": 9,
+      "fn": 0,
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "falsePositiveRate": 0.1,
+      "confidence95": {
+        "precision": [
+          0.7018292244757601,
+          0.9881334113938051
+        ],
+        "recall": [
+          0.7846829880728186,
+          1
+        ],
+        "falsePositiveRate": [
+          0.01787574951572113,
+          0.4041563854975721
+        ]
+      }
+    }
+  },
+  "development": {
+    "engineVersion": "1.3.0-track1-rules",
+    "dataset": "32 authored development scenarios",
+    "synthetic": true,
+    "total": 32,
+    "positiveDefinition": "high: observed prize + mandatory entry payment + random selection, without unresolved contradiction",
+    "precision": 1,
+    "recall": 1,
+    "falsePositiveRate": 0,
+    "accuracy": 1,
+    "decisionCoverage": 0.75,
+    "tp": 10,
+    "fp": 0,
+    "tn": 22,
+    "fn": 0,
+    "matrix": {
+      "high": {
+        "high": 10,
+        "medium": 0,
+        "low": 0
+      },
+      "medium": {
+        "high": 0,
+        "medium": 8,
+        "low": 0
+      },
+      "low": {
+        "high": 0,
+        "medium": 0,
+        "low": 14
+      }
+    },
+    "quoteErrors": 0,
+    "cases": [
+      {
+        "id": "development-01",
+        "title": "development: wheel",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 95,
+        "language": "ru",
+        "tag": "wheel"
+      },
+      {
+        "id": "development-02",
+        "title": "development: paid-kz",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "tag": "paid-kz"
+      },
+      {
+        "id": "development-03",
+        "title": "development: split",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "tag": "split"
+      },
+      {
+        "id": "development-04",
+        "title": "development: purchase",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "tag": "purchase"
+      },
+      {
+        "id": "development-05",
+        "title": "development: mixed",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mix",
+        "tag": "mixed"
+      },
+      {
+        "id": "development-06",
+        "title": "development: translit",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "translit",
+        "tag": "translit"
+      },
+      {
+        "id": "development-07",
+        "title": "development: not-free",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "tag": "not-free"
+      },
+      {
+        "id": "development-08",
+        "title": "development: free-delivery",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "tag": "free-delivery"
+      },
+      {
+        "id": "development-09",
+        "title": "development: slang",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "tag": "slang"
+      },
+      {
+        "id": "development-10",
+        "title": "development: ticket-kz",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "tag": "ticket-kz"
+      },
+      {
+        "id": "development-11",
+        "title": "development: free",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "tag": "free"
+      },
+      {
+        "id": "development-12",
+        "title": "development: free-kz",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "kk",
+        "tag": "free-kz"
+      },
+      {
+        "id": "development-13",
+        "title": "development: warning",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 3,
+        "language": "ru",
+        "tag": "warning"
+      },
+      {
+        "id": "development-14",
+        "title": "development: warning-kz",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 3,
+        "language": "kk",
+        "tag": "warning-kz"
+      },
+      {
+        "id": "development-15",
+        "title": "development: jury",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 12,
+        "language": "ru",
+        "tag": "jury"
+      },
+      {
+        "id": "development-16",
+        "title": "development: retail",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "ru",
+        "tag": "retail"
+      },
+      {
+        "id": "development-17",
+        "title": "development: voluntary",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "tag": "voluntary"
+      },
+      {
+        "id": "development-18",
+        "title": "development: voluntary-kz",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "kk",
+        "tag": "voluntary-kz"
+      },
+      {
+        "id": "development-19",
+        "title": "development: delivery",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "tag": "delivery"
+      },
+      {
+        "id": "development-20",
+        "title": "development: negation",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 12,
+        "language": "ru",
+        "tag": "negation"
+      },
+      {
+        "id": "development-21",
+        "title": "development: price-prize",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "tag": "price-prize"
+      },
+      {
+        "id": "development-22",
+        "title": "development: no-raffle",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "ru",
+        "tag": "no-raffle"
+      },
+      {
+        "id": "development-23",
+        "title": "development: free-translit",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "translit",
+        "tag": "free-translit"
+      },
+      {
+        "id": "development-24",
+        "title": "development: no-commission",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "tag": "no-commission"
+      },
+      {
+        "id": "development-25",
+        "title": "development: missing-random",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "ru",
+        "tag": "missing-random"
+      },
+      {
+        "id": "development-26",
+        "title": "development: conflict-free",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "ru",
+        "tag": "conflict-free"
+      },
+      {
+        "id": "development-27",
+        "title": "development: conflict-jury",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "ru",
+        "tag": "conflict-jury"
+      },
+      {
+        "id": "development-28",
+        "title": "development: unknown-entry",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "ru",
+        "tag": "unknown-entry"
+      },
+      {
+        "id": "development-29",
+        "title": "development: unknown-entry-kz",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "kk",
+        "tag": "unknown-entry-kz"
+      },
+      {
+        "id": "development-30",
+        "title": "development: missing-prize",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "ru",
+        "tag": "missing-prize"
+      },
+      {
+        "id": "development-31",
+        "title": "development: teaser",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 35,
+        "language": "ru",
+        "tag": "teaser"
+      },
+      {
+        "id": "development-32",
+        "title": "development: conflict-kz",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "mix",
+        "tag": "conflict-kz"
+      }
+    ],
+    "baseline": {
+      "name": "Any single source classified high",
+      "precision": 1,
+      "recall": 0.9,
+      "falsePositiveRate": 0
+    },
+    "limitations": [
+      "Synthetic authored scenarios with limited wording variation.",
+      "Used for implementation checks; not an independently blinded evaluation.",
+      "Medium cases remain in the denominator for binary metrics.",
+      "OCR quality is not evaluated by this text scenario benchmark."
+    ],
+    "confidence95": {
+      "precision": [
+        0.7224598312333834,
+        1
+      ],
+      "recall": [
+        0.7224598312333834,
+        1
+      ],
+      "falsePositiveRate": [
+        1.3877787807814457e-17,
+        0.14865952572596125
+      ]
+    },
+    "byLanguage": {
+      "ru": {
+        "n": 22,
+        "tp": 6,
+        "fp": 0,
+        "tn": 16,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0,
+        "accuracy": 1
+      },
+      "kk": {
+        "n": 6,
+        "tp": 2,
+        "fp": 0,
+        "tn": 4,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0,
+        "accuracy": 1
+      },
+      "mix": {
+        "n": 2,
+        "tp": 1,
+        "fp": 0,
+        "tn": 1,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0,
+        "accuracy": 1
+      },
+      "translit": {
+        "n": 2,
+        "tp": 1,
+        "fp": 0,
+        "tn": 1,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0,
+        "accuracy": 1
+      }
+    },
+    "triage": {
+      "positiveDefinition": "expected high or medium vs low; queue predicts high or medium",
+      "tp": 18,
+      "fp": 0,
+      "tn": 14,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "falsePositiveRate": 0.0,
+      "confidence95": {
+        "precision": [
+          0.8241154494176252,
+          1
+        ],
+        "recall": [
+          0.8241154494176252,
+          1
+        ],
+        "falsePositiveRate": [
+          0,
+          0.21531701192718142
+        ]
+      }
+    }
+  },
+  "regression": {
+    "engineVersion": "1.3.0-track1-rules",
+    "dataset": "28 historical authored regression scenarios",
+    "synthetic": true,
+    "total": 28,
+    "positiveDefinition": "high: observed prize + mandatory entry payment + random selection, without unresolved contradiction",
+    "precision": 1,
+    "recall": 1,
+    "falsePositiveRate": 0,
+    "accuracy": 1,
+    "decisionCoverage": 0.75,
+    "tp": 10,
+    "fp": 0,
+    "tn": 18,
+    "fn": 0,
+    "matrix": {
+      "high": {
+        "high": 10,
+        "medium": 0,
+        "low": 0
+      },
+      "medium": {
+        "high": 0,
+        "medium": 7,
+        "low": 0
+      },
+      "low": {
+        "high": 0,
+        "medium": 0,
+        "low": 11
+      }
+    },
+    "quoteErrors": 0,
+    "cases": [
+      {
+        "id": "eval-01",
+        "title": "Номер для путешествия",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-02",
+        "title": "Құлаққапқа бір мүмкіндік",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-03",
+        "title": "Билет внутри заказа",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-04",
+        "title": "Донат даёт шанс",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-05",
+        "title": "Лот с оплаченной подпиской",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-06",
+        "title": "Код на шанс",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-07",
+        "title": "Пул оплаченных мест",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 95,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-08",
+        "title": "Ұтысқа қатысу жарнасы",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-09",
+        "title": "Купон и денежный приз",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-10",
+        "title": "Покупка открывает жеребьёвку",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-11",
+        "title": "Бесплатные закладки",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-12",
+        "title": "Бағасы бар сыйлық",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-13",
+        "title": "Доставка после результата",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-14",
+        "title": "Обычная продажа фонаря",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-15",
+        "title": "Цитата в памятке",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-16",
+        "title": "Пожертвование без приза",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-17",
+        "title": "Побеждает лучший рассказ",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 12,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-18",
+        "title": "Друг в комментарии",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-19",
+        "title": "Тегін кітап ұтысы",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-20",
+        "title": "Урок по вероятности",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 3,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-21",
+        "title": "Жеребьёвка без условий участия",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-22",
+        "title": "Взнос с неизвестным выбором",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-23",
+        "title": "Бесплатно и обязательный билет",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-24",
+        "title": "Есть оплата, приз неизвестен",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-25",
+        "title": "Из анонса исчез способ выбора",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-26",
+        "title": "Тегін және ақылы шарт қатар",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-27",
+        "title": "Слово «розыгрыш» без деталей",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 35,
+        "language": "mixed",
+        "tag": "regression"
+      },
+      {
+        "id": "eval-28",
+        "title": "Бесплатный путь к подарку",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "tag": "regression"
+      }
+    ],
+    "baseline": {
+      "name": "Any single source classified high",
+      "precision": 1,
+      "recall": 0.1,
+      "falsePositiveRate": 0
+    },
+    "limitations": [
+      "Synthetic authored scenarios with limited wording variation.",
+      "Used for implementation checks; not an independently blinded evaluation.",
+      "Medium cases remain in the denominator for binary metrics.",
+      "OCR quality is not evaluated by this text scenario benchmark."
+    ],
+    "confidence95": {
+      "precision": [
+        0.7224598312333834,
+        1
+      ],
+      "recall": [
+        0.7224598312333834,
+        1
+      ],
+      "falsePositiveRate": [
+        0,
+        0.1758845505823749
+      ]
+    },
+    "byLanguage": {
+      "mixed": {
+        "n": 28,
+        "tp": 10,
+        "fp": 0,
+        "tn": 18,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0,
+        "accuracy": 1
+      }
+    },
+    "triage": {
+      "positiveDefinition": "expected high or medium vs low; queue predicts high or medium",
+      "tp": 17,
+      "fp": 0,
+      "tn": 11,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "falsePositiveRate": 0.0,
+      "confidence95": {
+        "precision": [
+          0.8156763396284354,
+          1
+        ],
+        "recall": [
+          0.8156763396284354,
+          1
+        ],
+        "falsePositiveRate": [
+          2.7755575615628914e-17,
+          0.2588400172488141
+        ]
+      }
+    }
+  },
+  "performance": {
+    "runtime": "v24.19.0",
+    "platform": "darwin",
+    "architecture": "arm64",
+    "iterations": 10000,
+    "elapsedMs": 191.49525,
+    "campaignsPerSecond": 52220.61643826675,
+    "p50Ms": 0.017208999999994035,
+    "p95Ms": 0.034874999999999545,
+    "scope": "Warm Node.js in-process short text rules only; excludes OCR, network, UI, persistence and server concurrency."
+  },
+  "limitations": [
+    "Authored synthetic scenarios, no independent annotators or real social media benchmark.",
+    "Holdout wording was fixed before engine edits; development and engine have the same author.",
+    "Labels describe textual indicators, not legal status or actual fraud.",
+    "Small sample; report Wilson 95% intervals and counts.",
+    "Text metrics do not measure OCR or ASR quality.",
+    "Performance is a local rules microbenchmark, not production throughput."
+  ],
+  "engineSha256": "e7ee23751f5aad0c91a863f00ea5ea0f73d280d8e22db00137c17f5678daf17f"
+}

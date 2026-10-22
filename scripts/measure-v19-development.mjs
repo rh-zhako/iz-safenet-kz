@@ -1,0 +1,20 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {analyzeCampaign,ENGINE_VERSION} from '../dist/engine.mjs';
+import {analyzeCampaign as previous} from '../evaluation/engine-v1.8-snapshot.mjs';
+import {canonicalCase,scoreCases,pairedComparison} from './measure-v17.mjs';
+const root=new URL('../',import.meta.url),read=p=>readFileSync(new URL(p,root)),json=p=>JSON.parse(read(p)),sha=b=>createHash('sha256').update(b).digest('hex');
+const frozen=json('evaluation/fresh-ai-v6-report.json');
+if(sha(read('evaluation/engine-v1.8-snapshot.mjs'))!==frozen.engineSha256)throw new Error('Frozen v1.8 changed.');
+const sources=['challenge-v1','independent-v2','independent-v3','independent-v4','independent-v5','fresh-ai-v6'];
+const sets={};
+for(const name of sources){const cs=json(`evaluation/${name}.json`).cases.map(c=>canonicalCase({...c,expectedRisk:c.expectedRisk||c.expected}));sets[name]=scoreCases(cs,`${name}: OPEN DEVELOPMENT; known cases, not a fresh blind result`,analyzeCampaign,ENGINE_VERSION);}
+const cases=name=>json(`evaluation/${name}.json`).cases.map(c=>canonicalCase({...c,expectedRisk:c.expectedRisk||c.expected}));
+const baseline=scoreCases(cases('independent-v5'),'Frozen v1.8 on open v5',previous,'1.8.0-track1-evidence');
+const b6=scoreCases(cases('fresh-ai-v6'),'Frozen v1.8 on now-open v6',previous,'1.8.0-track1-evidence');
+if(JSON.stringify(b6.cases)!==JSON.stringify(frozen.result.cases))throw new Error('Original v6 predictions do not reproduce.');
+const report={schemaVersion:1,status:'OPEN_DEVELOPMENT_NOT_INDEPENDENT',engineVersion:ENGINE_VERSION,engineSha256:sha(read('dist/engine.mjs')),at:new Date().toISOString(),provenance:'v1-v6 are open synthetic development data. v1.9 was tuned after the first v1.8/v6 run. These results do not establish performance on unseen data.',sets,comparison:{dataset:'Same open v5, descriptive development comparison only',baseline,paired:pairedComparison(sets['independent-v5'],baseline)},freshV6Development:{before:b6,after:sets['fresh-ai-v6'],paired:pairedComparison(sets['fresh-ai-v6'],b6)},historicalFreshV6Report:'fresh-ai-v6-report.json',limitations:['Development corpora are already known to the developer.','The original v1.8/v6 first run is preserved unchanged, including all failures.','No humans, real posts or analyst performance were measured.']};
+writeFileSync(new URL('evaluation/development-v19-report.json',root),JSON.stringify(report,null,2)+'\n');
+writeFileSync(new URL('dist/development-evaluation.mjs',root),'// Open v1.9 development results. Never a blind accuracy claim.\nexport const developmentEvaluation = '+JSON.stringify(report)+';\n');
+console.log(JSON.stringify({version:ENGINE_VERSION,quoteErrors:Object.fromEntries(Object.entries(sets).map(([k,v])=>[k,v.quoteErrors])),v5:{before:baseline.accuracy,after:sets['independent-v5'].accuracy},v6:{before:b6.accuracy,after:sets['fresh-ai-v6'].accuracy,paired:report.freshV6Development.paired}},null,2));
+if(Object.values(sets).some(r=>r.quoteErrors))process.exitCode=1;

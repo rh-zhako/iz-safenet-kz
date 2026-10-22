@@ -1,0 +1,1111 @@
+{
+  "version": "challenge-v1",
+  "created": "2026-10-20",
+  "provenance": "Authored synthetic text scenarios; no real persons or accounts. Labels fixed before engine changes. Same developer authored dataset and engine; not independently blinded.",
+  "labelDefinition": {
+    "high": "Explicit prize/raffle + mandatory entry payment + random winner, no unresolved contradiction",
+    "medium": "Missing core conditions or conflicting active terms",
+    "low": "Explicit free entry, skill/jury selection, warnings or ordinary retail"
+  },
+  "cases": [
+    {
+      "id": "development-01",
+      "title": "development: wheel",
+      "split": "development",
+      "language": "ru",
+      "tag": "wheel",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-01-s1",
+          "type": "text",
+          "text": "Розыгрыш телефона. Слот 2500 тенге. Победителя определит колесо фортуны. Комиссия организатора 8%.",
+          "campaignRef": "development-01",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-02",
+      "title": "development: paid-kz",
+      "split": "development",
+      "language": "kk",
+      "tag": "paid-kz",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-02-s1",
+          "type": "text",
+          "text": "Телефон ұтысы! Қатысу құны 1500 теңге. Жеңімпаз кездейсоқ таңдалады.",
+          "campaignRef": "development-02",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-03",
+      "title": "development: split",
+      "split": "development",
+      "language": "ru",
+      "tag": "split",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-03-s1",
+          "type": "text",
+          "text": "Разыгрываем велосипед. #draw_dev03",
+          "campaignRef": "development-03",
+          "kind": "post"
+        },
+        {
+          "id": "development-03-s2",
+          "type": "text",
+          "text": "Для участия переведите взнос на карту. #draw_dev03",
+          "campaignRef": "development-03",
+          "kind": "post"
+        },
+        {
+          "id": "development-03-s3",
+          "type": "text",
+          "text": "Победитель через жеребьевку в эфире. #draw_dev03",
+          "campaignRef": "development-03",
+          "kind": "live"
+        }
+      ]
+    },
+    {
+      "id": "development-04",
+      "title": "development: purchase",
+      "split": "development",
+      "language": "ru",
+      "tag": "purchase",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-04-s1",
+          "type": "text",
+          "text": "Приз — планшет. Чтобы участвовать, купите набор за 5000 тенге. Победителя выберет рандомайзер.",
+          "campaignRef": "development-04",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-05",
+      "title": "development: mixed",
+      "split": "development",
+      "language": "mix",
+      "tag": "mixed",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-05-s1",
+          "type": "text",
+          "text": "Жүлде — смартфон. Для участия оплатите билет. Кездейсоқ жеңімпазды анықтаймыз.",
+          "campaignRef": "development-05",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-06",
+      "title": "development: translit",
+      "split": "development",
+      "language": "translit",
+      "tag": "translit",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-06-s1",
+          "type": "text",
+          "text": "Rozygrysh telefona. Bilet 2000 KZT. Pobeditel random.",
+          "campaignRef": "development-06",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-07",
+      "title": "development: not-free",
+      "split": "development",
+      "language": "ru",
+      "tag": "not-free",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-07-s1",
+          "type": "text",
+          "text": "Розыгрыш часов. Участие не бесплатно. Победителя выберем случайно.",
+          "campaignRef": "development-07",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-08",
+      "title": "development: free-delivery",
+      "split": "development",
+      "language": "ru",
+      "tag": "free-delivery",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-08-s1",
+          "type": "text",
+          "text": "Разыгрываем самокат. Билет 3000 тг. Доставка приза бесплатная. Победитель через жеребьевку.",
+          "campaignRef": "development-08",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-09",
+      "title": "development: slang",
+      "split": "development",
+      "language": "ru",
+      "tag": "slang",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-09-s1",
+          "type": "text",
+          "text": "Розыгрыш приставки. Слот за 2к тенге. Крутим колесо в эфире.",
+          "campaignRef": "development-09",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-10",
+      "title": "development: ticket-kz",
+      "split": "development",
+      "language": "kk",
+      "tag": "ticket-kz",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-10-s1",
+          "type": "text",
+          "text": "Көлік ұтысы. Нөмір бағасы 2000 теңге. Жеңімпаз рандом арқылы таңдалады.",
+          "campaignRef": "development-10",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-11",
+      "title": "development: free",
+      "split": "development",
+      "language": "ru",
+      "tag": "free",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-11-s1",
+          "type": "text",
+          "text": "Разыгрываем книгу. Участие бесплатно, покупка не обязательна. Победителя выберем случайно.",
+          "campaignRef": "development-11",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-12",
+      "title": "development: free-kz",
+      "split": "development",
+      "language": "kk",
+      "tag": "free-kz",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-12-s1",
+          "type": "text",
+          "text": "Кітап ұтысы. Қатысу тегін. Жеңімпаз кездейсоқ таңдалады.",
+          "campaignRef": "development-12",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-13",
+      "title": "development: warning",
+      "split": "development",
+      "language": "ru",
+      "tag": "warning",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-13-s1",
+          "type": "text",
+          "text": "Мошенники предлагают: «Розыгрыш телефона. Билет 3000 тг. Победитель случайный». Не переводите деньги.",
+          "campaignRef": "development-13",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-14",
+      "title": "development: warning-kz",
+      "split": "development",
+      "language": "kk",
+      "tag": "warning-kz",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-14-s1",
+          "type": "text",
+          "text": "Алаяқтар ұсынады: «Телефон ұтысы. Нөмір 2000 теңге. Жеңімпаз рандом». Ақша аудармаңыз.",
+          "campaignRef": "development-14",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-15",
+      "title": "development: jury",
+      "split": "development",
+      "language": "ru",
+      "tag": "jury",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-15-s1",
+          "type": "text",
+          "text": "Конкурс рисунков с призом. Регистрационный взнос 1000 тенге. Победителя определяет жюри.",
+          "campaignRef": "development-15",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-16",
+      "title": "development: retail",
+      "split": "development",
+      "language": "ru",
+      "tag": "retail",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-16-s1",
+          "type": "text",
+          "text": "Продаём смартфон за 50000 тенге. Это обычная продажа, розыгрыша нет.",
+          "campaignRef": "development-16",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-17",
+      "title": "development: voluntary",
+      "split": "development",
+      "language": "ru",
+      "tag": "voluntary",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-17-s1",
+          "type": "text",
+          "text": "Розыгрыш книги. Участие бесплатно. Донат по желанию, на шансы не влияет. Победитель случайный.",
+          "campaignRef": "development-17",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-18",
+      "title": "development: voluntary-kz",
+      "split": "development",
+      "language": "kk",
+      "tag": "voluntary-kz",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-18-s1",
+          "type": "text",
+          "text": "Кітап ұтысы. Қатысу тегін. Қатысу үшін донат міндетті емес. Жеңімпаз кездейсоқ таңдалады.",
+          "campaignRef": "development-18",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-19",
+      "title": "development: delivery",
+      "split": "development",
+      "language": "ru",
+      "tag": "delivery",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-19-s1",
+          "type": "text",
+          "text": "Розыгрыш книги. Участие бесплатно. Победитель оплачивает доставку после выигрыша. Выбор случайный.",
+          "campaignRef": "development-19",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-20",
+      "title": "development: negation",
+      "split": "development",
+      "language": "ru",
+      "tag": "negation",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-20-s1",
+          "type": "text",
+          "text": "Конкурс с призом. Для участия оплатите взнос. Рандом не используется. Победителя выбирает жюри.",
+          "campaignRef": "development-20",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-21",
+      "title": "development: price-prize",
+      "split": "development",
+      "language": "ru",
+      "tag": "price-prize",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-21-s1",
+          "type": "text",
+          "text": "Розыгрыш смартфона. Цена приза 300000 тенге. Участие бесплатно. Победитель случайный.",
+          "campaignRef": "development-21",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-22",
+      "title": "development: no-raffle",
+      "split": "development",
+      "language": "ru",
+      "tag": "no-raffle",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-22-s1",
+          "type": "text",
+          "text": "Билет на концерт 8000 тенге. Места распределяются случайно. Розыгрыша и приза нет.",
+          "campaignRef": "development-22",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-23",
+      "title": "development: free-translit",
+      "split": "development",
+      "language": "translit",
+      "tag": "free-translit",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-23-s1",
+          "type": "text",
+          "text": "Rozygrysh knigi. Uchastie besplatno, bez oplaty. Random vyberet pobeditelya.",
+          "campaignRef": "development-23",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-24",
+      "title": "development: no-commission",
+      "split": "development",
+      "language": "ru",
+      "tag": "no-commission",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-24-s1",
+          "type": "text",
+          "text": "Розыгрыш книги. Участие бесплатно. Победитель случайный. Комиссия организатора 0%.",
+          "campaignRef": "development-24",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-25",
+      "title": "development: missing-random",
+      "split": "development",
+      "language": "ru",
+      "tag": "missing-random",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-25-s1",
+          "type": "text",
+          "text": "Разыгрываем телефон. Для участия оплатите билет 2000 тенге. Способ определения победителя пока не указан.",
+          "campaignRef": "development-25",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-26",
+      "title": "development: conflict-free",
+      "split": "development",
+      "language": "ru",
+      "tag": "conflict-free",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-26-s1",
+          "type": "text",
+          "text": "Розыгрыш планшета. Участие бесплатное. Победителя выберем случайно.",
+          "campaignRef": "development-26",
+          "kind": "post"
+        },
+        {
+          "id": "development-26-s2",
+          "type": "text",
+          "text": "Для участия обязательно купите билет за 2000 тенге.",
+          "campaignRef": "development-26",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-27",
+      "title": "development: conflict-jury",
+      "split": "development",
+      "language": "ru",
+      "tag": "conflict-jury",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-27-s1",
+          "type": "text",
+          "text": "Розыгрыш ноутбука. Билет 4000 тг. Победитель через рандом. Победителя определяет жюри.",
+          "campaignRef": "development-27",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-28",
+      "title": "development: unknown-entry",
+      "split": "development",
+      "language": "ru",
+      "tag": "unknown-entry",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-28-s1",
+          "type": "text",
+          "text": "Разыгрываем велосипед. Победитель случайный. Условия участия опубликуем вечером.",
+          "campaignRef": "development-28",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-29",
+      "title": "development: unknown-entry-kz",
+      "split": "development",
+      "language": "kk",
+      "tag": "unknown-entry-kz",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-29-s1",
+          "type": "text",
+          "text": "Телефон ұтысы. Жеңімпаз кездейсоқ таңдалады.",
+          "campaignRef": "development-29",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-30",
+      "title": "development: missing-prize",
+      "split": "development",
+      "language": "ru",
+      "tag": "missing-prize",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-30-s1",
+          "type": "text",
+          "text": "Для участия оплатите взнос. Победитель определяется случайно. Описание приза появится позже.",
+          "campaignRef": "development-30",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-31",
+      "title": "development: teaser",
+      "split": "development",
+      "language": "ru",
+      "tag": "teaser",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-31-s1",
+          "type": "text",
+          "text": "Розыгрыш! Полные условия будут позже.",
+          "campaignRef": "development-31",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "development-32",
+      "title": "development: conflict-kz",
+      "split": "development",
+      "language": "mix",
+      "tag": "conflict-kz",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "development-32-s1",
+          "type": "text",
+          "text": "Жүлде — сағат. Қатысу тегін. Қатысу үшін міндетті төлем 2000 теңге. Жеңімпаз кездейсоқ таңдалады.",
+          "campaignRef": "development-32",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-01",
+      "title": "holdout: slots",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "slots",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-01-s1",
+          "type": "text",
+          "text": "Разыгрываем наушники. Продажа слотов открыта. Победитель через колесо удачи.",
+          "campaignRef": "holdout-01",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-02",
+      "title": "holdout: entry-price",
+      "split": "holdout",
+      "language": "kk",
+      "tag": "entry-price",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-02-s1",
+          "type": "text",
+          "text": "Жүлде — ноутбук. Қатысу құны 2500 теңге. Жеңімпазды кездейсоқ таңдаймыз.",
+          "campaignRef": "holdout-02",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-03",
+      "title": "holdout: cross-post",
+      "split": "holdout",
+      "language": "mix",
+      "tag": "cross-post",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-03-s1",
+          "type": "text",
+          "text": "Планшет ұтысы! #draw_hold03",
+          "campaignRef": "holdout-03",
+          "kind": "post"
+        },
+        {
+          "id": "holdout-03-s2",
+          "type": "text",
+          "text": "Нөмір бағасы 3500 теңге. #draw_hold03",
+          "campaignRef": "holdout-03",
+          "kind": "post"
+        },
+        {
+          "id": "holdout-03-s3",
+          "type": "text",
+          "text": "Победителя определит рандомайзер. #draw_hold03",
+          "campaignRef": "holdout-03",
+          "kind": "live"
+        }
+      ]
+    },
+    {
+      "id": "holdout-04",
+      "title": "holdout: ticket-translit",
+      "split": "holdout",
+      "language": "translit",
+      "tag": "ticket-translit",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-04-s1",
+          "type": "text",
+          "text": "Rozygrysh velosipeda. Bilet 4500 KZT. Random opredelit pobeditelya.",
+          "campaignRef": "holdout-04",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-05",
+      "title": "holdout: mandatory-donation",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "mandatory-donation",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-05-s1",
+          "type": "text",
+          "text": "Розыгрыш игровой консоли. Обязательный донат для участия 1500 тенге. Победитель через жеребьевку.",
+          "campaignRef": "holdout-05",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-06",
+      "title": "holdout: gift-purchase",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "gift-purchase",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-06-s1",
+          "type": "text",
+          "text": "Дарим телефон. Для участия обязательная покупка набора. Выбор победителя случайный.",
+          "campaignRef": "holdout-06",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-07",
+      "title": "holdout: paid",
+      "split": "holdout",
+      "language": "kk",
+      "tag": "paid",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-07-s1",
+          "type": "text",
+          "text": "Ұтысқа қатысу ақылы. Жүлде — велосипед. Жеңімпаз рандом арқылы анықталады.",
+          "campaignRef": "holdout-07",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-08",
+      "title": "holdout: wheel-live",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "wheel-live",
+      "expectedRisk": "high",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-08-s1",
+          "type": "text",
+          "text": "Приз — телевизор. За номер 5000 тенге. В эфире запускаем колесо фортуны. Доход организатора — комиссия.",
+          "campaignRef": "holdout-08",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-09",
+      "title": "holdout: no-payment",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "no-payment",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-09-s1",
+          "type": "text",
+          "text": "Розыгрыш блокнота. Платить не нужно. Победителя определит колесо удачи.",
+          "campaignRef": "holdout-09",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-10",
+      "title": "holdout: no-payment-kz",
+      "split": "holdout",
+      "language": "kk",
+      "tag": "no-payment-kz",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-10-s1",
+          "type": "text",
+          "text": "Сыйлық — кітап. Қатысу үшін төлем қажет емес. Жеңімпазды кездейсоқ таңдаймыз.",
+          "campaignRef": "holdout-10",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-11",
+      "title": "holdout: educational",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "educational",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-11-s1",
+          "type": "text",
+          "text": "Учебный разбор схемы: «Приз телефон; участие после оплаты; победитель случайный». Не участвуйте в таких предложениях.",
+          "campaignRef": "holdout-11",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-12",
+      "title": "holdout: warning",
+      "split": "holdout",
+      "language": "kk",
+      "tag": "warning",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-12-s1",
+          "type": "text",
+          "text": "Алаяқтық туралы ескерту. Ақша аудармаңыз. «Ұтысқа қатысу ақылы. Жүлде көлік. Жеңімпаз кездейсоқ».",
+          "campaignRef": "holdout-12",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-13",
+      "title": "holdout: skills",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "skills",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-13-s1",
+          "type": "text",
+          "text": "Конкурс фотографий. Приз — камера. Для участия оплатите взнос. Победителя выбирает жюри по оценкам.",
+          "campaignRef": "holdout-13",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-14",
+      "title": "holdout: retail-negated",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "retail-negated",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-14-s1",
+          "type": "text",
+          "text": "Купите билет на выставку. Подарков и розыгрышей нет. Распределение мест случайное.",
+          "campaignRef": "holdout-14",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-15",
+      "title": "holdout: shipping",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "shipping",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-15-s1",
+          "type": "text",
+          "text": "Разыгрываем картину. Участие бесплатно. Доставку оплачивает победитель после выигрыша. Победитель случайный.",
+          "campaignRef": "holdout-15",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-16",
+      "title": "holdout: free-mixed",
+      "split": "holdout",
+      "language": "mix",
+      "tag": "free-mixed",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-16-s1",
+          "type": "text",
+          "text": "Жүлде — кітап. Участие бесплатно, донат по желанию. Победитель случайный.",
+          "campaignRef": "holdout-16",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-17",
+      "title": "holdout: free",
+      "split": "holdout",
+      "language": "translit",
+      "tag": "free",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-17-s1",
+          "type": "text",
+          "text": "Rozygrysh kalendarya. Uchastie besplatno. Vybor random.",
+          "campaignRef": "holdout-17",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-18",
+      "title": "holdout: prize-price",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "prize-price",
+      "expectedRisk": "low",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-18-s1",
+          "type": "text",
+          "text": "Розыгрыш сертификата. Стоимость приза 10000 тенге. Для участия покупать не нужно. Выбор случайный.",
+          "campaignRef": "holdout-18",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-19",
+      "title": "holdout: no-method",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "no-method",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-19-s1",
+          "type": "text",
+          "text": "Розыгрыш велосипеда. Для участия купите билет. Как определим победителя — ещё не указано.",
+          "campaignRef": "holdout-19",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-20",
+      "title": "holdout: no-method-kz",
+      "split": "holdout",
+      "language": "kk",
+      "tag": "no-method-kz",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-20-s1",
+          "type": "text",
+          "text": "Ұтысқа қатысу ақылы. Жүлде — сағат.",
+          "campaignRef": "holdout-20",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-21",
+      "title": "holdout: conflict",
+      "split": "holdout",
+      "language": "mix",
+      "tag": "conflict",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-21-s1",
+          "type": "text",
+          "text": "Телефон ұтысы. Қатысу тегін. Для участия обязательная покупка билета. Победитель случайный.",
+          "campaignRef": "holdout-21",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-22",
+      "title": "holdout: incomplete",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "incomplete",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-22-s1",
+          "type": "text",
+          "text": "Разыгрываем камеру. Победителя выберет рандомайзер. Условия оплаты пока не объявлены.",
+          "campaignRef": "holdout-22",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-23",
+      "title": "holdout: jury-conflict",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "jury-conflict",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-23-s1",
+          "type": "text",
+          "text": "Розыгрыш часов. Слот 1200 тенге. Победитель случайный. Победителя определяет жюри.",
+          "campaignRef": "holdout-23",
+          "kind": "post"
+        }
+      ]
+    },
+    {
+      "id": "holdout-24",
+      "title": "holdout: teaser",
+      "split": "holdout",
+      "language": "ru",
+      "tag": "teaser",
+      "expectedRisk": "medium",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "holdout-24-s1",
+          "type": "text",
+          "text": "Приз будет! Полные условия опубликуем позже.",
+          "campaignRef": "holdout-24",
+          "kind": "post"
+        }
+      ]
+    }
+  ]
+}

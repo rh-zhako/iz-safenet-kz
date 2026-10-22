@@ -1,0 +1,10 @@
+Fresh AI v7 synthetic validation corpus
+Authoring date: 2026-10-22
+Provenance: separate_engine_blinded_ai_synthetic; fictional; humans=0.
+No project files, code, engine, reports, earlier cases, prior task history, predictions, or other agents' work were read. Only the supplied authoring instructions and working-directory path were used. No browsing, classifier execution, or agent spawning occurred.
+All 100 scenarios and their source prose were newly AI-authored in memory for this corpus, including authoring-time spelling corrections. Cases were shuffled before IDs were assigned. No prediction-guided editing occurred.
+Validation was limited to JSON structure, IDs and source IDs, enum values, campaign references, required class/language totals, source counts, and prose lengths. No engine behavior was tested.
+Counts: cases=100; high=40; medium=20; low=40; ru=30; kk=30; mixed=20; translit=20; sources=181; cases with 2-3 sources=71; cases with over 1000 source-text characters=12.
+Each file was written once after structural validation.
+Limitations: AI-assigned evidence-priority labels, not human-adjudicated ground truth and not fraud or legal conclusions. Fictional prose and transliteration are synthetic rather than sampled from real campaigns; natural-language and labeling errors remain possible. This corpus alone cannot establish real-world accuracy or absence of bias.
+Corpus SHA-256: 684a47c93f3815134f146fa182871f9b9be78996bfe90e4489e195b90a24d9b1

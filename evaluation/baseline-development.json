@@ -1,0 +1,460 @@
+{
+  "engineVersion": "1.2.0-track1-rules",
+  "dataset": "32 authored development scenarios",
+  "synthetic": true,
+  "total": 32,
+  "positiveDefinition": "high: observed prize + mandatory entry payment + random selection, without unresolved contradiction",
+  "precision": 1,
+  "recall": 0.8,
+  "falsePositiveRate": 0,
+  "accuracy": 0.84375,
+  "decisionCoverage": 0.59375,
+  "tp": 8,
+  "fp": 0,
+  "tn": 22,
+  "fn": 2,
+  "matrix": {
+    "high": {
+      "high": 8,
+      "medium": 2,
+      "low": 0
+    },
+    "medium": {
+      "high": 0,
+      "medium": 8,
+      "low": 0
+    },
+    "low": {
+      "high": 0,
+      "medium": 3,
+      "low": 11
+    }
+  },
+  "quoteErrors": 0,
+  "cases": [
+    {
+      "id": "development-01",
+      "title": "development: wheel",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 95,
+      "language": "ru",
+      "tag": "wheel"
+    },
+    {
+      "id": "development-02",
+      "title": "development: paid-kz",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "kk",
+      "tag": "paid-kz"
+    },
+    {
+      "id": "development-03",
+      "title": "development: split",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "not-high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "tag": "split"
+    },
+    {
+      "id": "development-04",
+      "title": "development: purchase",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "tag": "purchase"
+    },
+    {
+      "id": "development-05",
+      "title": "development: mixed",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "mix",
+      "tag": "mixed"
+    },
+    {
+      "id": "development-06",
+      "title": "development: translit",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "translit",
+      "tag": "translit"
+    },
+    {
+      "id": "development-07",
+      "title": "development: not-free",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "tag": "not-free"
+    },
+    {
+      "id": "development-08",
+      "title": "development: free-delivery",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "tag": "free-delivery"
+    },
+    {
+      "id": "development-09",
+      "title": "development: slang",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "ru",
+      "tag": "slang"
+    },
+    {
+      "id": "development-10",
+      "title": "development: ticket-kz",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "tag": "ticket-kz"
+    },
+    {
+      "id": "development-11",
+      "title": "development: free",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "tag": "free"
+    },
+    {
+      "id": "development-12",
+      "title": "development: free-kz",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "kk",
+      "tag": "free-kz"
+    },
+    {
+      "id": "development-13",
+      "title": "development: warning",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 3,
+      "language": "ru",
+      "tag": "warning"
+    },
+    {
+      "id": "development-14",
+      "title": "development: warning-kz",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 3,
+      "language": "kk",
+      "tag": "warning-kz"
+    },
+    {
+      "id": "development-15",
+      "title": "development: jury",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 12,
+      "language": "ru",
+      "tag": "jury"
+    },
+    {
+      "id": "development-16",
+      "title": "development: retail",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "ru",
+      "tag": "retail"
+    },
+    {
+      "id": "development-17",
+      "title": "development: voluntary",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "tag": "voluntary"
+    },
+    {
+      "id": "development-18",
+      "title": "development: voluntary-kz",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "kk",
+      "tag": "voluntary-kz"
+    },
+    {
+      "id": "development-19",
+      "title": "development: delivery",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "tag": "delivery"
+    },
+    {
+      "id": "development-20",
+      "title": "development: negation",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 12,
+      "language": "ru",
+      "tag": "negation"
+    },
+    {
+      "id": "development-21",
+      "title": "development: price-prize",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "tag": "price-prize"
+    },
+    {
+      "id": "development-22",
+      "title": "development: no-raffle",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "ru",
+      "tag": "no-raffle"
+    },
+    {
+      "id": "development-23",
+      "title": "development: free-translit",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "translit",
+      "tag": "free-translit"
+    },
+    {
+      "id": "development-24",
+      "title": "development: no-commission",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "tag": "no-commission"
+    },
+    {
+      "id": "development-25",
+      "title": "development: missing-random",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 58,
+      "language": "ru",
+      "tag": "missing-random"
+    },
+    {
+      "id": "development-26",
+      "title": "development: conflict-free",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "ru",
+      "tag": "conflict-free"
+    },
+    {
+      "id": "development-27",
+      "title": "development: conflict-jury",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "ru",
+      "tag": "conflict-jury"
+    },
+    {
+      "id": "development-28",
+      "title": "development: unknown-entry",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 45,
+      "language": "ru",
+      "tag": "unknown-entry"
+    },
+    {
+      "id": "development-29",
+      "title": "development: unknown-entry-kz",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 45,
+      "language": "kk",
+      "tag": "unknown-entry-kz"
+    },
+    {
+      "id": "development-30",
+      "title": "development: missing-prize",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 58,
+      "language": "ru",
+      "tag": "missing-prize"
+    },
+    {
+      "id": "development-31",
+      "title": "development: teaser",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 35,
+      "language": "ru",
+      "tag": "teaser"
+    },
+    {
+      "id": "development-32",
+      "title": "development: conflict-kz",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "mix",
+      "tag": "conflict-kz"
+    }
+  ],
+  "baseline": {
+    "name": "Any single source classified high",
+    "precision": 1,
+    "recall": 0.7,
+    "falsePositiveRate": 0
+  },
+  "limitations": [
+    "Synthetic authored scenarios with limited wording variation.",
+    "Used for implementation checks; not an independently blinded evaluation.",
+    "Medium cases remain in the denominator for binary metrics.",
+    "OCR quality is not evaluated by this text scenario benchmark."
+  ],
+  "confidence95": {
+    "precision": [
+      0.6755843804891231,
+      1
+    ],
+    "recall": [
+      0.49015684672072335,
+      0.9433190520193067
+    ],
+    "falsePositiveRate": [
+      1.3877787807814457e-17,
+      0.14865952572596125
+    ]
+  },
+  "byLanguage": {
+    "ru": {
+      "n": 22,
+      "tp": 5,
+      "fp": 0,
+      "tn": 16,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.8333333333333334,
+      "falsePositiveRate": 0,
+      "accuracy": 0.9090909090909091
+    },
+    "kk": {
+      "n": 6,
+      "tp": 1,
+      "fp": 0,
+      "tn": 4,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.5,
+      "falsePositiveRate": 0,
+      "accuracy": 0.6666666666666666
+    },
+    "mix": {
+      "n": 2,
+      "tp": 1,
+      "fp": 0,
+      "tn": 1,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0,
+      "accuracy": 1
+    },
+    "translit": {
+      "n": 2,
+      "tp": 1,
+      "fp": 0,
+      "tn": 1,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0,
+      "accuracy": 0.5
+    }
+  }
+}

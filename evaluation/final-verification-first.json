@@ -1,0 +1,134 @@
+{
+  "engineSha256": "7562a13a64aa88f4151b2b3dcde9ad38c74e0609b66ed0a7a92aff90ab4ad6c2",
+  "at": "2026-10-22T19:48:48.757Z",
+  "scope": "Program contracts and historical prediction reproduction in an isolated copy. No new blind, real-world, OCR quality or human usability study.",
+  "commands": [
+    {
+      "script": "check-release",
+      "ok": false,
+      "passed": 37,
+      "total": 38
+    },
+    {
+      "script": "check-engine-v20",
+      "ok": true,
+      "passed": 61,
+      "total": 61
+    },
+    {
+      "script": "check-engine-v17",
+      "ok": true,
+      "passed": 82,
+      "total": 82
+    },
+    {
+      "script": "check-structured-review",
+      "ok": true,
+      "passed": 64,
+      "total": 64
+    },
+    {
+      "script": "check-review-integration",
+      "ok": true,
+      "passed": 15,
+      "total": 15
+    },
+    {
+      "script": "check-workbench",
+      "ok": true,
+      "passed": 21,
+      "total": 21
+    },
+    {
+      "script": "check-campaign-integrity",
+      "ok": true,
+      "passed": 25,
+      "total": 25
+    },
+    {
+      "script": "check-grouping-integrity",
+      "ok": true,
+      "passed": 23,
+      "total": 23
+    },
+    {
+      "script": "check-network",
+      "ok": true,
+      "passed": 47,
+      "total": 47
+    },
+    {
+      "script": "check-batch",
+      "ok": true,
+      "passed": 24,
+      "total": 24
+    },
+    {
+      "script": "check-input-drafts",
+      "ok": true,
+      "passed": 29,
+      "total": 29
+    },
+    {
+      "script": "check-focus",
+      "ok": true,
+      "passed": 23,
+      "total": 23
+    },
+    {
+      "script": "check-data-recovery",
+      "ok": true,
+      "passed": 29,
+      "total": 29
+    },
+    {
+      "script": "check-source-sensitivity",
+      "ok": true,
+      "passed": 26,
+      "total": 26
+    },
+    {
+      "script": "check-source-edit",
+      "ok": true,
+      "passed": 9,
+      "total": 9
+    },
+    {
+      "script": "check-draft-backup",
+      "ok": true,
+      "passed": 6,
+      "total": 6
+    },
+    {
+      "script": "check-selection-boundary",
+      "ok": true,
+      "passed": 6,
+      "total": 6
+    },
+    {
+      "script": "reproduce-fresh-v8",
+      "ok": true,
+      "passed": 0,
+      "total": 0,
+      "reproduced": 160
+    },
+    {
+      "script": "reproduce-fresh-v7",
+      "ok": true,
+      "passed": 0,
+      "total": 0,
+      "reproduced": 100
+    },
+    {
+      "script": "reproduce-fresh-v6",
+      "ok": true,
+      "passed": 0,
+      "total": 0,
+      "reproduced": 80
+    }
+  ],
+  "passed": 527,
+  "total": 528,
+  "reproducedPredictions": 340,
+  "ok": false
+}

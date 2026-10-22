@@ -1,0 +1,26 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {performance} from 'node:perf_hooks';
+import {analyzeCampaign,ENGINE_VERSION} from '../dist/engine.mjs';
+import {analyzeCampaign as baseline,ENGINE_VERSION as baselineVersion} from '../evaluation/engine-v1.7-snapshot.mjs';
+import {canonicalCase,scoreCases,pairedComparison} from './measure-v17.mjs';
+import {evaluationCampaigns} from '../dist/demo-data.mjs';
+const root=new URL('../',import.meta.url),read=p=>readFileSync(new URL(p,root)),json=p=>JSON.parse(read(p)),sha=b=>createHash('sha256').update(b).digest('hex');
+const historical=json('evaluation/release-v1.7-report.json');
+if(sha(read('evaluation/engine-v1.7-snapshot.mjs'))!==historical.engineSha256)throw new Error('Historical baseline changed');
+if(sha(read('evaluation/independent-v5.json'))!==historical.independentDatasetSha256)throw new Error('v5 corpus changed');
+if(sha(read('scripts/measure-v17.mjs'))!==historical.firstRun.harnessSha256)throw new Error('Historical v1.7 harness changed');
+const sources=['challenge-v1','independent-v2','independent-v3','independent-v4','independent-v5'];
+const sets={};for(const name of sources){const cs=json(`evaluation/${name}.json`).cases.map(canonicalCase);sets[name]=scoreCases(cs,`${name}: OPEN DEVELOPMENT. Texts and AI labels were available during v1.8 development.`,analyzeCampaign,ENGINE_VERSION);}
+sets.regression=scoreCases(evaluationCampaigns.map(canonicalCase),'28 known development regression cases',analyzeCampaign,ENGINE_VERSION);
+const cs=json('evaluation/independent-v5.json').cases.map(canonicalCase),b=scoreCases(cs,'Frozen v1.7 on now-open v5',baseline,baselineVersion),current=sets['independent-v5'];
+if(b.cases.some((c,i)=>c.predicted!==historical.independent.cases[i].predicted))throw new Error('Historical baseline does not reproduce');
+for(let i=0;i<100;i++)analyzeCampaign(cs[i%cs.length]);
+const times=[],iterations=2000,start=performance.now();for(let i=0;i<iterations;i++){const t=performance.now();analyzeCampaign(cs[i%cs.length]);times.push(performance.now()-t);}const elapsed=performance.now()-start;times.sort((a,b)=>a-b);
+const report={schemaVersion:1,status:'OPEN_DEVELOPMENT_NOT_INDEPENDENT',engineVersion:ENGINE_VERSION,engineSha256:sha(read('dist/engine.mjs')),at:new Date().toISOString(),datasets:Object.fromEntries(sources.map(n=>[n,{sha256:sha(read(`evaluation/${n}.json`)),status:'OPEN_DEVELOPMENT'}])),provenance:'v1-v5 are open AI-authored synthetic data. Root used v5 errors while developing v1.8. No fresh blind corpus, real posts or human annotation.',sets,comparison:{dataset:'The exact same open v5 cases. Descriptive development comparison, not new evidence of generalization.',baseline:b,paired:pairedComparison(current,b)},performance:{runtime:process.version,iterations,elapsedMs:elapsed,p50Ms:times[Math.floor(iterations*.5)],p95Ms:times[Math.floor(iterations*.95)],scope:'Warm local Node.js on open v5 text cases including long inputs. Excludes OCR, browser UI, storage, workers, network and server concurrency.'},independentValidation:{currentEngine:false,lastFrozenEngine:historical.engineVersion,lastFrozenDataset:'v5',lastFrozenReport:'release-v1.7-report.json',realWorldCases:0,humanAnnotators:0},limitations:['All reported v1.8 accuracy figures use development data already available to the developer.','A zero observed high FPR on development examples does not mean zero real errors.','The previous v1.7 blind result is preserved unchanged and does not measure v1.8.','The priority score is not a probability of fraud or a legal determination.','Hypothetical labels and class prevalence are AI-authored; no representative production estimates.']};
+writeFileSync(new URL('evaluation/development-v18-report.json',root),JSON.stringify(report,null,2)+'\n');
+writeFileSync(new URL('dist/development-evaluation.mjs',root),'// Open development evaluation, never an independent quality claim.\nexport const developmentEvaluation = '+JSON.stringify(report)+';\n');
+const csv=v=>'"'+String(v??'').replaceAll('"','""')+'"';
+writeFileSync(new URL('evaluation/development-v18-metrics.csv',root),'dataset,id,language,expected,predicted,match\n'+Object.entries(sets).flatMap(([k,r])=>r.cases.map(c=>[k,c.id,c.language,c.expected,c.predicted,c.match].map(csv).join(','))).join('\n')+'\n');
+console.log(JSON.stringify({version:ENGINE_VERSION,sha:report.engineSha256,v5:{accuracy:current.accuracy,tp:current.tp,fp:current.fp,fn:current.fn,tn:current.tn,precision:current.precision,recall:current.recall,fpr:current.falsePositiveRate,triage:current.triage,byLanguage:Object.fromEntries(Object.entries(current.byLanguage).map(([k,v])=>[k,{n:v.total,precision:v.precision,recall:v.recall,accuracy:v.accuracy}]))},paired:report.comparison.paired,quoteErrors:Object.fromEntries(Object.entries(sets).map(([k,v])=>[k,v.quoteErrors])),performance:report.performance},null,2));
+if(Object.values(sets).some(s=>s.quoteErrors))process.exitCode=1;

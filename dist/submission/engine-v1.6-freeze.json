@@ -1,0 +1,16 @@
+{
+  "engineVersion": "1.6.0-track1-context",
+  "engineSha256": "4127f8b5b136b5325152c6691d1fe2f6d5f58a7ea3e2103021d8b149d60cfc97",
+  "frozenAt": "2026-10-20T17:11:51.587Z",
+  "frozenBeforeIndependentEvaluation": true,
+  "protocol": "Engine developed on open v1/v2/v3 and family regression data. Neither engine author nor root opened v4 texts, labels or predictions before freeze. The separate author worked without access to engine or prior corpora. No rule changes after the first v4 run in this release.",
+  "developmentData": [
+    "challenge-v1",
+    "historical regression28",
+    "independent-v2 (open)",
+    "independent-v3 (open)",
+    "disclosed synthetic OCR probes",
+    "51 structural family assertions"
+  ],
+  "labelScope": "Textual indicators and review priority; no fraud or legal status judgment."
+}

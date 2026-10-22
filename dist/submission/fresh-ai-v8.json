@@ -1,0 +1,3539 @@
+{
+  "metadata": {
+    "provenance": "Brand-new blinded AI-synthetic validation corpus authored by a separate AI author. No engine code, prior corpora, reports, predictions, other agent files, browsing or private data were accessed. These invented cases are synthetic hypotheses, with zero human adjudication. No classifier was executed, and author labels were set before root measurement.",
+    "scope": "Invented social publications, messages and live-transcript text only; no actual posts and no OCR claims.",
+    "sampling": "Deliberately designed counts and challenge families; these counts do not estimate population prevalence.",
+    "policy": "High requires explicit prize/reward, mandatory paid acquisition/entry/payment, and random selection of the FINAL award recipient in the same raffle. Low includes an explicit equally eligible free route, voluntary donation, post-win delivery/redemption, ordinary retail, a judged or skill final winner, preliminary random order only, an educational/warning quotation without an active own raffle, or no raffle evidence. Medium captures unresolved or contradictory eligibility, payment, final selection method, or incomplete terms that prevent clear high or explicit low. A price alone does not prove a required payment; unrelated randomness does not prove random final selection.",
+    "caseCount": 160,
+    "languageCounts": {
+      "kk": 40,
+      "ru": 40,
+      "mixed": 40,
+      "translit": 40
+    },
+    "labelCounts": {
+      "medium": 32,
+      "low": 64,
+      "high": 64
+    },
+    "multiSourceCaseCount": 93,
+    "longCaseCount": 20,
+    "longCaseDefinition": "Sum of Unicode characters in all supplied source texts for a case is strictly greater than 1000.",
+    "sourceCount": 273,
+    "shuffleSeed": 88614023,
+    "authoredDate": "2026-10-23"
+  },
+  "cases": [
+    {
+      "id": "fresh8-001",
+      "language": "kk",
+      "expected": "medium",
+      "title": "Тіркелмеген сілтеме",
+      "category": "missing_terms",
+      "rationale": "The supplied announcement points to absent terms for payment eligibility; the stated merchandise price is insufficient.",
+      "sources": [
+        {
+          "id": "fresh8-src-001",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-001",
+          "text": "Киіз үй үлгісін кездейсоқ бір қатысушыға сыйлаймыз. Өтінім қабылдау жолы толық шартта көрсетілген, шарт qadam.test бетінде дейді."
+        },
+        {
+          "id": "fresh8-src-002",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-001",
+          "text": "Берілген мәтінде сол беттің мазмұны жоқ. Жанында ақылы шеберлік жинағының бағасы тұр, бірақ оны алу ұтысқа міндетті ме, белгісіз."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-002",
+      "language": "kk",
+      "expected": "low",
+      "title": "Бүгін жай сатылым",
+      "category": "withdrawn_promotion",
+      "rationale": "The newest explicit correction cancels the raffle; the remaining activity is retail.",
+      "sources": [
+        {
+          "id": "fresh8-src-003",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-002",
+          "text": "Кеше жастық сатып алушыларға роботшаңсорғышты жеребемен береміз деп хабарладық."
+        },
+        {
+          "id": "fresh8-src-004",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-002",
+          "text": "Бүгінгі түзету: бұл жоспар тоқтатылды, қатысу тізімі ашылмайды. Жастықтар әдеттегі бағамен сатылады, сатылымға байланысты сыйлық ойнатылмайды."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-003",
+      "language": "ru",
+      "expected": "low",
+      "title": "Обсуждение чужого риска",
+      "category": "warning_discussion",
+      "rationale": "The supplied speakers discuss a hypothetical paid random prize; they do not solicit participation.",
+      "sources": [
+        {
+          "id": "fresh8-src-005",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-003",
+          "text": "— Если кто-то просит купить купон, а потом тянет победителя из шляпы, что это за схема?\n— Рассматриваем такой пример на семинаре. Ни купонов, ни призов у нашего семинара нет, записываться в подобный розыгрыш мы не предлагаем."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-004",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Диск за поддержку",
+      "category": "mandatory_paid_support",
+      "rationale": "The named support amount is mandatory for entry; a random draw awards the record player.",
+      "sources": [
+        {
+          "id": "fresh8-src-006",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-004",
+          "text": "Жаңа музыкалық сборникке 1100 поддержки переведите, чтобы участвовать в розыгрыше проигрывателя. Бұл ерікті қайырымдылық тізімі емес: для номера платёж обязателен. Вытянем одну бумажку из всех оплаченных номеров, проигрыватель её владельцу."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-005",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Жеребе кезекті шешеді",
+      "category": "random_order_only",
+      "rationale": "The paid service queue is randomly ordered and no separate award is present.",
+      "sources": [
+        {
+          "id": "fresh8-src-007",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-005",
+          "text": "Ақылы өлшеуге жазылғандардың кезегін жеребемен таратамыз. Это только очередь на индивидуальную примерку. Каждый получит свою оплаченную услугу, тегін сыйлық та, призовой выигрыш та жоқ."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-006",
+      "language": "kk",
+      "expected": "low",
+      "title": "Қауесетке жауап",
+      "category": "quoted_false_gate",
+      "rationale": "The payment rumor is denied; entry is explicitly free.",
+      "sources": [
+        {
+          "id": "fresh8-src-008",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-006",
+          "text": "«Жеребеге кіру үшін 1000 жібер» деген хабар бізден емес. Біздің шәйнек ұтысына қатысу тегін: бір белгі қалдырсаңыз болды. Сол белгілерден біреуін кездейсоқ таңдаймыз, ақша аудартпаймыз."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-007",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Саундтрек в наушниках",
+      "category": "paid_screening",
+      "rationale": "A paid screening ticket is the admission prerequisite; a random final selection awards the headphones.",
+      "sources": [
+        {
+          "id": "fresh8-src-009",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-007",
+          "text": "На камерном показе «Дыбыс жолы» подарим студийные наушники. Ақылы билетті алдын ала алу міндетті. Среди оплаченных билетных кодов выберем случайный, и его владельцу сразу передадим приз."
+        },
+        {
+          "id": "fresh8-src-010",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-007",
+          "text": "Кіру тегін болатын дневной просмотр — другая встреча. Оның көрермендері осы ұтысқа автоматты қосылмайды."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-008",
+      "language": "kk",
+      "expected": "low",
+      "title": "Шеберге кезек",
+      "category": "random_service_order",
+      "rationale": "Randomness allocates paid service queue positions and no reward is awarded.",
+      "sources": [
+        {
+          "id": "fresh8-src-011",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-008",
+          "text": "Етік жөндеуге ақысын төлеп қойған клиенттерге қызмет көрсету ретін жеребемен белгілейміз. Бұл сыйлық ойнату емес: әркім өз тапсырысын алады, жеребе тек қайсысын бірінші жөндейтінімізді шешеді."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-009",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Түстер аптасы",
+      "category": "paid_prepaid_order",
+      "rationale": "A prepaid dye order is the eligibility gate and a random final order wins the separate reward.",
+      "sources": [
+        {
+          "id": "fresh8-src-012",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-009",
+          "text": "Неделя красителей: за оформленный и оплаченный заказ выдаём номер на розыгрыш сушилки. Төленбеген өтінімдер есепке кірмейді, заказ обязателен. Кездейсоқ нөмірді компьютер таңдайды, сушилка соған тиесілі болады."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-010",
+      "language": "kk",
+      "expected": "medium",
+      "title": "Жарияланбаған шешім",
+      "category": "unknown_final_method",
+      "rationale": "Mandatory payment and a prize are known; the ultimate selection method has not been given.",
+      "sources": [
+        {
+          "id": "fresh8-src-013",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-010",
+          "text": "Үстел ойынының ұтысына қатысу жарнасы 700, оны төлеу міндетті. Жүлде — ағаш ойын үстелі. Қорытынды ай соңында шығады."
+        },
+        {
+          "id": "fresh8-src-014",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-010",
+          "text": "Қалай жеңімпаз анықталатыны туралы бөлім әлі жарияланбаған. «Ұтыс» сөзі ғана бар, жеребе немесе шеберлік бағасы көрсетілмейді."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-011",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Переправа по жетону",
+      "category": "paid_transport_pack",
+      "rationale": "Paid transport-pack acquisition is mandatory and a random token owner receives the prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-015",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-011",
+          "text": "«Қамыс өткел» осы аптада пакет переправ продаёт. Купите и оплатите пакет — получите жетон для розыгрыша спасательного жилета. Тегін жаяу өткел участником не делает."
+        },
+        {
+          "id": "fresh8-src-016",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-011",
+          "text": "В пятницу случайно выберем один жетон. Жилет отдаём его владельцу, никаких заплывов на результат не будет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-012",
+      "language": "translit",
+      "expected": "high",
+      "title": "Minutu do zakrytiya",
+      "category": "closed_paid_entries",
+      "rationale": "The historical paid-entry gate and later random final award refer to the same still-active raffle.",
+      "sources": [
+        {
+          "id": "fresh8-src-017",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-012",
+          "text": "Priem v nash rozygrysh nabora instrumentov zakryt. V spisok voshli tolko te, kto do 20:00 oplatil uchastie 650; bez platezha nomera ne vydavalis."
+        },
+        {
+          "id": "fresh8-src-018",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-012",
+          "text": "Zavtra randomayzer vyberet odin iz etih nomerov, i imenno ego vladelets poluchit instrumenty. Eto podvedenie itogov toy zhe aktsii, a ne novaya besplatnaya registratsiya."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-013",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Рама по желанию",
+      "category": "postwin_upgrade",
+      "rationale": "The paid upgrade is optional after a free random award and cannot affect original eligibility.",
+      "sources": [
+        {
+          "id": "fresh8-src-019",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-013",
+          "text": "Вчера среди бесплатных открыток-заявок случайно определили получателя рисунка. Рисунок соған тегін беріледі."
+        },
+        {
+          "id": "fresh8-src-020",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-013",
+          "text": "Сегодня ему предлагают раму за 2200. Рама алу ерікті, отказ от неё не отменяет уже присуждённый рисунок. Этот платёж не был входным условием."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-014",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Жіберу кейін келісіледі",
+      "category": "postwin_delivery",
+      "rationale": "The fee is explicitly delivery after a free random award, with free collection available.",
+      "sources": [
+        {
+          "id": "fresh8-src-021",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-014",
+          "text": "Қолшатырдың тегін ұтысына бір пікір жеткілікті. Из комментариев генератор уже выбрал владельца."
+        },
+        {
+          "id": "fresh8-src-022",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-014",
+          "text": "Теперь победитель сұрады: «Доставка 800 — это участие?» Ответ: жоқ, это отправка после выигрыша, самовывоз бесплатный. До выбора ни покупки, ни перевода не требовалось."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-015",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Қайтарылған билет",
+      "category": "retained_paid_entry",
+      "rationale": "Payment retained through the draw is a mandatory gate; the random final selection awards the prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-023",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-015",
+          "text": "Достар, для розыгрыша гравера нужен купленный билет на мини-лекцию. Билет ақысын төлеген соң нөмір беріп жатырмыз."
+        },
+        {
+          "id": "fresh8-src-024",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-015",
+          "text": "Кто вернул билет, из списка выбывает; без оплаты не включаем. Из оставшихся оплаченных номеров генератор выберет одного получателя гравера, посещение онлайн или лично равнозначно."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-016",
+      "language": "ru",
+      "expected": "high",
+      "title": "Возврат снял номер",
+      "category": "purchase_retention",
+      "rationale": "A later clarification makes retaining the paid order mandatory; selection remains random for the stated reward.",
+      "sources": [
+        {
+          "id": "fresh8-src-025",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-016",
+          "text": "Среди заказчиков курток «Снегоступ» разыграем палатку. Номер чека внесите до пятницы, в субботу достанем случайный номер."
+        },
+        {
+          "id": "fresh8-src-026",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-016",
+          "text": "Важно: для списка нужен оплаченный заказ, а при возврате до жеребьёвки участие аннулируется. Зарегистрироваться без заказа нельзя. Выбранный покупатель и получит палатку."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-017",
+      "language": "translit",
+      "expected": "high",
+      "title": "Podpiska na zapiski",
+      "category": "paid_newsletter",
+      "rationale": "Paid newsletter renewal is required and the random subscriber gets the prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-027",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-017",
+          "text": "Na polugodie prodlite platnuyu rassylku «Zapiska plotnika». Eto obyazatelnoe uslovie rozygrysha torcovochnoi podstavki. Odin nomer sredi podtverzhdennyh prodleniy vyberem zhrebiem; podstavku poluchit ego vladelets."
+        },
+        {
+          "id": "fresh8-src-028",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-017",
+          "text": "Besplatnye probnye pisma ne dayut dopuska, povtornoe prodlenie v etot zhe period shans ne uvelichit."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-018",
+      "language": "kk",
+      "expected": "low",
+      "title": "Сабақтағы үзінді",
+      "category": "educational_example",
+      "rationale": "The paid random prize is explicitly a classroom example with no active organizer offer.",
+      "sources": [
+        {
+          "id": "fresh8-src-029",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-018",
+          "text": "Бүгін жарнама тілін талдадық: «Білезік сатып ал да, кездейсоқ таңдалсаң, алтын сағат ал». Бұл — ойдан құрастырылған сабақ мысалы. Біз білезік сатпаймыз, ешкімді тіркемейміз, өз ұтысымыз жоқ."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-019",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Клубная отметка",
+      "category": "paid_subscription_with_action",
+      "rationale": "Both paid club renewal and a comment are mandatory before a random final reward.",
+      "sources": [
+        {
+          "id": "fresh8-src-030",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-019",
+          "text": "Керамическую кофейную пару подарим случайному номеру клуба «Кесе жолы». Чтобы номер участвовал, мүшелікті ақылы ұзарту керек и оставить отметку под постом. Бесплатная подписка на канал не подходит."
+        },
+        {
+          "id": "fresh8-src-031",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-019",
+          "text": "Екеуін де орындағандардың ішінен жеребе тартамыз. За красивый комментарий дополнительных шансов нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-020",
+      "language": "translit",
+      "expected": "high",
+      "title": "Zalog ot belogo stola",
+      "category": "paid_deposit",
+      "rationale": "The paid reservation deposit is a necessary entry payment and one random payer wins the reward.",
+      "sources": [
+        {
+          "id": "fresh8-src-032",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-020",
+          "text": "Hozyayka masterskoy «Belyy stolik» razygryvaet sushilku dlya gliny. Dlya uchastiya nado zabronirovat nabor posudy i vnesti obyazatelnyy denezhnyy zadatok. Iz vneshih zadatok sluchayno vyberem odnogo poluchatelya sushilki."
+        },
+        {
+          "id": "fresh8-src-033",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-020",
+          "text": "Nomer bez zadatka ne vydadim. Ostatok ceny za posudu oplachivaetsya pozhe, no sam zadatok dolzhen byt vnesen do zherebyovki."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-021",
+      "language": "translit",
+      "expected": "high",
+      "title": "Rezerv dlya komnaty",
+      "category": "paid_booking",
+      "rationale": "A paid room booking is explicitly required and a random final booking receives the prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-034",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-021",
+          "text": "Razygryvaem mini-holodilnik sredi bronirovavshih peregovorku «Sklad mysley». Bron dolzhna byt oplachena, eto obyazatelno dlya nomera. Iz oplachennyh broney sluchayno vyberem odnu i ee zakazchiku vruchim holodilnik."
+        },
+        {
+          "id": "fresh8-src-035",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-021",
+          "text": "Prosto sozvonitsya pro svobodnye daty ne dostatochno; besplatnyh nomerov v etom rozygryshe net."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-022",
+      "language": "translit",
+      "expected": "low",
+      "title": "Istoriya otmeny",
+      "category": "cancelled_raffle",
+      "rationale": "A later authoritative correction cancels the paid random offer and leaves no active raffle.",
+      "sources": [
+        {
+          "id": "fresh8-src-036",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-022",
+          "text": "Staryy anons: «Oplati masterskoy abonement, sluchaynyy klient poluchit rezak»."
+        },
+        {
+          "id": "fresh8-src-037",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-022",
+          "text": "Novaya pravka srazu posle: aktsiya otmenena polnostyu, zayavki ne prinimayutsya. Abonementy prodayutsya bez kakogo-libo rozygrysha; anons pomechen kak nedeystvitelnyy."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-023",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Случайный адрес полки",
+      "category": "no_reward",
+      "rationale": "Random inventory placement and a purchase price do not constitute a raffle.",
+      "sources": [
+        {
+          "id": "fresh8-src-038",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-023",
+          "text": "Кітаптың бағасы 1700. На складе программа случайно назначит ему ячейку, чтобы не перегружать одну полку. Покупатель получает именно заказанную книгу, жеңімпаздар мен жүлделер қарастырылмаған."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-024",
+      "language": "ru",
+      "expected": "low",
+      "title": "Номер для очереди",
+      "category": "random_order_only",
+      "rationale": "The random number allocates appointment order and conveys no prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-039",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-024",
+          "text": "У всех оплативших ремонт часов завтра разыграем номера очереди. Случайный номер покажет, кто первым приходит к мастеру. Подарков и наград за номер нет, услуга та же у каждого клиента."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-025",
+      "language": "ru",
+      "expected": "low",
+      "title": "Лучший макет",
+      "category": "judged_final",
+      "rationale": "The final prize is awarded by judges; randomness only determines presentation order.",
+      "sources": [
+        {
+          "id": "fresh8-src-040",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-025",
+          "text": "За участие в архитектурном смотре платят 2000. Жребием определим порядок защиты макетов. Набор оборудования получит автор с максимальной оценкой жюри по опубликованной шкале; случайного выбора победителя нет."
+        },
+        {
+          "id": "fresh8-src-041",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-025",
+          "text": "Первый номер защиты не означает призовое место. При равенстве баллов жюри сравнит раздел «конструкция», жеребьёвки за награду не будет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-026",
+      "language": "kk",
+      "expected": "high",
+      "title": "Шағын сахнадағы орын",
+      "category": "paid_showcase",
+      "rationale": "The paid showcase slot is mandatory; random selection after performances awards the microphone.",
+      "sources": [
+        {
+          "id": "fresh8-src-042",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-026",
+          "text": "«Шағын сахна» кешінде бір сымсыз микрофон сыйға беріледі. Оған үміткер болу үшін кештің орындаушысы ретінде тіркеліп, сахна уақытының ақысын төлеу қажет. Тегін тыңдаушылар мен эфир көрермендері ұтыс тізіміне қосылмайды. Әр ақылы орынға бір нөмір жазамыз. Кеш аяқталғанда осы нөмірлердің арасынан кездейсоқ біреуін таңдап, микрофонды оның иесіне береміз."
+        },
+        {
+          "id": "fresh8-src-043",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-026",
+          "text": "Өлең оқу, күй тарту, әңгіме айту — қайсысын таңдасаңыз да болады. Ұзақтығы бес минуттан аспасын деген талап тек кештің кестесі үшін қойылған. Өнерді сараптайтын қазылар жоқ, дауыс саны жиналмайды. Көрермендерге ұнау немесе сахнаға бірінші шығу ұтысқа артықшылық бермейді. Ақысын төлемеген өтінім «күту» қатарында тұрады және төлем мерзімі біткенде микрофонға үміткерлер тізімінен шығарылады."
+        },
+        {
+          "id": "fresh8-src-044",
+          "type": "text",
+          "kind": "live",
+          "campaignRef": "fresh8-026",
+          "text": "Кеш басында жеребемен тек өнер көрсету ретін де белгілейміз. Бірақ ол бөлек жеребе: сол сәтте микрофон әлі ешкімге бекітілмейді. Соңында толық төленген қатысушы нөмірлерін қайта жинап, жаңа кездейсоқ таңдауды өткіземіз. Осы екінші таңдау сыйлықты алатын адамды біржола анықтайды. Соңғы нөмір шыққан соң ең үздік орындаушыны іздеп қайта дауыс бермейміз. Микрофонды алу үшін қосымша сатып алу қажет емес."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-027",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Донатқа қарамаймыз",
+      "category": "optional_support",
+      "rationale": "Donations are explicitly optional and unrelated to the free random award.",
+      "sources": [
+        {
+          "id": "fresh8-src-045",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-027",
+          "text": "Складной коврик подарим случайному читателю бесплатной рассылки. Қолдау аударымы ерікті: есть он или нет, все подписчики получают по одному номеру. Донаты не дают дополнительных попыток."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-028",
+      "language": "ru",
+      "expected": "high",
+      "title": "Полка за взнос",
+      "category": "mandatory_contribution",
+      "rationale": "The stated support payment is mandatory despite being called a contribution, and the recipient is randomly drawn.",
+      "sources": [
+        {
+          "id": "fresh8-src-046",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-028",
+          "text": "Собираем круг поддержки «Полка». Взамен один из участников получит дубовый стеллаж: фамилию вытянем из мешочка. Чтобы ваша карточка попала в мешочек, обязателен взнос 1400. Без перевода не регистрируем."
+        },
+        {
+          "id": "fresh8-src-047",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-028",
+          "text": "Да, мы называем его взносом, но здесь он не добровольный. Все оплатившие до среды претендуют на один стеллаж на одинаковых условиях."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-029",
+      "language": "translit",
+      "expected": "high",
+      "title": "Kiyiz qap",
+      "category": "paid_craft_goods",
+      "rationale": "An actual paid felt-cover acquisition is mandatory; a blind lot chooses the bag recipient.",
+      "sources": [
+        {
+          "id": "fresh8-src-048",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-029",
+          "text": "Aqyly kiyiz qapty satyp alyp, tolem chegin jiberiniz. Sonda gana jol somkesinin utysyna nomer beremiz. Tolemsiz otinishterdi qospaymyz. Qorap tan kormei bir nomerdi suyramyz da, somkeni sol adamga syilaimyz."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-030",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Сарапшының соңғы бағасы",
+      "category": "judged_final",
+      "rationale": "Randomness affects review order only; paid entrants receive final awards by expert assessment.",
+      "sources": [
+        {
+          "id": "fresh8-src-049",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-030",
+          "text": "У «Қағаз кеңістік» конкурс бумажных моделей с обязательным взносом за участие. Жүлде — профессиональный резак. В начале эфира случайным генератором определим порядок, в котором будем показывать работы. Это сделано, чтобы никто не выбирал себе удобное место в программе. Номер показа не даёт права на резак и не является оценкой модели. Все допущенные модели будут рассмотрены по одним и тем же критериям."
+        },
+        {
+          "id": "fresh8-src-050",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-030",
+          "text": "Последнее решение о награде принимают три эксперта: смотрят точность соединений, устойчивость и соответствие заданным размерам. Әр өлшемге ұпай қойылады, ең жоғары жиынтық ұпай иесі резакты алады. Если две модели наберут поровну, сравнят устойчивость по одному и тому же испытанию; при новом равенстве проведут дополнительную проверку соединений. Жеребемен жеңімпаз таңдауға болмайтыны ережеде ашық жазылған."
+        },
+        {
+          "id": "fresh8-src-051",
+          "type": "text",
+          "kind": "live",
+          "campaignRef": "fresh8-030",
+          "text": "Зрители спрашивают, можно ли оплатить второй взнос и получить два случайных номера. Нет: бір авторға бір жұмыс, один номер показа. Это не шанс вытянуть приз. Повторный платёж вернём, он не изменит ни порядок оценки, ни право на награду. Генератор используется один раз в начале именно для расписания демонстраций. После выставления баллов приз передают автору лучшей модели, без случайного выбора из списка участников или финалистов."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-031",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Отменили до сбора",
+      "category": "cancelled_paid_raffle",
+      "rationale": "The later explicit correction cancels the paid raffle before registration; only regular goods sales remain.",
+      "sources": [
+        {
+          "id": "fresh8-src-052",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-031",
+          "text": "Бастапқы пост: «Оплатите фартук, и случайный чек получит кухонный комбайн»."
+        },
+        {
+          "id": "fresh8-src-053",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-031",
+          "text": "Түзету сол кеште: розыгрыш отменён, список не собирали. Фартуки продаём отдельно, случайного приза за покупку больше нет. Старый текст помечен как недействующий."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-032",
+      "language": "mixed",
+      "expected": "medium",
+      "title": "Кездейсоқ бес орын",
+      "category": "unknown_final_stage",
+      "rationale": "The random operation only selects finalists; the final prize method is not supplied.",
+      "sources": [
+        {
+          "id": "fresh8-src-054",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-032",
+          "text": "Жарнасы төленген заявок из клуба выберем случайно пять. Они выйдут в финал за напольную колонку."
+        },
+        {
+          "id": "fresh8-src-055",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-032",
+          "text": "Финал ережесін кейін айтамыз дейді. Пока неясно, будет ли ещё жеребьёвка, голосование или оценка работ, поэтому случайность последнего получателя не установлена."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-033",
+      "language": "translit",
+      "expected": "low",
+      "title": "Jai talqylau",
+      "category": "hypothetical_warning",
+      "rationale": "The speakers discuss a hypothetical paid random scheme and offer no active own raffle.",
+      "sources": [
+        {
+          "id": "fresh8-src-056",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-033",
+          "text": "— «Aqyly san al, kezdeisoq saqtau qurylgysyn ut» dese, osy usynysty qalai tekserer edin?\n— Bul oysha jagdai, sabaqta taldap otyrmyz. Bizin atymyzdan san satylmaidy, naqty qatysu tizimi ashylmagan."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-034",
+      "language": "kk",
+      "expected": "high",
+      "title": "Жауап пен түбіртек",
+      "category": "paid_qualified_random",
+      "rationale": "The paid entry and answer qualify entrants; the final prize recipient is random.",
+      "sources": [
+        {
+          "id": "fresh8-src-057",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-034",
+          "text": "Қазақша сөзжұмбақ апталығына кіру жарнасы міндетті. Жарнаны төлеп, торды дұрыс толтырғандардың арасынан бір адамды жеребемен таңдаймыз. Оған электронды кітап оқу құрылғысы беріледі."
+        },
+        {
+          "id": "fresh8-src-058",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-034",
+          "text": "Ең бірінші жіберу сыйлықты автоматты бермейді; дұрыс жауап пен төлем тек жеребеге өткізу шарттары."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-035",
+      "language": "kk",
+      "expected": "low",
+      "title": "Суретке баға",
+      "category": "judged_tiebreak",
+      "rationale": "Paid entries receive a final judged award even though random selection is discussed and explicitly rejected.",
+      "sources": [
+        {
+          "id": "fresh8-src-059",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-035",
+          "text": "Фотосайысқа жарна төленеді. «Тең түскендерді жеребемен шешейік» деген ұсынысты қабылдамадық: жүлде үздік композицияға беріледі, тең жағдайда бас қазы сол өлшем бойынша қайта қарайды."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-036",
+      "language": "kk",
+      "expected": "high",
+      "title": "Бір кесе, бір мүмкіндік",
+      "category": "paid_drink",
+      "rationale": "A purchased drink is required and a random final receipt earns the thermopot.",
+      "sources": [
+        {
+          "id": "fresh8-src-060",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-036",
+          "text": "Ертең «Боз кесе» сөресінде ыстық сусын сатып алып, төлем жасағандарға ұтысқа нөмір береміз. Нөмірлердің бірін кездейсоқ таңдап, иесіне термопот сыйлаймыз. Сусын алмай нөмір алу мүмкін емес."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-037",
+      "language": "ru",
+      "expected": "low",
+      "title": "Сначала жеребьёвка команд",
+      "category": "random_preliminary",
+      "rationale": "Paid entrants receive random team assignments, while the prize goes to the highest-scoring team.",
+      "sources": [
+        {
+          "id": "fresh8-src-061",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-037",
+          "text": "На турнир настольных задач взнос 500 с участника. Команды распределим жеребьёвкой; каждая сыграет одинаковое число раундов. Призовой набор заберёт команда с наибольшим числом решённых задач. Равный счёт разрешаем дополнительной задачей."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-038",
+      "language": "kk",
+      "expected": "high",
+      "title": "Орындыққа жазылған сан",
+      "category": "paid_lease",
+      "rationale": "Paid chair rental is explicitly the raffle entry gate and a random number determines the prize winner.",
+      "sources": [
+        {
+          "id": "fresh8-src-062",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-038",
+          "text": "Тігіншілерге арналған ортақ бөлмеде ақылы жұмыс орнын бір күнге жалға алсаңыз, үтік станциясының ұтысына нөмір аласыз. Жалдау төлемінсіз қатысу жоқ. Үтік станциясын кездейсоқ түскен нөмірдің иесі алады."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-039",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Чужая реклама в разборе",
+      "category": "warning_quote",
+      "rationale": "The paid random promotion is quoted for analysis and the current speaker has no own raffle.",
+      "sources": [
+        {
+          "id": "fresh8-src-063",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-039",
+          "text": "Редакция разбирает вымышленное объявление: «Купи код, біреуіне генератор мопед береді». Мұны үлгі ретінде сынап отырмыз. Ни кодов, ни мопедов редакция не продаёт и участников не набирает."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-040",
+      "language": "ru",
+      "expected": "medium",
+      "title": "Стертая строка",
+      "category": "incomplete_terms",
+      "rationale": "The incomplete acquisition condition prevents establishing whether the stated random prize has mandatory paid entry.",
+      "sources": [
+        {
+          "id": "fresh8-src-064",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-040",
+          "text": "Разыграем набор инструментов среди случайных номеров. В карточке правил сохранилось: «Для участия необходимо … заказ …», середина строки отсутствует."
+        },
+        {
+          "id": "fresh8-src-065",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-040",
+          "text": "Подпись говорит «регистрация по форме». Неясно, надо оплатить заказ, лишь указать интересующий товар или оформить бесплатную заявку; дополнений нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-041",
+      "language": "kk",
+      "expected": "low",
+      "title": "Өз затыңды ал",
+      "category": "ordinary_purchase",
+      "rationale": "A fee covers restoration of the customer’s own item and random scheduling has no prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-066",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-041",
+          "text": "Сандықты жөндеу ақылы, бағасы тексерген соң айтылады. Қай тапсырыстан бастайтынымызды кезек тең болса жеребе шешеді. Әр адам жөндеткен өз сандығын алады; басқа сыйлық берілмейді."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-042",
+      "language": "ru",
+      "expected": "high",
+      "title": "Номер на корешке",
+      "category": "purchase_receipt",
+      "rationale": "The paid album purchase is a prerequisite; the same registered numbers enter the random draw for the stated prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-067",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-042",
+          "text": "Мастерская «Тихий корешок» разыгрывает настольный пресс для переплёта. Попасть в список можно только с покупкой нашего альбома серии «Окна» до воскресенья: берёте альбом, оплачиваете его целиком и присылаете номер чека. Просто оставить комментарий недостаточно. Один оплаченный альбом даёт один номер. Список закроем вечером в воскресенье, а в понедельник генератором выберем один номер — его владельцу и достанется пресс. Других этапов оценки работ у нас нет."
+        },
+        {
+          "id": "fresh8-src-068",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-042",
+          "text": "Разъясняем до начала продаж. Альбомы из старых заказов в этом розыгрыше не участвуют, нужен новый оплаченный заказ в обозначенный период. При отмене покупки до закрытия списка номер удаляется. Доплаты за участие сверх цены альбома нет, но бесплатной регистрации без покупки тоже нет. Если в заказе два альбома, запишем два номера на одного покупателя. Цвет обложки на шансы не влияет. Все эти номера идут именно в список претендентов на пресс."
+        },
+        {
+          "id": "fresh8-src-069",
+          "type": "text",
+          "kind": "live",
+          "campaignRef": "fresh8-042",
+          "text": "В понедельник покажем окончательный список перед нажатием кнопки. Приз получит человек, чей номер выдаст генератор, а не тот, чей разворот нам понравился. После выбора свяжемся по тому же диалогу, из которого пришёл чек; повторного конкурса или голосования не будет. Если человек не ответит за три дня, заново случайно выберем из оставшихся номеров. За получение пресса денег не берём. Вручение можно перенести, но это не заменяет обязательную покупку для попадания в исходный список."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-043",
+      "language": "translit",
+      "expected": "low",
+      "title": "Aqsha turaly qate",
+      "category": "negated_paid_condition",
+      "rationale": "The quoted payment requirement is directly rejected; actual entry is free.",
+      "sources": [
+        {
+          "id": "fresh8-src-070",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-043",
+          "text": "«Nomerge aqsha tole» degen jazba bizdin erezhe emes. Bizde sham utysyna tegin belgi qaldyrsa jetedi, tolem joq. Osylardyn bireuin kezdeisoq tandap, shamdy beremiz. Satyp alu talaby qoyylmagan."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-044",
+      "language": "translit",
+      "expected": "low",
+      "title": "Nabor s neizvestnym risunkom",
+      "category": "ordinary_random_goods",
+      "rationale": "The price buys a standard product with a random pattern, with no raffle or randomly selected reward recipient.",
+      "sources": [
+        {
+          "id": "fresh8-src-071",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-044",
+          "text": "Za 1300 poluchaete odin blok pechatnoy bumagi so sluchaynym uzorom. Odni i te zhe razmer i kolichestvo listov v lyuboy upakovke. Nikogo iz pokupateley ne vytyagivaem, otdelnyh prizov net."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-045",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Тіл сабағындағы мысал",
+      "category": "educational_quotation",
+      "rationale": "The paid raffle is explicitly a language-class example, not an active own offer.",
+      "sources": [
+        {
+          "id": "fresh8-src-072",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-045",
+          "text": "На тіл сабағында перевели фразу: «Купи платный талон, жеребемен саған ноутбук түсуі мүмкін». Это учебный вымышленный текст для разбора повелительных форм. Сабақ ұйымдастырушысы талон сатпайды, розыгрыш не объявляет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-046",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Грядка у стены",
+      "category": "mandatory_community_fee",
+      "rationale": "A paid bed reservation is necessary and a blind draw awards the garden tool.",
+      "sources": [
+        {
+          "id": "fresh8-src-073",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-046",
+          "text": "«Жасыл қабырға»: оплатите сезонную аренду грядки, сонда секатор ұтысына қатысасыз. Для списка необходима именно оплаченная бронь. В конце недели вслепую вытянем одну карточку арендатора — секатор его."
+        },
+        {
+          "id": "fresh8-src-074",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-046",
+          "text": "Жай экскурсияға келген адам тізімге кірмейді. Бесплатного способа получить карточку в этой акции нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-047",
+      "language": "translit",
+      "expected": "high",
+      "title": "Koptik ushin tolem",
+      "category": "paid_qualification",
+      "rationale": "A paid valid submission is required and the final recipient is randomly selected among qualified entrants.",
+      "sources": [
+        {
+          "id": "fresh8-src-075",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-047",
+          "text": "As uy jumbagyna qatysu ushin aqyly otinish jiberip, ush suraqty durys sheshu kerek. Osylardyn bireuin zherebe arqyly tandaimyz, syilyq — elektrik tabak. Tolemsiz durys jauapty qabyldamaimyz, al en tez jauap bergenge birden syilyq joq."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-048",
+      "language": "translit",
+      "expected": "low",
+      "title": "Pismo posle itoga",
+      "category": "postwin_shipping",
+      "rationale": "The only charge is optional shipping after the free random selection; entry required no payment.",
+      "sources": [
+        {
+          "id": "fresh8-src-076",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-048",
+          "text": "Besplatno sobirali zayavki na chaynyy podnos, randomayzer vybral odnu vchera. Nikto do itoga nichego ne pokupal i ne platil."
+        },
+        {
+          "id": "fresh8-src-077",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-048",
+          "text": "Segodnya vybrannomu cheloveku predlozhili peresylku za 1200 ili besplatnyy samovyvoz. Plata tolko za vybrannuyu peresylku posle togo, kak on uzhe poluchil priz."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-049",
+      "language": "translit",
+      "expected": "low",
+      "title": "Priz ili prokachka",
+      "category": "optional_postwin_upgrade",
+      "rationale": "The only sale is an optional upgrade after a free randomly awarded digital prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-078",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-049",
+          "text": "Besplatnyy rozygrysh elektronnogo ezhednevnika zakonchilsya: odnogo poluchatelya vybral generator. Ego fayl u nego bez oplaty."
+        },
+        {
+          "id": "fresh8-src-079",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-049",
+          "text": "Potom predlozhili pechatnyy variant za 2800 po zhelaniyu. Otkaz ot pechati ne otmenyaet fayl, eto ne uslovie vhoda i ne obyazatelnyy vykup priza."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-050",
+      "language": "ru",
+      "expected": "medium",
+      "title": "Отбор или вручение",
+      "category": "unclear_selection_role",
+      "rationale": "Randomness is described for a shortlist and the final award method remains unspecified.",
+      "sources": [
+        {
+          "id": "fresh8-src-080",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-050",
+          "text": "Для конкурса с призом-электропечью нужна оплаченная регистрация. Из зарегистрированных генератор возьмёт десять имён для финала."
+        },
+        {
+          "id": "fresh8-src-081",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-050",
+          "text": "Что происходит дальше с десятью финалистами и кому из них достанется печь, правила обещают сообщить позже. Текст не называет окончательного способа выбора."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-051",
+      "language": "translit",
+      "expected": "low",
+      "title": "Qashykqa san emes",
+      "category": "random_seating_only",
+      "rationale": "The random process allocates seats for paying attendees; the reward is awarded for the best essay.",
+      "sources": [
+        {
+          "id": "fresh8-src-082",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-051",
+          "text": "Aqyly debat kezdesuinde otyratyn ornyn zherebe anyqtaidy. Jazba zhuldesi en senimdi dalel qurgan essege beriledi, qazylar bagalaidy. Oryndyq nomeri syilyqty sheshpeidi, ten bolsa qayta ese jazady."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-052",
+      "language": "translit",
+      "expected": "high",
+      "title": "Paket marshrutov",
+      "category": "paid_digital_pack",
+      "rationale": "Buying the route bundle is required and the random final selection awards the tent.",
+      "sources": [
+        {
+          "id": "fresh8-src-083",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-052",
+          "text": "Kupite i oplatite zimniy paket marshrutov «Sled bez kraya», chtoby uchastvovat v rozygryshe palatki. Bez oplaty paketa v spisok ne vnosim. V vecher zakrytiya nomer poluchatelya palatki opredelit sluchaynaya vytyazhka."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-053",
+      "language": "translit",
+      "expected": "low",
+      "title": "Jar na emes komek",
+      "category": "voluntary_donation",
+      "rationale": "The donation is explicitly voluntary and does not affect the free random raffle.",
+      "sources": [
+        {
+          "id": "fresh8-src-084",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-053",
+          "text": "Arnadagy tegin otinishterden bireuin kezdeisoq tandap, saltanatty sham beremiz. Qoldau aqshasyn jiberu erikti. Jibermesengiz de sol bir nomer beriledi, audarym qatysu sharty emes."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-054",
+      "language": "translit",
+      "expected": "low",
+      "title": "Kezekke gana",
+      "category": "random_queue",
+      "rationale": "Randomness determines the order of already paid services, with no award or prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-085",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-054",
+          "text": "Kompyuterdi tazalau aqysyn tolegen klientterdin kezegin kezdeisoq sanmen quryp jatyrmyz. San tek kimin birinshi qabyldaimyz degenge kerek. Barlygy oz tolegen qyzmetin alady, oinatylatyn syilyq joq."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-055",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Куәлік пен чек",
+      "category": "paid_certification",
+      "rationale": "The paid certification prerequisite is explicit and the random final draw awards the appliance.",
+      "sources": [
+        {
+          "id": "fresh8-src-086",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-055",
+          "text": "На занятии по настройке света разыграем фотобокс. Қатысу үшін ақылы аттестацию оплатите и получите допуск; без оплаченной аттестации в список не берём. Из допущенных одного случайно выберем."
+        },
+        {
+          "id": "fresh8-src-087",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-055",
+          "text": "Оценка «сдал» нужна для допуска, бірақ финальный получатель фотобокса определяется только жребием, не наивысшей оценкой."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-056",
+      "language": "ru",
+      "expected": "low",
+      "title": "Отменённый формат",
+      "category": "cancelled_raffle",
+      "rationale": "The latest explicit correction cancels the paid random raffle and states the actual offer is regular retail.",
+      "sources": [
+        {
+          "id": "fresh8-src-088",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-056",
+          "text": "Утром написали: «Купите блокнот — случайный покупатель получит рюкзак»."
+        },
+        {
+          "id": "fresh8-src-089",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-056",
+          "text": "Вечернее официальное исправление: розыгрыш отменён до начала приёма заявок. Блокноты просто продаются по обычной цене, рюкзак в этой акции никому не разыгрывается. Старый анонс оставили только для истории правки."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-057",
+      "language": "ru",
+      "expected": "low",
+      "title": "Два равных входа",
+      "category": "equal_free_route",
+      "rationale": "A stated free route has equal access and odds, so a purchase is not mandatory.",
+      "sources": [
+        {
+          "id": "fresh8-src-090",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-057",
+          "text": "Магазин «Хвойный ящик» разыгрывает гамак среди покупателей и читателей. Если вы купили корзину, зарегистрируйте чек. Если не хотите покупать, отправьте через бесплатную форму на listok.test слово «лето» до того же срока. За любой из этих двух способов выдаём ровно один номер на человека. Бесплатная форма не подписывает на платную услугу, переводов или оформления заказа в ней нет."
+        },
+        {
+          "id": "fresh8-src-091",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-057",
+          "text": "Вопрос читателя: «За бесплатную заявку только утешительный приз?» Ответ: «Нет. Гамак один и общий список один. Номера по чекам и по бесплатной форме равноправны, попадают в один барабан. Покупатель не получает дополнительных шансов за сумму заказа; если он отправил ещё и форму, дубликат уберём. Оба способа открыты до 18:00 субботы, подтверждения рассылаем одинаково»."
+        },
+        {
+          "id": "fresh8-src-092",
+          "type": "text",
+          "kind": "live",
+          "campaignRef": "fresh8-057",
+          "text": "Перед жеребьёвкой проверяем только, чтобы один человек не оказался в списке дважды. Из итогового списка компьютер случайно выберет обладателя гамака. Принадлежность номера к покупке или бесплатной форме на выбор не влияет. Если ваш номер из бесплатной формы выпал, ничего докупать для вручения не потребуется; доставку также оплачивает мастерская. Пример чека в публикации нужен тем, кто выбрал путь покупки, а не является обязательным документом для всех заявителей."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-058",
+      "language": "mixed",
+      "expected": "medium",
+      "title": "Екеуі бірдей күште",
+      "category": "contradictory_free_route",
+      "rationale": "The supplied current official messages conflict on purchase-free eligibility with no superseding order.",
+      "sources": [
+        {
+          "id": "fresh8-src-093",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-058",
+          "text": "Условия от организатора: для жеребьёвки самоката чек покупки обязателен. Онсыз тізімге қоспаймыз."
+        },
+        {
+          "id": "fresh8-src-094",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-058",
+          "text": "Одновременно в закреплённой справке: «Чексіз де тегін тіркелуге болады, шанс тот же». Ни даты обновления, ни отмены одного текста нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-059",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Письмо вместо сеанса",
+      "category": "equal_free_alternative",
+      "rationale": "A free entry channel is explicitly equally eligible for the same random prize as the paid session.",
+      "sources": [
+        {
+          "id": "fresh8-src-095",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-059",
+          "text": "«Тыныш дыбыс» проводит платные сеансы записи голоса. На открытии мы разыграем домашний диктофон. Записавшиеся и оплатившие сеанс могут отметить код брони, но бұл жалғыз жол емес. Все остальные могут бесплатно прислать короткое текстовое письмо через ашық форма на dauys.test. Никакой записи голоса или приобретения сеанса для письма не нужно. Письмо — просто подтверждение желания участвовать, его стиль не оцениваем."
+        },
+        {
+          "id": "fresh8-src-096",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-059",
+          "text": "Спросили, у кого будет больше шанс: у клиента с платной бронью или у человека с бесплатным письмом. Жауабы: еш айырмашылық жоқ. От каждого человека берём один номер в общий список на один и тот же диктофон, а генератор выбирает из всего списка. Сумма оплаченного сеанса номеров не добавляет. Бесплатные письма принимаются до той же минуты, что и коды брони. Их не отправляют в отдельный список на маленький подарок."
+        },
+        {
+          "id": "fresh8-src-097",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-059",
+          "text": "В день розыгрыша человек может находиться где угодно, студияға келу шарт емес. Если бесплатное письмо получит выигравший номер, диктофон отдадим без предложения сначала купить запись. Выбранный номер и есть окончательный получатель, жюри не будет. Студия зарабатывает на сеансах, но обязательного платежа для этого общего розыгрыша не вводит. Несколько писем одного человека объединяются в один номер, как и несколько его платных броней."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-060",
+      "language": "kk",
+      "expected": "high",
+      "title": "Сөмкедегі хат",
+      "category": "paid_kit",
+      "rationale": "A paid stationery kit is required; random final selection awards the camera.",
+      "sources": [
+        {
+          "id": "fresh8-src-098",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-060",
+          "text": "Камераны ұтып алғыңыз келсе, «Хат жолы» кеңсе топтамасын сатып алып, чекті жіберіңіз. Ұтысқа қабылдау үшін топтама ақысын төлеу міндетті."
+        },
+        {
+          "id": "fresh8-src-099",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-060",
+          "text": "Чектерді жұмада жинап бітеміз. Сенбіде бір чекті кездейсоқ таңдап, камераны сол сатып алушыға табыстаймыз."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-061",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Нөмірі бар қап",
+      "category": "paid_goods_with_code",
+      "rationale": "Buying a paid bulk bag is necessary and a random code owner gets a grill.",
+      "sources": [
+        {
+          "id": "fresh8-src-100",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-061",
+          "text": "«Түтінсіз аула»: один гриль разыгрываем среди покупателей нашего угля. Көмірдің ақылы қабын сатып алып, внутренний код тіркеу міндетті. В воскресенье из зарегистрированных кодов случайно выпадет один — гриль его покупателю."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-062",
+      "language": "mixed",
+      "expected": "medium",
+      "title": "Жюри ме, жеребе ме",
+      "category": "contradictory_final_method",
+      "rationale": "Paid eligibility is known, but conflicting final selection rules are unresolved.",
+      "sources": [
+        {
+          "id": "fresh8-src-101",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-062",
+          "text": "Ақылы фотозаявка обязательна. Приз — объектив, получателя выберет жеребе среди всех допущенных."
+        },
+        {
+          "id": "fresh8-src-102",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-062",
+          "text": "В другом текущем сообщении тех же правил: «Объектив достанется работе с лучшей оценкой жюри». Қайсысы соңғы нұсқа екені белгісіз, сообщения без дат."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-063",
+      "language": "translit",
+      "expected": "high",
+      "title": "Kursqa kirgen kod",
+      "category": "paid_course",
+      "rationale": "Paid course enrollment is required and the random selected enrollee wins the prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-103",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-063",
+          "text": "Tolygymen aqyly kursqa jazylyp, aqysyn toleu — qagaz keskish utysyna qatysudyn mindetti sharty. Tek tanystyru sabagyna qatysu bolmaidy. Tolegen qatysushylar kodynan bireui kezdeisoq tandalyp, keskish sol iesine tabystalady."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-064",
+      "language": "translit",
+      "expected": "medium",
+      "title": "Dve formy odnoi daty",
+      "category": "contradictory_eligibility",
+      "rationale": "Two simultaneous official instructions conflict about mandatory payment versus equal free participation.",
+      "sources": [
+        {
+          "id": "fresh8-src-104",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-064",
+          "text": "V soobshchenii v 12:00: dlya sluchaynogo rozygrysha stendika obyazatelno oplati kupon."
+        },
+        {
+          "id": "fresh8-src-105",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-064",
+          "text": "V zakrepe s tem zhe vremenem: kupon ne obyazatelen, besplatnaya forma daet ravnyy nomer na tot zhe stendik. Kakoy tekst vernyy, ne ukazano."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-065",
+      "language": "kk",
+      "expected": "medium",
+      "title": "Алты үміткер",
+      "category": "unclear_final_stage",
+      "rationale": "The paid pool is randomly narrowed but the final reward recipient method is missing.",
+      "sources": [
+        {
+          "id": "fresh8-src-106",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-065",
+          "text": "Бау-бақша арбасына үміткерлер ақылы тіркеуден өтеді. Тіркелгендерден кездейсоқ алты нөмірді соңғы кезеңге өткіземіз."
+        },
+        {
+          "id": "fresh8-src-107",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-065",
+          "text": "Арбаны осы алтаудың қайсысы алатыны, соңғы кезеңде не істейтіні жазылмаған. Қазір көрсетілген кездейсоқ таңдау тек финалға өткізеді."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-066",
+      "language": "kk",
+      "expected": "high",
+      "title": "Таңғы ас талондары",
+      "category": "paid_meal",
+      "rationale": "Paid breakfast vouchers are required and one randomly drawn voucher wins the appliance.",
+      "sources": [
+        {
+          "id": "fresh8-src-108",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-066",
+          "text": "Осы айға ақылы таңғы ас талонын алыңыз — шай қайнатқыштың ұтысына қатысасыз. Төленбеген талон жарамсыз. Барлық жарамды талоннан біреуін қолмен көрмей суырып аламыз да, иесіне шай қайнатқышты сыйлаймыз."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-067",
+      "language": "kk",
+      "expected": "low",
+      "title": "Үлгіге берілген жауап",
+      "category": "hypothetical_dialogue",
+      "rationale": "A hypothetical scheme is discussed in a warning; no active own raffle is offered.",
+      "sources": [
+        {
+          "id": "fresh8-src-109",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-067",
+          "text": "— Біреу «ақылы код ал, сәті түскенге скутер» десе, бірден сене саламыз ба?\n— Бұл қауіп белгілерін талқылайтын ойша мысал. Осы хабар арқылы код сатылмайды, қатысуға шақыру да жоқ."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-068",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Гүл мен қорап",
+      "category": "paid_reservation",
+      "rationale": "A nonrefundable paid flower reservation is required and the random selected payer gets the vase.",
+      "sources": [
+        {
+          "id": "fresh8-src-110",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-068",
+          "text": "Букетке бронь жасап, обязательный платёж 2500 внесите до пятницы. Только после оплаты попадёте в жеребьёвку хрустальной вазы. Бір нөмірді кездейсоқ таңдаймыз — ваза соның иесіне беріледі."
+        },
+        {
+          "id": "fresh8-src-111",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-068",
+          "text": "Просто записаться в ожидание нельзя: ақысы жоқ бронь қатыспайды. Другого входа не предусмотрено."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-069",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Қайта бастау шеберлікпен",
+      "category": "skill_tiebreak",
+      "rationale": "The final winner is determined by performance; a random tie-break proposal was rejected.",
+      "sources": [
+        {
+          "id": "fresh8-src-112",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-069",
+          "text": "Платный турнир по сборке башни: главный приз — набор деталей. Бірдей биіктік болса, повторяем раунд на время. «Кинем монету за приз» деген ұсыныс қабылданбады, итог только по выполненному заданию."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-070",
+      "language": "translit",
+      "expected": "high",
+      "title": "Suyemel kod",
+      "category": "mandatory_support_payment",
+      "rationale": "The support transfer is explicitly mandatory for the random final prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-113",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-070",
+          "text": "«Aqyldy quti» jobasyna 2300 qoldau audarsanyz, proektor utysyna qatysasyz. Bul utys ushin audarym mindetti, tek tilek jazgan otinishke nomer joq. Barlyq rastalgan tolem nomerinen bireuin kezdeisoq tandap, proektordy sogan beremiz."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-071",
+      "language": "translit",
+      "expected": "low",
+      "title": "Nikakogo ekstra shansa",
+      "category": "equal_free_eligibility",
+      "rationale": "The current random promotion explicitly requires only a free reply and not the nearby paid goods.",
+      "sources": [
+        {
+          "id": "fresh8-src-114",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-071",
+          "text": "U nas prodazha pletenyh korzin, tseny ot 2400. No futbolku v etu sredu sluchayno podarim odnomu iz besplatnyh otvetov «pletu». Pokupka korziny ne nuzhna i shans ne menyaet, cheki dlya etoy aktsii ne sobiraem."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-072",
+      "language": "ru",
+      "expected": "high",
+      "title": "Оплата вчера, эфир завтра",
+      "category": "timeline",
+      "rationale": "A valid earlier campaign payment is required and a subsequent random final draw awards the prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-115",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-072",
+          "text": "Напоминание участникам сбора «Малый купол»: участие в розыгрыше планшета открывалось только переводом 750 до вчерашней полуночи. Приём закрыт; новые комментарии не добавляем."
+        },
+        {
+          "id": "fresh8-src-116",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-072",
+          "text": "Завтра в прямом эфире равновероятно выберем один из подтверждённых платежных номеров. Планшет получит именно выбранный отправитель, это не отбор в следующий тур."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-073",
+      "language": "translit",
+      "expected": "medium",
+      "title": "Kak vyberut luch",
+      "category": "missing_final_method",
+      "rationale": "Paid entry and an award are stated, but no final selection rule is supplied.",
+      "sources": [
+        {
+          "id": "fresh8-src-117",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-073",
+          "text": "Nabor optiki darim odnomu uchastniku proekta «Luchok». Registratsiya obyazatelno platnaya, 1700. O poluchatele soobshchim v ponedelnik."
+        },
+        {
+          "id": "fresh8-src-118",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-073",
+          "text": "V etih soobshcheniyah net togo, kak ego naznachat: sluchayno, po rabote ili kak-to inache. Slovo «darim» samo po sebe etogo ne reshaet."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-074",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Жөндеуге бір орын",
+      "category": "paid_repair_order",
+      "rationale": "A completed paid repair is mandatory and a random receipt determines who gets the voucher.",
+      "sources": [
+        {
+          "id": "fresh8-src-119",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-074",
+          "text": "Оплатите заточку ножниц в «Қайшы үйі», сонда ұтысқа чегіңізді қосамыз. Сертификат на новый набор ножниц отдаём случайно выбранному чеку. Кеңес алғандар және төлемсіз броньдар бұл ұтысқа кірмейді."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-075",
+      "language": "translit",
+      "expected": "medium",
+      "title": "Kto schitaetsya klubom",
+      "category": "unknown_membership_cost",
+      "rationale": "Random final reward and membership restriction are clear; membership payment is not established.",
+      "sources": [
+        {
+          "id": "fresh8-src-120",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-075",
+          "text": "Razygryvaem monitor: odnogo uchastnika kluba «Kletka sveta» vyberem sluchayno. Uchastie tolko dlya chlenov kluba."
+        },
+        {
+          "id": "fresh8-src-121",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-075",
+          "text": "V etih usloviyah ne skazano, chlenstvo platnoe ili besplatnoe. Tsena 4200 na sosednyuyu dostavku k klubu ne privyazana."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-076",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Не оплатить, а отметить",
+      "category": "negated_payment_gate",
+      "rationale": "A quoted payment condition is explicitly corrected to free entry with random final selection.",
+      "sources": [
+        {
+          "id": "fresh8-src-122",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-076",
+          "text": "Один читатель написал «сначала купить кружку». Жоқ, бұл шарт бізде жоқ. Для жеребьёвки одеяла просто отметьте любимый сезон, участие бесплатное. Кездейсоқ таңдалған белгі иесіне одеяло береміз."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-077",
+      "language": "kk",
+      "expected": "high",
+      "title": "Жабық бөлменің кілті",
+      "category": "paid_game_access",
+      "rationale": "The paid quest admission is mandatory and a blind final draw awards the reward.",
+      "sources": [
+        {
+          "id": "fresh8-src-123",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-077",
+          "text": "«Жеті есік» ойынының ақылы сеансына билет алғандар арасында шағын дрон ойнатылады. Қатысу үшін билет ақысын алдын ала төлеу шарт. Ойын біткен соң төлемі расталған билеттерден біреуін жабық қораптан суырамыз; дрон соған тиесілі."
+        },
+        {
+          "id": "fresh8-src-124",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-077",
+          "text": "Бөлмеден тез шығу дронды ұтуға әсер етпейді. Тегін көрерменнің аты қорапқа салынбайды."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-078",
+      "language": "ru",
+      "expected": "medium",
+      "title": "Пустая графа способа",
+      "category": "unknown_final_method",
+      "rationale": "A prize and paid entry are explicit but the final selection method is omitted.",
+      "sources": [
+        {
+          "id": "fresh8-src-125",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-078",
+          "text": "Принимаем платные заявки на розыгрыш складного стола. Взнос обязателен, 800. Стол один, итоги в четверг."
+        },
+        {
+          "id": "fresh8-src-126",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-078",
+          "text": "На вопрос, как выберут человека, ответили только «опубликуем результат в канале». Ни жеребьёвка, ни оценка работ в предоставленных правилах не описаны."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-079",
+      "language": "translit",
+      "expected": "high",
+      "title": "Strahovka ne nuzhna",
+      "category": "mandatory_ticket_despite_other_optional_cost",
+      "rationale": "Although insurance is optional, a paid ticket remains mandatory and random final selection awards the prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-127",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-079",
+          "text": "Bilet na zakrytyy velovecher nado kupit obyazatelno, chtoby poluchit nomer na rozygrysh kamery. Strahovka k biletu dobrovolnaya, ee ne proveryaem. Kameru poluchit sluchayno vybrannyy nomer iz oplachennyh biletov."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-080",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Қала ізі картасы",
+      "category": "paid_route_map",
+      "rationale": "A paid map license is the mandatory entry acquisition; a separate random final draw awards the power bank.",
+      "sources": [
+        {
+          "id": "fresh8-src-128",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-080",
+          "text": "Запускаем прогулочную карту «Қала ізі». Среди покупателей лицензии на эту карту ойнатамыз большой походный аккумулятор. Для участия необходимо купить лицензию и оплатить её до субботы. После оплаты код заносится в форму; бесплатный образец одного квартала к участию не допускает. Жеңімпазды барлық расталған кодтың арасынан кездейсоқ таңдаймыз. Одна полная лицензия даёт один номер, несколько устройств внутри лицензии его не умножают."
+        },
+        {
+          "id": "fresh8-src-129",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-080",
+          "text": "Картада кездейсоқ маршрут ұсынатын батырма бар. Её работа никак не раздаёт призы: она просто выбирает улицу для прогулки. Для аккумулятора в воскресенье будет отдельная жеребьёвка по списку оплаченных лицензий. Маршрутты нақты жүріп өту міндетті емес, скорость и расстояние не проверяем. Купили, оплатили, зарегистрировали действительный код — этих условий достаточно. Бесплатной формы без покупки лицензии не предусмотрели."
+        },
+        {
+          "id": "fresh8-src-130",
+          "type": "text",
+          "kind": "live",
+          "campaignRef": "fresh8-080",
+          "text": "В воскресенье сначала примем исправления кодов, если оплата прошла вовремя, а цифра была набрана с ошибкой. Потом закроем список и запустим генератор с диапазоном номеров списка. Қай нөмір түссе, аккумулятор сол адамға біржола беріледі. Это не случайный выбор команды для будущего похода и не отбор претендентов для голосования. После эфира выбранный покупатель согласует способ получения; дополнительной покупки для вручения не нужно."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-081",
+      "language": "kk",
+      "expected": "medium",
+      "title": "Төлем жолының күтуі",
+      "category": "unresolved_admission",
+      "rationale": "Detailed random-final terms exist but payment eligibility is explicitly still undecided.",
+      "sources": [
+        {
+          "id": "fresh8-src-131",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-081",
+          "text": "«Желмая шеберханасы» бір жиналмалы жұмыс үстелін ойнататынын хабарлады. Қатысуға ниет білдіргендер тізімге жазылады, кейін оларға нөмір беріледі. Қорытынды күні нөмірлердің біреуі кездейсоқ таңдалып, үстел сол нөмірдің иесіне өтеді. Ешкімнің жұмысын бағаламаймыз, жарыс өткізбейміз деп нақты айтылған. Алайда тізімге жазылу мен соңғы қатысуға жіберілу бір нәрсе емес екені де ескертілген."
+        },
+        {
+          "id": "fresh8-src-132",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-081",
+          "text": "Төлем туралы бөлімде «алаң шығынына байланысты тіркеу тәртібі бекітіледі» делінген. Ұйымдастырушыға қойылған «ұтысқа қатысу үшін ақша төлеу керек пе?» деген сұраққа: «Қазір жауап бере алмаймыз, ақылы да, тегін де нұсқа талқыланып жатыр» деп жауап берген. Басқа күндердегі шеберханаға кіру бағасын осы шараға қолданбауды сұраған. Қолда бар мәтінде ақы төлеуден босатылған нақты топ та, бәріне ашық тегін балама жол да көрсетілмеген."
+        },
+        {
+          "id": "fresh8-src-133",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-081",
+          "text": "Кейінгі хабарламада тізімге әзірше тек ниет білдірушілер жиналып жатқаны қайталанады. Соңғы талап шыққанда олардан қатысатынын қайта растауды сұрайды. Шараның күні, үстелдің өлшемі және кездейсоқ таңдаудың тікелей көрсетілетіні белгілі, бірақ төлем жөніндегі шешім әлі жоқ. Осы хабарламалардан сатып алу міндетті деген қорытынды да, қатысу ақысыз екені бекітілді деген қорытынды да шықпайды. Түпкілікті ереже бұл мәтіндерге қосылмаған."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-082",
+      "language": "ru",
+      "expected": "low",
+      "title": "Баллы за расстояние",
+      "category": "skill_winner",
+      "rationale": "Paid participants compete by measured performance rather than random award selection.",
+      "sources": [
+        {
+          "id": "fresh8-src-134",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-082",
+          "text": "Стартовый взнос на забег обязателен. Кроссовки получит тот, кто быстрее всех пробежит дистанцию. Генератором распределим только стартовые коридоры; итоговый приз зависит от времени на финише."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-083",
+      "language": "kk",
+      "expected": "medium",
+      "title": "Екі нұсқа қатар",
+      "category": "contradictory_route",
+      "rationale": "Current supplied rules conflict over free eligibility and paid admission without resolving which applies.",
+      "sources": [
+        {
+          "id": "fresh8-src-135",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-083",
+          "text": "Жаңа ережеде: «Шамның иесін жеребемен таңдаймыз, қатысуға ақылы шақыру алу міндетті»."
+        },
+        {
+          "id": "fresh8-src-136",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-083",
+          "text": "Сол жарияланымның астындағы ұйымдастырушы жауабы: «Шақыру сатып алмағандар да дәл сол тізімге тегін кіре алады». Екеуінің қайсысы күшінде екені анықталмаған."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-084",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Баға — сөренікі",
+      "category": "unrelated_price",
+      "rationale": "The paid object is retail; the separate random prize explicitly has free eligibility.",
+      "sources": [
+        {
+          "id": "fresh8-src-137",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-084",
+          "text": "Этажерка стоит 9600, доставка отдельно. Ал кітап тіреуішін тегін сауалнамаға жауап берген бір адамға кездейсоқ сыйлаймыз. Этажерканы алу міндетті емес, сумма покупок на список не влияет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-085",
+      "language": "kk",
+      "expected": "low",
+      "title": "Көп ұпай жина",
+      "category": "performance_award",
+      "rationale": "A paid tournament awards the prize by measured scores; random bracket placement is preliminary only.",
+      "sources": [
+        {
+          "id": "fresh8-src-138",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-085",
+          "text": "Зияткерлік турнирдің жарнасы бар. Қарсыластарды бастапқыда жеребемен бөлеміз, ал соңғы жүлде ең көп ұпай жинаған ойыншыға тиеді. Тең ұпайда қосымша есеп шешіледі, жеңімпаз кездейсоқ анықталмайды."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-086",
+      "language": "mixed",
+      "expected": "medium",
+      "title": "Цена напечатана",
+      "category": "price_only",
+      "rationale": "A product price is shown but no supplied rule connects payment to entry in the random award.",
+      "sources": [
+        {
+          "id": "fresh8-src-139",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-086",
+          "text": "Қолдан жасалған сабын — 850. А ещё в субботу случайному участнику отдаём отпариватель. Пишите «хочу», регистрация сегодня."
+        },
+        {
+          "id": "fresh8-src-140",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-086",
+          "text": "Ни про обязательную покупку сабына, ни про гарантированно бесплатный допуск заявившихся ничего нет. Условие оплаты в сообщениях не раскрыто."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-087",
+      "language": "kk",
+      "expected": "low",
+      "title": "Өрнекті дәл көшір",
+      "category": "skill_final",
+      "rationale": "The prize goes to the best evaluated work; random assignment only allocates motifs.",
+      "sources": [
+        {
+          "id": "fresh8-src-141",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-087",
+          "text": "Ақылы кесте сайысында өрнек тақырыбын жеребемен бөлеміз. Жібек жіп топтамасын суретті ең дәл кестелеген адам алады, өлшемін қазылар тексереді. Ұпай тең болса, қосымша тігіс орындалады; сыйлыққа жеребе тартылмайды."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-088",
+      "language": "translit",
+      "expected": "low",
+      "title": "Barlygyna beriledi",
+      "category": "guaranteed_bonus",
+      "rationale": "The bonus is guaranteed to every customer; only its pattern is randomly assigned.",
+      "sources": [
+        {
+          "id": "fresh8-src-142",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-088",
+          "text": "Aqyly kilemshe satyp algan arbir adamga qap tegin qosamyz. Qaptagy suret kezdeisoq, biraq qap barlygyna beriledi. Syilyq iesin bolek tandau nemese barlyqtan bir zhenimpaz shygaru joq."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-089",
+      "language": "translit",
+      "expected": "medium",
+      "title": "Ne dogovorili pro vznos",
+      "category": "unresolved_payment",
+      "rationale": "The organizer explicitly has not decided whether registration needs payment; the final draw is random.",
+      "sources": [
+        {
+          "id": "fresh8-src-143",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-089",
+          "text": "Poluchatelya sadovogo stolika vyberem sluchayno iz nomerov. Na vopros «vznos obyazatelen?» otvet: «poka soglasuem, vozmozhny oba varianta»."
+        },
+        {
+          "id": "fresh8-src-144",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-089",
+          "text": "Okonchatelnogo resheniya ne dobavili. Ni podtverzhdennogo besplatnogo vhoda, ni obyazatelnogo platezha v imeyushchihsya tekstah net."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-090",
+      "language": "kk",
+      "expected": "low",
+      "title": "Келмей-ақ қатысу",
+      "category": "equal_free_route",
+      "rationale": "The free written entry is explicitly equally eligible for the same random prize as paid attendees.",
+      "sources": [
+        {
+          "id": "fresh8-src-145",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-090",
+          "text": "«Айна аула» ақылы көрмесінің соңында бір оюлы сандықша ойнатылады. Көрмеге билет алған адам билет нөмірін тіркей алады. Көрмеге келмейтіндер үшін бөлек тегін хат нұсқасы бар: sanau.test бетіндегі «қатысамын» өрісіне шартты атауын енгізсе жеткілікті. Хат жолдау үшін көрменің билетін алу, тауарға тапсырыс беру немесе ақы төлеу талап етілмейді. Екі жол да бір мерзімде жабылады."
+        },
+        {
+          "id": "fresh8-src-146",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-090",
+          "text": "Ұйымдастырушының түсіндірмесі: билетпен тіркелгенге де, тегін хатпен келгенге де бір ғана нөмір беріледі. Барлық нөмір бір ортақ тізімге қосылады, сандықша сол тізімнен кездейсоқ таңдалған адамға беріледі. Тегін хат иелеріне бөлек арзанырақ сыйлық қарастырылмаған. Екі жолды қатар пайдаланған адамның қайталанған нөмірі өшіріледі, сондықтан сатып алу арқылы мүмкіндікті көбейтуге болмайды."
+        },
+        {
+          "id": "fresh8-src-147",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-090",
+          "text": "Шара күні көрмеде болу да міндетті емес: кездейсоқ таңдалған нөмірдің иесіне тіркелген арнасы арқылы хабарлайды. Егер ол тегін хатпен қатысса, сандықшаны алу үшін кейін билет сатып алдыруға болмайтыны ережеде бөлек жазылған. Сандықшаны шеберханадан тегін алып кетуге болады. Көрменің кіріс ақысы оның ішіндегі жұмыстарды көруге арналған қызмет бағасы; ортақ ұтысқа кірудің жалғыз жолы емес."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-091",
+      "language": "mixed",
+      "expected": "medium",
+      "title": "Аударымның орны",
+      "category": "unclear_payment_timing",
+      "rationale": "Random final reward is explicit, but the transfer could be entry payment or post-award handling.",
+      "sources": [
+        {
+          "id": "fresh8-src-148",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-091",
+          "text": "Один случайный участник получит настенный календарь с рамой. Формада «аударым 1500» тұр. Отправьте заявку до четверга."
+        },
+        {
+          "id": "fresh8-src-149",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-091",
+          "text": "Не написано, кто и когда переводит: бәрі қатысу үшін бе, әлде тек жеңген адам жеткізуге ме? Уточнения в имеющемся тексте нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-092",
+      "language": "translit",
+      "expected": "high",
+      "title": "Qalaqsha ornyna balga",
+      "category": "paid_exchange_topup",
+      "rationale": "A mandatory paid trade-in top-up admits the entrant and the random final participant gets the reward.",
+      "sources": [
+        {
+          "id": "fresh8-src-150",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-092",
+          "text": "Eski kalaqshany akelip, jana quralga aqyly aiyrbastau jasanyz. Utysqa kiru ushin usteme tolemdi jasau mindetti. Ayirbastauy tolyq tolenen adamdardyn bireuin kezdeisoq tandap, uly balga jiyntygyn syilaimyz."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-093",
+      "language": "ru",
+      "expected": "low",
+      "title": "Пример в памятке",
+      "category": "educational_quote",
+      "rationale": "The raffle language is explicitly an example in an educational warning and the speaker runs no own raffle.",
+      "sources": [
+        {
+          "id": "fresh8-src-151",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-093",
+          "text": "Разбираем рекламный текст: «Купите билет за 300, и генератор выберет счастливчика с мотоциклом». Это вымышленный пример из нашей памятки о рисковых обещаниях. Собственного розыгрыша мы не проводим, билеты не продаём."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-094",
+      "language": "ru",
+      "expected": "low",
+      "title": "Цитату опровергли",
+      "category": "negated_payment",
+      "rationale": "A quoted mandatory-payment rumor is expressly rejected and entry is free.",
+      "sources": [
+        {
+          "id": "fresh8-src-152",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-094",
+          "text": "Нам приписали правило «для жеребьёвки светильника сначала оплати 700». Это неверно. Участие бесплатное: просто оставьте заявку. Из этих заявок наугад определим получателя, никаких переводов до допуска нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-095",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Три платных выпуска",
+      "category": "paid_media",
+      "rationale": "Acquiring a paid magazine issue is mandatory; a random draw determines the e-reader award recipient.",
+      "sources": [
+        {
+          "id": "fresh8-src-153",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-095",
+          "text": "Электронный журнал «Ойлы кеш» ойнатады электронную читалку. Кемінде бір ақылы выпуск сатып алу керек, бесплатная пробная рассылка не подходит. Один номер из подтверждённых оплат выберем жребием, этому покупателю и вручим читалку."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-096",
+      "language": "ru",
+      "expected": "low",
+      "title": "Ценник рядом",
+      "category": "price_without_gate",
+      "rationale": "The explicit free raffle has no payment prerequisite; a nearby retail price is unrelated.",
+      "sources": [
+        {
+          "id": "fresh8-src-154",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-096",
+          "text": "Набор кистей продаётся за 2300. Отдельно сегодня бесплатно разыграем мольберт среди комментариев «рисую»: выберем случайный комментарий. Покупатели и остальные комментаторы равноправны, чек не нужен."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-097",
+      "language": "translit",
+      "expected": "low",
+      "title": "Kod ili besplatnyi otklik",
+      "category": "equal_free_route",
+      "rationale": "The explicitly equally eligible free response route means the paid code is not a mandatory gate.",
+      "sources": [
+        {
+          "id": "fresh8-src-155",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-097",
+          "text": "«Mokryy uzor» vystavlyaet na rozygrysh oshchushchaemyy v rukah nabor shtampov dlya gliny. Klienty s oplachennym kodom onlayn-kataloga mogut zaregistrirovat kod. No est polnostyu besplatnyy sposob: otpravit odnu stroku «hochu shtampy» cherez otklik na uzor.test. Otkryt katalog ili kupit kod dlya otklika ne nuzhno. Srok dlya oboih sposobov odinakovyy, v forme oplaty i zakazov net."
+        },
+        {
+          "id": "fresh8-src-156",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-097",
+          "text": "Na vopros pro ravnye shansy otvechaem odnoznachno: besplatnyy otklik daet odin takoy zhe nomer na tot zhe nabor shtampov. Obyedinyaem vse nomera v obshchiy spisok i iz nego sluchayno vyberaem poluchatelya. Platnyy kod ne sozdayot otdelnuyu ochered s luchshim shansom. Esli chelovek vnes i kod, i otklik, ostavim odin nomer. Nikto ne pokupaet dopolnitelnye nomera za stoimost kataloga."
+        },
+        {
+          "id": "fresh8-src-157",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-097",
+          "text": "Posle vybora ne budem trebovat u besplatnogo uchastnika oplatit katalog, chtoby poluchit shtampy. Priz uzhe prinadlezhit vybrannomu nomeru. Zabrat ego v masterskoy mozhno bez platezha; za upakovku tozhe ne berem. Izobrazhenie platnogo koda v anonse pokazyvaet tolko odin iz dvuh ravnopravnyh sposobov. Zayavka cherez otklik ne zavisit ot proshlyh pokupok i ot summy, potrachennoy na nashi uslugi."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-098",
+      "language": "mixed",
+      "expected": "medium",
+      "title": "Толық нұсқа жоқ",
+      "category": "missing_payment_terms",
+      "rationale": "The final random prize is clear; the absent terms are needed to determine whether purchase is required.",
+      "sources": [
+        {
+          "id": "fresh8-src-158",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-098",
+          "text": "«Күн ұясы» выберет генератором одного получателя пледа. Қатысу тәртібі тіркелген құжатта дейді. В самом посте только цена подушки 1900."
+        },
+        {
+          "id": "fresh8-src-159",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-098",
+          "text": "Құжат мәтіні берілмеген. Нужна покупка подушки или можно заявиться иначе — по этим сообщениям не определить."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-099",
+      "language": "kk",
+      "expected": "high",
+      "title": "Жаңартылған тіркеу",
+      "category": "later_payment_gate",
+      "rationale": "The later clarification explicitly requires a paid restoration order and a random draw awards the prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-160",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-099",
+          "text": "«Жарық жақтау» клиенттерінің біріне қабырға шамын кездейсоқ таңдау арқылы сыйлайды. Өтінім қалдыруға болады."
+        },
+        {
+          "id": "fresh8-src-161",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-099",
+          "text": "Толықтыру: бұл ұтысқа тек сурет жақтауын қалпына келтіруге тапсырыс беріп, ақысын төлегендер өтеді. Жай өтінім жіберушілер кірмейді, тегін балама тіркеу жоқ."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-100",
+      "language": "ru",
+      "expected": "medium",
+      "title": "Неясный перевод",
+      "category": "payment_role",
+      "rationale": "The supplied text names a transfer but leaves its role as entry payment or later delivery charge unclear.",
+      "sources": [
+        {
+          "id": "fresh8-src-162",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-100",
+          "text": "Чайный шкаф получит один случайный номер из заявок. Заполните форму, напишите «перевод готов» и ждите подтверждения."
+        },
+        {
+          "id": "fresh8-src-163",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-100",
+          "text": "В форме указан перевод 1200, но не сказано, вносится ли он до допуска или только выбранным получателем за доставку. Ответа на этот вопрос в переписке нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-101",
+      "language": "ru",
+      "expected": "medium",
+      "title": "Правка в закрепе",
+      "category": "contradictory_eligibility",
+      "rationale": "The two supplied current instructions contradict whether a purchase is mandatory, with no priority or date resolution.",
+      "sources": [
+        {
+          "id": "fresh8-src-164",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-101",
+          "text": "Разыграем набор посуды случайно среди всех, кто поставит плюс. Покупать ничего не обязательно — это правило участия в закрепе."
+        },
+        {
+          "id": "fresh8-src-165",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-101",
+          "text": "Под тем же закрепом организатор написал: «В список на посуду включаем исключительно чеки оплаченных заказов». Даты правки нет, какой текст действует, не указано."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-102",
+      "language": "translit",
+      "expected": "low",
+      "title": "Mera vyigrysha",
+      "category": "performance_final",
+      "rationale": "Paid participants earn the final prize by measured performance; random lanes are merely preliminary.",
+      "sources": [
+        {
+          "id": "fresh8-src-166",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-102",
+          "text": "Vznos na mini-regatu obyazatelen. Sluchayno raspredelim dorozhki, no akkumulyator poluchit ekipazh s luchshim vremenem. Pri odinakovom vremeni budet povtornyy zaezd, ne zhrebyovka za podarok."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-103",
+      "language": "ru",
+      "expected": "medium",
+      "title": "Чей номер крутят",
+      "category": "unlinked_randomness",
+      "rationale": "Paid raffle and reward are mentioned, but the text does not tie the random operation to choosing its final recipient.",
+      "sources": [
+        {
+          "id": "fresh8-src-167",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-103",
+          "text": "Взнос за участие в проекте с призом-синтезатором обязателен. В эфире покрутим генератор, будет интересно!"
+        },
+        {
+          "id": "fresh8-src-168",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-103",
+          "text": "В эфире также определяют случайный порядок выступлений. Организатор не уточнил, относится ли генератор к этому порядку или к синтезатору, и как в итоге выберут его получателя."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-104",
+      "language": "kk",
+      "expected": "high",
+      "title": "Қолдау сатысы",
+      "category": "mandatory_support",
+      "rationale": "The support transfer is explicitly required, and the final recipient is chosen by lot.",
+      "sources": [
+        {
+          "id": "fresh8-src-169",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-104",
+          "text": "«Самал сазы» жазбаларына қолдау білдіргендердің біріне дыбыс картасын береміз. Бұл ұтысқа тіркелу үшін 1800 аудару міндетті. Ақша аударылмаса, өтінім тізімге енбейді. Барлық расталған өтінімнен жеребе арқылы бір иесін анықтаймыз."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-105",
+      "language": "ru",
+      "expected": "high",
+      "title": "Случайный рейс",
+      "category": "paid_membership",
+      "rationale": "Paid membership is necessary; the final travel-voucher recipient is selected by lot.",
+      "sources": [
+        {
+          "id": "fresh8-src-170",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-105",
+          "text": "Членам платного клуба «Зелёный перрон» дарим сертификат на поездку. Обязательные условия: оплатить месяц клуба и нажать «участвую». Из оплативших и отметившихся одного выберем жребием. Простая подписка на новости не считается членством."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-106",
+      "language": "translit",
+      "expected": "high",
+      "title": "Tishina v ugolke",
+      "category": "paid_consultation",
+      "rationale": "A paid acoustics consultation is mandatory and a random final draw awards the sound panel set.",
+      "sources": [
+        {
+          "id": "fresh8-src-171",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-106",
+          "text": "U studii «Tikho-ugol» otdelnyy podarok: nabor akusticheskih paneley dlya odnoy komnaty. Chtoby uchastvovat, nuzhno zakazat platnuyu konsultatsiyu po zvuku i oplatit ee do pyatnitsy. Zayavka bez oplaty v spisok na paneli ne popadet. Posle proverki platezha vydadim nomer. V subbotu odin nomer iz etogo spiska vyberem sluchayno, i ego vladelets poluchit ves nabor paneley bez doplaty za sam priz."
+        },
+        {
+          "id": "fresh8-src-172",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-106",
+          "text": "Neskolko voprosov iz perepiski. Net, ne nuzhno pokazat samuyu shum nuyu komnatu ili dokazat, chto u vas luchshee audio. Konsultatsiya mozhet byt pro lyuboe pomeshchenie, no dolzhna byt oplachena. Besplatnyy korotkiy otvet v kommentariyah ne yavlyaetsya konsultatsiey dlya etogo spiska. Kto uzhe besplatno chital nashi sovety, nomer tolko za eto ne poluchit. V etoy aktsii net otdelnoy registratsii bez pokupki uslugi."
+        },
+        {
+          "id": "fresh8-src-173",
+          "type": "text",
+          "kind": "live",
+          "campaignRef": "fresh8-106",
+          "text": "Pered zapuskom pokazhem tolko nomera podtverzhdennyh zakazov. Dalshe generator opredelit odin konechnyy nomer poluchatelya paneley, a ne ochered na obsuzhdenie komnat. Eksperty ne budut posle etogo vybirat bolee podhodyashchego cheloveka. Esli oplachennuyu konsultatsiyu perenesli po vremeni, nomer sohranyaetsya; esli do zakrytiya spiska polnostyu vernuli oplatu, nomer udalilsya. Etu proverku sdelayem do sluchaynogo vybora."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-107",
+      "language": "ru",
+      "expected": "medium",
+      "title": "Условия за ссылкой",
+      "category": "missing_eligibility",
+      "rationale": "The advertised random reward is explicit, but supplied text does not show whether a purchase is required or an equally eligible free route exists.",
+      "sources": [
+        {
+          "id": "fresh8-src-174",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-107",
+          "text": "Один случайный участник «Круга огней» получит торшер. Оставляйте заявки, полный порядок допуска смотрите в приложении к публикации."
+        },
+        {
+          "id": "fresh8-src-175",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-107",
+          "text": "В сообщении есть цена набора свечей — 1800 — и кнопка «участвовать», однако самого приложения и связи покупки с допуском здесь нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-108",
+      "language": "translit",
+      "expected": "high",
+      "title": "Gaiqanyn nomeri",
+      "category": "paid_repair",
+      "rationale": "Paid skate maintenance is necessary and a randomly drawn receipt awards the helmet.",
+      "sources": [
+        {
+          "id": "fresh8-src-176",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-108",
+          "text": "«Dongelek-uy» skeittin dongelegin jondeuge aqy tolegen klientterge kaska oinatady. Qatysu ushin aqyly jondeu chekin jiberu mindetti. Chekterden bireuin kezdeisoq suyryp, kaskany sol iesine beremiz. Aqysyz qarap beru bul tizimge kirgizbeidi."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-109",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Бейдж коробкаға түседі",
+      "category": "paid_fair_access",
+      "rationale": "Paid exhibitor registration is required and a random final badge draw awards the stand.",
+      "sources": [
+        {
+          "id": "fresh8-src-177",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-109",
+          "text": "Кіші жәрмеңкеде бір складной стенд подарим участнику-продавцу. Сначала оплатите место, сонан соң бейджіңіз ұтыс қорабына түседі. Посетительские бесплатные бейджи туда не кладём."
+        },
+        {
+          "id": "fresh8-src-178",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-109",
+          "text": "Вечером ведущий не глядя достанет бейдж и вручит его хозяину стенд. Продажи за день на результат не влияют."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-110",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Сатып алуды сұрамайды",
+      "category": "free_random_award",
+      "rationale": "The random reward explicitly uses a free entry method and unrelated prices do not create a gate.",
+      "sources": [
+        {
+          "id": "fresh8-src-179",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-110",
+          "text": "Кешкі эфирде тегін жұмбаққа жауап бергендердің бірін кездейсоқ таңдап, көзілдірік қорабын сыйлаймыз. Наш платный курс отдельно, для ответа и приза его покупать не нужно. Дұрыс жауап пен ақысыз белгі жеткілікті."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-111",
+      "language": "translit",
+      "expected": "medium",
+      "title": "Random dlya chego",
+      "category": "unlinked_random_operation",
+      "rationale": "A paid competition and reward exist, but the purpose of the random generator is ambiguous.",
+      "sources": [
+        {
+          "id": "fresh8-src-180",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-111",
+          "text": "Vhod v proekt platnyy, priz — elektricheskiy rezak. Na efire budet randomayzer. Esche tam raspredelyayut ochered vystupleniy."
+        },
+        {
+          "id": "fresh8-src-181",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-111",
+          "text": "Ne skazano, randomayzer reshit ochered ili poluchatelya rezaka; itogovyy metod nagrazhdeniya tozhe ne opisan."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-112",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Қызыл тас емес",
+      "category": "random_object_assignment",
+      "rationale": "Paid players get random game pieces but the reward goes by performance.",
+      "sources": [
+        {
+          "id": "fresh8-src-182",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-112",
+          "text": "Взнос на настольный матч обязательный. Тастың түсін случайно тянем из мешочка, но приз получает выигравший партию по правилам игры. Қызыл тас шықты екен деп сыйлық берілмейді, цвет лишь распределяет стороны."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-113",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Сатып алған топ",
+      "category": "paid_group_access",
+      "rationale": "Paid group admission is required and its random selected member receives the stated prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-183",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-113",
+          "text": "В закрытой группе «Үнді оқу» будем разыгрывать микрофон-петличку. Топқа кіру ақылы, для участия нужно оплатить вступление до вечера. Из вступивших с оплатой одного участника выберем наудачу."
+        },
+        {
+          "id": "fresh8-src-184",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-113",
+          "text": "Читатели открытого анонса без оплаты в списке не будут. Приз окончательный, это не жеребьёвка порядка чтения."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-114",
+      "language": "ru",
+      "expected": "low",
+      "title": "Тариф после поздравления",
+      "category": "postwin_shipping",
+      "rationale": "The only payment occurs after winning and is delivery, not an entry prerequisite.",
+      "sources": [
+        {
+          "id": "fresh8-src-185",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-114",
+          "text": "В розыгрыше керамического панно участвует любой комментарий со словом «море», по одному от человека. Покупка, платная подписка или перевод для внесения в список не нужны. Комментарии собираем до воскресенья, затем случайно выберем один номер. Выбранный номер уже определит получателя панно: никаких дополнительных заданий после выбора нет."
+        },
+        {
+          "id": "fresh8-src-186",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-114",
+          "text": "В переписке с организатором спрашивают про 950, указанные рядом с изображением упаковки. Ответ: «Это стоимость пересылки в дальнюю зону. Её обсуждаем только с уже выбранным обладателем, если он попросит отправку. Самовывоз из мастерской бесплатен; до жеребьёвки с участников ничего не собираем. Нельзя оплатой доставки получить номер или улучшить шанс». Прайс на упаковку опубликован заранее, чтобы человеку было понятно, какие способы получения доступны."
+        },
+        {
+          "id": "fresh8-src-187",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-114",
+          "text": "Позже организатор добавил, что панно можно бесплатно забрать через доверенного получателя. Участнику, которому неудобен самовывоз, предложат также отложить вручение. Если выбранный человек откажется от приза целиком, проведут новый случайный выбор среди прежних бесплатных заявок. Ни первая, ни повторная жеребьёвка не требуют перевода за участие. Указанная сумма относится к фактической отправке после результата и не служит условием допуска в розыгрыш."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-115",
+      "language": "translit",
+      "expected": "medium",
+      "title": "Finaldyn bos beti",
+      "category": "missing_final_stage",
+      "rationale": "Only the preliminary shortlist is random; the paid contest’s final award method remains unknown.",
+      "sources": [
+        {
+          "id": "fresh8-src-188",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-115",
+          "text": "«Qaralym» konstruktorlar kezdesuine qatysu aqyly. Tirkelu jarnasyn tolegen zhane qysqa tapsyrmany jibergen adamdar bastapqy tizimge kiredi. Negizgi syilyq — robottyn qurastyru jiyntygy. Bastapqy tizimnen kezdeisoq segiz nomer tandap, olardy songy kezenge otkizemiz dep jazylgan. Bul segiz adamnyn barlygy syilyq alady degen soz joq: jiyntyq bir dana ekeni anyq korsetilgen."
+        },
+        {
+          "id": "fresh8-src-189",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-115",
+          "text": "Suraq-jauapta uiymdastyrushy kezdeisoq san bagdarlamasy tek finalga otetin segizdi anyqtaitynyn rastady. Biraq finalda ne bolatynyn ashpady. Bireu tapsyrma oryndai ma, qazylar bagalai ma, ekinshi zherebe bola ma degen suraqtarga «kelesi habarda» dep qysqa jauap bergen. Qazylar bar dep bekitken joq, finaldy kezdeisoq dep te aitqan joq. Songy kezen turaly bet osy jazbalarga qosylmagan."
+        },
+        {
+          "id": "fresh8-src-190",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-115",
+          "text": "Keingi habarlamada tirkelu toleminin songy kuni men bastapqy tapsyrma formaty gana naqtylangan. Syilyqtyn sureti jane bir dana ekeni qaytalangan, biraq ony segiz finalisttin qaisysy alatyny turaly tandau tartibi joq. Demek aqyly kiru jane syilyq bar ekeni belgili, al kezdeisoq tandau finalga deyin gana daleldengen. Songy alushyny kezdeisoq dep sanauga da, sheberlikpen belgilenedi dep sanauga da usynylgan tolyq matinde negiz jetpeidi."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-116",
+      "language": "ru",
+      "expected": "high",
+      "title": "Пазл в коробке",
+      "category": "random_prize_not_random_goods",
+      "rationale": "Buying the kit is mandatory and a separate random drawing awards the explicitly stated prize.",
+      "sources": [
+        {
+          "id": "fresh8-src-191",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-116",
+          "text": "Приобретите оплаченный комплект «Картонный сад», чтобы участвовать в розыгрыше лампы. Случайный рисунок внутри коробки не определяет выигрыш."
+        },
+        {
+          "id": "fresh8-src-192",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-116",
+          "text": "Для лампы будет отдельная жеребьёвка по чекам: один чек вытянем вслепую, его покупатель получит лампу. Без приобретения комплекта чек не выдаётся, другого входа нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-117",
+      "language": "translit",
+      "expected": "low",
+      "title": "Kto luchshe derzhit ritm",
+      "category": "skill_final_random_order",
+      "rationale": "Paid performers receive random performance slots, but the final reward is judged on skill.",
+      "sources": [
+        {
+          "id": "fresh8-src-193",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-117",
+          "text": "Na tantsevalnom smotre «Shag v teni» registratsiya platnaya. Glavnyy priz — komplekt polovogo pokrytiya dlya treninga. Sluchaynym sposobom opredelim vremya vyhoda kazhdogo nomera, chtoby raspisanie ne zaviselo ot znakomstva s organizatorom. Uchastnik mozhet oplatit tolko odnu rabotu. Sluchaynaya tsifra v ego raspisanii oznachaet minutu vyhoda i ne delaet ego poluchatelem priza."
+        },
+        {
+          "id": "fresh8-src-194",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-117",
+          "text": "Finalnoe reshenie prinimaet kollegiya po trem kriteriyam: tochnost ritma, kontrol dvizheniy i soglasovannost gruppy. Kazhdyy kriteriy imeet ravnyy ves. Pokrytie poluchit rabota s samoy vysokoy summoy ballov. Pri ravenstve gruppy pokazyvayut odin korotkiy fragment povtorno, kollegiya sravnivaet ego po ritmu. Monetu ne brosaem i generator za priz ne zapuskaem. Vopros o sluchaynom pobeditele razobrali do priema zayavok i takoe pravilo ne prinyali."
+        },
+        {
+          "id": "fresh8-src-195",
+          "type": "text",
+          "kind": "live",
+          "campaignRef": "fresh8-117",
+          "text": "V efire vedushchiy skazal «seychas zherebyovka», imeya v vidu tolko vremennye okna vystupleniy. Srazu posle etogo on utochnil: prizovyy rezultat poydet po otsenkam kollegii, nomer vremeni ne ravnyaetsya mestu na piedestale. Platezh ostayotsya platoy za uchastie v smotre i ne pokupaet vozmozhnost sluchaynogo vrucheniya nagrady. Posle sravneniya rabot finalnyy protokol opredelit poluchatelya bez otdelnogo losovaniya mezhdu lyudmi."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-118",
+      "language": "ru",
+      "expected": "low",
+      "title": "Случайный цвет покупки",
+      "category": "ordinary_retail",
+      "rationale": "Randomness concerns the purchased item color; there is no extra prize or random award recipient.",
+      "sources": [
+        {
+          "id": "fresh8-src-196",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-118",
+          "text": "Коробка «Неожиданный карандаш» стоит 400. Внутри один карандаш случайного цвета, все коробки одинаковы по стоимости. Отдельных призов, победителей и розыгрыша между покупателями нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-119",
+      "language": "translit",
+      "expected": "high",
+      "title": "Keshki dapter",
+      "category": "paid_notebook",
+      "rationale": "Paid notebook purchase is the entry prerequisite and the random final receipt earns the projector screen.",
+      "sources": [
+        {
+          "id": "fresh8-src-197",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-119",
+          "text": "«Keshki dapter» dunienin aqyly dapterin satyp algan adamdar arasynda ekran oinatady. Qatysu ushin dapterge tolem jasau kerek. Chekterdi aralastyryp, bireuin kormei alamyz: ekran sol chek iesine tegin beriledi."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-120",
+      "language": "kk",
+      "expected": "medium",
+      "title": "Белгісіз мүшелік",
+      "category": "ambiguous_membership_payment",
+      "rationale": "The prize recipient is random but the text does not establish whether required membership is paid.",
+      "sources": [
+        {
+          "id": "fresh8-src-198",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-120",
+          "text": "«Тоғыз тас» қауымына мүше болғандардың біріне дүрбі сыйлаймыз, иесін кездейсоқ таңдаймыз. Қатысу үшін мүшелік қажет."
+        },
+        {
+          "id": "fresh8-src-199",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-120",
+          "text": "Мүшеліктің ақылы не тегін екені айтылмаған. Парақшадағы 3000 деген баға басқа курсқа қатысты, қауымға кірумен байланысы көрсетілмеген."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-121",
+      "language": "ru",
+      "expected": "low",
+      "title": "Платёж не за участие",
+      "category": "unrelated_service",
+      "rationale": "The paid service and free random promotion are explicitly independent.",
+      "sources": [
+        {
+          "id": "fresh8-src-200",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-121",
+          "text": "В канале можно заказать платную настройку велосипеда. А за подписку на бесплатные новости мы отдельно разыгрываем насос случайным выбором подписчика."
+        },
+        {
+          "id": "fresh8-src-201",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-121",
+          "text": "Заказ настройки не требуется, не даёт дополнительных номеров и вообще не связан со списком на насос. Номер выдаётся любому подписавшемуся на новости."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-122",
+      "language": "kk",
+      "expected": "low",
+      "title": "Жеңімпаздың қаптамасы",
+      "category": "postwin_optional_cost",
+      "rationale": "The only price concerns optional packaging after a free random award.",
+      "sources": [
+        {
+          "id": "fresh8-src-202",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-122",
+          "text": "Біздің арнада жүннен тоқылған жамылғыға тегін ұтыс өтті. Қатысушылар тек қысқа өтінім қалдырды, төлем сұралған жоқ. Жексенбіде барлық өтінімнен бір нөмір кездейсоқ таңдалып, жамылғы сол адамға берілетіні жарияланды. Жеңімпаз анықталған соң оған алу тәсілдері туралы бөлек хабарлама жібердік. Жарияланған тізімге қатысу үшін зат сатып алмаған адамдар да толық кірген."
+        },
+        {
+          "id": "fresh8-src-203",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-122",
+          "text": "Бүгін жеңімпаз «қорап 600» деген жолды сұрады. Біз бұл сыйлық қорапшасының бағасы екенін түсіндірдік: жай қағаз орама тегін, сәнді қатты қорапша тек қалауы болса алынады. Жамылғының өзі сыйлық болып қалады, қорапша алудан бас тарту оны жоғалтуға әкелмейді. Бұл соманы қатысушылардан алдын ала жинамағанбыз және жаңа ұтысқа жазылу құны ретінде ұсынбаймыз. Қорапшаға тапсырыс тек сыйлық иесімен келісіліп жатыр."
+        },
+        {
+          "id": "fresh8-src-204",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-122",
+          "text": "Қосымша хабарламада жамылғыны шеберханадан тегін алып кетуге немесе біреуге алып кетуді тапсыруға болатыны айтылды. Сәнді қорапша — осы екі тәсілге де міндетті емес қосымша. Жеңімпазға «алдымен осы соманы төле, сонда ғана жүлде сенікі» деген талап қойылмаған. Оның нөмірі әлдеқашан кездейсоқ таңдалған және жамылғы бекітілген. Осы сөйлесудегі баға қатысу шартына емес, кейінгі ерікті қаптама таңдауға қатысты."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-123",
+      "language": "ru",
+      "expected": "high",
+      "title": "Глиняная луна",
+      "category": "paid_workshop",
+      "rationale": "Payment for the workshop is required; a random draw among its payers awards the kiln rental.",
+      "sources": [
+        {
+          "id": "fresh8-src-205",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-123",
+          "text": "Купили место на практикуме «Глиняная луна»? При полной оплате автоматически участвуете в розыгрыше недели аренды печи. Одного получателя выберем наугад из списка оплат."
+        },
+        {
+          "id": "fresh8-src-206",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-123",
+          "text": "Бесплатные слушатели трансляции в этот список не входят; выбираем получателя недели аренды, а не очередность показов."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-124",
+      "language": "mixed",
+      "expected": "medium",
+      "title": "Выбор без глагола",
+      "category": "unknown_final_method",
+      "rationale": "Mandatory paid participation and a reward exist, but the final award mechanism is absent.",
+      "sources": [
+        {
+          "id": "fresh8-src-207",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-124",
+          "text": "«Терезе шебері» қатысушыларынан обязательный регистрационный взнос берёт. Один комплект жалюзи — главный приз. Итоги выложим в пятницу."
+        },
+        {
+          "id": "fresh8-src-208",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-124",
+          "text": "Как определят владельца комплекта, нигде не сказано. Само слово «приз» не устанавливает случайный выбор."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-125",
+      "language": "kk",
+      "expected": "medium",
+      "title": "Кездейсоқ қай бөлім",
+      "category": "unclear_random_target",
+      "rationale": "Paid entry and a prize exist, but it is unclear whether randomness chooses prize recipient or task order.",
+      "sources": [
+        {
+          "id": "fresh8-src-209",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-125",
+          "text": "Қатысу жарнасын төлегендерге арналған кеште жүлде бар — сандық радиоқабылдағыш. Бағдарламаны кездейсоқ сандармен бастаймыз."
+        },
+        {
+          "id": "fresh8-src-210",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-125",
+          "text": "Бағдарламада тапсырма реті де бар. Кездейсоқ сан сол ретті ме, радионы алатын адамды ма белгілейтіні және соңғы жүлде тәртібі түсіндірілмеген."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-126",
+      "language": "ru",
+      "expected": "medium",
+      "title": "Платёж под вопросом",
+      "category": "unresolved_payment",
+      "rationale": "A random final prize exists, but the payment line is expressly unresolved rather than an explicit free route or a mandatory charge.",
+      "sources": [
+        {
+          "id": "fresh8-src-211",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-126",
+          "text": "Встреча «Листья на крыше» закончится розыгрышем складного велосипеда. В коробку попадут карточки зарегистрированных гостей, одну достанем наугад. Карточка с выбранным номером определит получателя велосипеда; это не жеребьёвка мест в зале. Регистрация открывается в пятницу. В первом анонсе рядом с формой стоит строка «организационный платёж — будет уточнён», а поля для оплаты пока нет."
+        },
+        {
+          "id": "fresh8-src-212",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-126",
+          "text": "Читатели спросили, нужно ли платить, чтобы карточка участвовала в выборе. Организатор ответил: «Пока не можем подтвердить ни платный допуск, ни свободный вход в розыгрыш: согласуем условия площадки, после этого исправим форму». В этом же ответе он написал, что существующая цена обычного посещения крыши относится к дням без встречи, и просил её к розыгрышу не применять. То есть известный тариф площадки сам по себе не раскрывает условие допуска на эту встречу."
+        },
+        {
+          "id": "fresh8-src-213",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-126",
+          "text": "Последнее доступное сообщение напоминает только о пятничном открытии регистрации и подтверждает, что велосипед разыгрывают среди карточек участников встречи. В нём нет окончательного решения о платеже, бесплатного альтернативного способа и правила о том, что уже оплаченный билет автоматически даёт карточку. Ни форму после открытия, ни обновлённый регламент в данном наборе сообщений не приводят. Случайное вручение приза заявлено определённо, требование заплатить за допуск осталось открытым."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-127",
+      "language": "ru",
+      "expected": "low",
+      "title": "Индивидуальный подарок",
+      "category": "guaranteed_reward",
+      "rationale": "Every buyer receives a guaranteed gift and there is no random selection of a recipient.",
+      "sources": [
+        {
+          "id": "fresh8-src-214",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-127",
+          "text": "За каждый оплаченный чайник даём кружку всем покупателям. Расцветку кружки подберёт случайный генератор при упаковке. Никто не остаётся без кружки, общего победителя не выбираем."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-128",
+      "language": "kk",
+      "expected": "low",
+      "title": "Тек тапсырыс есебі",
+      "category": "no_raffle",
+      "rationale": "Paid invoices and randomly assigned record numbers do not create a prize raffle.",
+      "sources": [
+        {
+          "id": "fresh8-src-215",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-128",
+          "text": "Өтінім нөмірлері жүйеде кездейсоқ жасалады. Шот бойынша төлем жасасаңыз, таңдаған сөреңізді дайындаймыз. Нөмір тек тапсырысты іздеуге керек, ешбір нөмір сыйлық ұтпайды."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-129",
+      "language": "translit",
+      "expected": "low",
+      "title": "Bolek satylym",
+      "category": "unrelated_paid_service",
+      "rationale": "The random prize is offered for free comments independently of the paid service.",
+      "sources": [
+        {
+          "id": "fresh8-src-216",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-129",
+          "text": "Aqyly web-dizain kenesi satylymda. Al arasynda kezdeisoq bireuine qalam jiyntygyn beretin tegin pikir almasudy ashtyq. Kenesti satyp alu qatysuga kerek emes, barlyq tegin pikir birdei."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-130",
+      "language": "kk",
+      "expected": "low",
+      "title": "Бөлек тегін сауалнама",
+      "category": "independent_free_raffle",
+      "rationale": "The random award is attached to a free survey, explicitly independent of paid coaching.",
+      "sources": [
+        {
+          "id": "fresh8-src-217",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-130",
+          "text": "Ақылы бауырсақ пісіру сабағына орындар бар. Сонымен қатар тегін сауалнама толтырғандардың біріне елеуішті кездейсоқ сыйлаймыз."
+        },
+        {
+          "id": "fresh8-src-218",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-130",
+          "text": "Сауалнама ұтысы сабаққа жазылуға тәуелді емес. Сабақ ақысын төлегеніңізді сұрамаймыз, сауалнама үшін ақы алынбайды."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-131",
+      "language": "ru",
+      "expected": "high",
+      "title": "Конверт с тремя полосами",
+      "category": "paid_entry",
+      "rationale": "Payment for a raffle envelope is explicitly required and an unseen draw determines the prize recipient.",
+      "sources": [
+        {
+          "id": "fresh8-src-219",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-131",
+          "text": "Каждый конверт для участия в нашем розыгрыше стоит 350. Купите любой из трёх цветов и получите номер. В субботу из барабана вынем один номер: его хозяину подарим проектор. Пустую бесплатную заявку не принимаем."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-132",
+      "language": "kk",
+      "expected": "high",
+      "title": "Қысқы аула картасы",
+      "category": "paid_pass",
+      "rationale": "An explicitly paid season card qualifies entrants and a random final draw awards the sled.",
+      "sources": [
+        {
+          "id": "fresh8-src-220",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-132",
+          "text": "Қысқы ауладағы ақылы маусым картасын рәсімдегендер арасында үлкен шана ойнатылады. Карта ақысы төленгеннен кейін өтінім нөмірі беріледі."
+        },
+        {
+          "id": "fresh8-src-221",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-132",
+          "text": "Картаны тек броньдағандар қатыспайды. Шананың иесін барлық төленген өтінімнің арасынан кездейсоқ санмен анықтаймыз, келу саны есептелмейді."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-133",
+      "language": "kk",
+      "expected": "medium",
+      "title": "Қай жарна екен",
+      "category": "payment_purpose",
+      "rationale": "The required transfer has an unresolved role as admission versus post-award handling.",
+      "sources": [
+        {
+          "id": "fresh8-src-222",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-133",
+          "text": "Кездейсоқ таңдалған бір өтінімге тоқу машинасын береміз. Хабарламада «2400 аударуға дайын болыңыз» деп жазылған."
+        },
+        {
+          "id": "fresh8-src-223",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-133",
+          "text": "Бұл барлық қатысушының тіркелу ақысы ма, әлде тек жүлде алғаннан кейінгі жеткізу ақысы ма — айтылмайды. Төлемнің уақыты да көрсетілмеген."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-134",
+      "language": "mixed",
+      "expected": "medium",
+      "title": "Тізімнің мәртебесі",
+      "category": "unresolved_free_entry",
+      "rationale": "The apparent free applications remain unconfirmed while the explicit paid gate is also provisional.",
+      "sources": [
+        {
+          "id": "fresh8-src-224",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-134",
+          "text": "«Екі терезе» готовит розыгрыш настольной оранжереи. Кездейсоқ бағдарлама бір нөмірді таңдайды, и оранжерею вручат его владельцу без дальнейших испытаний. Первый анонс просит оставлять заявки в чате. Про оплату в нём нет ни положительного, ни отрицательного правила, зато сказано, что список пока предварительный. Обычный прайс студии рядом с анонсом относится к занятиям и сам по себе условия акции не поясняет."
+        },
+        {
+          "id": "fresh8-src-225",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-134",
+          "text": "Позже в чате спросили: «Предварительную заявку можно подать бесплатно, ал негізгі тізімге кіру үшін бірдеңе алу керек пе?» Организатор ответил, что бесплатность отправки сообщения не означает подтверждённого допуска. Они ещё выбирают между участием с приобретённым набором и отдельной открытой регистрацией. Еш нұсқа әзірге бекітілмеген. Набор в продаже есть, но в ответе не объявляют его обязательной покупкой и не обещают равноправный бесплатный вход."
+        },
+        {
+          "id": "fresh8-src-226",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-134",
+          "text": "Последнее сообщение фиксирует только дату жеребьёвки и просит не переводить деньги, пока не появится окончательный регламент. Это просьба подождать решения, а не правило о том, что все бесплатные заявки уже допущены. Кому именно дадут номера, пока не определено. Сам случайный способ вручения оранжереи не менялся; ашық қалған мәселе — төлемнің қатысуға қажет болуы. Полного регламента среди предоставленных сообщений нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-135",
+      "language": "translit",
+      "expected": "medium",
+      "title": "Aqsha qai kezde",
+      "category": "unclear_payment_role",
+      "rationale": "A transfer is requested but its role as mandatory admission versus post-award delivery remains unresolved.",
+      "sources": [
+        {
+          "id": "fresh8-src-227",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-135",
+          "text": "Bir qatysushy kezdeisoq tandalyp, kotermek oryndyq alady. «900 audarganga eskertpe jiberemiz» delingen."
+        },
+        {
+          "id": "fresh8-src-228",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-135",
+          "text": "Bul qatysu aqysy ma, al de utyp algannan keyingi jetkizu aqysy ma — matinde bolinbegen. Kimge jane qashan audaru kerek ekeni joq."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-136",
+      "language": "ru",
+      "expected": "high",
+      "title": "Цветной браслет",
+      "category": "paid_access",
+      "rationale": "A paid pool pass is explicitly the eligibility condition for the random prize draw.",
+      "sources": [
+        {
+          "id": "fresh8-src-229",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-136",
+          "text": "Абонемент бассейна «Тёплая волна» куплен в этом месяце? Регистрируйте его на розыгрыш дорожной сумки. Участвуют только оплаченные абонементы, включая продления. Сумку получит случайно выбранный номер абонемента."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-137",
+      "language": "ru",
+      "expected": "high",
+      "title": "Шестой жетон",
+      "category": "purchase_token",
+      "rationale": "Only acquired paid tokens qualify; one random token wins the bike.",
+      "sources": [
+        {
+          "id": "fresh8-src-230",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-137",
+          "text": "У «Синего сарая» велосипед в подарок! Для участия купите жетон мастерской за 600, оставьте его номер под этим постом. Среди купленных жетонов случайный номер выберет программа."
+        },
+        {
+          "id": "fresh8-src-231",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-137",
+          "text": "Речь не о жетоне за посещение: для этого розыгрыша подходит именно оплаченный. Велосипед сразу закрепляем за выбранным номером, задания на скорость не будет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-138",
+      "language": "ru",
+      "expected": "high",
+      "title": "Кубок за случай",
+      "category": "random_final_after_skill",
+      "rationale": "Skill qualification does not alter the random final winner; the qualification also requires paid entry.",
+      "sources": [
+        {
+          "id": "fresh8-src-232",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-138",
+          "text": "Наша викторина даёт приз — кофемолку. Для участия обязательны оплаченная заявка 500 и пять верных ответов. Все прошедшие этот порог попадают в жеребьёвку: единственного получателя кофемолки выберем случайно."
+        },
+        {
+          "id": "fresh8-src-233",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-138",
+          "text": "Больше пяти ответов не увеличивает шанс. Бесплатной заявки нет, и самый высокий балл сам по себе не даёт награду."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-139",
+      "language": "ru",
+      "expected": "high",
+      "title": "Вечер без жюри",
+      "category": "paid_contest",
+      "rationale": "A paid application is necessary and the winner is explicitly random rather than judged.",
+      "sources": [
+        {
+          "id": "fresh8-src-234",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-139",
+          "text": "Разыгрываем домашнюю акустику среди авторов коротких аудиозаметок. Тема свободная, качество звука на результат не влияет. Для допуска пришлите запись и оплатите регистрационные 900. Не оплатившие остаются слушателями. Последний обладатель награды определяется случайным номером из всех допущенных, жюри работы не оценивает."
+        },
+        {
+          "id": "fresh8-src-235",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-139",
+          "text": "Срок приёма — до 21:00 во вторник. Можно перезаписать заметку сколько угодно до срока, но каждому человеку оставляем один номер, а повторный перевод второго номера не даёт. Если запись не открывается, попросим исправить файл до закрытия приёма. Комиссия за регистрацию обязательна также для тех, кто участвовал у нас раньше; прежний диплом или репост её не заменяет. В публичном списке укажем только выданные номера, чтобы не раскрывать личные данные."
+        },
+        {
+          "id": "fresh8-src-236",
+          "type": "text",
+          "kind": "live",
+          "campaignRef": "fresh8-139",
+          "text": "Перед эфиром мы проверим наличие файла и оплату, это технический допуск, а не соревнование по содержанию. Затем программа равновероятно выберет один номер из допущенных заявок. После этого акустика уже принадлежит выбранному участнику; голосование зрителей используется только для порядка прослушивания остальных заметок и не меняет результат розыгрыша. За отправку акустики доплаты нет. Итог не зависит от того, успел ли автор послушать эфир вживую."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-140",
+      "language": "kk",
+      "expected": "high",
+      "title": "Сандықтағы ою",
+      "category": "paid_digital_asset",
+      "rationale": "Paid pattern acquisition is the admission condition and a random draw gives the tablet.",
+      "sources": [
+        {
+          "id": "fresh8-src-237",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-140",
+          "text": "«Иір өрнек» электронды ою жинағын сатып алып, төлем нөмірін тіркеңіз. Тіркелу тек осы ақылы жинақты алушыларға ашық. Олардың ішінен кездейсоқ бір нөмір таңдап, иесіне сурет салатын планшет береміз."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-141",
+      "language": "ru",
+      "expected": "low",
+      "title": "Приз уже выбранному",
+      "category": "postwin_redemption",
+      "rationale": "The price is a voluntary optional upgrade after a free random award, not mandatory entry.",
+      "sources": [
+        {
+          "id": "fresh8-src-238",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-141",
+          "text": "В бесплатном розыгрыше портрета вчера случайно выбрали номер 42. Сам цифровой портрет ему дарим."
+        },
+        {
+          "id": "fresh8-src-239",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-141",
+          "text": "Сегодня предложили победителю печать в раме за 1600 по желанию. Отказ от печати не лишает подаренного файла. Ранее участники ничего не платили."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-142",
+      "language": "ru",
+      "expected": "high",
+      "title": "Пятничная крошка",
+      "category": "paid_subscription",
+      "rationale": "An active paid pastry subscription is explicitly required and its members are randomly selected for a free year.",
+      "sources": [
+        {
+          "id": "fresh8-src-240",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-142",
+          "text": "В пятницу дарим год выпечки одному подписчику «Крошка-клуба». Речь про платную подписку на наборы: неоплаченные заявки и читатели канала в список не попадут. Из действующих оплаченных подписок случайно вытянем одну в эфире."
+        },
+        {
+          "id": "fresh8-src-241",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-142",
+          "text": "Продлить подписку надо до 17:00. Приз — двенадцать бесплатных коробок, победитель один, определяется жеребьёвкой по клиентским номерам."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-143",
+      "language": "kk",
+      "expected": "high",
+      "title": "Тұқым түбіртегі",
+      "category": "paid_agriculture_goods",
+      "rationale": "A paid seed purchase and receipt are required, and a random final draw awards the irrigation unit.",
+      "sources": [
+        {
+          "id": "fresh8-src-242",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-143",
+          "text": "«Қоңыр дән» қауымдастығы шағын суару құрылғысын сыйға тартады. Қатысқыңыз келсе, осы аптаның ішінде біздің көкөніс тұқымдарының бір қаптамасын сатып алып, ақысын толық төлеңіз. Төленген түбіртекті тіркегенде ғана ұтыс нөмірі беріледі. Тек парақшаға жазылу немесе пікір қалдыру жеткіліксіз. Сенбі күні тіркелген нөмірлердің бірін кездейсоқ таңдап, суару құрылғысын сол нөмірдің иесіне табыстаймыз."
+        },
+        {
+          "id": "fresh8-src-243",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-143",
+          "text": "Алдын ала сұрағандарға: қаптаманы қай күні ашқаныңыз, егінді қай жерге егетініңіз маңызды емес. Бір адамнан бір түбіртек қабылданады, үлкен тапсырыс қосымша мүмкіндік бермейді. Бірақ сатып алу талабы барлығына ортақ: тұқым алмай, бөлек тегін өтініммен осы тізімге кіру жолы қарастырылмаған. Төлемі өтпеген тапсырысқа нөмір жазбаймыз. Қате оқылған түбіртекті жұма кешіне дейін қайта жіберуге болады."
+        },
+        {
+          "id": "fresh8-src-244",
+          "type": "text",
+          "kind": "live",
+          "campaignRef": "fresh8-143",
+          "text": "Сенбідегі көрсетілімде алдымен расталған нөмірлерді экранға шығарамыз. Одан кейін кездейсоқ сан бағдарламасын бір рет іске қосамыз; шыққан нөмір суару құрылғысының түпкілікті иесін белгілейді. Бұл көшет өсіру шеберлігін бағалау сайысы емес, фотосурет сұралмайды. Жеңімпаз анықталған соң одан құрылғының бағасын немесе тағы бір жарнаны талап етпейміз. Құрылғыны алып кету уақытын бөлек келісеміз, ол бастапқы міндетті сатып алуды алмастырмайды."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-144",
+      "language": "ru",
+      "expected": "high",
+      "title": "Двойной тёплый след",
+      "category": "purchase_bundle",
+      "rationale": "A paid bundle is required; all eligible receipts are used to randomly select the final winner.",
+      "sources": [
+        {
+          "id": "fresh8-src-245",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-144",
+          "text": "Покупка набора из двух шарфов до 12 числа — обязательное условие розыгрыша кресла. Отправьте оплаченный чек, и мы выдадим номер."
+        },
+        {
+          "id": "fresh8-src-246",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-144",
+          "text": "Один шарф или неоплаченная бронь не дают участия. Из подтверждённых номеров рулетка выберет победителя, который заберёт кресло без доплаты."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-145",
+      "language": "ru",
+      "expected": "low",
+      "title": "Помощь без билета",
+      "category": "voluntary_donation",
+      "rationale": "Donations are expressly optional and do not affect random prize eligibility.",
+      "sources": [
+        {
+          "id": "fresh8-src-247",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-145",
+          "text": "Разыгрываем фонарь среди всех отметившихся до вечера. Рядом кнопка поддержки мастерской, но перевод добровольный: не переводившие участвуют с тем же шансом. Выберем номер наугад, оплаченных билетов у нас нет."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-146",
+      "language": "translit",
+      "expected": "high",
+      "title": "Odin iz zakazov",
+      "category": "paid_commission",
+      "rationale": "Payment for the commissioned item is mandatory and the random final order wins the stand.",
+      "sources": [
+        {
+          "id": "fresh8-src-248",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-146",
+          "text": "Zakazhite i oplatite vyvesku v «Bukva v shcheli». Sredi imenno oplachennyh zakazov sluchayno vyberem odin i podarim ego klientu perenosnoy stend. Bez zakaza i ego oplaty uchastvovat nelzya."
+        },
+        {
+          "id": "fresh8-src-249",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-146",
+          "text": "Dizayn vyveski ne otsenivaetsya: sluchaynyy vybor i est okonchatelnyy rezultat rozygrysha stenda."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-147",
+      "language": "translit",
+      "expected": "high",
+      "title": "Tungi angime kodi",
+      "category": "paid_audio_code",
+      "rationale": "Purchase of the paid audio-drama code is required and a random final code awards the speaker.",
+      "sources": [
+        {
+          "id": "fresh8-src-250",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-147",
+          "text": "«Tungi angime» jaña audio-qoyylymyn satyp algandar arasynda aqyldy kolonka oinatyldy dep emes, endi oinatylady. Qatysu ushin qysqa anonsyn tyndau jetkiliksiz: tolyq qoyylymga aqyly kod satyp alyp, aqysyn toleu mindetti. Kodty tirkeu jumada ayaqtalady. Senbide rastalgan kodtardyn bireuin kezdeisoq tandaimyz. Kolonka sol kodtyn iesine beriledi, basqa bagalau kezeni joq."
+        },
+        {
+          "id": "fresh8-src-251",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-147",
+          "text": "Bir adam ozine kod alsa da, basqa bireuge syiga kod alsa da, utys nomeri tolem jasagan adamga jazylady. Eki kod satyp alu eki nomer bermeidi, bir qatysushyga bir mumkindik. Biraq bul shekteu satyp alu talabyn joimaidy: aqysyz nusqany tyndagan adam sol sebeppen utys tizimine qosylmaidy. Qosymsha tapsyrma, pikirdi kop jinau nemese qoyylym mazmunyn aidyp beru kerek emes."
+        },
+        {
+          "id": "fresh8-src-252",
+          "type": "text",
+          "kind": "live",
+          "campaignRef": "fresh8-147",
+          "text": "Senbidegi efirde generator rastalgan qatysushylar nomerinen bireuin shygarady. Shyqqan nomer kolonkanyn tupkilikti iesin anyqtaidy. Qoyylym ishinde kezdeisoq taralgan ses effektisi bar, biraq ol utys pen bailanyspagan, utqandy estu arqyly tabu kerek emes. Kolonkany alu ushin jana kod satyp aldyru nemese algashqy tolemnen bolek tirkeu aqysyn alu qarastyrylmagan. Tolemsiz balama kiru joly osy aktsiyaga ashyq emes."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-148",
+      "language": "mixed",
+      "expected": "high",
+      "title": "Архив ашылады",
+      "category": "paid_archive",
+      "rationale": "Paid archive access is explicitly required and the final prize recipient is selected randomly among paid applicants.",
+      "sources": [
+        {
+          "id": "fresh8-src-253",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-148",
+          "text": "У «Жіп пен кадр» открывается архив видео о ремонте одежды. Осы ашылуға орай портативную швейную машинку разыграем. Условие участия — приобрести платный доступ к архиву на месяц и полностью оплатить счёт до среды. Тегін таныстыру видеосын қарау жеткіліксіз. После оплаты отправьте код заказа в форму, каждому человеку подтвердим один номер. В четверг случайный выбор среди этих номеров определит, кому достанется машинка."
+        },
+        {
+          "id": "fresh8-src-254",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-148",
+          "text": "Вопрос из чата: «Если архив уже покупала прошлой зимой, қатыса аламын ба?» Ответ: участвует именно новый оплаченный месяц в период акции; давняя покупка не даёт номер автоматически. Қазір тегін тіркелуге арналған жол жоқ. Можно купить доступ для себя или в подарок, но в список на машинку вносится оплативший, а не адресат подарка. Возврат оплаты до закрытия формы снимает номер с участия; эту проверку закончим до эфира."
+        },
+        {
+          "id": "fresh8-src-255",
+          "type": "text",
+          "kind": "live",
+          "campaignRef": "fresh8-148",
+          "text": "Эфирде сначала покажем обезличенный список номеров. Дальше генератор один раз выберет номер получателя машинки. Не будем смотреть, сколько роликов он успел открыть и как у него получился шов: бұл шеберлік байқауы емес. Случайный выбор завершает розыгрыш, никакого второго тура не предусмотрено. Архив остаётся доступным всем, кто его оплатил, а отдельный приз получит один выбранный участник. Машинку передаём без нового платежа."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-149",
+      "language": "ru",
+      "expected": "high",
+      "title": "Дорога к маяку",
+      "category": "paid_event",
+      "rationale": "A paid guided-walk ticket admits the entrant and a random final draw awards the telescope.",
+      "sources": [
+        {
+          "id": "fresh8-src-256",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-149",
+          "text": "Среди оплативших билет на прогулку «Дорога к маяку» разыграем телескоп. На месте выдают карточку только по оплаченному билету; в конце ведущий вслепую достанет одну карточку и назовёт обладателя приза."
+        },
+        {
+          "id": "fresh8-src-257",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-149",
+          "text": "Посетители без билета могут слушать с площадки, но в коробку их карточек не кладём. Это и есть окончательный выбор получателя телескопа."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-150",
+      "language": "kk",
+      "expected": "high",
+      "title": "Құлыпсыз сөре",
+      "category": "paid_storage",
+      "rationale": "Payment for storage rental is necessary and its contracts form the random prize pool.",
+      "sources": [
+        {
+          "id": "fresh8-src-258",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-150",
+          "text": "«Ұя сөре» қоймасында бір айлық сақтау орнын ақылы жалға алған клиенттерге велосипед сөмкесін ойнатамыз. Қатысу шарты — келісімді тіркеп, айлық ақысын төлеу."
+        },
+        {
+          "id": "fresh8-src-259",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-150",
+          "text": "Жеңімпазды төленген келісім нөмірлерінен кездейсоқ анықтаймыз. Тегін кеңес алушылар тізімге кірмейді."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-151",
+      "language": "kk",
+      "expected": "low",
+      "title": "Барлығына бірдей",
+      "category": "guaranteed_bonus",
+      "rationale": "The gift is guaranteed to every paid customer; random distribution concerns color only.",
+      "sources": [
+        {
+          "id": "fresh8-src-260",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-151",
+          "text": "Әр ақылы жолдорбаға шағын белгі саламыз. Белгі бәріне беріледі, тек түсі кездейсоқ келеді. Біреуге түсіп, біреуге түспейтін жүлде немесе алушыны бөлек таңдау қарастырылмаған."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-152",
+      "language": "ru",
+      "expected": "high",
+      "title": "Выбери ткань",
+      "category": "mandatory_paid_acquisition",
+      "rationale": "A paid fabric order is the stated entry gate and the voucher recipient is drawn randomly.",
+      "sources": [
+        {
+          "id": "fresh8-src-261",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-152",
+          "text": "Фабрика вымышленных тканей «Косой луч» подарит швейную машину одному покупателю ткани. Для участия необходимо оплатить отрез не короче метра и прислать чек. Сорт ткани выбираете вы."
+        },
+        {
+          "id": "fresh8-src-262",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-152",
+          "text": "Во вторник компьютер выберет случайный чек из прошедших проверку. Его владелец забирает машину; бесплатных номеров по письму не выдаём."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-153",
+      "language": "kk",
+      "expected": "high",
+      "title": "Кілемшедегі белгі",
+      "category": "paid_class_package",
+      "rationale": "A paid class package is necessary and random selection determines the final prize recipient.",
+      "sources": [
+        {
+          "id": "fresh8-src-263",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-153",
+          "text": "Созылу сабақтарының төрт күндік ақылы топтамасын алғандарға массаж жастығын ойнатамыз. Топтама толық төленген болуы шарт. Жексенбіде сол адамдардың бірін кездейсоқ таңдаймыз."
+        },
+        {
+          "id": "fresh8-src-264",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-153",
+          "text": "Сынақ сабағына тегін келгендер бұл ұтысқа қатыспайды. Жастық кімге берілетіні жаттығуды қалай орындағанына байланысты емес."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-154",
+      "language": "kk",
+      "expected": "low",
+      "title": "Тірек ерікті",
+      "category": "voluntary_donation",
+      "rationale": "The donation is expressly optional and does not alter free raffle eligibility.",
+      "sources": [
+        {
+          "id": "fresh8-src-265",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-154",
+          "text": "Кітап сөресін оқырмандар арасынан кездейсоқ бір адамға сыйлаймыз. Қатысуға тегін өтінім жеткілікті. Жанындағы қолдау батырмасы — ерікті қайырымдылық; ақша жібергендерге артық нөмір берілмейді."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-155",
+      "language": "kk",
+      "expected": "high",
+      "title": "Ескі қолшатыр орнына",
+      "category": "paid_exchange",
+      "rationale": "A paid trade-in is mandatory; the prize recipient is randomly drawn among those transactions.",
+      "sources": [
+        {
+          "id": "fresh8-src-266",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-155",
+          "text": "Ескі қолшатырыңызды әкеліп, жаңа қолшатырға айырбастаудың үстеме ақысын төлесеңіз, жол сандығының ұтысына кіресіз. Тек ескісін қалдыру жеткіліксіз, ақылы айырбас аяқталуы керек."
+        },
+        {
+          "id": "fresh8-src-267",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-155",
+          "text": "Апта соңында аяқталған ақылы айырбастардың нөмірінен жеребе тартамыз. Жол сандығын жеребеде шыққан адам алады."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-156",
+      "language": "kk",
+      "expected": "high",
+      "title": "Жиынтықтың соңғы күні",
+      "category": "paid_preorder",
+      "rationale": "A paid preorder deposit is mandatory and a random final recipient gets the separate reward.",
+      "sources": [
+        {
+          "id": "fresh8-src-268",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-156",
+          "text": "«Қамыс үй» құрастыру жиынтығына алдын ала тапсырыс беріп, міндетті кепілақыны төлеңіз. Осы төленген тапсырыстар арасында шатыр ойнатамыз."
+        },
+        {
+          "id": "fresh8-src-269",
+          "type": "text",
+          "kind": "message",
+          "campaignRef": "fresh8-156",
+          "text": "Кепілақысыз бронь ұтысқа кірмейді. Бір төленген тапсырысты кездейсоқ таңдап, оның иесіне шатырды толық сыйлаймыз."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-157",
+      "language": "translit",
+      "expected": "medium",
+      "title": "Tolyk jol joq",
+      "category": "missing_paid_gate",
+      "rationale": "Random final prize is stated but the missing entry terms prevent resolving a required purchase.",
+      "sources": [
+        {
+          "id": "fresh8-src-270",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-157",
+          "text": "Qolsagatty qatysushylardyn bireuine kezdeisoq tandap beremiz. Qatysu erezhesi qosuly failda delingen, biraq osy jerde fail mazmuny joq. Janynda beldik bagasy 2600, ony satyp alu shart pa — aitylmagan."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-158",
+      "language": "translit",
+      "expected": "low",
+      "title": "Tolko tsitaty dlya zanyatiya",
+      "category": "educational_quote",
+      "rationale": "The paid random promotion is explicitly a fictional training quote and not an active raffle.",
+      "sources": [
+        {
+          "id": "fresh8-src-271",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-158",
+          "text": "V uchebnom dialoge est replika: «Perevedi 500, sluchaynyy nomer poluchit elektrosamokat». Eto pridumannyy primer rechi v reklamnom soobshchenii. My ne sobiraem perevody i ne provodim svoego rozygrysha."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-159",
+      "language": "mixed",
+      "expected": "low",
+      "title": "Каждому, бірақ түсі бөлек",
+      "category": "guaranteed_gift",
+      "rationale": "Every paid customer gets the bonus; only its color is random.",
+      "sources": [
+        {
+          "id": "fresh8-src-272",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-159",
+          "text": "За оплату зимнего чехла всем кладём грелку. Бәріне беріледі, тек қабының түсі кездейсоқ. Покупателей для подарка не отбираем и одного победителя не ищем."
+        }
+      ]
+    },
+    {
+      "id": "fresh8-160",
+      "language": "kk",
+      "expected": "low",
+      "title": "Қораптағы хош иіс",
+      "category": "random_product_variant",
+      "rationale": "Random scent in a paid ordinary product is not random selection of a prize recipient.",
+      "sources": [
+        {
+          "id": "fresh8-src-273",
+          "type": "text",
+          "kind": "post",
+          "campaignRef": "fresh8-160",
+          "text": "«Дала иісі» сабынының қорабы ақылы. Қай шөптің иісі түсетінін қаптаушы кездейсоқ таңдайды. Әр сатып алушы бір сабын алады, бөлек жүлде не жеңімпаз жоқ."
+        }
+      ]
+    }
+  ]
+}

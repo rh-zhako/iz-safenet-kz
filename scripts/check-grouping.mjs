@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {groupFeed,sampleFeed} from '../dist/grouping.mjs';
+import {analyzeCampaign} from '../dist/engine.mjs';
+const groups=groupFeed(sampleFeed.posts);
+assert.equal(groups.length,3);
+assert.deepEqual(groups.map(c=>c.sources.length),[3,2,1]);
+assert.deepEqual(groups.map(c=>analyzeCampaign(c).analysis.risk),['high','low','low']);
+const unrelated=groupFeed([{id:'a',text:'Объявление о призе',author:'Один аккаунт',url:'https://example.com/a'},{id:'b',text:'Обязательный платёж',author:'Один аккаунт',url:'https://example.com/b'}]);
+assert.equal(unrelated.length,2,'Same author and domain must not establish a shared campaign');
+const replyChain=groupFeed([{id:'a',text:'Приз',url:'https://example.com/p?id=1'},{id:'b',text:'Оплата',replyTo:'https://example.com/p?id=1&utm_source=test'},{id:'c',text:'Условия',replyTo:'b'}]);
+assert.equal(replyChain.length,1);
+assert.throws(()=>groupFeed([{id:'a',text:'x'},{id:'a',text:'y'}]),/повторяется/);
+console.log('Grouping checks: exact references, transitive replies, no merge by author/domain, duplicate validation — passed.');

@@ -1,0 +1,1132 @@
+{
+  "engineVersion": "1.4.0-track1-rules",
+  "dataset": "100 synthetic cases authored by a separate engine-blinded AI agent; not human or real-world validation",
+  "synthetic": true,
+  "total": 100,
+  "positiveDefinition": "high: observed prize + mandatory entry payment + random selection, without unresolved contradiction",
+  "precision": 0.8636363636363636,
+  "recall": 0.475,
+  "falsePositiveRate": 0.05,
+  "accuracy": 0.53,
+  "decisionCoverage": 0.56,
+  "tp": 19,
+  "fp": 3,
+  "tn": 57,
+  "fn": 21,
+  "matrix": {
+    "high": {
+      "high": 19,
+      "medium": 20,
+      "low": 1
+    },
+    "medium": {
+      "high": 1,
+      "medium": 10,
+      "low": 9
+    },
+    "low": {
+      "high": 2,
+      "medium": 14,
+      "low": 24
+    }
+  },
+  "quoteErrors": 0,
+  "cases": [
+    {
+      "id": "ind2-001",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-002",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "category": "community"
+    },
+    {
+      "id": "ind2-003",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "ru",
+      "category": "travel"
+    },
+    {
+      "id": "ind2-004",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "not-high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "food"
+    },
+    {
+      "id": "ind2-005",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "category": "home"
+    },
+    {
+      "id": "ind2-006",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "ru",
+      "category": "community"
+    },
+    {
+      "id": "ind2-007",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "ru",
+      "category": "public_notice"
+    },
+    {
+      "id": "ind2-008",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "ru",
+      "category": "beauty"
+    },
+    {
+      "id": "ind2-009",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-010",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "ru",
+      "category": "sports"
+    },
+    {
+      "id": "ind2-011",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "home"
+    },
+    {
+      "id": "ind2-012",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "ru",
+      "category": "arts"
+    },
+    {
+      "id": "ind2-013",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 45,
+      "language": "ru",
+      "category": "books"
+    },
+    {
+      "id": "ind2-014",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "ru",
+      "category": "fashion"
+    },
+    {
+      "id": "ind2-015",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "ru",
+      "category": "retail"
+    },
+    {
+      "id": "ind2-016",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 45,
+      "language": "ru",
+      "category": "education"
+    },
+    {
+      "id": "ind2-017",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "outdoors"
+    },
+    {
+      "id": "ind2-018",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "ru",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-019",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "food"
+    },
+    {
+      "id": "ind2-020",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "category": "public_notice"
+    },
+    {
+      "id": "ind2-021",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "games"
+    },
+    {
+      "id": "ind2-022",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "ru",
+      "category": "travel"
+    },
+    {
+      "id": "ind2-023",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "category": "beauty"
+    },
+    {
+      "id": "ind2-024",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "ru",
+      "category": "home"
+    },
+    {
+      "id": "ind2-025",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "ru",
+      "category": "sports"
+    },
+    {
+      "id": "ind2-026",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "ru",
+      "category": "events"
+    },
+    {
+      "id": "ind2-027",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "ru",
+      "category": "education"
+    },
+    {
+      "id": "ind2-028",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 8,
+      "language": "ru",
+      "category": "fashion"
+    },
+    {
+      "id": "ind2-029",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "ru",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-030",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "ru",
+      "category": "public_notice"
+    },
+    {
+      "id": "ind2-031",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "kk",
+      "category": "books"
+    },
+    {
+      "id": "ind2-032",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "sports"
+    },
+    {
+      "id": "ind2-033",
+      "expected": "medium",
+      "predicted": "high",
+      "baseline": "high",
+      "match": false,
+      "score": 90,
+      "language": "kk",
+      "category": "home"
+    },
+    {
+      "id": "ind2-034",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "kk",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-035",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "community"
+    },
+    {
+      "id": "ind2-036",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "travel"
+    },
+    {
+      "id": "ind2-037",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "kk",
+      "category": "arts"
+    },
+    {
+      "id": "ind2-038",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "kk",
+      "category": "beauty"
+    },
+    {
+      "id": "ind2-039",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "kk",
+      "category": "food"
+    },
+    {
+      "id": "ind2-040",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "kk",
+      "category": "public_notice"
+    },
+    {
+      "id": "ind2-041",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "kk",
+      "category": "home"
+    },
+    {
+      "id": "ind2-042",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "kk",
+      "category": "education"
+    },
+    {
+      "id": "ind2-043",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "kk",
+      "category": "furniture"
+    },
+    {
+      "id": "ind2-044",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "kk",
+      "category": "fashion"
+    },
+    {
+      "id": "ind2-045",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "kk",
+      "category": "retail"
+    },
+    {
+      "id": "ind2-046",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-047",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "kk",
+      "category": "outdoors"
+    },
+    {
+      "id": "ind2-048",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "kk",
+      "category": "community"
+    },
+    {
+      "id": "ind2-049",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "events"
+    },
+    {
+      "id": "ind2-050",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "kk",
+      "category": "sports"
+    },
+    {
+      "id": "ind2-051",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "kk",
+      "category": "home"
+    },
+    {
+      "id": "ind2-052",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 5,
+      "language": "kk",
+      "category": "travel"
+    },
+    {
+      "id": "ind2-053",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "kk",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-054",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "food"
+    },
+    {
+      "id": "ind2-055",
+      "expected": "low",
+      "predicted": "high",
+      "baseline": "high",
+      "match": false,
+      "score": 90,
+      "language": "kk",
+      "category": "public_notice"
+    },
+    {
+      "id": "ind2-056",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "kk",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-057",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 58,
+      "language": "kk",
+      "category": "beauty"
+    },
+    {
+      "id": "ind2-058",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "kk",
+      "category": "books"
+    },
+    {
+      "id": "ind2-059",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "kk",
+      "category": "sports"
+    },
+    {
+      "id": "ind2-060",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "kk",
+      "category": "education"
+    },
+    {
+      "id": "ind2-061",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-062",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "mixed",
+      "category": "home"
+    },
+    {
+      "id": "ind2-063",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 5,
+      "language": "mixed",
+      "category": "fashion"
+    },
+    {
+      "id": "ind2-064",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "mixed",
+      "category": "community"
+    },
+    {
+      "id": "ind2-065",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "food"
+    },
+    {
+      "id": "ind2-066",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "not-high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "travel"
+    },
+    {
+      "id": "ind2-067",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "mixed",
+      "category": "arts"
+    },
+    {
+      "id": "ind2-068",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 5,
+      "language": "mixed",
+      "category": "books"
+    },
+    {
+      "id": "ind2-069",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "mixed",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-070",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "mixed",
+      "category": "home"
+    },
+    {
+      "id": "ind2-071",
+      "expected": "high",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 5,
+      "language": "mixed",
+      "category": "sports"
+    },
+    {
+      "id": "ind2-072",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "mixed",
+      "category": "education"
+    },
+    {
+      "id": "ind2-073",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "mixed",
+      "category": "public_notice"
+    },
+    {
+      "id": "ind2-074",
+      "expected": "high",
+      "predicted": "high",
+      "baseline": "high",
+      "match": true,
+      "score": 90,
+      "language": "mixed",
+      "category": "beauty"
+    },
+    {
+      "id": "ind2-075",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 8,
+      "language": "mixed",
+      "category": "retail"
+    },
+    {
+      "id": "ind2-076",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "mixed",
+      "category": "events"
+    },
+    {
+      "id": "ind2-077",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 58,
+      "language": "mixed",
+      "category": "travel"
+    },
+    {
+      "id": "ind2-078",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "mixed",
+      "category": "sports"
+    },
+    {
+      "id": "ind2-079",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "mixed",
+      "category": "fashion"
+    },
+    {
+      "id": "ind2-080",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "mixed",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-081",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "mixed",
+      "category": "food"
+    },
+    {
+      "id": "ind2-082",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 65,
+      "language": "mixed",
+      "category": "home"
+    },
+    {
+      "id": "ind2-083",
+      "expected": "low",
+      "predicted": "high",
+      "baseline": "high",
+      "match": false,
+      "score": 90,
+      "language": "mixed",
+      "category": "public_notice"
+    },
+    {
+      "id": "ind2-084",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "mixed",
+      "category": "games"
+    },
+    {
+      "id": "ind2-085",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 18,
+      "language": "mixed",
+      "category": "education"
+    },
+    {
+      "id": "ind2-086",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "translit",
+      "category": "electronics"
+    },
+    {
+      "id": "ind2-087",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "translit",
+      "category": "community"
+    },
+    {
+      "id": "ind2-088",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 18,
+      "language": "translit",
+      "category": "home"
+    },
+    {
+      "id": "ind2-089",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "translit",
+      "category": "sports"
+    },
+    {
+      "id": "ind2-090",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "translit",
+      "category": "retail"
+    },
+    {
+      "id": "ind2-091",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 58,
+      "language": "translit",
+      "category": "beauty"
+    },
+    {
+      "id": "ind2-092",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "translit",
+      "category": "arts"
+    },
+    {
+      "id": "ind2-093",
+      "expected": "medium",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": false,
+      "score": 5,
+      "language": "translit",
+      "category": "travel"
+    },
+    {
+      "id": "ind2-094",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "translit",
+      "category": "books"
+    },
+    {
+      "id": "ind2-095",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 65,
+      "language": "translit",
+      "category": "home"
+    },
+    {
+      "id": "ind2-096",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "translit",
+      "category": "food"
+    },
+    {
+      "id": "ind2-097",
+      "expected": "low",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "translit",
+      "category": "public_notice"
+    },
+    {
+      "id": "ind2-098",
+      "expected": "medium",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": true,
+      "score": 45,
+      "language": "translit",
+      "category": "education"
+    },
+    {
+      "id": "ind2-099",
+      "expected": "high",
+      "predicted": "medium",
+      "baseline": "not-high",
+      "match": false,
+      "score": 45,
+      "language": "translit",
+      "category": "events"
+    },
+    {
+      "id": "ind2-100",
+      "expected": "low",
+      "predicted": "low",
+      "baseline": "not-high",
+      "match": true,
+      "score": 5,
+      "language": "translit",
+      "category": "sports"
+    }
+  ],
+  "baseline": {
+    "name": "Any single source classified high",
+    "precision": 0.85,
+    "recall": 0.425,
+    "falsePositiveRate": 0.05
+  },
+  "limitations": [
+    "Synthetic authored scenarios with limited wording variation.",
+    "Used for implementation checks; not an independently blinded evaluation.",
+    "Medium cases remain in the denominator for binary metrics.",
+    "OCR quality is not evaluated by this text scenario benchmark."
+  ],
+  "triage": {
+    "tp": 50,
+    "fp": 16,
+    "fn": 10,
+    "tn": 24,
+    "positiveDefinition": "high + medium vs low",
+    "precision": 0.7575757575757576,
+    "recall": 0.8333333333333334,
+    "falsePositiveRate": 0.4,
+    "confidence95": {
+      "precision": [
+        0.6419064250894373,
+        0.8449094554173093
+      ],
+      "recall": [
+        0.7196814850279217,
+        0.9068692279867897
+      ],
+      "falsePositiveRate": [
+        0.2634811061240136,
+        0.5540438017260649
+      ]
+    }
+  },
+  "confidence95": {
+    "precision": [
+      0.6666458812053,
+      0.9525108273576373
+    ],
+    "recall": [
+      0.32935229550181694,
+      0.6250289314607027
+    ],
+    "falsePositiveRate": [
+      0.01714919117914121,
+      0.13700734625099836
+    ]
+  },
+  "byLanguage": {
+    "ru": {
+      "n": 30,
+      "tp": 8,
+      "fp": 0,
+      "tn": 18,
+      "fn": 4,
+      "precision": 1,
+      "recall": 0.6666666666666666,
+      "falsePositiveRate": 0,
+      "accuracy": 0.6666666666666666
+    },
+    "kk": {
+      "n": 30,
+      "tp": 7,
+      "fp": 2,
+      "tn": 16,
+      "fn": 5,
+      "precision": 0.7777777777777778,
+      "recall": 0.5833333333333334,
+      "falsePositiveRate": 0.1111111111111111,
+      "accuracy": 0.5333333333333333
+    },
+    "mixed": {
+      "n": 25,
+      "tp": 4,
+      "fp": 1,
+      "tn": 14,
+      "fn": 6,
+      "precision": 0.8,
+      "recall": 0.4,
+      "falsePositiveRate": 0.06666666666666667,
+      "accuracy": 0.52
+    },
+    "translit": {
+      "n": 15,
+      "tp": 0,
+      "fp": 0,
+      "tn": 9,
+      "fn": 6,
+      "precision": 0,
+      "recall": 0,
+      "falsePositiveRate": 0,
+      "accuracy": 0.26666666666666666
+    }
+  }
+}

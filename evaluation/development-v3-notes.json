@@ -1,0 +1,4205 @@
+{
+  "schemaVersion": 1,
+  "status": "OPEN_DEVELOPMENT_NOT_INDEPENDENT",
+  "engineVersion": "1.6.0-track1-context",
+  "engineSha256": "4127f8b5b136b5325152c6691d1fe2f6d5f58a7ea3e2103021d8b149d60cfc97",
+  "createdAt": "2026-10-20T17:11:38.118Z",
+  "provenance": "v3 was frozen before v1.5, then its 39 errors were opened and explicitly used to develop v1.6. All v1/v2/v3 scores here are development or regression. No hidden v4 or later corpus is read.",
+  "architecture": "clause-v1: mapped normalization → source/quote attribution → clauses → role/polarity/stage atoms → linked campaign evidence → unresolved-contradiction checks → priority",
+  "changes": [
+    "Payment conditions are scoped to clauses and assigned entry, delivery, prize-price or unknown roles.",
+    "Negation and optionality apply to a particular condition; the same donation can conflict, an optional extra donation cannot cancel a required ticket.",
+    "Random/skill selection distinguish positive, denied, unknown and preliminary stages.",
+    "NFKC, mixed glyph and OCR normalization maps every quote to original UTF-16 offsets.",
+    "RU, KK and transliteration families expanded without case IDs, complete scenario text or prize/amount-specific labels."
+  ],
+  "corpora": {
+    "challenge-v1": {
+      "sha256": "7b70134f79eca9d35758039495a50e0b3240c9530ce642489ab55da0b630136b",
+      "total": 56,
+      "accuracy": 1,
+      "tp": 18,
+      "fp": 0,
+      "tn": 38,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0,
+      "matrix": {
+        "high": {
+          "high": 18,
+          "medium": 0,
+          "low": 0
+        },
+        "medium": {
+          "high": 0,
+          "medium": 14,
+          "low": 0
+        },
+        "low": {
+          "high": 0,
+          "medium": 0,
+          "low": 24
+        }
+      },
+      "quoteErrors": 0,
+      "triage": {
+        "tp": 32,
+        "fp": 0,
+        "tn": 24,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0
+      },
+      "cases": [
+        {
+          "id": "development-01",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 95
+        },
+        {
+          "id": "development-02",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "development-03",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "development-04",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "development-05",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mix",
+          "score": 90
+        },
+        {
+          "id": "development-06",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "development-07",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "development-08",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "development-09",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "development-10",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "development-11",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "development-12",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "development-13",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 3
+        },
+        {
+          "id": "development-14",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 3
+        },
+        {
+          "id": "development-15",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 12
+        },
+        {
+          "id": "development-16",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 8
+        },
+        {
+          "id": "development-17",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "development-18",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "development-19",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "development-20",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 12
+        },
+        {
+          "id": "development-21",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "development-22",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 18
+        },
+        {
+          "id": "development-23",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 5
+        },
+        {
+          "id": "development-24",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "development-25",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 58
+        },
+        {
+          "id": "development-26",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 65
+        },
+        {
+          "id": "development-27",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 65
+        },
+        {
+          "id": "development-28",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 45
+        },
+        {
+          "id": "development-29",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 45
+        },
+        {
+          "id": "development-30",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 58
+        },
+        {
+          "id": "development-31",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 35
+        },
+        {
+          "id": "development-32",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mix",
+          "score": 65
+        },
+        {
+          "id": "holdout-01",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "holdout-02",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "holdout-03",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mix",
+          "score": 90
+        },
+        {
+          "id": "holdout-04",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "holdout-05",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "holdout-06",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "holdout-07",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "holdout-08",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 95
+        },
+        {
+          "id": "holdout-09",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "holdout-10",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "holdout-11",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 3
+        },
+        {
+          "id": "holdout-12",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 3
+        },
+        {
+          "id": "holdout-13",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 12
+        },
+        {
+          "id": "holdout-14",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 18
+        },
+        {
+          "id": "holdout-15",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "holdout-16",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mix",
+          "score": 5
+        },
+        {
+          "id": "holdout-17",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 5
+        },
+        {
+          "id": "holdout-18",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "holdout-19",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 58
+        },
+        {
+          "id": "holdout-20",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 58
+        },
+        {
+          "id": "holdout-21",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mix",
+          "score": 65
+        },
+        {
+          "id": "holdout-22",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 45
+        },
+        {
+          "id": "holdout-23",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 65
+        },
+        {
+          "id": "holdout-24",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 35
+        }
+      ]
+    },
+    "independent-v2": {
+      "sha256": "3d3c8147fadf23c1545a20c44daa3ec6b23ecdb44c535847db11a968816ce6ba",
+      "total": 100,
+      "accuracy": 1,
+      "tp": 40,
+      "fp": 0,
+      "tn": 60,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0,
+      "matrix": {
+        "high": {
+          "high": 40,
+          "medium": 0,
+          "low": 0
+        },
+        "medium": {
+          "high": 0,
+          "medium": 20,
+          "low": 0
+        },
+        "low": {
+          "high": 0,
+          "medium": 0,
+          "low": 40
+        }
+      },
+      "quoteErrors": 0,
+      "triage": {
+        "tp": 60,
+        "fp": 0,
+        "tn": 40,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0
+      },
+      "cases": [
+        {
+          "id": "ind2-001",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-002",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "ind2-003",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 58
+        },
+        {
+          "id": "ind2-004",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-005",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "ind2-006",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-007",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 3
+        },
+        {
+          "id": "ind2-008",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 65
+        },
+        {
+          "id": "ind2-009",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-010",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "ind2-011",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-012",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 12
+        },
+        {
+          "id": "ind2-013",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 45
+        },
+        {
+          "id": "ind2-014",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-015",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 8
+        },
+        {
+          "id": "ind2-016",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 65
+        },
+        {
+          "id": "ind2-017",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-018",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "ind2-019",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-020",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 3
+        },
+        {
+          "id": "ind2-021",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-022",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 58
+        },
+        {
+          "id": "ind2-023",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "ind2-024",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-025",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 8
+        },
+        {
+          "id": "ind2-026",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-027",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 12
+        },
+        {
+          "id": "ind2-028",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 58
+        },
+        {
+          "id": "ind2-029",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "ind2-030",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 3
+        },
+        {
+          "id": "ind2-031",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "ind2-032",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-033",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 45
+        },
+        {
+          "id": "ind2-034",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "ind2-035",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-036",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-037",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 12
+        },
+        {
+          "id": "ind2-038",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 65
+        },
+        {
+          "id": "ind2-039",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-040",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 3
+        },
+        {
+          "id": "ind2-041",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-042",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 65
+        },
+        {
+          "id": "ind2-043",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "ind2-044",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-045",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 8
+        },
+        {
+          "id": "ind2-046",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-047",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 58
+        },
+        {
+          "id": "ind2-048",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "ind2-049",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-050",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 12
+        },
+        {
+          "id": "ind2-051",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-052",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 65
+        },
+        {
+          "id": "ind2-053",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "ind2-054",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-055",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 3
+        },
+        {
+          "id": "ind2-056",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-057",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 58
+        },
+        {
+          "id": "ind2-058",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "ind2-059",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "ind2-060",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 18
+        },
+        {
+          "id": "ind2-061",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "ind2-062",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 5
+        },
+        {
+          "id": "ind2-063",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mixed",
+          "score": 65
+        },
+        {
+          "id": "ind2-064",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 5
+        },
+        {
+          "id": "ind2-065",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "ind2-066",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "ind2-067",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 12
+        },
+        {
+          "id": "ind2-068",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mixed",
+          "score": 45
+        },
+        {
+          "id": "ind2-069",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "ind2-070",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 5
+        },
+        {
+          "id": "ind2-071",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "ind2-072",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mixed",
+          "score": 65
+        },
+        {
+          "id": "ind2-073",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 3
+        },
+        {
+          "id": "ind2-074",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "ind2-075",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 8
+        },
+        {
+          "id": "ind2-076",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "ind2-077",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mixed",
+          "score": 65
+        },
+        {
+          "id": "ind2-078",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 5
+        },
+        {
+          "id": "ind2-079",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "ind2-080",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 5
+        },
+        {
+          "id": "ind2-081",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "ind2-082",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mixed",
+          "score": 65
+        },
+        {
+          "id": "ind2-083",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 3
+        },
+        {
+          "id": "ind2-084",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "ind2-085",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 8
+        },
+        {
+          "id": "ind2-086",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "ind2-087",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 5
+        },
+        {
+          "id": "ind2-088",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "translit",
+          "score": 58
+        },
+        {
+          "id": "ind2-089",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "ind2-090",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 18
+        },
+        {
+          "id": "ind2-091",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "ind2-092",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 12
+        },
+        {
+          "id": "ind2-093",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "translit",
+          "score": 65
+        },
+        {
+          "id": "ind2-094",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "ind2-095",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 5
+        },
+        {
+          "id": "ind2-096",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "ind2-097",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 3
+        },
+        {
+          "id": "ind2-098",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "translit",
+          "score": 65
+        },
+        {
+          "id": "ind2-099",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "ind2-100",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 5
+        }
+      ]
+    },
+    "independent-v3": {
+      "sha256": "e138c1305ea0b738e97243e3b32a078ec0a7aac6ca22a6849526948e24e69d05",
+      "total": 120,
+      "accuracy": 1,
+      "tp": 48,
+      "fp": 0,
+      "tn": 72,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0,
+      "matrix": {
+        "high": {
+          "high": 48,
+          "medium": 0,
+          "low": 0
+        },
+        "medium": {
+          "high": 0,
+          "medium": 24,
+          "low": 0
+        },
+        "low": {
+          "high": 0,
+          "medium": 0,
+          "low": 48
+        }
+      },
+      "quoteErrors": 0,
+      "triage": {
+        "tp": 72,
+        "fp": 0,
+        "tn": 48,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "falsePositiveRate": 0
+      },
+      "cases": [
+        {
+          "id": "iv3-001",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "iv3-002",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "iv3-003",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-004",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-005",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-006",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "iv3-007",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "iv3-008",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "iv3-009",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 58
+        },
+        {
+          "id": "iv3-010",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-011",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 58
+        },
+        {
+          "id": "iv3-012",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-013",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "iv3-014",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-015",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 3
+        },
+        {
+          "id": "iv3-016",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 18
+        },
+        {
+          "id": "iv3-017",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 12
+        },
+        {
+          "id": "iv3-018",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-019",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mixed",
+          "score": 65
+        },
+        {
+          "id": "iv3-020",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-021",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 18
+        },
+        {
+          "id": "iv3-022",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 58
+        },
+        {
+          "id": "iv3-023",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 5
+        },
+        {
+          "id": "iv3-024",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 12
+        },
+        {
+          "id": "iv3-025",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 58
+        },
+        {
+          "id": "iv3-026",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 5
+        },
+        {
+          "id": "iv3-027",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-028",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 8
+        },
+        {
+          "id": "iv3-029",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 8
+        },
+        {
+          "id": "iv3-030",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-031",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-032",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 18
+        },
+        {
+          "id": "iv3-033",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mixed",
+          "score": 45
+        },
+        {
+          "id": "iv3-034",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 65
+        },
+        {
+          "id": "iv3-035",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 8
+        },
+        {
+          "id": "iv3-036",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "iv3-037",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 18
+        },
+        {
+          "id": "iv3-038",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mixed",
+          "score": 65
+        },
+        {
+          "id": "iv3-039",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mixed",
+          "score": 58
+        },
+        {
+          "id": "iv3-040",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 65
+        },
+        {
+          "id": "iv3-041",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 18
+        },
+        {
+          "id": "iv3-042",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-043",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "iv3-044",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 5
+        },
+        {
+          "id": "iv3-045",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-046",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-047",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "iv3-048",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 12
+        },
+        {
+          "id": "iv3-049",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "iv3-050",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 65
+        },
+        {
+          "id": "iv3-051",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 3
+        },
+        {
+          "id": "iv3-052",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-053",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 3
+        },
+        {
+          "id": "iv3-054",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 3
+        },
+        {
+          "id": "iv3-055",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "translit",
+          "score": 65
+        },
+        {
+          "id": "iv3-056",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-057",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 65
+        },
+        {
+          "id": "iv3-058",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 8
+        },
+        {
+          "id": "iv3-059",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 12
+        },
+        {
+          "id": "iv3-060",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 58
+        },
+        {
+          "id": "iv3-061",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-062",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 5
+        },
+        {
+          "id": "iv3-063",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "iv3-064",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mixed",
+          "score": 58
+        },
+        {
+          "id": "iv3-065",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 65
+        },
+        {
+          "id": "iv3-066",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-067",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-068",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 65
+        },
+        {
+          "id": "iv3-069",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-070",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "mixed",
+          "score": 65
+        },
+        {
+          "id": "iv3-071",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-072",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-073",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "iv3-074",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 18
+        },
+        {
+          "id": "iv3-075",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 18
+        },
+        {
+          "id": "iv3-076",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "iv3-077",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-078",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 18
+        },
+        {
+          "id": "iv3-079",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "iv3-080",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 18
+        },
+        {
+          "id": "iv3-081",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "kk",
+          "score": 45
+        },
+        {
+          "id": "iv3-082",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-083",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 65
+        },
+        {
+          "id": "iv3-084",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 65
+        },
+        {
+          "id": "iv3-085",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 12
+        },
+        {
+          "id": "iv3-086",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 5
+        },
+        {
+          "id": "iv3-087",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-088",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 18
+        },
+        {
+          "id": "iv3-089",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-090",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "iv3-091",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 8
+        },
+        {
+          "id": "iv3-092",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-093",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "iv3-094",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-095",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "translit",
+          "score": 90
+        },
+        {
+          "id": "iv3-096",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-097",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-098",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-099",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 12
+        },
+        {
+          "id": "iv3-100",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-101",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 5
+        },
+        {
+          "id": "iv3-102",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-103",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "translit",
+          "score": 58
+        },
+        {
+          "id": "iv3-104",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 18
+        },
+        {
+          "id": "iv3-105",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 18
+        },
+        {
+          "id": "iv3-106",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-107",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 45
+        },
+        {
+          "id": "iv3-108",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-109",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "kk",
+          "score": 90
+        },
+        {
+          "id": "iv3-110",
+          "expected": "medium",
+          "predicted": "medium",
+          "match": true,
+          "language": "ru",
+          "score": 58
+        },
+        {
+          "id": "iv3-111",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-112",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-113",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "ru",
+          "score": 90
+        },
+        {
+          "id": "iv3-114",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 5
+        },
+        {
+          "id": "iv3-115",
+          "expected": "high",
+          "predicted": "high",
+          "match": true,
+          "language": "mixed",
+          "score": 90
+        },
+        {
+          "id": "iv3-116",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "ru",
+          "score": 5
+        },
+        {
+          "id": "iv3-117",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 3
+        },
+        {
+          "id": "iv3-118",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "translit",
+          "score": 5
+        },
+        {
+          "id": "iv3-119",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "kk",
+          "score": 18
+        },
+        {
+          "id": "iv3-120",
+          "expected": "low",
+          "predicted": "low",
+          "match": true,
+          "language": "mixed",
+          "score": 12
+        }
+      ]
+    }
+  },
+  "previousV3": {
+    "total": 120,
+    "accuracy": 0.675,
+    "tp": 33,
+    "fp": 5,
+    "tn": 67,
+    "fn": 15,
+    "precision": 0.868421052631579,
+    "recall": 0.6875,
+    "falsePositiveRate": 0.06944444444444445,
+    "matrix": {
+      "high": {
+        "high": 33,
+        "medium": 12,
+        "low": 3
+      },
+      "medium": {
+        "high": 4,
+        "medium": 18,
+        "low": 2
+      },
+      "low": {
+        "high": 1,
+        "medium": 17,
+        "low": 30
+      }
+    },
+    "quoteErrors": 0,
+    "triage": {
+      "tp": 67,
+      "fp": 18,
+      "tn": 30,
+      "fn": 5,
+      "precision": 0.788235294117647,
+      "recall": 0.9305555555555556,
+      "falsePositiveRate": 0.375
+    },
+    "cases": [
+      {
+        "id": "iv3-001",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "score": 45
+      },
+      {
+        "id": "iv3-002",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "score": 90
+      },
+      {
+        "id": "iv3-003",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "score": 90
+      },
+      {
+        "id": "iv3-004",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "score": 90
+      },
+      {
+        "id": "iv3-005",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "score": 90
+      },
+      {
+        "id": "iv3-006",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "score": 65
+      },
+      {
+        "id": "iv3-007",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "score": 90
+      },
+      {
+        "id": "iv3-008",
+        "expected": "high",
+        "predicted": "low",
+        "match": false,
+        "language": "translit",
+        "score": 18
+      },
+      {
+        "id": "iv3-009",
+        "expected": "medium",
+        "predicted": "high",
+        "match": false,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-010",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "score": 90
+      },
+      {
+        "id": "iv3-011",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "score": 58
+      },
+      {
+        "id": "iv3-012",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "score": 45
+      },
+      {
+        "id": "iv3-013",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "score": 5
+      },
+      {
+        "id": "iv3-014",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "score": 58
+      },
+      {
+        "id": "iv3-015",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "score": 18
+      },
+      {
+        "id": "iv3-016",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "score": 18
+      },
+      {
+        "id": "iv3-017",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "score": 12
+      },
+      {
+        "id": "iv3-018",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "score": 58
+      },
+      {
+        "id": "iv3-019",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "score": 58
+      },
+      {
+        "id": "iv3-020",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "score": 58
+      },
+      {
+        "id": "iv3-021",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "score": 18
+      },
+      {
+        "id": "iv3-022",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "score": 58
+      },
+      {
+        "id": "iv3-023",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "score": 65
+      },
+      {
+        "id": "iv3-024",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "score": 12
+      },
+      {
+        "id": "iv3-025",
+        "expected": "medium",
+        "predicted": "low",
+        "match": false,
+        "language": "kk",
+        "score": 18
+      },
+      {
+        "id": "iv3-026",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "score": 5
+      },
+      {
+        "id": "iv3-027",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "score": 90
+      },
+      {
+        "id": "iv3-028",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "score": 18
+      },
+      {
+        "id": "iv3-029",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "score": 18
+      },
+      {
+        "id": "iv3-030",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-031",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "score": 90
+      },
+      {
+        "id": "iv3-032",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "score": 18
+      },
+      {
+        "id": "iv3-033",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "score": 65
+      },
+      {
+        "id": "iv3-034",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "score": 65
+      },
+      {
+        "id": "iv3-035",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "score": 8
+      },
+      {
+        "id": "iv3-036",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "score": 90
+      },
+      {
+        "id": "iv3-037",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "score": 58
+      },
+      {
+        "id": "iv3-038",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "score": 65
+      },
+      {
+        "id": "iv3-039",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "score": 58
+      },
+      {
+        "id": "iv3-040",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "score": 65
+      },
+      {
+        "id": "iv3-041",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "score": 18
+      },
+      {
+        "id": "iv3-042",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "score": 90
+      },
+      {
+        "id": "iv3-043",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "score": 5
+      },
+      {
+        "id": "iv3-044",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "score": 5
+      },
+      {
+        "id": "iv3-045",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "score": 90
+      },
+      {
+        "id": "iv3-046",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "score": 90
+      },
+      {
+        "id": "iv3-047",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "score": 65
+      },
+      {
+        "id": "iv3-048",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "score": 12
+      },
+      {
+        "id": "iv3-049",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "score": 5
+      },
+      {
+        "id": "iv3-050",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "score": 65
+      },
+      {
+        "id": "iv3-051",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "score": 3
+      },
+      {
+        "id": "iv3-052",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-053",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "score": 58
+      },
+      {
+        "id": "iv3-054",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "score": 3
+      },
+      {
+        "id": "iv3-055",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "translit",
+        "score": 65
+      },
+      {
+        "id": "iv3-056",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-057",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "score": 65
+      },
+      {
+        "id": "iv3-058",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "score": 8
+      },
+      {
+        "id": "iv3-059",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "score": 8
+      },
+      {
+        "id": "iv3-060",
+        "expected": "medium",
+        "predicted": "high",
+        "match": false,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-061",
+        "expected": "high",
+        "predicted": "low",
+        "match": false,
+        "language": "kk",
+        "score": 18
+      },
+      {
+        "id": "iv3-062",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "score": 65
+      },
+      {
+        "id": "iv3-063",
+        "expected": "high",
+        "predicted": "low",
+        "match": false,
+        "language": "translit",
+        "score": 18
+      },
+      {
+        "id": "iv3-064",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "score": 58
+      },
+      {
+        "id": "iv3-065",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "score": 58
+      },
+      {
+        "id": "iv3-066",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "score": 90
+      },
+      {
+        "id": "iv3-067",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "score": 90
+      },
+      {
+        "id": "iv3-068",
+        "expected": "medium",
+        "predicted": "high",
+        "match": false,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-069",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-070",
+        "expected": "medium",
+        "predicted": "high",
+        "match": false,
+        "language": "mixed",
+        "score": 90
+      },
+      {
+        "id": "iv3-071",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "score": 90
+      },
+      {
+        "id": "iv3-072",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "score": 90
+      },
+      {
+        "id": "iv3-073",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "score": 90
+      },
+      {
+        "id": "iv3-074",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "score": 65
+      },
+      {
+        "id": "iv3-075",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "score": 45
+      },
+      {
+        "id": "iv3-076",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "score": 65
+      },
+      {
+        "id": "iv3-077",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "score": 65
+      },
+      {
+        "id": "iv3-078",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "score": 5
+      },
+      {
+        "id": "iv3-079",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "score": 65
+      },
+      {
+        "id": "iv3-080",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "score": 18
+      },
+      {
+        "id": "iv3-081",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "score": 45
+      },
+      {
+        "id": "iv3-082",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-083",
+        "expected": "medium",
+        "predicted": "low",
+        "match": false,
+        "language": "ru",
+        "score": 18
+      },
+      {
+        "id": "iv3-084",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "score": 65
+      },
+      {
+        "id": "iv3-085",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "score": 65
+      },
+      {
+        "id": "iv3-086",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "score": 5
+      },
+      {
+        "id": "iv3-087",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "score": 90
+      },
+      {
+        "id": "iv3-088",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "translit",
+        "score": 58
+      },
+      {
+        "id": "iv3-089",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "score": 65
+      },
+      {
+        "id": "iv3-090",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "translit",
+        "score": 65
+      },
+      {
+        "id": "iv3-091",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "score": 18
+      },
+      {
+        "id": "iv3-092",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-093",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "score": 5
+      },
+      {
+        "id": "iv3-094",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "score": 90
+      },
+      {
+        "id": "iv3-095",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "score": 90
+      },
+      {
+        "id": "iv3-096",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "score": 65
+      },
+      {
+        "id": "iv3-097",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "score": 58
+      },
+      {
+        "id": "iv3-098",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "score": 90
+      },
+      {
+        "id": "iv3-099",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "score": 65
+      },
+      {
+        "id": "iv3-100",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "score": 90
+      },
+      {
+        "id": "iv3-101",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "score": 65
+      },
+      {
+        "id": "iv3-102",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-103",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "translit",
+        "score": 58
+      },
+      {
+        "id": "iv3-104",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "score": 5
+      },
+      {
+        "id": "iv3-105",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "score": 18
+      },
+      {
+        "id": "iv3-106",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "score": 58
+      },
+      {
+        "id": "iv3-107",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "score": 45
+      },
+      {
+        "id": "iv3-108",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-109",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "score": 58
+      },
+      {
+        "id": "iv3-110",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "score": 58
+      },
+      {
+        "id": "iv3-111",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-112",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "score": 90
+      },
+      {
+        "id": "iv3-113",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "score": 90
+      },
+      {
+        "id": "iv3-114",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "score": 5
+      },
+      {
+        "id": "iv3-115",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "score": 45
+      },
+      {
+        "id": "iv3-116",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "score": 65
+      },
+      {
+        "id": "iv3-117",
+        "expected": "low",
+        "predicted": "high",
+        "match": false,
+        "language": "translit",
+        "score": 90
+      },
+      {
+        "id": "iv3-118",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "score": 5
+      },
+      {
+        "id": "iv3-119",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "score": 18
+      },
+      {
+        "id": "iv3-120",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "score": 65
+      }
+    ]
+  },
+  "historical": {
+    "total": 28,
+    "accuracy": 1,
+    "tp": 10,
+    "fp": 0,
+    "tn": 18,
+    "fn": 0,
+    "precision": 1,
+    "recall": 1,
+    "falsePositiveRate": 0,
+    "matrix": {
+      "high": {
+        "high": 10,
+        "medium": 0,
+        "low": 0
+      },
+      "medium": {
+        "high": 0,
+        "medium": 7,
+        "low": 0
+      },
+      "low": {
+        "high": 0,
+        "medium": 0,
+        "low": 11
+      }
+    },
+    "quoteErrors": 0,
+    "triage": {
+      "tp": 17,
+      "fp": 0,
+      "tn": 11,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0
+    },
+    "cases": [
+      {
+        "id": "eval-01",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "eval-02",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "eval-03",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "eval-04",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "eval-05",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "eval-06",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "eval-07",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 95
+      },
+      {
+        "id": "eval-08",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "eval-09",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "eval-10",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "eval-11",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 5
+      },
+      {
+        "id": "eval-12",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 5
+      },
+      {
+        "id": "eval-13",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 5
+      },
+      {
+        "id": "eval-14",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 8
+      },
+      {
+        "id": "eval-15",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 3
+      },
+      {
+        "id": "eval-16",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 18
+      },
+      {
+        "id": "eval-17",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 12
+      },
+      {
+        "id": "eval-18",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 5
+      },
+      {
+        "id": "eval-19",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 5
+      },
+      {
+        "id": "eval-20",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 3
+      },
+      {
+        "id": "eval-21",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 45
+      },
+      {
+        "id": "eval-22",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 58
+      },
+      {
+        "id": "eval-23",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 65
+      },
+      {
+        "id": "eval-24",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 58
+      },
+      {
+        "id": "eval-25",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 58
+      },
+      {
+        "id": "eval-26",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 65
+      },
+      {
+        "id": "eval-27",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 35
+      },
+      {
+        "id": "eval-28",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 5
+      }
+    ]
+  },
+  "familyResults": {
+    "total": 42,
+    "accuracy": 1,
+    "tp": 26,
+    "fp": 0,
+    "tn": 16,
+    "fn": 0,
+    "precision": 1,
+    "recall": 1,
+    "falsePositiveRate": 0,
+    "matrix": {
+      "high": {
+        "high": 26,
+        "medium": 0,
+        "low": 0
+      },
+      "medium": {
+        "high": 0,
+        "medium": 8,
+        "low": 0
+      },
+      "low": {
+        "high": 0,
+        "medium": 0,
+        "low": 8
+      }
+    },
+    "quoteErrors": 0,
+    "triage": {
+      "tp": 34,
+      "fp": 0,
+      "tn": 8,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0
+    },
+    "cases": [
+      {
+        "id": "v16-family-0",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-1",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-2",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-3",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-4",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-5",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-6",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-7",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-8",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-9",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-10",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-11",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-12",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-13",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-14",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-15",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-16",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-17",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-18",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-19",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-20",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-21",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-22",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-23",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 65
+      },
+      {
+        "id": "v16-family-24",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 5
+      },
+      {
+        "id": "v16-family-25",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 5
+      },
+      {
+        "id": "v16-family-26",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 5
+      },
+      {
+        "id": "v16-family-27",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-28",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 12
+      },
+      {
+        "id": "v16-family-29",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 65
+      },
+      {
+        "id": "v16-family-30",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-31",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 12
+      },
+      {
+        "id": "v16-family-32",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 58
+      },
+      {
+        "id": "v16-family-33",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 58
+      },
+      {
+        "id": "v16-family-34",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 58
+      },
+      {
+        "id": "v16-family-35",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 58
+      },
+      {
+        "id": "v16-family-36",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 58
+      },
+      {
+        "id": "v16-family-37",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "score": 58
+      },
+      {
+        "id": "v16-family-38",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 3
+      },
+      {
+        "id": "v16-family-39",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 3
+      },
+      {
+        "id": "v16-family-40",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "score": 90
+      },
+      {
+        "id": "v16-family-41",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "score": 18
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "condition ordering 0/012",
+      "passed": true
+    },
+    {
+      "name": "OCR line boundaries 0/012",
+      "passed": true
+    },
+    {
+      "name": "condition ordering 0/201",
+      "passed": true
+    },
+    {
+      "name": "OCR line boundaries 0/201",
+      "passed": true
+    },
+    {
+      "name": "condition ordering 0/120",
+      "passed": true
+    },
+    {
+      "name": "OCR line boundaries 0/120",
+      "passed": true
+    },
+    {
+      "name": "condition ordering 1/012",
+      "passed": true
+    },
+    {
+      "name": "OCR line boundaries 1/012",
+      "passed": true
+    },
+    {
+      "name": "condition ordering 1/201",
+      "passed": true
+    },
+    {
+      "name": "OCR line boundaries 1/201",
+      "passed": true
+    },
+    {
+      "name": "condition ordering 1/120",
+      "passed": true
+    },
+    {
+      "name": "OCR line boundaries 1/120",
+      "passed": true
+    },
+    {
+      "name": "condition ordering 2/012",
+      "passed": true
+    },
+    {
+      "name": "OCR line boundaries 2/012",
+      "passed": true
+    },
+    {
+      "name": "condition ordering 2/201",
+      "passed": true
+    },
+    {
+      "name": "OCR line boundaries 2/201",
+      "passed": true
+    },
+    {
+      "name": "condition ordering 2/120",
+      "passed": true
+    },
+    {
+      "name": "OCR line boundaries 2/120",
+      "passed": true
+    },
+    {
+      "name": "free benefit is not free entry",
+      "passed": true
+    },
+    {
+      "name": "KK free shipping does not contradict entry",
+      "passed": true
+    },
+    {
+      "name": "permission conditional on payment is not epistemic uncertainty",
+      "passed": true
+    },
+    {
+      "name": "prohibition after win does not cancel prepayment",
+      "passed": true
+    },
+    {
+      "name": "optional extra donation independent of ticket",
+      "passed": true
+    },
+    {
+      "name": "same donation optional and mandatory is unresolved",
+      "passed": true
+    },
+    {
+      "name": "optional donation does not establish payment",
+      "passed": true
+    },
+    {
+      "name": "negated fees do not negate free entry",
+      "passed": true
+    },
+    {
+      "name": "post-win optional delivery has another role",
+      "passed": true
+    },
+    {
+      "name": "preliminary jury does not contradict final random draw",
+      "passed": true
+    },
+    {
+      "name": "random ordering is not prize selection",
+      "passed": true
+    },
+    {
+      "name": "contradictory final selection mechanisms",
+      "passed": true
+    },
+    {
+      "name": "denied jury is not a positive criterion",
+      "passed": true
+    },
+    {
+      "name": "explicit skill contest without random selection",
+      "passed": true
+    },
+    {
+      "name": "modal possibility is not confirmed selection",
+      "passed": true
+    },
+    {
+      "name": "KK modal possibility is not confirmed selection",
+      "passed": true
+    },
+    {
+      "name": "incidental accident is not a winner mechanism",
+      "passed": true
+    },
+    {
+      "name": "random technical identifier is not prize selection",
+      "passed": true
+    },
+    {
+      "name": "entry and random remain observable without declared prize",
+      "passed": true
+    },
+    {
+      "name": "question about reward is not reward evidence",
+      "passed": true
+    },
+    {
+      "name": "quoted teaching example is not an own offer",
+      "passed": true
+    },
+    {
+      "name": "transliterated attribution preserves quoted context",
+      "passed": true
+    },
+    {
+      "name": "separately stated own offer survives warning",
+      "passed": true
+    },
+    {
+      "name": "ordinary retail with coordinated absence",
+      "passed": true
+    },
+    {
+      "name": "foreign campaign excluded from signals and context",
+      "passed": true
+    },
+    {
+      "name": "normalization preserves UTF-16 offsets including NFKC and removed noise",
+      "passed": true
+    },
+    {
+      "name": "no organizer income inferred from entry fee",
+      "passed": true
+    },
+    {
+      "name": "empty input does not create context atoms",
+      "passed": true
+    },
+    {
+      "name": "all open corpora evidence offsets remain exact",
+      "passed": true
+    },
+    {
+      "name": "historical regression has no loss",
+      "passed": true
+    },
+    {
+      "name": "all v1 data remain development regression",
+      "passed": true
+    },
+    {
+      "name": "opened v2 does not regress",
+      "passed": true
+    },
+    {
+      "name": "high invariant holds across all open examples",
+      "passed": true
+    }
+  ],
+  "checkSummary": {
+    "passed": 51,
+    "total": 51
+  },
+  "limitations": [
+    "Development results are not an independent accuracy estimate.",
+    "Clause boundaries, attribution, stages and semantic roles are heuristic and dictionary-based.",
+    "Synthetic agent-authored corpora do not establish real-world precision or time savings.",
+    "The classifier does not decide fraud, illegality, ownership or actual organizer revenue."
+  ]
+}

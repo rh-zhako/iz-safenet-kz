@@ -1,0 +1,104 @@
+{
+  "at": "2026-10-22T18:50:11.644Z",
+  "scope": "Functional local batch behavior, not model accuracy or server load.",
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "name": "payload does not copy images",
+      "passed": true
+    },
+    {
+      "name": "payload preserves source linkage",
+      "passed": true
+    },
+    {
+      "name": "payload preserves original source text",
+      "passed": true
+    },
+    {
+      "name": "reject empty batch",
+      "passed": true
+    },
+    {
+      "name": "reject duplicate campaign ids",
+      "passed": true
+    },
+    {
+      "name": "reject missing source text",
+      "passed": true
+    },
+    {
+      "name": "reject oversized batch",
+      "passed": true
+    },
+    {
+      "name": "reject too many materials",
+      "passed": true
+    },
+    {
+      "name": "explicit character limit",
+      "passed": true
+    },
+    {
+      "name": "yielding fallback equals synchronous engine",
+      "passed": true
+    },
+    {
+      "name": "analysis output keeps image on original campaign",
+      "passed": true
+    },
+    {
+      "name": "analysis does not mutate input",
+      "passed": true
+    },
+    {
+      "name": "fallback progress is ordered",
+      "passed": true
+    },
+    {
+      "name": "pre-cancel does no work",
+      "passed": true
+    },
+    {
+      "name": "fallback cancellation is atomic",
+      "passed": true
+    },
+    {
+      "name": "worker path matches engine",
+      "passed": true
+    },
+    {
+      "name": "worker version mismatch is rejected",
+      "passed": true
+    },
+    {
+      "name": "worker abort terminates without returning partial result",
+      "passed": true
+    },
+    {
+      "name": "blocked worker creation uses local fallback",
+      "passed": true
+    },
+    {
+      "name": "worker error is visible",
+      "passed": true
+    },
+    {
+      "name": "worker payload preserves original campaign membership",
+      "passed": true
+    },
+    {
+      "name": "worker payload preserves grouping provenance",
+      "passed": true
+    },
+    {
+      "name": "fallback conflict guard equals synchronous engine",
+      "passed": true
+    },
+    {
+      "name": "worker conflict guard equals synchronous engine",
+      "passed": true
+    }
+  ]
+}

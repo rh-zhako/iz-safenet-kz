@@ -1,0 +1,17 @@
+{
+  "engineVersion": "1.7.0-track1-evidence",
+  "engineSha256": "d75b486aa53bdae2462b7ae121ddfbc76b3076f9cbc7f68223bcadb0b55619c3",
+  "frozenAt": "2026-10-20T18:01:55.177255+00:00",
+  "frozenBeforeIndependentEvaluation": true,
+  "protocol": "Engine developed on open v1/v2/v3/v4 and structural regression data. Neither root nor engine author opened v5 texts, labels or predictions before freeze. A separate AI author worked without engine or prior corpora access. No engine rule changes after the first v5 run in this release.",
+  "developmentData": [
+    "challenge-v1",
+    "historical regression28",
+    "independent-v2 (open)",
+    "independent-v3 (open)",
+    "independent-v4 (open)",
+    "82 new structural assertions",
+    "51 prior structural assertions"
+  ],
+  "labelScope": "Textual indicators and review priority; no fraud or legal status judgment."
+}

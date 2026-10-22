@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "status": "OPEN_DEVELOPMENT_NOT_INDEPENDENT",
+  "engineVersion": "1.9.0-track1-evidence",
+  "engineSha256": "0bdc464676abbacb1c6f6353e31ecff7fa9f1dba474ba35d4cb194e70c3444ea",
+  "at": "2026-10-22T17:33:23.929Z",
+  "provenance": "Root-authored development assertions and metamorphic variants. No real posts, human labels or independent test.",
+  "passed": 55,
+  "total": 55,
+  "checks": [
+    {
+      "name": "RU payment stem alternation",
+      "passed": true
+    },
+    {
+      "name": "RU restrictive purchase after comma",
+      "passed": true
+    },
+    {
+      "name": "KK service before admission clause",
+      "passed": true
+    },
+    {
+      "name": "KK transliteration entry fee",
+      "passed": true
+    },
+    {
+      "name": "KK transliteration free entry",
+      "passed": true
+    },
+    {
+      "name": "transliteration ticket price with drawn recipient",
+      "passed": true
+    },
+    {
+      "name": "required-payment exclusion",
+      "passed": true
+    },
+    {
+      "name": "required-payment exclusion with number",
+      "passed": true
+    },
+    {
+      "name": "absence of charges remains free",
+      "passed": true
+    },
+    {
+      "name": "free followed by no purchases",
+      "passed": true
+    },
+    {
+      "name": "KK question is not a payment obligation",
+      "passed": true
+    },
+    {
+      "name": "KK unknown admission",
+      "passed": true
+    },
+    {
+      "name": "draft is not an active obligation",
+      "passed": true
+    },
+    {
+      "name": "random group order is not the final winner",
+      "passed": true
+    },
+    {
+      "name": "random venue allocation is not a winner",
+      "passed": true
+    },
+    {
+      "name": "paid entry and free delivery are distinct",
+      "passed": true
+    },
+    {
+      "name": "optional extra purchase does not promise free entry",
+      "passed": true
+    },
+    {
+      "name": "warning quoted offer is not promotion",
+      "passed": true
+    },
+    {
+      "name": "no lottery income from fee",
+      "passed": true
+    },
+    {
+      "name": "OCR split raffle feature",
+      "passed": true
+    },
+    {
+      "name": "compound object name is untouched",
+      "passed": true
+    },
+    {
+      "name": "retail alone is not paid admission",
+      "passed": true
+    },
+    {
+      "name": "declared free with amount for prize",
+      "passed": true
+    },
+    {
+      "name": "free coupon reward is not a priced entry",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: керамическую вазу, 1, plain",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: керамическую вазу, 1, upper",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: керамическую вазу, 1, zero width",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: керамическую вазу, 360, plain",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: керамическую вазу, 360, upper",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: керамическую вазу, 360, zero width",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: керамическую вазу, 99999, plain",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: керамическую вазу, 99999, upper",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: керамическую вазу, 99999, zero width",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: карточку мастерской, 1, plain",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: карточку мастерской, 1, upper",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: карточку мастерской, 1, zero width",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: карточку мастерской, 360, plain",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: карточку мастерской, 360, upper",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: карточку мастерской, 360, zero width",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: карточку мастерской, 99999, plain",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: карточку мастерской, 99999, upper",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: карточку мастерской, 99999, zero width",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: абонемент на кружок, 1, plain",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: абонемент на кружок, 1, upper",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: абонемент на кружок, 1, zero width",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: абонемент на кружок, 360, plain",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: абонемент на кружок, 360, upper",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: абонемент на кружок, 360, zero width",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: абонемент на кружок, 99999, plain",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: абонемент на кружок, 99999, upper",
+      "passed": true
+    },
+    {
+      "name": "object/amount/case invariance: абонемент на кружок, 99999, zero width",
+      "passed": true
+    },
+    {
+      "name": "conflicting original identities never produce high",
+      "passed": true
+    },
+    {
+      "name": "foreign working reference is excluded",
+      "passed": true
+    },
+    {
+      "name": "long text normalization preserves exact original UTF-16 evidence",
+      "passed": true
+    },
+    {
+      "name": "old engine differs, stored review invalidation is automatic",
+      "passed": true
+    }
+  ]
+}

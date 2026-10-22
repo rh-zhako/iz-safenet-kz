@@ -1,0 +1,4743 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": "1.5.0-track1-rules",
+  "engineSha256": "7f10238a32a51407ee7a871851b2618a8c66fef7834a8b2669f2036eaf38f4e4",
+  "datasetSha256": "3d3c8147fadf23c1545a20c44daa3ec6b23ecdb44c535847db11a968816ce6ba",
+  "status": "OPEN_DEVELOPMENT_NOT_INDEPENDENT",
+  "freezePolicy": "Write once after development; never replace the original frozen v1.4 independent-v2 measurement.",
+  "provenance": "v2 was authored by a separate engine-blinded AI, then opened and explicitly used to develop v1.5. These scores are now development/regression results. No later independent corpus is read.",
+  "changes": [
+    "Mapped NFKC, OCR whitespace and mixed glyph normalization with exact original-source offsets.",
+    "Role-aware entry payment synonyms across RU, KK and transliteration.",
+    "Scope-sensitive absence, optional donation, delivery, zero fees and contradictory conditions.",
+    "Educational quotation masking while preserving separately advertised own offers.",
+    "Random-draw synonyms and coordinated negations; no risk from unknown terms."
+  ],
+  "frozenV14": {
+    "total": 100,
+    "accuracy": 0.53,
+    "precision": 0.8636363636363636,
+    "recall": 0.475,
+    "falsePositiveRate": 0.05,
+    "tp": 19,
+    "fp": 3,
+    "tn": 57,
+    "fn": 21,
+    "matrix": {
+      "high": {
+        "high": 19,
+        "medium": 20,
+        "low": 1
+      },
+      "medium": {
+        "high": 1,
+        "medium": 10,
+        "low": 9
+      },
+      "low": {
+        "high": 2,
+        "medium": 14,
+        "low": 24
+      }
+    },
+    "quoteErrors": 0,
+    "triage": {
+      "tp": 50,
+      "fp": 16,
+      "tn": 24,
+      "fn": 10,
+      "precision": 0.7575757575757576,
+      "recall": 0.8333333333333334,
+      "falsePositiveRate": 0.4
+    },
+    "cases": [
+      {
+        "id": "ind2-001",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-002",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-003",
+        "expected": "medium",
+        "predicted": "low",
+        "match": false,
+        "language": "ru",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-004",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-005",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-006",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-007",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-008",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-009",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-010",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-011",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-012",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-013",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-014",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-015",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-016",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-017",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-018",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-019",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-020",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-021",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-022",
+        "expected": "medium",
+        "predicted": "low",
+        "match": false,
+        "language": "ru",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-023",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-024",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-025",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-026",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "ru",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-027",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-028",
+        "expected": "medium",
+        "predicted": "low",
+        "match": false,
+        "language": "ru",
+        "tag": "",
+        "score": 8
+      },
+      {
+        "id": "ind2-029",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-030",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-031",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-032",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-033",
+        "expected": "medium",
+        "predicted": "high",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-034",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-035",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-036",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-037",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-038",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-039",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-040",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-041",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-042",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-043",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-044",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-045",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 8
+      },
+      {
+        "id": "ind2-046",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-047",
+        "expected": "medium",
+        "predicted": "low",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-048",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-049",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-050",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-051",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-052",
+        "expected": "medium",
+        "predicted": "low",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-053",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-054",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-055",
+        "expected": "low",
+        "predicted": "high",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-056",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-057",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-058",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-059",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "kk",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-060",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-061",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-062",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-063",
+        "expected": "medium",
+        "predicted": "low",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-064",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-065",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-066",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-067",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-068",
+        "expected": "medium",
+        "predicted": "low",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-069",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-070",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-071",
+        "expected": "high",
+        "predicted": "low",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-072",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-073",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-074",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-075",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 8
+      },
+      {
+        "id": "ind2-076",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-077",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-078",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-079",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-080",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-081",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-082",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-083",
+        "expected": "low",
+        "predicted": "high",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-084",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "mixed",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-085",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-086",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "translit",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-087",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-088",
+        "expected": "medium",
+        "predicted": "low",
+        "match": false,
+        "language": "translit",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-089",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "translit",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-090",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-091",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "translit",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-092",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "translit",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-093",
+        "expected": "medium",
+        "predicted": "low",
+        "match": false,
+        "language": "translit",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-094",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "translit",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-095",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "translit",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-096",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "translit",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-097",
+        "expected": "low",
+        "predicted": "medium",
+        "match": false,
+        "language": "translit",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-098",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-099",
+        "expected": "high",
+        "predicted": "medium",
+        "match": false,
+        "language": "translit",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-100",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 5
+      }
+    ]
+  },
+  "developmentV2": {
+    "total": 100,
+    "accuracy": 1,
+    "precision": 1,
+    "recall": 1,
+    "falsePositiveRate": 0,
+    "tp": 40,
+    "fp": 0,
+    "tn": 60,
+    "fn": 0,
+    "matrix": {
+      "high": {
+        "high": 40,
+        "medium": 0,
+        "low": 0
+      },
+      "medium": {
+        "high": 0,
+        "medium": 20,
+        "low": 0
+      },
+      "low": {
+        "high": 0,
+        "medium": 0,
+        "low": 40
+      }
+    },
+    "quoteErrors": 0,
+    "triage": {
+      "tp": 60,
+      "fp": 0,
+      "tn": 40,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0
+    },
+    "cases": [
+      {
+        "id": "ind2-001",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-002",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-003",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-004",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-005",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-006",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-007",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-008",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-009",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-010",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-011",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-012",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 12
+      },
+      {
+        "id": "ind2-013",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-014",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-015",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 8
+      },
+      {
+        "id": "ind2-016",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-017",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-018",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-019",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-020",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-021",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-022",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-023",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-024",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-025",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-026",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-027",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 12
+      },
+      {
+        "id": "ind2-028",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-029",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-030",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "",
+        "score": 3
+      },
+      {
+        "id": "ind2-031",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-032",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-033",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-034",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-035",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-036",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-037",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 12
+      },
+      {
+        "id": "ind2-038",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-039",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-040",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 3
+      },
+      {
+        "id": "ind2-041",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-042",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-043",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-044",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-045",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 8
+      },
+      {
+        "id": "ind2-046",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-047",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-048",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-049",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-050",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-051",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-052",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-053",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-054",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-055",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 3
+      },
+      {
+        "id": "ind2-056",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-057",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-058",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-059",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-060",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "",
+        "score": 18
+      },
+      {
+        "id": "ind2-061",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-062",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-063",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-064",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-065",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-066",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-067",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 12
+      },
+      {
+        "id": "ind2-068",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 45
+      },
+      {
+        "id": "ind2-069",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-070",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-071",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-072",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-073",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 3
+      },
+      {
+        "id": "ind2-074",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-075",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 8
+      },
+      {
+        "id": "ind2-076",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-077",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-078",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-079",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-080",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-081",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-082",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-083",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 3
+      },
+      {
+        "id": "ind2-084",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-085",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mixed",
+        "tag": "",
+        "score": 8
+      },
+      {
+        "id": "ind2-086",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-087",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-088",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 58
+      },
+      {
+        "id": "ind2-089",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-090",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-091",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-092",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 12
+      },
+      {
+        "id": "ind2-093",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-094",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-095",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 5
+      },
+      {
+        "id": "ind2-096",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-097",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 3
+      },
+      {
+        "id": "ind2-098",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 65
+      },
+      {
+        "id": "ind2-099",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 90
+      },
+      {
+        "id": "ind2-100",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "tag": "",
+        "score": 5
+      }
+    ]
+  },
+  "historicalDevelopment": {
+    "total": 32,
+    "accuracy": 1,
+    "precision": 1,
+    "recall": 1,
+    "falsePositiveRate": 0,
+    "tp": 10,
+    "fp": 0,
+    "tn": 22,
+    "fn": 0,
+    "matrix": {
+      "high": {
+        "high": 10,
+        "medium": 0,
+        "low": 0
+      },
+      "medium": {
+        "high": 0,
+        "medium": 8,
+        "low": 0
+      },
+      "low": {
+        "high": 0,
+        "medium": 0,
+        "low": 14
+      }
+    },
+    "quoteErrors": 0,
+    "triage": {
+      "tp": 18,
+      "fp": 0,
+      "tn": 14,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0
+    },
+    "cases": [
+      {
+        "id": "development-01",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "wheel",
+        "score": 95
+      },
+      {
+        "id": "development-02",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "paid-kz",
+        "score": 90
+      },
+      {
+        "id": "development-03",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "split",
+        "score": 90
+      },
+      {
+        "id": "development-04",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "purchase",
+        "score": 90
+      },
+      {
+        "id": "development-05",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mix",
+        "tag": "mixed",
+        "score": 90
+      },
+      {
+        "id": "development-06",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "tag": "translit",
+        "score": 90
+      },
+      {
+        "id": "development-07",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "not-free",
+        "score": 90
+      },
+      {
+        "id": "development-08",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "free-delivery",
+        "score": 90
+      },
+      {
+        "id": "development-09",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "slang",
+        "score": 90
+      },
+      {
+        "id": "development-10",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "ticket-kz",
+        "score": 90
+      },
+      {
+        "id": "development-11",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "free",
+        "score": 5
+      },
+      {
+        "id": "development-12",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "free-kz",
+        "score": 5
+      },
+      {
+        "id": "development-13",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "warning",
+        "score": 3
+      },
+      {
+        "id": "development-14",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "warning-kz",
+        "score": 3
+      },
+      {
+        "id": "development-15",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "jury",
+        "score": 12
+      },
+      {
+        "id": "development-16",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "retail",
+        "score": 8
+      },
+      {
+        "id": "development-17",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "voluntary",
+        "score": 5
+      },
+      {
+        "id": "development-18",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "voluntary-kz",
+        "score": 5
+      },
+      {
+        "id": "development-19",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "delivery",
+        "score": 5
+      },
+      {
+        "id": "development-20",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "negation",
+        "score": 12
+      },
+      {
+        "id": "development-21",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "price-prize",
+        "score": 5
+      },
+      {
+        "id": "development-22",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "no-raffle",
+        "score": 8
+      },
+      {
+        "id": "development-23",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "tag": "free-translit",
+        "score": 5
+      },
+      {
+        "id": "development-24",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "no-commission",
+        "score": 5
+      },
+      {
+        "id": "development-25",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "missing-random",
+        "score": 58
+      },
+      {
+        "id": "development-26",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "conflict-free",
+        "score": 65
+      },
+      {
+        "id": "development-27",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "conflict-jury",
+        "score": 65
+      },
+      {
+        "id": "development-28",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "unknown-entry",
+        "score": 45
+      },
+      {
+        "id": "development-29",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "tag": "unknown-entry-kz",
+        "score": 45
+      },
+      {
+        "id": "development-30",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "missing-prize",
+        "score": 58
+      },
+      {
+        "id": "development-31",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "teaser",
+        "score": 35
+      },
+      {
+        "id": "development-32",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mix",
+        "tag": "conflict-kz",
+        "score": 65
+      }
+    ]
+  },
+  "historicalV1": {
+    "total": 24,
+    "accuracy": 1,
+    "precision": 1,
+    "recall": 1,
+    "falsePositiveRate": 0,
+    "tp": 8,
+    "fp": 0,
+    "tn": 16,
+    "fn": 0,
+    "matrix": {
+      "high": {
+        "high": 8,
+        "medium": 0,
+        "low": 0
+      },
+      "medium": {
+        "high": 0,
+        "medium": 6,
+        "low": 0
+      },
+      "low": {
+        "high": 0,
+        "medium": 0,
+        "low": 10
+      }
+    },
+    "quoteErrors": 0,
+    "triage": {
+      "tp": 14,
+      "fp": 0,
+      "tn": 10,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0
+    },
+    "cases": [
+      {
+        "id": "holdout-01",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "slots",
+        "score": 90
+      },
+      {
+        "id": "holdout-02",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "entry-price",
+        "score": 90
+      },
+      {
+        "id": "holdout-03",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "mix",
+        "tag": "cross-post",
+        "score": 90
+      },
+      {
+        "id": "holdout-04",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "translit",
+        "tag": "ticket-translit",
+        "score": 90
+      },
+      {
+        "id": "holdout-05",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "mandatory-donation",
+        "score": 90
+      },
+      {
+        "id": "holdout-06",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "gift-purchase",
+        "score": 90
+      },
+      {
+        "id": "holdout-07",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "kk",
+        "tag": "paid",
+        "score": 90
+      },
+      {
+        "id": "holdout-08",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "ru",
+        "tag": "wheel-live",
+        "score": 95
+      },
+      {
+        "id": "holdout-09",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "no-payment",
+        "score": 5
+      },
+      {
+        "id": "holdout-10",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "no-payment-kz",
+        "score": 5
+      },
+      {
+        "id": "holdout-11",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "educational",
+        "score": 3
+      },
+      {
+        "id": "holdout-12",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "kk",
+        "tag": "warning",
+        "score": 3
+      },
+      {
+        "id": "holdout-13",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "skills",
+        "score": 12
+      },
+      {
+        "id": "holdout-14",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "retail-negated",
+        "score": 8
+      },
+      {
+        "id": "holdout-15",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "shipping",
+        "score": 5
+      },
+      {
+        "id": "holdout-16",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "mix",
+        "tag": "free-mixed",
+        "score": 5
+      },
+      {
+        "id": "holdout-17",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "translit",
+        "tag": "free",
+        "score": 5
+      },
+      {
+        "id": "holdout-18",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "ru",
+        "tag": "prize-price",
+        "score": 5
+      },
+      {
+        "id": "holdout-19",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "no-method",
+        "score": 58
+      },
+      {
+        "id": "holdout-20",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "kk",
+        "tag": "no-method-kz",
+        "score": 58
+      },
+      {
+        "id": "holdout-21",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "mix",
+        "tag": "conflict",
+        "score": 65
+      },
+      {
+        "id": "holdout-22",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "incomplete",
+        "score": 45
+      },
+      {
+        "id": "holdout-23",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "jury-conflict",
+        "score": 65
+      },
+      {
+        "id": "holdout-24",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "ru",
+        "tag": "teaser",
+        "score": 35
+      }
+    ]
+  },
+  "historicalRegression": {
+    "total": 28,
+    "accuracy": 1,
+    "precision": 1,
+    "recall": 1,
+    "falsePositiveRate": 0,
+    "tp": 10,
+    "fp": 0,
+    "tn": 18,
+    "fn": 0,
+    "matrix": {
+      "high": {
+        "high": 10,
+        "medium": 0,
+        "low": 0
+      },
+      "medium": {
+        "high": 0,
+        "medium": 7,
+        "low": 0
+      },
+      "low": {
+        "high": 0,
+        "medium": 0,
+        "low": 11
+      }
+    },
+    "quoteErrors": 0,
+    "triage": {
+      "tp": 17,
+      "fp": 0,
+      "tn": 11,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0
+    },
+    "cases": [
+      {
+        "id": "eval-01",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Номер для путешествия",
+        "score": 90
+      },
+      {
+        "id": "eval-02",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Құлаққапқа бір мүмкіндік",
+        "score": 90
+      },
+      {
+        "id": "eval-03",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Билет внутри заказа",
+        "score": 90
+      },
+      {
+        "id": "eval-04",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Донат даёт шанс",
+        "score": 90
+      },
+      {
+        "id": "eval-05",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Лот с оплаченной подпиской",
+        "score": 90
+      },
+      {
+        "id": "eval-06",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Код на шанс",
+        "score": 90
+      },
+      {
+        "id": "eval-07",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Пул оплаченных мест",
+        "score": 95
+      },
+      {
+        "id": "eval-08",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Ұтысқа қатысу жарнасы",
+        "score": 90
+      },
+      {
+        "id": "eval-09",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Купон и денежный приз",
+        "score": 90
+      },
+      {
+        "id": "eval-10",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Покупка открывает жеребьёвку",
+        "score": 90
+      },
+      {
+        "id": "eval-11",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Бесплатные закладки",
+        "score": 5
+      },
+      {
+        "id": "eval-12",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Бағасы бар сыйлық",
+        "score": 5
+      },
+      {
+        "id": "eval-13",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Доставка после результата",
+        "score": 5
+      },
+      {
+        "id": "eval-14",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Обычная продажа фонаря",
+        "score": 8
+      },
+      {
+        "id": "eval-15",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Цитата в памятке",
+        "score": 18
+      },
+      {
+        "id": "eval-16",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Пожертвование без приза",
+        "score": 8
+      },
+      {
+        "id": "eval-17",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Побеждает лучший рассказ",
+        "score": 12
+      },
+      {
+        "id": "eval-18",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Друг в комментарии",
+        "score": 5
+      },
+      {
+        "id": "eval-19",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Тегін кітап ұтысы",
+        "score": 5
+      },
+      {
+        "id": "eval-20",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Урок по вероятности",
+        "score": 3
+      },
+      {
+        "id": "eval-21",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "Жеребьёвка без условий участия",
+        "score": 45
+      },
+      {
+        "id": "eval-22",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "Взнос с неизвестным выбором",
+        "score": 58
+      },
+      {
+        "id": "eval-23",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "Бесплатно и обязательный билет",
+        "score": 65
+      },
+      {
+        "id": "eval-24",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "Есть оплата, приз неизвестен",
+        "score": 58
+      },
+      {
+        "id": "eval-25",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "Из анонса исчез способ выбора",
+        "score": 58
+      },
+      {
+        "id": "eval-26",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "Тегін және ақылы шарт қатар",
+        "score": 65
+      },
+      {
+        "id": "eval-27",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "Слово «розыгрыш» без деталей",
+        "score": 35
+      },
+      {
+        "id": "eval-28",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Бесплатный путь к подарку",
+        "score": 5
+      }
+    ]
+  },
+  "demo": {
+    "total": 10,
+    "accuracy": 1,
+    "precision": 1,
+    "recall": 1,
+    "falsePositiveRate": 0,
+    "tp": 3,
+    "fp": 0,
+    "tn": 7,
+    "fn": 0,
+    "matrix": {
+      "high": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "medium": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "low": {
+        "high": 0,
+        "medium": 0,
+        "low": 5
+      }
+    },
+    "quoteErrors": 0,
+    "triage": {
+      "tp": 5,
+      "fp": 0,
+      "tn": 5,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0
+    },
+    "cases": [
+      {
+        "id": "demo-01",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Смартфон за счастливый номер",
+        "score": 90
+      },
+      {
+        "id": "demo-02",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Подарок за добрые слова",
+        "score": 5
+      },
+      {
+        "id": "demo-03",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Чек становится билетом",
+        "score": 90
+      },
+      {
+        "id": "demo-04",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Цена подарка и доставка",
+        "score": 5
+      },
+      {
+        "id": "demo-05",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "Два взаимоисключающих условия",
+        "score": 65
+      },
+      {
+        "id": "demo-06",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Пост с предупреждением",
+        "score": 3
+      },
+      {
+        "id": "demo-07",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Конкурс с решением жюри",
+        "score": 12
+      },
+      {
+        "id": "demo-08",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "Условия появятся вечером",
+        "score": 35
+      },
+      {
+        "id": "demo-09",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "Слоты и доход организатора",
+        "score": 95
+      },
+      {
+        "id": "demo-10",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "Приглашения без оплаты",
+        "score": 5
+      }
+    ]
+  },
+  "familyTemplates": {
+    "total": 132,
+    "accuracy": 1,
+    "precision": 1,
+    "recall": 1,
+    "falsePositiveRate": 0,
+    "tp": 95,
+    "fp": 0,
+    "tn": 37,
+    "fn": 0,
+    "matrix": {
+      "high": {
+        "high": 95,
+        "medium": 0,
+        "low": 0
+      },
+      "medium": {
+        "high": 0,
+        "medium": 9,
+        "low": 0
+      },
+      "low": {
+        "high": 0,
+        "medium": 0,
+        "low": 28
+      }
+    },
+    "quoteErrors": 0,
+    "triage": {
+      "tp": 104,
+      "fp": 0,
+      "tn": 28,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "falsePositiveRate": 0
+    },
+    "cases": [
+      {
+        "id": "family-1",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/1/1",
+        "score": 90
+      },
+      {
+        "id": "family-2",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/1/2",
+        "score": 90
+      },
+      {
+        "id": "family-3",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/1/3",
+        "score": 90
+      },
+      {
+        "id": "family-4",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/2/1",
+        "score": 90
+      },
+      {
+        "id": "family-5",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/2/2",
+        "score": 90
+      },
+      {
+        "id": "family-6",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/2/3",
+        "score": 90
+      },
+      {
+        "id": "family-7",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/3/1",
+        "score": 90
+      },
+      {
+        "id": "family-8",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/3/2",
+        "score": 90
+      },
+      {
+        "id": "family-9",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/3/3",
+        "score": 90
+      },
+      {
+        "id": "family-10",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/4/1",
+        "score": 90
+      },
+      {
+        "id": "family-11",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/4/2",
+        "score": 90
+      },
+      {
+        "id": "family-12",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/4/3",
+        "score": 90
+      },
+      {
+        "id": "family-13",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/5/1",
+        "score": 90
+      },
+      {
+        "id": "family-14",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/5/2",
+        "score": 90
+      },
+      {
+        "id": "family-15",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 1/5/3",
+        "score": 90
+      },
+      {
+        "id": "family-16",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/1/1",
+        "score": 90
+      },
+      {
+        "id": "family-17",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/1/2",
+        "score": 90
+      },
+      {
+        "id": "family-18",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/1/3",
+        "score": 90
+      },
+      {
+        "id": "family-19",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/2/1",
+        "score": 90
+      },
+      {
+        "id": "family-20",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/2/2",
+        "score": 90
+      },
+      {
+        "id": "family-21",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/2/3",
+        "score": 90
+      },
+      {
+        "id": "family-22",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/3/1",
+        "score": 90
+      },
+      {
+        "id": "family-23",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/3/2",
+        "score": 90
+      },
+      {
+        "id": "family-24",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/3/3",
+        "score": 90
+      },
+      {
+        "id": "family-25",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/4/1",
+        "score": 90
+      },
+      {
+        "id": "family-26",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/4/2",
+        "score": 90
+      },
+      {
+        "id": "family-27",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/4/3",
+        "score": 90
+      },
+      {
+        "id": "family-28",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/5/1",
+        "score": 90
+      },
+      {
+        "id": "family-29",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/5/2",
+        "score": 90
+      },
+      {
+        "id": "family-30",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 2/5/3",
+        "score": 90
+      },
+      {
+        "id": "family-31",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/1/1",
+        "score": 90
+      },
+      {
+        "id": "family-32",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/1/2",
+        "score": 90
+      },
+      {
+        "id": "family-33",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/1/3",
+        "score": 90
+      },
+      {
+        "id": "family-34",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/2/1",
+        "score": 90
+      },
+      {
+        "id": "family-35",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/2/2",
+        "score": 90
+      },
+      {
+        "id": "family-36",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/2/3",
+        "score": 90
+      },
+      {
+        "id": "family-37",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/3/1",
+        "score": 90
+      },
+      {
+        "id": "family-38",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/3/2",
+        "score": 90
+      },
+      {
+        "id": "family-39",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/3/3",
+        "score": 90
+      },
+      {
+        "id": "family-40",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/4/1",
+        "score": 90
+      },
+      {
+        "id": "family-41",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/4/2",
+        "score": 90
+      },
+      {
+        "id": "family-42",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/4/3",
+        "score": 90
+      },
+      {
+        "id": "family-43",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/5/1",
+        "score": 90
+      },
+      {
+        "id": "family-44",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/5/2",
+        "score": 90
+      },
+      {
+        "id": "family-45",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "ru: positive family 3/5/3",
+        "score": 90
+      },
+      {
+        "id": "family-46",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 1/1/1",
+        "score": 90
+      },
+      {
+        "id": "family-47",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 1/1/2",
+        "score": 90
+      },
+      {
+        "id": "family-48",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 1/2/1",
+        "score": 90
+      },
+      {
+        "id": "family-49",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 1/2/2",
+        "score": 90
+      },
+      {
+        "id": "family-50",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 1/3/1",
+        "score": 90
+      },
+      {
+        "id": "family-51",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 1/3/2",
+        "score": 90
+      },
+      {
+        "id": "family-52",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 2/1/1",
+        "score": 90
+      },
+      {
+        "id": "family-53",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 2/1/2",
+        "score": 90
+      },
+      {
+        "id": "family-54",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 2/2/1",
+        "score": 90
+      },
+      {
+        "id": "family-55",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 2/2/2",
+        "score": 90
+      },
+      {
+        "id": "family-56",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 2/3/1",
+        "score": 90
+      },
+      {
+        "id": "family-57",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 2/3/2",
+        "score": 90
+      },
+      {
+        "id": "family-58",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 3/1/1",
+        "score": 90
+      },
+      {
+        "id": "family-59",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 3/1/2",
+        "score": 90
+      },
+      {
+        "id": "family-60",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 3/2/1",
+        "score": 90
+      },
+      {
+        "id": "family-61",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 3/2/2",
+        "score": 90
+      },
+      {
+        "id": "family-62",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 3/3/1",
+        "score": 90
+      },
+      {
+        "id": "family-63",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "kk: positive family 3/3/2",
+        "score": 90
+      },
+      {
+        "id": "family-64",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 1/1/1",
+        "score": 90
+      },
+      {
+        "id": "family-65",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 1/1/2",
+        "score": 90
+      },
+      {
+        "id": "family-66",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 1/2/1",
+        "score": 90
+      },
+      {
+        "id": "family-67",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 1/2/2",
+        "score": 90
+      },
+      {
+        "id": "family-68",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 1/3/1",
+        "score": 90
+      },
+      {
+        "id": "family-69",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 1/3/2",
+        "score": 90
+      },
+      {
+        "id": "family-70",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 2/1/1",
+        "score": 90
+      },
+      {
+        "id": "family-71",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 2/1/2",
+        "score": 90
+      },
+      {
+        "id": "family-72",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 2/2/1",
+        "score": 90
+      },
+      {
+        "id": "family-73",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 2/2/2",
+        "score": 90
+      },
+      {
+        "id": "family-74",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 2/3/1",
+        "score": 90
+      },
+      {
+        "id": "family-75",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 2/3/2",
+        "score": 90
+      },
+      {
+        "id": "family-76",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 3/1/1",
+        "score": 90
+      },
+      {
+        "id": "family-77",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 3/1/2",
+        "score": 90
+      },
+      {
+        "id": "family-78",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 3/2/1",
+        "score": 90
+      },
+      {
+        "id": "family-79",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 3/2/2",
+        "score": 90
+      },
+      {
+        "id": "family-80",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 3/3/1",
+        "score": 90
+      },
+      {
+        "id": "family-81",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "translit: positive family 3/3/2",
+        "score": 90
+      },
+      {
+        "id": "family-82",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "reverse optional purchase",
+        "score": 5
+      },
+      {
+        "id": "family-83",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "reverse unnecessary fee",
+        "score": 5
+      },
+      {
+        "id": "family-84",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "plural no purchase",
+        "score": 5
+      },
+      {
+        "id": "family-85",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "explicit no payments",
+        "score": 5
+      },
+      {
+        "id": "family-86",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "no-purchase reordered",
+        "score": 5
+      },
+      {
+        "id": "family-87",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "optional donation",
+        "score": 5
+      },
+      {
+        "id": "family-88",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "optional purchase",
+        "score": 5
+      },
+      {
+        "id": "family-89",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "inflected KK no purchase",
+        "score": 5
+      },
+      {
+        "id": "family-90",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "KK no requirement",
+        "score": 5
+      },
+      {
+        "id": "family-91",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "KK optional donation",
+        "score": 5
+      },
+      {
+        "id": "family-92",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "mixed optional donation",
+        "score": 5
+      },
+      {
+        "id": "family-93",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "translit no payment",
+        "score": 5
+      },
+      {
+        "id": "family-94",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "translit plural no purchase",
+        "score": 5
+      },
+      {
+        "id": "family-95",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "zero fee",
+        "score": 5
+      },
+      {
+        "id": "family-96",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "decimal zero fee",
+        "score": 5
+      },
+      {
+        "id": "family-97",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "RU delivery after winning",
+        "score": 5
+      },
+      {
+        "id": "family-98",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "KK optional delivery",
+        "score": 5
+      },
+      {
+        "id": "family-99",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "mixed optional delivery",
+        "score": 5
+      },
+      {
+        "id": "family-100",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "translit optional delivery",
+        "score": 5
+      },
+      {
+        "id": "family-101",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "RU coordinated random negation",
+        "score": 12
+      },
+      {
+        "id": "family-102",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "RU random excluded",
+        "score": 12
+      },
+      {
+        "id": "family-103",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "KK no random selection",
+        "score": 12
+      },
+      {
+        "id": "family-104",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "translit coordinated random negation",
+        "score": 12
+      },
+      {
+        "id": "family-105",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "unknown fee",
+        "score": 45
+      },
+      {
+        "id": "family-106",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "KK fee question",
+        "score": 45
+      },
+      {
+        "id": "family-107",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "mixed fee uncertainty",
+        "score": 45
+      },
+      {
+        "id": "family-108",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "unknown winner mechanism",
+        "score": 58
+      },
+      {
+        "id": "family-109",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "contradictory free and fee",
+        "score": 65
+      },
+      {
+        "id": "family-110",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "contradictory jury/random",
+        "score": 65
+      },
+      {
+        "id": "family-111",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "RU educational quotation",
+        "score": 3
+      },
+      {
+        "id": "family-112",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "KK educational quotation",
+        "score": 3
+      },
+      {
+        "id": "family-113",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "translit educational quotation",
+        "score": 3
+      },
+      {
+        "id": "family-114",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "mixed educational quotation",
+        "score": 3
+      },
+      {
+        "id": "family-115",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "warning followed by explicit own offer",
+        "score": 90
+      },
+      {
+        "id": "family-116",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "KK warning followed by explicit own offer",
+        "score": 90
+      },
+      {
+        "id": "family-117",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "optional extra donation does not negate required ticket",
+        "score": 90
+      },
+      {
+        "id": "family-118",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "no purchase plus required ticket stays conservative",
+        "score": 45
+      },
+      {
+        "id": "family-119",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "free delivery is not free participation",
+        "score": 90
+      },
+      {
+        "id": "family-120",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "zero delivery price never becomes zero entry fee",
+        "score": 90
+      },
+      {
+        "id": "family-121",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "absence of free tickets before adjective",
+        "score": 90
+      },
+      {
+        "id": "family-122",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "absence of free numbers in KK",
+        "score": 90
+      },
+      {
+        "id": "family-123",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "incidental random event is not winner selection",
+        "score": 58
+      },
+      {
+        "id": "family-124",
+        "expected": "low",
+        "predicted": "low",
+        "match": true,
+        "language": "family",
+        "tag": "random selection denied after subject",
+        "score": 12
+      },
+      {
+        "id": "family-125",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "KK drawing a ticket is a selection role",
+        "score": 90
+      },
+      {
+        "id": "family-126",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "KK taking one ticket from the pool is a selection role",
+        "score": 90
+      },
+      {
+        "id": "family-127",
+        "expected": "medium",
+        "predicted": "medium",
+        "match": true,
+        "language": "family",
+        "tag": "KK incomplete teaser",
+        "score": 35
+      },
+      {
+        "id": "family-128",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "NFKC fullwidth digits and emoji offsets",
+        "score": 90
+      },
+      {
+        "id": "family-129",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "zero width OCR noise offsets",
+        "score": 90
+      },
+      {
+        "id": "family-130",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "mixed glyph inside Cyrillic",
+        "score": 90
+      },
+      {
+        "id": "family-131",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "mixed glyph inside Latin",
+        "score": 90
+      },
+      {
+        "id": "family-132",
+        "expected": "high",
+        "predicted": "high",
+        "match": true,
+        "language": "family",
+        "tag": "OCR wrap and KK diacritic loss",
+        "score": 90
+      }
+    ]
+  },
+  "ocrDevelopment": [
+    {
+      "file": "kk-dark-actual.txt",
+      "expected": "low",
+      "predicted": "low",
+      "match": true
+    },
+    {
+      "file": "mixed-wrap-actual.txt",
+      "expected": "high",
+      "predicted": "high",
+      "match": true
+    },
+    {
+      "file": "ru-small-actual.txt",
+      "expected": "high",
+      "predicted": "high",
+      "match": true
+    },
+    {
+      "file": "ru-warning-actual.txt",
+      "expected": "low",
+      "predicted": "low",
+      "match": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "ru: positive family 1/1/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/1/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/1/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/2/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/2/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/2/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/3/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/3/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/3/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/4/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/4/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/4/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/5/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/5/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 1/5/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/1/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/1/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/1/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/2/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/2/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/2/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/3/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/3/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/3/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/4/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/4/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/4/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/5/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/5/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 2/5/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/1/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/1/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/1/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/2/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/2/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/2/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/3/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/3/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/3/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/4/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/4/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/4/3",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/5/1",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/5/2",
+      "passed": true
+    },
+    {
+      "name": "ru: positive family 3/5/3",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 1/1/1",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 1/1/2",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 1/2/1",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 1/2/2",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 1/3/1",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 1/3/2",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 2/1/1",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 2/1/2",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 2/2/1",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 2/2/2",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 2/3/1",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 2/3/2",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 3/1/1",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 3/1/2",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 3/2/1",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 3/2/2",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 3/3/1",
+      "passed": true
+    },
+    {
+      "name": "kk: positive family 3/3/2",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 1/1/1",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 1/1/2",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 1/2/1",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 1/2/2",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 1/3/1",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 1/3/2",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 2/1/1",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 2/1/2",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 2/2/1",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 2/2/2",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 2/3/1",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 2/3/2",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 3/1/1",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 3/1/2",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 3/2/1",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 3/2/2",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 3/3/1",
+      "passed": true
+    },
+    {
+      "name": "translit: positive family 3/3/2",
+      "passed": true
+    },
+    {
+      "name": "reverse optional purchase",
+      "passed": true
+    },
+    {
+      "name": "reverse unnecessary fee",
+      "passed": true
+    },
+    {
+      "name": "plural no purchase",
+      "passed": true
+    },
+    {
+      "name": "explicit no payments",
+      "passed": true
+    },
+    {
+      "name": "no-purchase reordered",
+      "passed": true
+    },
+    {
+      "name": "optional donation",
+      "passed": true
+    },
+    {
+      "name": "optional purchase",
+      "passed": true
+    },
+    {
+      "name": "inflected KK no purchase",
+      "passed": true
+    },
+    {
+      "name": "KK no requirement",
+      "passed": true
+    },
+    {
+      "name": "KK optional donation",
+      "passed": true
+    },
+    {
+      "name": "mixed optional donation",
+      "passed": true
+    },
+    {
+      "name": "translit no payment",
+      "passed": true
+    },
+    {
+      "name": "translit plural no purchase",
+      "passed": true
+    },
+    {
+      "name": "zero fee",
+      "passed": true
+    },
+    {
+      "name": "decimal zero fee",
+      "passed": true
+    },
+    {
+      "name": "RU delivery after winning",
+      "passed": true
+    },
+    {
+      "name": "KK optional delivery",
+      "passed": true
+    },
+    {
+      "name": "mixed optional delivery",
+      "passed": true
+    },
+    {
+      "name": "translit optional delivery",
+      "passed": true
+    },
+    {
+      "name": "RU coordinated random negation",
+      "passed": true
+    },
+    {
+      "name": "RU random excluded",
+      "passed": true
+    },
+    {
+      "name": "KK no random selection",
+      "passed": true
+    },
+    {
+      "name": "translit coordinated random negation",
+      "passed": true
+    },
+    {
+      "name": "unknown fee",
+      "passed": true
+    },
+    {
+      "name": "KK fee question",
+      "passed": true
+    },
+    {
+      "name": "mixed fee uncertainty",
+      "passed": true
+    },
+    {
+      "name": "unknown winner mechanism",
+      "passed": true
+    },
+    {
+      "name": "contradictory free and fee",
+      "passed": true
+    },
+    {
+      "name": "contradictory jury/random",
+      "passed": true
+    },
+    {
+      "name": "RU educational quotation",
+      "passed": true
+    },
+    {
+      "name": "KK educational quotation",
+      "passed": true
+    },
+    {
+      "name": "translit educational quotation",
+      "passed": true
+    },
+    {
+      "name": "mixed educational quotation",
+      "passed": true
+    },
+    {
+      "name": "warning followed by explicit own offer",
+      "passed": true
+    },
+    {
+      "name": "KK warning followed by explicit own offer",
+      "passed": true
+    },
+    {
+      "name": "optional extra donation does not negate required ticket",
+      "passed": true
+    },
+    {
+      "name": "no purchase plus required ticket stays conservative",
+      "passed": true
+    },
+    {
+      "name": "free delivery is not free participation",
+      "passed": true
+    },
+    {
+      "name": "zero delivery price never becomes zero entry fee",
+      "passed": true
+    },
+    {
+      "name": "absence of free tickets before adjective",
+      "passed": true
+    },
+    {
+      "name": "absence of free numbers in KK",
+      "passed": true
+    },
+    {
+      "name": "incidental random event is not winner selection",
+      "passed": true
+    },
+    {
+      "name": "random selection denied after subject",
+      "passed": true
+    },
+    {
+      "name": "KK drawing a ticket is a selection role",
+      "passed": true
+    },
+    {
+      "name": "KK taking one ticket from the pool is a selection role",
+      "passed": true
+    },
+    {
+      "name": "KK incomplete teaser",
+      "passed": true
+    },
+    {
+      "name": "NFKC fullwidth digits and emoji offsets",
+      "passed": true
+    },
+    {
+      "name": "zero width OCR noise offsets",
+      "passed": true
+    },
+    {
+      "name": "mixed glyph inside Cyrillic",
+      "passed": true
+    },
+    {
+      "name": "mixed glyph inside Latin",
+      "passed": true
+    },
+    {
+      "name": "OCR wrap and KK diacritic loss",
+      "passed": true
+    },
+    {
+      "name": "foreign campaign remains excluded despite whitespace normalization",
+      "passed": true
+    },
+    {
+      "name": "income is not inferred from a fee",
+      "passed": true
+    },
+    {
+      "name": "empty text has no positive evidence",
+      "passed": true
+    },
+    {
+      "name": "zero commission is not claimed as income",
+      "passed": true
+    },
+    {
+      "name": "disclosed OCR development: kk-dark-actual.txt",
+      "passed": true
+    },
+    {
+      "name": "disclosed OCR development: mixed-wrap-actual.txt",
+      "passed": true
+    },
+    {
+      "name": "disclosed OCR development: ru-small-actual.txt",
+      "passed": true
+    },
+    {
+      "name": "disclosed OCR development: ru-warning-actual.txt",
+      "passed": true
+    },
+    {
+      "name": "historical development unchanged: 32 cases",
+      "passed": true
+    },
+    {
+      "name": "historical v1 regression has no loss against v1.4",
+      "passed": true
+    },
+    {
+      "name": "28 original regression scenarios remain correct",
+      "passed": true
+    },
+    {
+      "name": "v2 source dataset is not modified by evaluation",
+      "passed": true
+    },
+    {
+      "name": "v2 development has zero evidence offset errors",
+      "passed": true
+    }
+  ],
+  "checkSummary": {
+    "passed": 145,
+    "total": 145
+  },
+  "frozen": true
+}

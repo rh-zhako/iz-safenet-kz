@@ -1,0 +1,18 @@
+{
+  "engineVersion": "2.0.0-track1-evidence",
+  "shortVersion": "v2.0",
+  "dataset": "AI-синтетический v8",
+  "evaluationStatus": "Новый AI-синтетический тест",
+  "draft": false,
+  "total": 160,
+  "correct": 100,
+  "tp": 34,
+  "fp": 12,
+  "fn": 30,
+  "tn": 84,
+  "scope": "Движок зафиксирован до создания набора. Отдельный AI-автор не видел код, прежние случаи или прогнозы. Первый результат сохранён. После раскрытия набор открыт.",
+  "sourcePath": "evaluation/fresh-ai-v8-report.json",
+  "dataLine": "160 новых AI-сценариев · 4 языка/формы · первый прогон",
+  "limitations": "Реальных публикаций, человеческой разметки и замера пользы нет. OCR не входит в этот тест.",
+  "liveUrl": "https://iz-safenet-kz.garden-gleam-9738.chatgpt.site/"
+}

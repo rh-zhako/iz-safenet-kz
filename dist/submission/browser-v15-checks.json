@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-20T15:25:25.634Z",
+  "browser": "CUA ChatGPT in-app browser",
+  "observations": [
+    "Paid example classified high with exact quotes",
+    "Appended user material converts pure demo to mixed local case",
+    "Comment draft preserved when switching to graph tab",
+    "Saved decision and positive session duration exported in JSON",
+    "HTML report preserves mixed and source-level synthetic notices",
+    "Added third source marks decision stale",
+    "Next queue action opens different case",
+    "Network candidate evidence opens one active source",
+    "Quality UI N120 / matched81 / errors39 matches release JSON",
+    "Mobile widths390: quality, public sources, network, analyst documentWidth390",
+    "No browser console errors observed"
+  ],
+  "exportAssertionsPassed": 8,
+  "sessionDurationMs": 17051,
+  "limitations": [
+    "Automated synthetic interface checks, not human analyst pilot or time comparison.",
+    "Four new OCR probes originally exercised UI v1.4; exported texts classified by frozen v1.5."
+  ]
+}

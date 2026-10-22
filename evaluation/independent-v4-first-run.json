@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-20T17:13:58.825Z",
+  "engineVersion": "1.6.0-track1-context",
+  "engineSha256": "4127f8b5b136b5325152c6691d1fe2f6d5f58a7ea3e2103021d8b149d60cfc97",
+  "datasetSha256": "74b8eac5fe73110e5817bb5b86f7fb9120a89921481f1d306daadabeef489069",
+  "protocol": "First evaluation of frozen v1.6 on v4. Future identical runs are reproduction only."
+}

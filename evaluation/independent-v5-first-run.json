@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-20T18:05:45.877Z",
+  "engineVersion": "1.7.0-track1-evidence",
+  "engineSha256": "d75b486aa53bdae2462b7ae121ddfbc76b3076f9cbc7f68223bcadb0b55619c3",
+  "datasetSha256": "839ffab18108e34df6b22940273978912a8ca36cc72c4891b6cbcb268c10b756",
+  "baselineEngineSha256": "4127f8b5b136b5325152c6691d1fe2f6d5f58a7ea3e2103021d8b149d60cfc97",
+  "harnessSha256": "490a40bdd2cbcc0c9cfd8e38bc59f4f696fd474c88ac3dfd316b5d1dc6e5f6dc",
+  "secondAnnotationSha256": "1754c847dbf41e415ca4609ec9d80a319dad50d80f2a82339ec586563db9a501",
+  "protocol": "First evaluation of frozen v1.7 on v5. Subsequent identical runs reproduce this fixed evaluation; v5 cannot be reused as a fresh blind result after tuning."
+}

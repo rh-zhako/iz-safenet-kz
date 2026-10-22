@@ -1,0 +1,43 @@
+{
+  "scope": "Actual source-edit submit handler and backup compatibility; isolated DOM/storage collaborators; not a full browser or detector accuracy test.",
+  "passed": 9,
+  "total": 9,
+  "checks": [
+    {
+      "name": "whitespace cannot destroy source or backup",
+      "passed": true
+    },
+    {
+      "name": "limit enforced beyond native textarea validation",
+      "passed": true
+    },
+    {
+      "name": "missing campaign rejects without mutation",
+      "passed": true
+    },
+    {
+      "name": "missing source rejects without mutation",
+      "passed": true
+    },
+    {
+      "name": "conflict cannot edit memory or claim success",
+      "passed": true
+    },
+    {
+      "name": "write failure rolls back whole source state and keeps dialog",
+      "passed": true
+    },
+    {
+      "name": "successful correction preserves first original and backup",
+      "passed": true
+    },
+    {
+      "name": "second correction retains the first original",
+      "passed": true
+    },
+    {
+      "name": "other materials and review maps remain intact",
+      "passed": true
+    }
+  ]
+}

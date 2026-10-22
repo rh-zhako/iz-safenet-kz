@@ -1,0 +1,91 @@
+{
+  "at": "2026-10-22T18:50:11.210Z",
+  "passed": 21,
+  "total": 21,
+  "checks": [
+    {
+      "name": "high before medium before low",
+      "passed": true
+    },
+    {
+      "name": "own scope excludes synthetic examples",
+      "passed": true
+    },
+    {
+      "name": "unreviewed high and medium in queue",
+      "passed": true
+    },
+    {
+      "name": "quick mark does not complete three-condition review",
+      "passed": true
+    },
+    {
+      "name": "later remains in queue",
+      "passed": true
+    },
+    {
+      "name": "changed material returns to queue",
+      "passed": true
+    },
+    {
+      "name": "stale review stays in queue even when model is now low",
+      "passed": true
+    },
+    {
+      "name": "time survives review normalization",
+      "passed": true
+    },
+    {
+      "name": "untrusted invalid time rejected",
+      "passed": true
+    },
+    {
+      "name": "summary excludes demo and incomplete quick marks",
+      "passed": true
+    },
+    {
+      "name": "queue search filters title",
+      "passed": true
+    },
+    {
+      "name": "network view links back to source",
+      "passed": true
+    },
+    {
+      "name": "network view escapes campaign text",
+      "passed": true
+    },
+    {
+      "name": "graph navigation resolves pseudonymous UUID case and source IDs",
+      "passed": true
+    },
+    {
+      "name": "more than 500 cases shows bounded output",
+      "passed": true
+    },
+    {
+      "name": "user material turns a demo into mixed local case",
+      "passed": true
+    },
+    {
+      "name": "pure demo append preserves demo scope",
+      "passed": true
+    },
+    {
+      "name": "ordinary local case append remains local",
+      "passed": true
+    },
+    {
+      "name": "mixed provenance survives printable report",
+      "passed": true
+    },
+    {
+      "name": "legacy source inherits pure-demo provenance before append",
+      "passed": true
+    },
+    {
+      "name": "mixed feed keeps individual source provenance",
+      "passed": true
+    }
+  ]
+}

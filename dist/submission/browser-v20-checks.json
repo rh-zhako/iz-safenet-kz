@@ -1,0 +1,57 @@
+{
+  "engineVersion": "2.0.0-track1-evidence",
+  "at": "2026-10-22T19:10:54.180378+00:00",
+  "scope": "Software/browser checks on an isolated local origin with synthetic demo materials; no human usability or real-world detection study.",
+  "checks": [
+    {
+      "id": "responsive-case",
+      "status": "pass",
+      "evidence": "320,390,768,1024,1280px: document width equals viewport; form controls16px; readable paper case inset."
+    },
+    {
+      "id": "manual-flow",
+      "status": "pass",
+      "evidence": "Three confirmed signs with exact source1/source2 quotes; four steps; manual high and comment saved separately; original positions retained."
+    },
+    {
+      "id": "all-sources-map",
+      "status": "pass",
+      "evidence": "Accessible HTML source buttons cover all materials; source2 opens original and highlights active card."
+    },
+    {
+      "id": "lazy-quality-normal",
+      "status": "pass",
+      "evidence": "Quality data absent from initial static graph; report opens after dynamic import."
+    },
+    {
+      "id": "lazy-quality-failure",
+      "status": "pass",
+      "evidence": "Isolated missing-module fixture: useful error, return to check, exact typed draft preserved."
+    },
+    {
+      "id": "lazy-quality-focus",
+      "status": "pass",
+      "evidence": "Delayed report: final heading focused. Mobile menu stays expanded/focused across completion; Escape restores toggle focus."
+    },
+    {
+      "id": "browser-console",
+      "status": "pass",
+      "evidence": "No error or warning logs on normal queue/detail/manual/source route."
+    },
+    {
+      "id": "responsive-network",
+      "status": "pass",
+      "evidence": "320,390,768,1024,1280px: document width equals viewport; no normal console warnings/errors."
+    },
+    {
+      "id": "submission-mobile",
+      "status": "pass",
+      "evidence": "390px package: current2.0/v8 metrics, all60errors, deck/current/archives links are readable without horizontal overflow."
+    }
+  ],
+  "limitations": [
+    "Mobile viewport emulation, not a physical-device study.",
+    "Google auth unchanged and not re-tested on a new localhost port.",
+    "Focus contract unit tests are not a full accessibility audit."
+  ]
+}

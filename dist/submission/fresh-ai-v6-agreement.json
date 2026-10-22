@@ -1,0 +1,8 @@
+{
+  "n": 80,
+  "agreed": 80,
+  "method": "Two separate AI annotations; second had no engine, predictions or first labels. No human annotators.",
+  "firstCorpusSha256": "393606887ffde615688ac458082af27c1c77a97005f1293b551487f5e53966db",
+  "secondLabelsSha256": "35a9ce3c6c2740e5365952e84f11c5decdc50f01d18c7ec7a0ba2b8509fffa5e",
+  "disagreements": []
+}

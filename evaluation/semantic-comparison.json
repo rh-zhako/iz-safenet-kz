@@ -1,0 +1,268 @@
+{
+  "createdAt": "2026-10-20T18:42:29.721504+00:00",
+  "scope": "Разведочное сравнение на уже открытом AI-синтетическом v5, не новый слепой тест и не человеческая валидация.",
+  "productionEngineChanged": false,
+  "baseline": {
+    "total": 200,
+    "correct": 116,
+    "accuracy": 0.58,
+    "tp": 41,
+    "fp": 8,
+    "fn": 39,
+    "tn": 112,
+    "precision": 0.8367346938775511,
+    "recall": 0.5125,
+    "falsePositiveRate": 0.06666666666666667,
+    "macroF1": 0.5515485064238298,
+    "matrix": {
+      "high": {
+        "high": 41,
+        "medium": 23,
+        "low": 16
+      },
+      "medium": {
+        "high": 7,
+        "medium": 17,
+        "low": 16
+      },
+      "low": {
+        "high": 1,
+        "medium": 21,
+        "low": 58
+      }
+    }
+  },
+  "runs": [
+    {
+      "name": "MiniLM: NLI, исходные гипотезы",
+      "report": "semantic-experiment-report.json",
+      "protocol": {
+        "schemaVersion": 1,
+        "createdAt": "2026-10-20T18:29:32.872488+00:00",
+        "purpose": "Exploratory paired comparison on already disclosed synthetic v5. Not a new blinded test or real-data validation.",
+        "runtime": "@huggingface/transformers@3.8.1 CPU ONNX q8",
+        "model": "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX",
+        "revision": "ca5daf3d11b6c4b3143b1f4602a2edfb64c3ad7e",
+        "baselineEngine": "1.7.0-track1-evidence",
+        "baselineEngineSha256": "d75b486aa53bdae2462b7ae121ddfbc76b3076f9cbc7f68223bcadb0b55619c3",
+        "dataset": "evaluation/independent-v5.json",
+        "datasetSha256": "839ffab18108e34df6b22940273978912a8ca36cc72c4891b6cbcb268c10b756",
+        "hypotheses": {
+          "prize": "Организатор обещает передать приз одному из участников.",
+          "payment": "Для допуска к розыгрышу участнику обязательно заплатить или совершить покупку.",
+          "random": "Окончательный победитель определяется случайно.",
+          "free": "Можно участвовать бесплатно, без покупки и взноса.",
+          "judged": "Окончательного победителя определяют по мастерству, оценке жюри или результату соревнования.",
+          "warning": "Автор предупреждает о чужой схеме и не предлагает читателю участвовать в своём розыгрыше."
+        },
+        "acceptThreshold": 0.7,
+        "decision": "high if prize,payment,random all entailment>=threshold and none free,judged,warning>=threshold; medium on positive-negative conflict or at least2core; low otherwise. Hybrid suggestion is rules high retained and semantic high/medium adds review priority only, never a conclusive fraud result.",
+        "adoptionGate": "Do not replace baseline unless paired macro F1 and high recall improve without materially increasing false positives. Independent unseen and human evaluation still required.",
+        "limits": "Max512tokens per text-hypothesis pair; truncation logged. No protected user materials, only previously authored synthetic benchmark."
+      },
+      "result": {
+        "total": 200,
+        "correct": 80,
+        "accuracy": 0.4,
+        "tp": 0,
+        "fp": 0,
+        "fn": 80,
+        "tn": 120,
+        "precision": null,
+        "recall": 0,
+        "falsePositiveRate": 0,
+        "macroF1": 0.19047619047619047,
+        "matrix": {
+          "high": {
+            "high": 0,
+            "medium": 0,
+            "low": 80
+          },
+          "medium": {
+            "high": 0,
+            "medium": 0,
+            "low": 40
+          },
+          "low": {
+            "high": 0,
+            "medium": 0,
+            "low": 80
+          }
+        }
+      },
+      "paired": {
+        "bothCorrect": 58,
+        "corrected": 22,
+        "worsened": 58,
+        "bothWrong": 62
+      },
+      "performance": {
+        "runtime": "v24.19.0",
+        "platform": "darwin",
+        "architecture": "arm64",
+        "loadMs": 282.05816699999997,
+        "cases": 200,
+        "p50Ms": 29.19370799999996,
+        "p95Ms": 37.587125000000015,
+        "scope": "CPU inference of six NLI hypotheses per complete concatenated synthetic case, two intra-op threads. Excludes browser runtime, OCR and user storage."
+      }
+    },
+    {
+      "name": "mDeBERTa: NLI, исходные гипотезы",
+      "report": "semantic-mdeberta-report.json",
+      "protocol": {
+        "schemaVersion": 1,
+        "createdAt": "2026-10-20T18:34:01.749724+00:00",
+        "purpose": "Exploratory paired comparison on already disclosed synthetic v5. Not a new blinded test or real-data validation.",
+        "runtime": "@huggingface/transformers@3.8.1 CPU ONNX q8",
+        "model": "onnx-community/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-ONNX",
+        "revision": "cdc8277b4682665e2f2e87cd83da7da07b153d75",
+        "baselineEngine": "1.7.0-track1-evidence",
+        "baselineEngineSha256": "d75b486aa53bdae2462b7ae121ddfbc76b3076f9cbc7f68223bcadb0b55619c3",
+        "dataset": "evaluation/independent-v5.json",
+        "datasetSha256": "839ffab18108e34df6b22940273978912a8ca36cc72c4891b6cbcb268c10b756",
+        "hypotheses": {
+          "prize": "Организатор обещает передать приз одному из участников.",
+          "payment": "Для допуска к розыгрышу участнику обязательно заплатить или совершить покупку.",
+          "random": "Окончательный победитель определяется случайно.",
+          "free": "Можно участвовать бесплатно, без покупки и взноса.",
+          "judged": "Окончательного победителя определяют по мастерству, оценке жюри или результату соревнования.",
+          "warning": "Автор предупреждает о чужой схеме и не предлагает читателю участвовать в своём розыгрыше."
+        },
+        "acceptThreshold": 0.7,
+        "decision": "high if prize,payment,random all entailment>=threshold and none free,judged,warning>=threshold; medium on positive-negative conflict or at least2core; low otherwise. Hybrid suggestion is rules high retained and semantic high/medium adds review priority only, never a conclusive fraud result.",
+        "adoptionGate": "Do not replace baseline unless paired macro F1 and high recall improve without materially increasing false positives. Independent unseen and human evaluation still required.",
+        "limits": "Max512tokens per text-hypothesis pair; truncation logged. No protected user materials, only previously authored synthetic benchmark.",
+        "predecessor": "semantic-experiment-protocol.json; first model was not adopted",
+        "runName": "mdeberta"
+      },
+      "result": {
+        "total": 200,
+        "correct": 80,
+        "accuracy": 0.4,
+        "tp": 0,
+        "fp": 0,
+        "fn": 80,
+        "tn": 120,
+        "precision": null,
+        "recall": 0,
+        "falsePositiveRate": 0,
+        "macroF1": 0.19047619047619047,
+        "matrix": {
+          "high": {
+            "high": 0,
+            "medium": 0,
+            "low": 80
+          },
+          "medium": {
+            "high": 0,
+            "medium": 0,
+            "low": 40
+          },
+          "low": {
+            "high": 0,
+            "medium": 0,
+            "low": 80
+          }
+        }
+      },
+      "paired": {
+        "bothCorrect": 58,
+        "corrected": 22,
+        "worsened": 58,
+        "bothWrong": 62
+      },
+      "performance": {
+        "runtime": "v24.19.0",
+        "platform": "darwin",
+        "architecture": "arm64",
+        "loadMs": 631.5109170000001,
+        "cases": 200,
+        "p50Ms": 264.8882080000003,
+        "p95Ms": 354.57274999999936,
+        "scope": "CPU inference of six NLI hypotheses per complete concatenated synthetic case, two intra-op threads. Excludes browser runtime, OCR and user storage."
+      }
+    },
+    {
+      "name": "mDeBERTa + правила: гипотезы об условиях текста",
+      "report": "semantic-hybrid-report.json",
+      "protocol": {
+        "schemaVersion": 1,
+        "createdAt": "2026-10-20T18:37:56.043169+00:00",
+        "purpose": "Exploratory paired comparison on already disclosed synthetic v5. Not a new blinded test or real-data validation.",
+        "runtime": "@huggingface/transformers@3.8.1 CPU ONNX q8",
+        "model": "onnx-community/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-ONNX",
+        "revision": "cdc8277b4682665e2f2e87cd83da7da07b153d75",
+        "baselineEngine": "1.7.0-track1-evidence",
+        "baselineEngineSha256": "d75b486aa53bdae2462b7ae121ddfbc76b3076f9cbc7f68223bcadb0b55619c3",
+        "dataset": "evaluation/independent-v5.json",
+        "datasetSha256": "839ffab18108e34df6b22940273978912a8ca36cc72c4891b6cbcb268c10b756",
+        "hypotheses": {
+          "prize": "В тексте говорится о розыгрыше приза.",
+          "payment": "В тексте сказано, что участие платное.",
+          "random": "В тексте сказано, что победителя выбирают случайно.",
+          "free": "В тексте сказано, что участие бесплатно.",
+          "judged": "В тексте сказано, что победителя выбирает жюри.",
+          "warning": "Текст является предупреждением о мошенниках."
+        },
+        "acceptThreshold": 0.7,
+        "decision": "Documented zero-shot independent normalization: entailment/(entailment+contradiction). Positive threshold0.7 with raw entailment>=0.3 and entailment>neutral. Negative threshold0.8 with raw entailment>=0.5. Hybrid retains all baselinehigh, blocks promotions on explicit free/warning/contradictions; otherwise each core can be supported by a baseline signal or positive NLI. Three core→high, two→medium, otherwise baseline priority. No production engine replacement in this experiment.",
+        "adoptionGate": "Do not replace baseline unless paired macro F1 and high recall improve without materially increasing false positives. Independent unseen and human evaluation still required.",
+        "limits": "Max512tokens per text-hypothesis pair; truncation logged. No protected user materials, only previously authored synthetic benchmark.",
+        "predecessor": "Two raw NLI threshold experiments failed; preserved. This protocol uses the documented entailment-vs-contradiction zero-shot normalization and simpler source-claim hypotheses. Calibration used only two literal developer control examples, no v5 case-specific fixes.",
+        "runName": "hybrid",
+        "sources": [
+          "https://huggingface.co/docs/transformers.js/api/pipelines",
+          "https://huggingface.co/onnx-community/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-ONNX"
+        ]
+      },
+      "result": {
+        "total": 200,
+        "correct": 112,
+        "accuracy": 0.56,
+        "tp": 42,
+        "fp": 9,
+        "fn": 38,
+        "tn": 111,
+        "precision": 0.8235294117647058,
+        "recall": 0.525,
+        "falsePositiveRate": 0.075,
+        "macroF1": 0.5401724800994631,
+        "matrix": {
+          "high": {
+            "high": 42,
+            "medium": 23,
+            "low": 15
+          },
+          "medium": {
+            "high": 8,
+            "medium": 18,
+            "low": 14
+          },
+          "low": {
+            "high": 1,
+            "medium": 27,
+            "low": 52
+          }
+        }
+      },
+      "paired": {
+        "bothCorrect": 109,
+        "corrected": 3,
+        "worsened": 7,
+        "bothWrong": 81
+      },
+      "performance": {
+        "runtime": "v24.19.0",
+        "platform": "darwin",
+        "architecture": "arm64",
+        "loadMs": 634.450667,
+        "cases": 200,
+        "p50Ms": 235.11354200000005,
+        "p95Ms": 327.360584,
+        "scope": "CPU inference of six NLI hypotheses per complete concatenated synthetic case, two intra-op threads. Excludes browser runtime, OCR and user storage."
+      }
+    }
+  ],
+  "decision": "Не внедрять: ни одна проверенная конфигурация не улучшила общий результат и macro F1; гибрид исправил3 случая и ухудшил7. Это не вывод о пределе всех нейросетей: проверены конкретные q8-конфигурации, гипотезы и правила решения."
+}

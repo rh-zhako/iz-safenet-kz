@@ -1,0 +1,1197 @@
+{
+  "status": "OPEN_DEVELOPMENT_REGRESSION_NOT_FRESH_TEST",
+  "engineVersion": "2.0.1-track1-evidence",
+  "engineSha256": "7562a13a64aa88f4151b2b3dcde9ad38c74e0609b66ed0a7a92aff90ab4ad6c2",
+  "scope": "Full exploratory commission probes, including pre-existing limitations beyond the selected word-boundary patch. First frozen 2.0/v8 report untouched; this is not a new independent benchmark.",
+  "passed": 29,
+  "total": 43,
+  "cases": [
+    {
+      "name": "original OCR text",
+      "text": "ІЗ - Синтетический образец для проверки распознавания\n\nРозыгрыш нового телефона.\n\nДля участия оплатите билет 3000 тенге.\nПобедителя определит колесо фортуны.\nКомиссия организатора 10 процентов.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "medium",
+        "random": "conflict"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "found"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "financial percent word",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя выберет рандомайзер. Комиссия организатора 12 процентов.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "medium",
+        "random": "conflict"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "found"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "financial percent symbol",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя выберет рандомайзер. Комиссия организатора составляет 12%.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "found"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "financial money amount",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя выберет рандомайзер. Комиссия организатора 750 тенге.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "found"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "financial rate same clause",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя выберет рандомайзер и комиссия организатора составляет 12 процентов.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "medium",
+        "random": "conflict"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "found"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "financial percentage from accounting valuation",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя выберет рандомайзер. Комиссия организатора по оценке расходов составляет 12 процентов.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "medium",
+        "random": "conflict"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "conflict",
+        "judgedAtoms": 1,
+        "income": "found"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected high",
+        "random conflict, expected found",
+        "unexpected positive judged atoms 1"
+      ],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Комиссия организатора по оценке расходов составляет 12 процентов.",
+          "start": 100,
+          "end": 165,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "KK financial percentage",
+      "text": "Жүлде — кубок. Қатысу үшін билет сатып алу міндетті. Жеңімпаз кездейсоқ таңдалады. Ұйымдастырушының комиссиясы 12 пайыз.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "found"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "mixed financial percent",
+      "text": "Жүлде — кубок. Для участия обязательно оплатить билет за 4000 тенге. Жеңімпаз кездейсоқ таңдалады. Комиссия ұйымдастырушыға 12 процентов.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "medium",
+        "random": "conflict"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "found"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "translit financial commission",
+      "text": "Priz — kubok. Dlya uchastiya obyazatelno oplatite bilet za 4000 tenge. Pobeditelya vyberet randomizer. Komissiya organizatora 12 procentov.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "translit single s commission",
+      "text": "Priz — kubok. Dlya uchastiya obyazatelno oplatite bilet za 4000 tenge. Pobeditelya vyberet randomizer. Komisiya organizatora 12 procentov.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "KK translit financial commission",
+      "text": "Zhulde — kubok. Qatysu ushin bilet satyp alu mindetti. Zhenimpaz kezdeisoq tandaidy. Uiymdastyrushynyn komissiyasy 12 paiyz.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "commission assesses works",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Комиссия оценивает работы по качеству.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "low",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Комиссия оценивает работы по качеству.",
+          "start": 68,
+          "end": 106,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "commission compares entries",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Комиссия сравнивает работы участников.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "low",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Комиссия сравнивает работы участников.",
+          "start": 68,
+          "end": 106,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "commission selects winner actor first",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Комиссия определяет победителя.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "unknown",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected low",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    },
+    {
+      "name": "commission selects winner recipient first",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя определяет комиссия.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "unknown",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected low",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    },
+    {
+      "name": "commission winner then action",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Комиссия победителя выбирает по мастерству.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "unknown",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected low",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    },
+    {
+      "name": "expert panel remains judged",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Экспертная комиссия оценивает работы и начисляет баллы.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "low",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Экспертная комиссия оценивает работы и начисляет баллы.",
+          "start": 68,
+          "end": 123,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "KK commission assesses works",
+      "text": "Жүлде — кубок. Қатысу үшін билет сатып алу міндетті. Комиссия жұмыстарды бағалайды.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "unknown",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected low",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    },
+    {
+      "name": "KK commission selects winner",
+      "text": "Жүлде — кубок. Қатысу үшін билет сатып алу міндетті. Комиссия жеңімпазды анықтайды.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "unknown",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected low",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    },
+    {
+      "name": "KK recipient first commission",
+      "text": "Жүлде — кубок. Қатысу үшін билет сатып алу міндетті. Жеңімпазды анықтайды комиссия.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "unknown",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected low",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    },
+    {
+      "name": "mixed panel assessment",
+      "text": "Жүлде — кубок. Для участия обязательно оплатить билет за 4000 тенге. Комиссия жұмыстардың сапасын бағалайды.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "unknown",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected low",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    },
+    {
+      "name": "translit panel assessment",
+      "text": "Priz — kubok. Dlya uchastiya obyazatelno oplatite bilet za 4000 tenge. Komissiya ocenivaet raboty po kachestvu.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "unknown",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected low",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    },
+    {
+      "name": "translit commission winner",
+      "text": "Priz — kubok. Dlya uchastiya obyazatelno oplatite bilet za 4000 tenge. Pobeditelya opredelyaet komissiya.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "unknown",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected low",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    },
+    {
+      "name": "KK translit panel assessment",
+      "text": "Zhulde — kubok. Qatysu ushin bilet satyp alu mindetti. Komissiya zhumystardy bagalaidy.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "unknown",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected low",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    },
+    {
+      "name": "percentage of judged total",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Комиссия оценивает работы: качество даёт 70 процентов итогового балла.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "low",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Комиссия оценивает работы: качество даёт 70 процентов итогового балла.",
+          "start": 68,
+          "end": 138,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "panel gives percentage of total score",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Комиссия даёт 70 процентов итогового балла.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "low",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Комиссия даёт 70 процентов итогового балла.",
+          "start": 68,
+          "end": 111,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "organizer panel gives percentage of score",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Комиссия организатора даёт 70 процентов итогового балла.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "low",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedAtoms": 1,
+        "income": "found"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Комиссия организатора даёт 70 процентов итогового балла.",
+          "start": 68,
+          "end": 124,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "panel allocates score percentage",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Комиссия начисляет 70 процентов итогового балла.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "low",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Комиссия начисляет 70 процентов итогового балла.",
+          "start": 68,
+          "end": 116,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "percent scoring and random is conflict",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя выберет рандомайзер. Комиссия оценивает работы и даёт 70 процентов итогового балла.",
+      "expected": {
+        "risk": "medium",
+        "random": "conflict",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "conflict"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "conflict",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Комиссия оценивает работы и даёт 70 процентов итогового балла.",
+          "start": 100,
+          "end": 162,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "KK percent scoring remains judged",
+      "text": "Жүлде — кубок. Қатысу үшін билет сатып алу міндетті. Комиссия жұмыстарды бағалайды: сапа үшін 70 пайыз ұпай беріледі.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "medium",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "unknown",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected low",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    },
+    {
+      "name": "negative commission selection with random",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя выберет рандомайзер. Комиссия не выбирает победителя.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "negative commission assessment with random",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя выберет рандомайзер. Комиссия не оценивает работы.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "no commission with random",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя выберет рандомайзер. Комиссии по оценке работ нет.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "medium",
+        "random": "conflict"
+      },
+      "actual": {
+        "risk": "medium",
+        "random": "conflict",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk medium, expected high",
+        "random conflict, expected found",
+        "unexpected positive judged atoms 1"
+      ],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Комиссии по оценке работ нет.",
+          "start": 100,
+          "end": 129,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "KK denied assessment with random",
+      "text": "Жүлде — кубок. Қатысу үшін билет сатып алу міндетті. Жеңімпаз кездейсоқ таңдалады. Комиссия жұмыстарды бағаламайды.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "KK denied winner selection with random",
+      "text": "Жүлде — кубок. Қатысу үшін билет сатып алу міндетті. Жеңімпаз кездейсоқ таңдалады. Комиссия жеңімпазды анықтамайды.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "translit denied assessment",
+      "text": "Priz — kubok. Dlya uchastiya obyazatelno oplatite bilet za 4000 tenge. Pobeditelya vyberet randomizer. Komissiya ne ocenivaet raboty.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "KK translit denied assessment",
+      "text": "Zhulde — kubok. Qatysu ushin bilet satyp alu mindetti. Zhenimpaz kezdeisoq tandaidy. Komissiya zhumystardy bagalamaydy.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "no financial commission does not negate actual panel",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Комиссия организатора не взимается. Победителя определяет жюри.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "low",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Победителя определяет жюри.",
+          "start": 104,
+          "end": 131,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "jury remains actual selector",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя определяет жюри по качеству работ.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "low",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Победителя определяет жюри по качеству работ.",
+          "start": 68,
+          "end": 113,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "KK existing jury selector",
+      "text": "Жүлде — кубок. Қатысу үшін билет сатып алу міндетті. Қазылар алқасы жеңімпазды таңдайды.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "low",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Қазылар алқасы жеңімпазды таңдайды.",
+          "start": 53,
+          "end": 88,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "translit existing jury selector",
+      "text": "Priz — kubok. Dlya uchastiya obyazatelno oplatite bilet za 4000 tenge. Pobeditelya opredelyaet zhuri po otsenkam.",
+      "expected": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "low",
+        "random": "unknown"
+      },
+      "actual": {
+        "risk": "low",
+        "random": "unknown",
+        "judgedAtoms": 1,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": [
+        {
+          "feature": "judged",
+          "role": "judged-selection",
+          "polarity": "positive",
+          "stage": "winner",
+          "accepted": true,
+          "kind": null,
+          "sourceId": "manual-source",
+          "quote": "Pobeditelya opredelyaet zhuri po otsenkam.",
+          "start": 71,
+          "end": 113,
+          "reason": "Заявлен выбор победителя по оценкам или решению жюри."
+        }
+      ]
+    },
+    {
+      "name": "KK existing jury negation",
+      "text": "Жүлде — кубок. Қатысу үшін билет сатып алу міндетті. Жеңімпаз кездейсоқ таңдалады. Қазылар бағаламайды.",
+      "expected": {
+        "risk": "high",
+        "random": "found",
+        "judgedMin": 0
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": true,
+      "errors": [],
+      "judged": []
+    },
+    {
+      "name": "commission and actual lottery conflict",
+      "text": "Приз — кубок. Для участия обязательно оплатить билет за 4000 тенге. Победителя выберет рандомайзер. Победителя определяет комиссия.",
+      "expected": {
+        "risk": "medium",
+        "random": "conflict",
+        "judgedMin": 1
+      },
+      "before": {
+        "risk": "high",
+        "random": "found"
+      },
+      "actual": {
+        "risk": "high",
+        "random": "found",
+        "judgedAtoms": 0,
+        "income": "unknown"
+      },
+      "passed": false,
+      "errors": [
+        "risk high, expected medium",
+        "random found, expected conflict",
+        "missing positive judged atom"
+      ],
+      "judged": []
+    }
+  ]
+}

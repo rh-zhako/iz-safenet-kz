@@ -1,0 +1,41 @@
+{
+  "provenance": "Synthetic HTML rendered to PNG in browser; four controlled stress probes, not real social screenshots. Whole text including punctuation, whitespace normalized. No tuning of OCR on observed errors.",
+  "cases": [
+    {
+      "id": "ru-small",
+      "language": "ru",
+      "style": "font-size:15px;color:#51515a;background:#fff",
+      "text": "Розыгрыш велосипеда. Для участия купите номер за 2 500 тенге. Победителя определит случайная жеребьевка в эфире. Комиссия организатора — 5%.",
+      "expectedRisk": "high",
+      "fixturePath": "assets/fixtures/ocr-ru-small.html",
+      "imagePath": "evaluation/fixtures/stress/ru-small.png"
+    },
+    {
+      "id": "kk-dark",
+      "language": "kk",
+      "style": "font-size:24px;color:#f3f3f7;background:#202124;transform:rotate(-1deg)",
+      "text": "Кітап ұтысы. Қатысу тегін. Сатып алу міндетті емес. Жеңімпазды кездейсоқ таңдаймыз. Ақша аударудың қажеті жоқ.",
+      "expectedRisk": "low",
+      "fixturePath": "assets/fixtures/ocr-kk-dark.html",
+      "imagePath": "evaluation/fixtures/stress/kk-dark.png"
+    },
+    {
+      "id": "mixed-wrap",
+      "language": "mixed",
+      "style": "font-size:20px;color:#323240;background:#faf7ef;width:400px",
+      "text": "Жүлде — смартфон. Для участия обязательный взнос 3000 тенге. Жеңімпаз кездейсоқ таңдалады. Полные условия в следующем сообщении.",
+      "expectedRisk": "high",
+      "fixturePath": "assets/fixtures/ocr-mixed-wrap.html",
+      "imagePath": "evaluation/fixtures/stress/mixed-wrap.png"
+    },
+    {
+      "id": "ru-warning",
+      "language": "ru",
+      "style": "font-size:20px;color:#67676f;background:#fff",
+      "text": "Учебный разбор схемы. Мошенники пишут: «Розыгрыш телефона, оплатите билет за 1000 тенге, победитель случайный». Не переводите деньги.",
+      "expectedRisk": "low",
+      "fixturePath": "assets/fixtures/ocr-ru-warning.html",
+      "imagePath": "evaluation/fixtures/stress/ru-warning.png"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "iz-semantic-experiment",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@huggingface/transformers": "3.8.1"
+  },
+  "packageManager": "pnpm@11.25.0"
+}

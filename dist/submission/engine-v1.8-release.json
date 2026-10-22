@@ -1,0 +1,19 @@
+{
+  "engineVersion": "1.8.0-track1-evidence",
+  "engineSha256": "97d180ba11deaba8918da777a5295705da36de3eac571b1a3dc5ea9c89c77d6c",
+  "at": "2026-10-20T19:29:10.469Z",
+  "status": "OPEN_DEVELOPMENT_NOT_INDEPENDENT",
+  "frozenBeforeIndependentEvaluation": false,
+  "developmentData": [
+    "challenge-v1",
+    "regression28",
+    "independent-v2 (open)",
+    "independent-v3 (open)",
+    "independent-v4 (open)",
+    "independent-v5 (open)",
+    "structural-v18"
+  ],
+  "independentCurrentEngineValidation": false,
+  "previousFrozenEngine": "1.7.0-track1-evidence",
+  "method": "v5 was read and used for development. No fresh blind/human corpus. Previous v1.7 snapshot and first-run inputs are unchanged."
+}

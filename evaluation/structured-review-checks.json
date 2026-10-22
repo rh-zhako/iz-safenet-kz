@@ -1,0 +1,264 @@
+{
+  "at": "2026-10-22T18:50:10.950Z",
+  "scope": "synthetic functional checks of structured human review; not detector accuracy, independent annotation, or human usability validation",
+  "passed": 64,
+  "total": 64,
+  "checks": [
+    {
+      "name": "new draft has no inferred human confirmations",
+      "passed": true
+    },
+    {
+      "name": "blank draft cannot be recorded",
+      "passed": true
+    },
+    {
+      "name": "three explicit exact confirmations produce a valid draft",
+      "passed": true
+    },
+    {
+      "name": "manual priority stays separate from automatic priority",
+      "passed": true
+    },
+    {
+      "name": "record captures current engine material source count and time",
+      "passed": true
+    },
+    {
+      "name": "current record passes reference validation",
+      "passed": true
+    },
+    {
+      "name": "confirmed evidence retains exact offsets",
+      "passed": true
+    },
+    {
+      "name": "confirmation requires a citation",
+      "passed": true
+    },
+    {
+      "name": "citation rejects paraphrases",
+      "passed": true
+    },
+    {
+      "name": "citation rejects another source ID",
+      "passed": true
+    },
+    {
+      "name": "citation rejects unlinked source",
+      "passed": true
+    },
+    {
+      "name": "citation rejects empty text",
+      "passed": true
+    },
+    {
+      "name": "citation rejects overlong selection",
+      "passed": true
+    },
+    {
+      "name": "repeated quote requires exact selected occurrence",
+      "passed": true
+    },
+    {
+      "name": "explicit but wrong offset is rejected",
+      "passed": true
+    },
+    {
+      "name": "UTF-16 selection positions are retained around emoji",
+      "passed": true
+    },
+    {
+      "name": "not confirmed needs explicit review but no fabricated quote",
+      "passed": true
+    },
+    {
+      "name": "unclear preserves optional exact context evidence",
+      "passed": true
+    },
+    {
+      "name": "high human priority requires all three confirmed signs",
+      "passed": true
+    },
+    {
+      "name": "medium allows an explicit incomplete combination",
+      "passed": true
+    },
+    {
+      "name": "human conclusion requires explanation",
+      "passed": true
+    },
+    {
+      "name": "unknown priority is not normalized as a valid conclusion",
+      "passed": true
+    },
+    {
+      "name": "editing a confirmed field requires saving it again",
+      "passed": true
+    },
+    {
+      "name": "typed quote does not silently inherit old selection offsets",
+      "passed": true
+    },
+    {
+      "name": "switching source clears the previous quote and requires reconfirmation",
+      "passed": true
+    },
+    {
+      "name": "switching source with an explicit quote checks the new source text",
+      "passed": true
+    },
+    {
+      "name": "quote remains a draft until explicit commit",
+      "passed": true
+    },
+    {
+      "name": "changed source text stales human record and draft",
+      "passed": true
+    },
+    {
+      "name": "changed OCR image stales record even with same transcript",
+      "passed": true
+    },
+    {
+      "name": "changed source metadata stales record",
+      "passed": true
+    },
+    {
+      "name": "engine version mismatch stales record",
+      "passed": true
+    },
+    {
+      "name": "missing version stamp is never treated as current",
+      "passed": true
+    },
+    {
+      "name": "invalid date cannot look current",
+      "passed": true
+    },
+    {
+      "name": "tampered quote offsets cannot look current",
+      "passed": true
+    },
+    {
+      "name": "JSON roundtrip with remapped IDs rebinds citation to exact source",
+      "passed": true
+    },
+    {
+      "name": "JSON draft roundtrip preserves unfinished text and step",
+      "passed": true
+    },
+    {
+      "name": "JSON draft roundtrip rebinds editor source after ID changes",
+      "passed": true
+    },
+    {
+      "name": "rebase explicitly resets confirmations and keeps available draft text",
+      "passed": true
+    },
+    {
+      "name": "rebase after a source edit retains typed text without preserving confirmations",
+      "passed": true
+    },
+    {
+      "name": "cannot commit stale draft before rebase",
+      "passed": true
+    },
+    {
+      "name": "history retains preceding manual assessment and is bounded",
+      "passed": true
+    },
+    {
+      "name": "history normalization rejects unrelated formats",
+      "passed": true
+    },
+    {
+      "name": "non-finite review timing is rejected",
+      "passed": true
+    },
+    {
+      "name": "synthetic provenance is preserved for every evidence item",
+      "passed": true
+    },
+    {
+      "name": "provided provenance does not claim independent verification",
+      "passed": true
+    },
+    {
+      "name": "source reference is stable across local ID changes",
+      "passed": true
+    },
+    {
+      "name": "record normalization rejects malformed outer records",
+      "passed": true
+    },
+    {
+      "name": "an unknown imported condition status never becomes an explicit reviewed unclear",
+      "passed": true
+    },
+    {
+      "name": "HTML roundtrip preserves manual assessment and exact provenance",
+      "passed": true
+    },
+    {
+      "name": "HTML roundtrip remaps source IDs against matching imported materials",
+      "passed": true
+    },
+    {
+      "name": "HTML parser rejects reports without the typed payload",
+      "passed": true
+    },
+    {
+      "name": "HTML parser rejects ambiguous duplicate payloads",
+      "passed": true
+    },
+    {
+      "name": "HTML report is explicit about limitations and separate human scoring",
+      "passed": true
+    },
+    {
+      "name": "HTML report and JSON payload escape script delimiters",
+      "passed": true
+    },
+    {
+      "name": "panel contains four explicit steps and no legal verdict options",
+      "passed": true
+    },
+    {
+      "name": "panel safely escapes user source and note content",
+      "passed": true
+    },
+    {
+      "name": "panel makes stale drafts visible",
+      "passed": true
+    },
+    {
+      "name": "event installer supports clean teardown",
+      "passed": true
+    },
+    {
+      "name": "input event saves a serializable draft without re-rendering typed field",
+      "passed": true
+    },
+    {
+      "name": "different original identities cannot produce high manual conclusion",
+      "passed": true
+    },
+    {
+      "name": "forged current high record cannot bypass identity conflict",
+      "passed": true
+    },
+    {
+      "name": "medium can document unresolved identity contradiction",
+      "passed": true
+    },
+    {
+      "name": "foreign excluded original identity does not block valid active review",
+      "passed": true
+    },
+    {
+      "name": "conflicted review UI warns and disables high priority option",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "metadata": {
+    "status": "OPEN_DEVELOPMENT_NOT_INDEPENDENT",
+    "provenance": "Root-authored development assertions and metamorphic variants. No real posts, human labels or independent test."
+  },
+  "cases": [
+    {
+      "id": "structural-1",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Участник оплачивает заявку. Победителя случайно выберет бот."
+        }
+      ]
+    },
+    {
+      "id": "structural-2",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Для допуска к розыгрышу, купите тканевую сумку. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-3",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Жүлде — кубок. Қызметке ақылы тапсырып, тек түбіртек иелері ұтысқа қатысады. Жеңімпаз кездейсоқ."
+        }
+      ]
+    },
+    {
+      "id": "structural-4",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Kubok utusyna qatysu bileti 360 tenge. Finalda kezdeisoq bir nomerdi tandaidy."
+        }
+      ]
+    },
+    {
+      "id": "structural-5",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Kubok utusyna qatysu tegin. Finalda kezdeisoq bir nomerdi tandaidy."
+        }
+      ]
+    },
+    {
+      "id": "structural-6",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Kubok utusyna qatysu bileti 360 tenge. Finalda kezdeisoq bir nomer alynady."
+        }
+      ]
+    },
+    {
+      "id": "structural-7",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Без оплаты участника не вносят в список. Финальный победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-8",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Без оплаты номер участника не присваивается. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-9",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Розыгрыш кубка. Участие бесплатное, взносов нет. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-10",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Розыгрыш кубка. Участие полностью бесплатное: покупать ничего не нужно и взносов нет. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-11",
+      "synthetic": true,
+      "expectedRisk": "medium",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Жүлде — кубок. Соманы төлеу міндетті ме деп сұраған. Жауап белгісіз. Жеңімпаз кездейсоқ."
+        }
+      ]
+    },
+    {
+      "id": "structural-12",
+      "synthetic": true,
+      "expectedRisk": "medium",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Жүлде — кубок. Төлем мен өтінімнің байланысы түсіндірілмеген. Жеңімпаз кездейсоқ."
+        }
+      ]
+    },
+    {
+      "id": "structural-13",
+      "synthetic": true,
+      "expectedRisk": "medium",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Черновик предлагает платный вход. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-14",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Для участия оплатите билет. Компьютер случайно распределит работы по группам. Итогового победителя определяет жюри."
+        }
+      ]
+    },
+    {
+      "id": "structural-15",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Для участия оплатите билет. Система случайно назначает участникам дорожки. Финального победителя определяет жюри."
+        }
+      ]
+    },
+    {
+      "id": "structural-16",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Для участия оплатите билет. Доставка бесплатная. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-17",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Жүлде — кубок. Қатысу үшін билет сатып алу міндетті. Көп билет сатып алу міндетті емес. Жеңімпаз кездейсоқ."
+        }
+      ]
+    },
+    {
+      "id": "structural-18",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Дәрісте «жарна төле де, кездейсоқ кубок ұт» деген бөгде жарнаманы талдаймыз. Өзіміз ұтыс өткізбейміз."
+        }
+      ]
+    },
+    {
+      "id": "structural-19",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Участие платное. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-20",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Заявка на кубок идёт в розы-грыш только после взноса 360 тг. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-21",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Велосипедный шлем — товар. Его цена 360 тенге. Генератор создаёт случайный пароль."
+        }
+      ]
+    },
+    {
+      "id": "structural-22",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Продаём керамическую чашку за 360 тенге. Рядом магазин случайных сувениров."
+        }
+      ]
+    },
+    {
+      "id": "structural-23",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Наш приз стоит 360 тенге. Участие бесплатно. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-24",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Қатысу тегін. Қатысушылардың біреуіне 360 теңгелік купон кездейсоқ беріледі."
+        }
+      ]
+    },
+    {
+      "id": "structural-25",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите керамическую вазу за 1 тенге. Бот случайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-26",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 ПРИЗ — КУБОК. ЧТОБЫ ПОПАСТЬ В РОЗЫГРЫШ, КУПИТЕ КЕРАМИЧЕСКУЮ ВАЗУ ЗА 1 ТЕНГЕ. БОТ СЛУЧАЙНО ВЫБЕРЕТ ПОБЕДИТЕЛЯ."
+        }
+      ]
+    },
+    {
+      "id": "structural-27",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите керамическую вазу за 1 тенге. Бот слу​чайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-28",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите керамическую вазу за 360 тенге. Бот случайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-29",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 ПРИЗ — КУБОК. ЧТОБЫ ПОПАСТЬ В РОЗЫГРЫШ, КУПИТЕ КЕРАМИЧЕСКУЮ ВАЗУ ЗА 360 ТЕНГЕ. БОТ СЛУЧАЙНО ВЫБЕРЕТ ПОБЕДИТЕЛЯ."
+        }
+      ]
+    },
+    {
+      "id": "structural-30",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите керамическую вазу за 360 тенге. Бот слу​чайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-31",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите керамическую вазу за 99999 тенге. Бот случайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-32",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 ПРИЗ — КУБОК. ЧТОБЫ ПОПАСТЬ В РОЗЫГРЫШ, КУПИТЕ КЕРАМИЧЕСКУЮ ВАЗУ ЗА 99999 ТЕНГЕ. БОТ СЛУЧАЙНО ВЫБЕРЕТ ПОБЕДИТЕЛЯ."
+        }
+      ]
+    },
+    {
+      "id": "structural-33",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите керамическую вазу за 99999 тенге. Бот слу​чайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-34",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите карточку мастерской за 1 тенге. Бот случайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-35",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 ПРИЗ — КУБОК. ЧТОБЫ ПОПАСТЬ В РОЗЫГРЫШ, КУПИТЕ КАРТОЧКУ МАСТЕРСКОЙ ЗА 1 ТЕНГЕ. БОТ СЛУЧАЙНО ВЫБЕРЕТ ПОБЕДИТЕЛЯ."
+        }
+      ]
+    },
+    {
+      "id": "structural-36",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите карточку мастерской за 1 тенге. Бот слу​чайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-37",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите карточку мастерской за 360 тенге. Бот случайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-38",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 ПРИЗ — КУБОК. ЧТОБЫ ПОПАСТЬ В РОЗЫГРЫШ, КУПИТЕ КАРТОЧКУ МАСТЕРСКОЙ ЗА 360 ТЕНГЕ. БОТ СЛУЧАЙНО ВЫБЕРЕТ ПОБЕДИТЕЛЯ."
+        }
+      ]
+    },
+    {
+      "id": "structural-39",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите карточку мастерской за 360 тенге. Бот слу​чайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-40",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите карточку мастерской за 99999 тенге. Бот случайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-41",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 ПРИЗ — КУБОК. ЧТОБЫ ПОПАСТЬ В РОЗЫГРЫШ, КУПИТЕ КАРТОЧКУ МАСТЕРСКОЙ ЗА 99999 ТЕНГЕ. БОТ СЛУЧАЙНО ВЫБЕРЕТ ПОБЕДИТЕЛЯ."
+        }
+      ]
+    },
+    {
+      "id": "structural-42",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите карточку мастерской за 99999 тенге. Бот слу​чайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-43",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите абонемент на кружок за 1 тенге. Бот случайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-44",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 ПРИЗ — КУБОК. ЧТОБЫ ПОПАСТЬ В РОЗЫГРЫШ, КУПИТЕ АБОНЕМЕНТ НА КРУЖОК ЗА 1 ТЕНГЕ. БОТ СЛУЧАЙНО ВЫБЕРЕТ ПОБЕДИТЕЛЯ."
+        }
+      ]
+    },
+    {
+      "id": "structural-45",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите абонемент на кружок за 1 тенге. Бот слу​чайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-46",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите абонемент на кружок за 360 тенге. Бот случайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-47",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 ПРИЗ — КУБОК. ЧТОБЫ ПОПАСТЬ В РОЗЫГРЫШ, КУПИТЕ АБОНЕМЕНТ НА КРУЖОК ЗА 360 ТЕНГЕ. БОТ СЛУЧАЙНО ВЫБЕРЕТ ПОБЕДИТЕЛЯ."
+        }
+      ]
+    },
+    {
+      "id": "structural-48",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите абонемент на кружок за 360 тенге. Бот слу​чайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-49",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите абонемент на кружок за 99999 тенге. Бот случайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-50",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 ПРИЗ — КУБОК. ЧТОБЫ ПОПАСТЬ В РОЗЫГРЫШ, КУПИТЕ АБОНЕМЕНТ НА КРУЖОК ЗА 99999 ТЕНГЕ. БОТ СЛУЧАЙНО ВЫБЕРЕТ ПОБЕДИТЕЛЯ."
+        }
+      ]
+    },
+    {
+      "id": "structural-51",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "🎁 Приз — кубок. Чтобы попасть в розыгрыш, купите абонемент на кружок за 99999 тенге. Бот слу​чайно выберет победителя."
+        }
+      ]
+    },
+    {
+      "id": "structural-52",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Старые условия отменены, теперь участие бесплатное, покупки не нужны"
+        }
+      ]
+    },
+    {
+      "id": "structural-53",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Прежние условия отменены: сейчас билет платный"
+        }
+      ]
+    },
+    {
+      "id": "structural-54",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Для участия оплатите билет. Выдача подарка бесплатная. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-55",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Участие бесплатное; участник оплатит доставку после победы. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-56",
+      "synthetic": true,
+      "expectedRisk": "low",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Участие бесплатное и не даёт дополнительных записей. Победитель случайный."
+        }
+      ]
+    },
+    {
+      "id": "structural-57",
+      "synthetic": true,
+      "expectedRisk": "high",
+      "sources": [
+        {
+          "id": "s",
+          "text": "Приз — кубок. Старые условия не отменены: для участия обязателен платный билет. Победитель случайный."
+        }
+      ]
+    }
+  ]
+}

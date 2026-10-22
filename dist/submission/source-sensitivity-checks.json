@@ -1,0 +1,118 @@
+{
+  "at": "2026-10-22T18:50:11.876Z",
+  "engineVersion": "2.0.0-track1-evidence",
+  "engineSha256": "e598edfd05ca82d55ea6c2e519c7343398dfad08d579a7a03925857554bf1009",
+  "scope": "Functional sensitivity and provenance checks on disclosed synthetic fixtures. Not detector accuracy or a causal/authenticity test.",
+  "limits": {
+    "sources": 12,
+    "characters": 60000
+  },
+  "passed": 26,
+  "total": 26,
+  "checks": [
+    {
+      "name": "complete linked case starts high",
+      "passed": true
+    },
+    {
+      "name": "each independent core source supports high",
+      "passed": true
+    },
+    {
+      "name": "all three exclusions are reported",
+      "passed": true
+    },
+    {
+      "name": "removing prize loses prize",
+      "passed": true
+    },
+    {
+      "name": "removing payment loses mandatory entry",
+      "passed": true
+    },
+    {
+      "name": "removing random selection loses random",
+      "passed": true
+    },
+    {
+      "name": "removing a required source drops priority",
+      "passed": true
+    },
+    {
+      "name": "each evidence quote maps to original source positions",
+      "passed": true
+    },
+    {
+      "name": "no original text or metadata mutation",
+      "passed": true
+    },
+    {
+      "name": "result version and material fingerprint provided",
+      "passed": true
+    },
+    {
+      "name": "removing only source means no data rather than a safe low",
+      "passed": true
+    },
+    {
+      "name": "duplicate supporting material is not called independent corroboration",
+      "passed": true
+    },
+    {
+      "name": "foreign excluded source cannot change risk",
+      "passed": true
+    },
+    {
+      "name": "excluding contradiction can raise risk with explicit warning",
+      "passed": true
+    },
+    {
+      "name": "original identity conflict remains unless a source is hypothetically excluded",
+      "passed": true
+    },
+    {
+      "name": "same detector is rerun for each leave-one-out case",
+      "passed": true
+    },
+    {
+      "name": "empty campaign rejected",
+      "passed": true
+    },
+    {
+      "name": "source limit is enforced",
+      "passed": true
+    },
+    {
+      "name": "character limit is enforced",
+      "passed": true
+    },
+    {
+      "name": "duplicate IDs rejected",
+      "passed": true
+    },
+    {
+      "name": "non-string text rejected",
+      "passed": true
+    },
+    {
+      "name": "panel starts collapsed and requires explicit request",
+      "passed": true
+    },
+    {
+      "name": "ready panel links back to original sources",
+      "passed": true
+    },
+    {
+      "name": "report contains evidence but no UI controls",
+      "passed": true
+    },
+    {
+      "name": "user source quote is escaped",
+      "passed": true
+    },
+    {
+      "name": "nonavailable report gives explicit limit rather than invented analysis",
+      "passed": true
+    }
+  ]
+}

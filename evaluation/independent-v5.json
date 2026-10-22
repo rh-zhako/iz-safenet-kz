@@ -1,0 +1,4301 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "version": "v5",
+    "createdOn": "2026-10-20",
+    "provenance": {
+      "kind": "independent_ai_authored_synthetic",
+      "purpose": "SafeNetKZ Track1 independent hidden evaluation",
+      "authorship": "Fresh synthetic campaign texts authored independently in memory before one immutable write",
+      "sourceAccess": "No project code, prior datasets, metrics, notes, examples, engine or predictions were read",
+      "fictional": true,
+      "grouping": "Every source explicitly identifies its own fictional campaign; all source campaignRef values equal the case id"
+    },
+    "counts": {
+      "cases": 200,
+      "risk": {
+        "high": 80,
+        "medium": 40,
+        "low": 80
+      },
+      "language": {
+        "ru": 60,
+        "kk": 60,
+        "mixed": 50,
+        "translit": 30
+      },
+      "multiSourceCases": 60,
+      "longCases": 50,
+      "ocrCases": 20,
+      "sources": 276,
+      "sourceCountDistribution": {
+        "1": 140,
+        "2": 44,
+        "3": 16
+      }
+    },
+    "labelPolicy": {
+      "high": "В одной явно определенной кампании есть приз, обязательная оплата, покупка или взнос для допуска и случайный окончательный победитель; неразрешенных противоречий нет. Доход и комиссия могут присутствовать, но не обязательны. Метка не определяет законность.",
+      "medium": "Не хватает важного условия допуска или окончательного выбора; версии противоречат; обязательность платежа либо способ определения итогового победителя неясны или еще не согласованы.",
+      "low": "Явно бесплатный полный допуск, либо окончательный выбор по навыку или жюри без случайности, либо обычная продажа, либо чужая цитата без собственного активного предложения. Добровольный донат и доставка после выигрыша не считаются оплатой входа."
+    }
+  },
+  "cases": [
+    {
+      "id": "fecc459c0d3556bd",
+      "campaignRef": "fecc459c0d3556bd",
+      "title": "Материал 001",
+      "language": "kk",
+      "category": "jury_tie",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "737b9188a120b3c0",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жырлы кеш»] Өлең байқауының ақылы тіркеуі бар, жүлде — электронды кітап оқу құрылғысы.",
+          "campaignRef": "fecc459c0d3556bd"
+        },
+        {
+          "id": "8c3e15f68c1d26e1",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жырлы кеш»] Финалда қазылар тіл мен құрылымға балл қояды, тең баллды қайта талқылаумен шешеді, ешқандай жеребе қолданбайды.",
+          "campaignRef": "fecc459c0d3556bd"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Финал ақылы кіруге қарамастан қазылардың бағалауымен және кездейсоқтықсыз өтеді."
+    },
+    {
+      "id": "273b2c149090d1f1",
+      "campaignRef": "273b2c149090d1f1",
+      "title": "Материал 002",
+      "language": "translit",
+      "category": "unknown_admission",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "6ba2d947d9b58d63",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Jaryq qap»] Baqsha shamyn random arqyly beremiz degen habar bar. Qatysu batyrmasy ashyq, biraq tolem kerek pe, satyp alu kerek pe degen sharttar ele jariyalanbagan.",
+          "campaignRef": "273b2c149090d1f1"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Случайный приз указан, обязательные условия допуска еще не опубликованы."
+    },
+    {
+      "id": "a26f99f845af85c2",
+      "campaignRef": "a26f99f845af85c2",
+      "title": "Материал 003",
+      "language": "ru",
+      "category": "conflicting_admission",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "da1c91f5a5d08641",
+          "type": "text",
+          "text": "[Вымышленная кампания «Малиновые окна»] На баннере заявлен случайный розыгрыш сушилки только среди купивших коробку порошка.",
+          "campaignRef": "a26f99f845af85c2"
+        },
+        {
+          "id": "0d587bf258e46035",
+          "type": "text",
+          "text": "[Вымышленная кампания «Малиновые окна»] Правила с тем же названием обещают допуск без покупки, а отметки о замене одной версии другой нет.",
+          "campaignRef": "a26f99f845af85c2"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Противоречие по обязательности покупки в одной кампании не разрешено."
+    },
+    {
+      "id": "6698999a43eed8c4",
+      "campaignRef": "6698999a43eed8c4",
+      "title": "Материал 004",
+      "language": "mixed",
+      "category": "fee_ambiguity",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "ce67f34910df79a7",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Ыстық бұрыш»] Финал случайно определит владельца электрогриля среди подтвержденных заявок.",
+          "campaignRef": "6698999a43eed8c4"
+        },
+        {
+          "id": "a2a60e5c02d9e743",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Ыстық бұрыш»] Подтверждение рядом с суммой 1800 тенге, бірақ бұл міндетті тіркеу ақысы ма, әлде жеңімпаз кейін төлейтін жеткізу ме, мәтінде ажыратылмаған.",
+          "campaignRef": "6698999a43eed8c4"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Неясно, относится ли сумма к допуску или к будущей доставке."
+    },
+    {
+      "id": "a74fae4ad735eba3",
+      "campaignRef": "a74fae4ad735eba3",
+      "title": "Материал 005",
+      "language": "kk",
+      "category": "possible_purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "7d94ece3d63bc394",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Қарлы сөре»] Тоңазытқыш жүлдесін соңында кездейсоқ өтінімге береміз.",
+          "campaignRef": "a74fae4ad735eba3"
+        },
+        {
+          "id": "aebc70f5f2bda2ae",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Қарлы сөре»] Қатысуға сатып алу қажет болуы мүмкін деп жазылған, бірақ нақты тауар да, міндеттілік те әлі бекітілмеген.",
+          "campaignRef": "a74fae4ad735eba3"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Кездейсоқ финал белгілі, сатып алудың міндеттілігі әзірге тек ықтимал."
+    },
+    {
+      "id": "297b160702cac212",
+      "campaignRef": "297b160702cac212",
+      "title": "Материал 006",
+      "language": "kk",
+      "category": "quoted_warning",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "c28f930d66ee9f71",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Түнгі кітап»] Медиа сабағында «кітап сатып алсаң, кездейсоқ ноутбук ұтасың» деген бөгде жарнаманы талқыладық.",
+          "campaignRef": "297b160702cac212"
+        },
+        {
+          "id": "afab3d260b8b5354",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Түнгі кітап»] Бұл хабарламада біз билет сатпаймыз, ақша жинамаймыз және өз ұтысымызды өткізбейміз.",
+          "campaignRef": "297b160702cac212"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Бөгде жарнама тек оқу мысалы ретінде келтірілген, өзінің белсенді ұсынысы жоқ."
+    },
+    {
+      "id": "f38f581ae63c0ab2",
+      "campaignRef": "f38f581ae63c0ab2",
+      "title": "Материал 007",
+      "language": "ru",
+      "category": "free_alternative",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "4013321429bfef28",
+          "type": "text",
+          "text": "[Вымышленная кампания «Облачная лента»] Ленту с кодом можно получить на платном творческом занятии. Но на тот же розыгрыш шкатулки принимаем бесплатную заявку на стойке. Для нее не нужно посещать занятие. Все выданные коды и бесплатные заявки входят в общую базу один раз. Случайный генератор выберет одну запись из этой базы. Платное занятие не дает дополнительных попыток.",
+          "campaignRef": "f38f581ae63c0ab2"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Полноценная бесплатная альтернатива участвует в том же финале на равных."
+    },
+    {
+      "id": "8a787783a27dfa35",
+      "campaignRef": "8a787783a27dfa35",
+      "title": "Материал 008",
+      "language": "kk",
+      "category": "quote_warning",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "9cfdc7200bbcd627",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Сақтық дәптер»] Брошюрада «билет сатып алсаң, компьютер жеребесіне кіресің» деген бөгде хабарламаға талдау берілген.",
+          "campaignRef": "8a787783a27dfa35"
+        },
+        {
+          "id": "ab38cff6d9c443f1",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Сақтық дәптер»] Брошюра өз атынан билет ұсынбайды және компьютер ұтысына тіркемейді.",
+          "campaignRef": "8a787783a27dfa35"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Бөгде ұсыныс тек дәйексөзбен талданған, өзінің науқаны белсенді емес."
+    },
+    {
+      "id": "5c4b532533021e52",
+      "campaignRef": "5c4b532533021e52",
+      "title": "Материал 009",
+      "language": "kk",
+      "category": "service",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "68053ece892d0147",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Ақ терезе»] Кілем тазалау қызметін ақылы тапсырып, түбіртегін жібергендер ғана ауа тазартқыш ұтысына қатысады. Соңғы жеңімпаз түбіртектер арасынан кездейсоқ таңдалады.",
+          "campaignRef": "5c4b532533021e52"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Ақылы қызметке тапсырыс міндетті, соңғы жүлдегер кездейсоқ таңдалады."
+    },
+    {
+      "id": "f74a6dcfe8cd475f",
+      "campaignRef": "f74a6dcfe8cd475f",
+      "title": "Материал 010",
+      "language": "mixed",
+      "category": "entry_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "e06b2ae125042f67",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Дәм қасық»] Набор столовых приборов получит случайный участник финальной жеребьевки. Қатысу картасын тек тіркеу ақысын төлеген соң береміз, ақысын төлемей кіру жолы жоқ.",
+          "campaignRef": "f74a6dcfe8cd475f"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Регистрационная плата необходима для допуска к случайной жеребьевке."
+    },
+    {
+      "id": "d36757d76f73aa83",
+      "campaignRef": "d36757d76f73aa83",
+      "title": "Материал 011",
+      "language": "ru",
+      "category": "quote_and_own_free",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "568130a4e4acbe72",
+          "type": "text",
+          "text": "[Вымышленная кампания «Лимонная арка»] В чужой рекламе пишут «покупай жетон ради шанса на велосипед», а наш действующий розыгрыш пледа открыт по бесплатной анкете. Покупок и платежей у нас нет, случайного победителя пледа выберем из всех анкет.",
+          "campaignRef": "d36757d76f73aa83"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Чужое платное предложение процитировано отдельно, собственная кампания явно бесплатна."
+    },
+    {
+      "id": "e5d153f7b275a7a8",
+      "campaignRef": "e5d153f7b275a7a8",
+      "title": "Материал 012",
+      "language": "kk",
+      "category": "free_entry",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "9cf14cfa62758247",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Ашық сәуле»] Үстел шамын ұтуға кез келген адам тегін тіркеле алады, соңғы есім кездейсоқ таңдалады. Ешқандай сатып алу немесе кепілақы талап етілмейді.",
+          "campaignRef": "e5d153f7b275a7a8"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Тегін кіру анық жазылған, міндетті төлем жоқ."
+    },
+    {
+      "id": "da8a213b1cf59d17",
+      "campaignRef": "da8a213b1cf59d17",
+      "title": "Материал 013",
+      "language": "ru",
+      "category": "conditional_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "f9a00419f2d9c345",
+          "type": "text",
+          "text": "[Вымышленная кампания «Туманный гребень»] Увлажнитель отдадим случайной заявке, сбор за вход пока «воз-можно будет».\nСейчас форма просит дождаться правил и не говорит, бесплатен ли окончательный допуск.",
+          "campaignRef": "da8a213b1cf59d17"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Условие оплаты пока гипотетическое, актуальный порядок допуска не опубликован."
+    },
+    {
+      "id": "f610774d0036bfe2",
+      "campaignRef": "f610774d0036bfe2",
+      "title": "Материал 014",
+      "language": "mixed",
+      "category": "free_alternative",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "f1209b92ba7bef4d",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Аспан себет»] В этой акции победителя корзины выберет случайный генератор. Можно купить открытку и взять код с чека. Открытка қажет емес болса, сайттағы тегін өтінімді толтырыңыз. Тегін жолмен келгендер сол бір финалға бірдей салмақпен кіреді. Ни оплата доставки, ни донат до розыгрыша не требуются. После победы выдадим корзину в пункте самовывоза.",
+          "campaignRef": "f610774d0036bfe2"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Есть явно равноправный бесплатный путь к тому же случайному финалу."
+    },
+    {
+      "id": "97632b3e2a74655e",
+      "campaignRef": "97632b3e2a74655e",
+      "title": "Материал 015",
+      "language": "translit",
+      "category": "paid_subscription",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "4659319c3347e659",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Shyrsha habar»] Zhana projektordyn utusyna tek osy aptada aqyly zhazylymdy qosqan adamdar qatysady.",
+          "campaignRef": "97632b3e2a74655e"
+        },
+        {
+          "id": "50ed8bc275673fc5",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Shyrsha habar»] Finaldy random barsha tolegen zhazylym iesinin bireuin tandaidy, tegin oqyrmandar tizimge kirmeydi.",
+          "campaignRef": "97632b3e2a74655e"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Оплаченная подписка обязательна, финальный выбор случайный."
+    },
+    {
+      "id": "690b1ca42964a29e",
+      "campaignRef": "690b1ca42964a29e",
+      "title": "Материал 016",
+      "language": "mixed",
+      "category": "spend_threshold",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "1ad0bd1af944974f",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Шайлы арал»] Победитель получит чайный столик. Чтобы заявка стала действующей, потратьте за неделю не меньше 5000 тенге в нашей лавке. Жай тіркелу қатысу құқығын бермейді. Чеки разрешено объединять в пределах этой недели. В конце все действующие заявки перемешаем в барабане. Единственный столик достанется случайно вытянутой заявке.",
+          "campaignRef": "690b1ca42964a29e"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Порог обязательных расходов открывает допуск к случайному финалу."
+    },
+    {
+      "id": "6f248ceb5ce6974f",
+      "campaignRef": "6f248ceb5ce6974f",
+      "title": "Материал 017",
+      "language": "mixed",
+      "category": "noncash_purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "8f6ce689eb894f32",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Айлы жол»] Чтобы участвовать в розыгрыше спального мешка, купите фирменную нашивку, стоимость ее изготовления включена в цену.",
+          "campaignRef": "6f248ceb5ce6974f"
+        },
+        {
+          "id": "7201aebc48f187d4",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Айлы жол»] Тек сатып алынған нашивка нөмірлері финалға кіреді, бір нөмір кездейсоқ таңдалады.",
+          "campaignRef": "6f248ceb5ce6974f"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Нашивка является платным носителем участия в случайном финале."
+    },
+    {
+      "id": "8db9587488678875",
+      "campaignRef": "8db9587488678875",
+      "title": "Материал 018",
+      "language": "ru",
+      "category": "new_rules_free",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "0e44989b8d40f062",
+          "type": "text",
+          "text": "[Вымышленная кампания «Голубиная тропа»] Ранняя заметка связывала участие в розыгрыше компаса с покупкой карты, но этот порядок официально отменен.",
+          "campaignRef": "8db9587488678875"
+        },
+        {
+          "id": "576c60c226cff9fb",
+          "type": "text",
+          "text": "[Вымышленная кампания «Голубиная тропа»] Теперь действуют окончательные правила: всем выдается бесплатная заявка без покупки и платежей.",
+          "campaignRef": "8db9587488678875"
+        },
+        {
+          "id": "5b9a5ad64adafed8",
+          "type": "text",
+          "text": "[Вымышленная кампания «Голубиная тропа»] Один из бесплатных номеров случайно выберут в финале, платных преимуществ нет.",
+          "campaignRef": "8db9587488678875"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Явно отмененная платная версия заменена действующими бесплатными правилами."
+    },
+    {
+      "id": "a978be00684bea1d",
+      "campaignRef": "a978be00684bea1d",
+      "title": "Материал 019",
+      "language": "translit",
+      "category": "support_conflict",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "d827ae84b41fd57a",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Qumyrsa jol»] Sham prizyn random beretin nauqanda bir jerde donat oz erkiñde delingen. Sol tirkeu terezesinde donatsyz nomer berilmeidi dep tur, qaysy shart durys ekeni belgilenbegen.",
+          "campaignRef": "a978be00684bea1d"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "В одной кампании противоречат указания о добровольном и обязательном донате."
+    },
+    {
+      "id": "001136b9012e23a2",
+      "campaignRef": "001136b9012e23a2",
+      "title": "Материал 020",
+      "language": "mixed",
+      "category": "free_entry",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "7a0af39cbdd305c9",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Ашық дәптер»] Термос — приз, финал случай-ный, но вход бесплатный.\nДүкеннен дәптер алу міндетті емес, чексіз өтінім де қабылданады.",
+          "campaignRef": "001136b9012e23a2"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Покупка прямо необязательна, бесплатная заявка принимается."
+    },
+    {
+      "id": "30d38e898361ab22",
+      "campaignRef": "30d38e898361ab22",
+      "title": "Материал 021",
+      "language": "mixed",
+      "category": "ambiguous_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a7882310669ebd91",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Дала сөмке»] Рюкзак разыграем среди зарегистрированных случайным выбором. Регистрация рядом с надписью «взнос по желанию», бірақ төменде «төлемді тіркемей өтпейді» делінген және бұл техникалық қате ме, ереже ме екені түсіндірілмеген.",
+          "campaignRef": "30d38e898361ab22"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Обязательность взноса противоречиво описана в одной опубликованной форме."
+    },
+    {
+      "id": "f40e133ace89d9dd",
+      "campaignRef": "f40e133ace89d9dd",
+      "title": "Материал 022",
+      "language": "kk",
+      "category": "not_required",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "3b71f25b0f459ca3",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Күмбез жіп»] Қаты-су тегін, дүкеннен жіп сатып алу шарт емес.\nЖеребеде таңдалған адамға тоқу ілмектерін ақысыз береміз, чек сұрамаймыз.",
+          "campaignRef": "f40e133ace89d9dd"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Сатып алу қажет еместігі және тегін қатысу анық көрсетілген."
+    },
+    {
+      "id": "558ad8c2c9cf1f20",
+      "campaignRef": "558ad8c2c9cf1f20",
+      "title": "Материал 023",
+      "language": "kk",
+      "category": "unknown_final",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "53ab83b2e17abcfa",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Қағаз ай»] Ақылы жазылым иелері проекциялық шам жүлдесіне үміткер бола алады.",
+          "campaignRef": "558ad8c2c9cf1f20"
+        },
+        {
+          "id": "9eedd37c448dbc99",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Қағаз ай»] «Жеңімпазды мерекеде жариялаймыз» делінген, бірақ оны жеребемен бе әлде қазылармен бе анықтайтынымыз айтылмаған.",
+          "campaignRef": "558ad8c2c9cf1f20"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Міндетті ақылы мәртебе белгілі, соңғы таңдау тәсілі жоқ."
+    },
+    {
+      "id": "8e05b516a23fee82",
+      "campaignRef": "8e05b516a23fee82",
+      "title": "Материал 024",
+      "language": "kk",
+      "category": "support_unknown",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "f705a572b84d7f90",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Таңғы құс»] Жүлде — құсқа арналған кең тор. Соңында өтінімдердің бірі кездейсоқ таңдалады. Тіркеу парағында демеуге арналған сома көрсетілген. Ол соманы төлеу міндетті ме деп сұраған. Жауап әлі жарияланбаған. Сондықтан төлемсіз өтінімнің қабылданатыны белгісіз.",
+          "campaignRef": "8e05b516a23fee82"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Кездейсоқ жүлде анық, қолдау сомасының міндеттілігі ашылмаған."
+    },
+    {
+      "id": "29b08e7e0f19f8ee",
+      "campaignRef": "29b08e7e0f19f8ee",
+      "title": "Материал 025",
+      "language": "translit",
+      "category": "stage_ambiguity",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "1dc2bbf13e71b6a4",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Samal qalam»] Qalam jinaǵy ushin aqyly bilet alasyñ, sodan keyin algashqy kezeñde random bes adamdy otkizedi. Finalda sol bestin ishinen qalai zhengimpaz shygatyny jazylmagan.",
+          "campaignRef": "29b08e7e0f19f8ee"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Платный вход и предварительная случайность известны, итоговый механизм не описан."
+    },
+    {
+      "id": "430658a0fb33643e",
+      "campaignRef": "430658a0fb33643e",
+      "title": "Материал 026",
+      "language": "ru",
+      "category": "free_registration",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "507660cd14dc2aaa",
+          "type": "text",
+          "text": "[Вымышленная кампания «Васильковый час»] Зарегистрироваться на розыгрыш настенных часов можно бесплатно без заказа в магазине.",
+          "campaignRef": "430658a0fb33643e"
+        },
+        {
+          "id": "6e88fc93a890f3ad",
+          "type": "text",
+          "text": "[Вымышленная кампания «Васильковый час»] Мы случайно выберем одного из зарегистрированных, платных номеров в базе нет.",
+          "campaignRef": "430658a0fb33643e"
+        },
+        {
+          "id": "610335bf2b115457",
+          "type": "text",
+          "text": "[Вымышленная кампания «Васильковый час»] Отказ от рекламной рассылки также не исключает из списка.",
+          "campaignRef": "430658a0fb33643e"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Бесплатная регистрация открывает полноценный допуск без покупки."
+    },
+    {
+      "id": "b73de135f2ef527f",
+      "campaignRef": "b73de135f2ef527f",
+      "title": "Материал 027",
+      "language": "kk",
+      "category": "paid_coupon",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "fb54d3604f68b994",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жайлы орын»] Орындық жүлдеге қойылады. Алдымен 1200 теңгелік қолдау купонын сатып аласыз. Купонсыз өтінім ашылмайды. Оны тауарға жұмсау міндетті емес. Тіркелген купондардың бәрі соңғы жеребеге қатысады. Кездейсоқ алынған купонның иесі орындықты алады.",
+          "campaignRef": "b73de135f2ef527f"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Купонды ақылы сатып алу кірудің міндетті шарты, жүлде иесі жеребемен анықталады."
+    },
+    {
+      "id": "119b60ac7c5bae9e",
+      "campaignRef": "119b60ac7c5bae9e",
+      "title": "Материал 028",
+      "language": "ru",
+      "category": "paid_course",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "5956474cd45521a4",
+          "type": "text",
+          "text": "[Вымышленная кампания «Черничный лист»] Планшет для заметок подарим одному слушателю курса. Зарегистрироваться в розыгрыше могут только оплатившие курс целиком. Покупка учебника отдельно такого права не дает. Пройти задания для участия не требуется. В финале случайный генератор выберет одного из оплативших слушателей. Проверки знаний при выборе владельца планшета не будет.",
+          "campaignRef": "119b60ac7c5bae9e"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Обязательна оплата курса, учебные навыки не влияют на случайный финал."
+    },
+    {
+      "id": "3d0cbc45625a0f0e",
+      "campaignRef": "3d0cbc45625a0f0e",
+      "title": "Материал 029",
+      "language": "kk",
+      "category": "free_ticket",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "26aa445f2661b192",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жаңа таңба»] Төсбелгіні жере-бемен бір адамға сыйлаймыз, қатысу нөмірі тегін.\n«Жарна» жолын бос қалдыруға болады, сонда да нөмір сол жалпы тізімде қалады.",
+          "campaignRef": "3d0cbc45625a0f0e"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Жарнасыз толық қатысу сақталады, сондықтан ол міндетті төлем емес."
+    },
+    {
+      "id": "59608b48aed3381e",
+      "campaignRef": "59608b48aed3381e",
+      "title": "Материал 030",
+      "language": "ru",
+      "category": "paid_tryout",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "6de6952a5a614732",
+          "type": "text",
+          "text": "[Вымышленная кампания «Белая сцена»] Гитару выставили отдельным призом музыкального вечера. Участники оплачивают прослушивание. Оплата нужна всем, кто хочет войти в список на гитару. Голос и репертуар при вручении гитары учитывать не будут. После всех выступлений организатор случайно вытянет фамилию из списка оплативших. Именно этот участник получит инструмент.",
+          "campaignRef": "59608b48aed3381e"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Прослушивание платное для допуска, но финальный приз распределяется случайно."
+    },
+    {
+      "id": "13acd589e22da535",
+      "campaignRef": "13acd589e22da535",
+      "title": "Материал 031",
+      "language": "kk",
+      "category": "paid_referral",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "cb6bba5c2862adae",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Күн шуақ»] Жүлде — жиналмалы үстел. Өтінім иесі бір ақылы шақыру картасын алуы керек. Оны досына берсе де, өзі ұстаса да болады. Төлем расталмайынша карта жеребеге түспейді. Соңғы шарада карталардың бір нөмірін кездейсоқ шығарамыз. Үстел сол нөмірге тіркелген адамға беріледі.",
+          "campaignRef": "13acd589e22da535"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Ақылы шақыру картасы жеребеге кірудің міндетті шарты."
+    },
+    {
+      "id": "0d8d9d8904c96f1c",
+      "campaignRef": "0d8d9d8904c96f1c",
+      "title": "Материал 032",
+      "language": "kk",
+      "category": "prize_value",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "00d9567a1c5cce24",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жасыл шыны»] Мына ваза жүлдеге қойылған. Оның дүкендегі бағасы 18 мың теңге. Бұл сома қатысу төлемі емес. Өтінімді кез келген адам тегін бере алады. Тізімнен бір адамды кездейсоқ таңдаймыз. Жеңімпаздан да ваза үшін ақша сұралмайды.",
+          "campaignRef": "0d8d9d8904c96f1c"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Аталған ақша — жүлденің бағасы, ал кіру ашық түрде тегін."
+    },
+    {
+      "id": "a6c4002809634303",
+      "campaignRef": "a6c4002809634303",
+      "title": "Материал 033",
+      "language": "mixed",
+      "category": "eligibility_gap",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "bdb3c954bc434048",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Теңіз дәптер»] Фотоальбом получит одна заявка в случайном финале. «Оплатившие участники» деген сөз посттың ортасында тұр. Бірақ төлемнің не үшін алынатыны ашылмаған. Она может относиться к отдельному занятию. Должны ли все претенденты на фотоальбом купить это занятие, не сказано. Отдельных условий допуска к призу нет.",
+          "campaignRef": "a6c4002809634303"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Не установлена связь упомянутой оплаты с обязательным допуском к призовому финалу."
+    },
+    {
+      "id": "9f36c2b88e41b025",
+      "campaignRef": "9f36c2b88e41b025",
+      "title": "Материал 034",
+      "language": "kk",
+      "category": "access_pass",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "baf71043eeaca7c3",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Боз өрнек»] Өрнек салуға арналған планшет жүлдесіне қатысу үшін ақылы шеберлік сабағына билет алу қажет. Сабаққа келген-келмегеніңіз нәтижеге әсер етпейді, соңғы жеңімпаз билет нөмірлері арасынан кездейсоқ анықталады.",
+          "campaignRef": "9f36c2b88e41b025"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Ақылы сабақ билеті міндетті, шеберлік емес, соңғы кездейсоқ таңдау шешеді."
+    },
+    {
+      "id": "9f2ed231c5b6e9c4",
+      "campaignRef": "9f2ed231c5b6e9c4",
+      "title": "Материал 035",
+      "language": "ru",
+      "category": "conflicting_versions",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a79868c1a2b4d8b5",
+          "type": "text",
+          "text": "[Вымышленная кампания «Янтарный склон»] На афише обещают случайно разыграть фонарь только среди купивших входной браслет.",
+          "campaignRef": "9f2ed231c5b6e9c4"
+        },
+        {
+          "id": "0a6ca22ce70201e0",
+          "type": "text",
+          "text": "[Вымышленная кампания «Янтарный склон»] В правилах этой же кампании написано, что браслет не обязателен и заявка бесплатна; какая версия действует, организатор пока не объяснил.",
+          "campaignRef": "9f2ed231c5b6e9c4"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Версии одной кампании противоречат друг другу по обязательности оплаты."
+    },
+    {
+      "id": "8372d884a43196c7",
+      "campaignRef": "8372d884a43196c7",
+      "title": "Материал 036",
+      "language": "kk",
+      "category": "warning",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "747a843b38edacb3",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Бақылау парағы»] Оқу парағында міндетті жарна мен кездейсоқ жүлде туралы ойдан шығарылған жарнама тырнақшада берілген. Парақтың мақсаты оны талдау, мұнда ешкім қатысушы қабылдамайды және ақша сұрамайды.",
+          "campaignRef": "8372d884a43196c7"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Цитата служит учебным разбором, своей активной схемы нет."
+    },
+    {
+      "id": "cd057ae54f952bc2",
+      "campaignRef": "cd057ae54f952bc2",
+      "title": "Материал 037",
+      "language": "ru",
+      "category": "skill_final",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "29e45b997d6336d1",
+          "type": "text",
+          "text": "[Вымышленная кампания «Розовый мел»] Мольберт получит лучший участник конкурса рисунка мелом. Для доступа на площадку продают билеты. Организатор случайно назначает участникам участки асфальта. Затем художники выполняют одинаковое задание. Финальный результат устанавливает жюри по перспективе и владению цветом. Совпавшие баллы разрешают дополнительным рисунком без жеребьевки.",
+          "campaignRef": "cd057ae54f952bc2"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Случайно назначается участок, финального победителя определяет навык."
+    },
+    {
+      "id": "faea749f6a0a18d1",
+      "campaignRef": "faea749f6a0a18d1",
+      "title": "Материал 038",
+      "language": "mixed",
+      "category": "optional_purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "576e3be29b5bc229",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Көл жағасы»] В финале случайно подарим туристический коврик. Для участия достаточно бесплатной анкеты. Дүкеннен су құтысын алуға болады, бірақ бұл өз қалауыңызда. Покупка не дает ни дополнительного номера, ни приоритета. Даже пустое поле чека не мешает отправить анкету. Коврик выдадим без оплаты победителю.",
+          "campaignRef": "faea749f6a0a18d1"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Покупка добровольная и никак не меняет бесплатное участие."
+    },
+    {
+      "id": "39922755cf13cb1d",
+      "campaignRef": "39922755cf13cb1d",
+      "title": "Материал 039",
+      "language": "mixed",
+      "category": "purchase_receipt",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a4a6d2ba5b986b24",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Қоңыр әуен»] Витрина показывает набор барабанных палочек как обычный товар. За покупку такого набора выдается право участия в розыгрыше ударной установки. Тегін өтінім бұл акцияда қабылданбайды. Каждый подходящий чек участвует один раз. Победителя в самом конце определит генератор случайных номеров чеков. Качество игры владельца чека никто не оценивает.",
+          "campaignRef": "39922755cf13cb1d"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Покупка обычного товара необходима для участия, дополнительный приз разыгрывается случайно."
+    },
+    {
+      "id": "9655ee6732e06e1f",
+      "campaignRef": "9655ee6732e06e1f",
+      "title": "Материал 040",
+      "language": "translit",
+      "category": "voluntary_donation",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "f338aafc91929f0e",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Kok marjan»] Monshaq prizyn tegin qatysushylar arasynan zherebemen beremiz.",
+          "campaignRef": "9655ee6732e06e1f"
+        },
+        {
+          "id": "d81447d9a2fdfd2d",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Kok marjan»] Demeu ushin donat qaldyru oz erkiñde, qaldyrmagan adam da dal sol tizimde qalady.",
+          "campaignRef": "9655ee6732e06e1f"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Донат необязателен, бесплатный допуск сохраняется."
+    },
+    {
+      "id": "ebd94c52691b6e13",
+      "campaignRef": "ebd94c52691b6e13",
+      "title": "Материал 041",
+      "language": "mixed",
+      "category": "admission_card",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a90d33494334e4b5",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Мата жолы»] Оплатите карту участника за 1700 тенге, иначе доступ к розыгрышу швейного набора закрыт. Карта иелерінің ішінен біреуін финалда кездейсоқ таңдаймыз.",
+          "campaignRef": "ebd94c52691b6e13"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Платная карта необходима для допуска, выбор призера случайный."
+    },
+    {
+      "id": "186cec70ad4e40df",
+      "campaignRef": "186cec70ad4e40df",
+      "title": "Материал 042",
+      "language": "mixed",
+      "category": "coupon",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "061b81b8b848a689",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Бір дәм»] Для розыгрыша вафельницы активируйте платный купон за 800 тенге, без активации участия нет. Соңында барлық белсенді купонның біреуін кездейсоқ шығарамыз.",
+          "campaignRef": "186cec70ad4e40df"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Платная активация купона — условие допуска, финальный победитель случайный."
+    },
+    {
+      "id": "8803af3433f0f404",
+      "campaignRef": "8803af3433f0f404",
+      "title": "Материал 043",
+      "language": "mixed",
+      "category": "selection_ambiguity",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "98bc0543eddd7363",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Ақ өріс»] За вход в конкурс моделей берут плату, приз — аэрограф. Финального победителя обещают определить «по удаче и таланту», бірақ кездейсоқ таңдаудың не қазы бағасының шешуші болатыны ашылмаған.",
+          "campaignRef": "8803af3433f0f404"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Смешанная неопределенная формулировка не устанавливает механизм итогового выбора."
+    },
+    {
+      "id": "df05f970ec9d02ba",
+      "campaignRef": "df05f970ec9d02ba",
+      "title": "Материал 044",
+      "language": "translit",
+      "category": "purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "fc7cbf66a08f9c48",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Sary qumyra»] Gul qumyrasyn utip alu ushin dukennen topyraq qapshygyn satyp alu mindetti. Chekter arasynan finaldyq zherebe otkizemiz, qumyra sol bir chektin iesine tiesili bolady.",
+          "campaignRef": "df05f970ec9d02ba"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Сатып алу міндетті, құмыра иесі соңғы жеребемен анықталады."
+    },
+    {
+      "id": "c16d5b29ba1d9289",
+      "campaignRef": "c16d5b29ba1d9289",
+      "title": "Материал 045",
+      "language": "mixed",
+      "category": "postwin_delivery",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "4e09e9934197f7ca",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Ақ кеме»] Вход свободный и беc-платный, покупка не нужна.\nПосле рандома победитель рюкзака сам решит: тегін алып кету немесе курьер ақысын төлеу.",
+          "campaignRef": "c16d5b29ba1d9289"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Доставка выбирается после выигрыша, при бесплатном входе она не является взносом."
+    },
+    {
+      "id": "16c72f420a370395",
+      "campaignRef": "16c72f420a370395",
+      "title": "Материал 046",
+      "language": "translit",
+      "category": "ticket",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "e97a8e64dc205670",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Jumsaq sham»] Sham utusyna qatysu bileti 500 tenge turady, biletsiz tizimge qospaymyz.",
+          "campaignRef": "16c72f420a370395"
+        },
+        {
+          "id": "ea9fd5aa325bf00d",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Jumsaq sham»] Finalda barlyq satylgan bilet aralasady da, bireui kezdeisoq alynady; sol numnyn iesine sham beriledi.",
+          "campaignRef": "16c72f420a370395"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Ақылы билетсіз кіру жоқ және жүлде соңғы кездейсоқ таңдаумен беріледі."
+    },
+    {
+      "id": "a677dd053bc4839c",
+      "campaignRef": "a677dd053bc4839c",
+      "title": "Материал 047",
+      "language": "kk",
+      "category": "charity_entry",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "f2d2242a21d5dc9a",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Ізгі себет»] Науқандағы азық себетін ұту үшін қайырымдылық жәрмеңкесіне ақылы кіру билетін алу міндетті.",
+          "campaignRef": "a677dd053bc4839c"
+        },
+        {
+          "id": "c9b5803fb370e604",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Ізгі себет»] Билет алғандардың бірін соңғы жеребеде таңдаймыз, себет соған беріледі.",
+          "campaignRef": "a677dd053bc4839c"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Қайырымдылық мақсатына қарамастан ақылы билет кіру шарты және финал жеребемен өтеді."
+    },
+    {
+      "id": "84aa906a0e90d162",
+      "campaignRef": "84aa906a0e90d162",
+      "title": "Материал 048",
+      "language": "translit",
+      "category": "ticket",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "f559f6526aebf0a6",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Shuak jolaq»] Velosiped shlemin zherebemen beremiz, aqyly qatysu bileti bolmasa tizimge kire almaisyn. Songynda bilettin bir nomeri kezdeisoq tandalyp, shlem sol iesine ketedi.",
+          "campaignRef": "84aa906a0e90d162"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Платный билет требуется для допуска, финальный приз случайный."
+    },
+    {
+      "id": "9793be7851444bc4",
+      "campaignRef": "9793be7851444bc4",
+      "title": "Материал 049",
+      "language": "ru",
+      "category": "paid_certificate",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "841637e051b66e40",
+          "type": "text",
+          "text": "[Вымышленная кампания «Липовая мастерская»] Сертификат участника продается за фиксированную сумму, без него нельзя претендовать на дрель.",
+          "campaignRef": "9793be7851444bc4"
+        },
+        {
+          "id": "51568d8d4ba77626",
+          "type": "text",
+          "text": "[Вымышленная кампания «Липовая мастерская»] В последний день сертификаты сложим в закрытую коробку и вслепую достанем один.",
+          "campaignRef": "9793be7851444bc4"
+        },
+        {
+          "id": "e969ea5e7a48ecb7",
+          "type": "text",
+          "text": "[Вымышленная кампания «Липовая мастерская»] Его владелец получит дрель, выполнение каких-либо работ не оценивается.",
+          "campaignRef": "9793be7851444bc4"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Купленный сертификат обязателен, дрель достается по случайной вытяжке."
+    },
+    {
+      "id": "6c8cad5ccd24f9a3",
+      "campaignRef": "6c8cad5ccd24f9a3",
+      "title": "Материал 050",
+      "language": "kk",
+      "category": "insurance_entry",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "da888cf85320d48c",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жайлы жолдас»] Жүк арбасын ұтуға өтінім тек ақылы тіркеу пакетін алған соң ашылады, пакеттің ішінде сақтандыру қызметі бар. Финалда барлық пакет иелерінің бірін жеребемен таңдап, арбаны сыйлаймыз.",
+          "campaignRef": "6c8cad5ccd24f9a3"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Ақылы пакет сатып алу допускқа қажет, арба иесі жеребемен анықталады."
+    },
+    {
+      "id": "e0f7be0702e93222",
+      "campaignRef": "e0f7be0702e93222",
+      "title": "Материал 051",
+      "language": "kk",
+      "category": "free_pickup",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "ce8f2120519cb3f2",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Өзен тасы»] Шағын фонтанды бір тегін өтінімге жеребемен береміз. Өтінімге түбіртек талап етілмейді. Тіркелуге төлем жоқ. Жеңімпаз өзі алып кетсе, ештеңе төлемейді. Жеткізу қажет болса, курьер бағасын тек ұтқаннан кейін келіседі. Бұл келісімге келмесе де, өзі алып кету құқығы сақталады.",
+          "campaignRef": "e0f7be0702e93222"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Кіру тегін және тегін алып кету бар, кейінгі жеткізу ақысы қатысу төлемі емес."
+    },
+    {
+      "id": "e76266ab378c2131",
+      "campaignRef": "e76266ab378c2131",
+      "title": "Материал 052",
+      "language": "kk",
+      "category": "paid_game",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "18ccd702beeb2fbe",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жұлдыз қақпа»] Карта ойынындағы жүлде — телескоп, турнирге ақылы билетпен ғана кіресіз. Ойын ұпайы есептелмейді, соңғы телескоп иесі барлық төленген билет арасынан жеребемен таңдалады.",
+          "campaignRef": "e76266ab378c2131"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Ақылы кіру бар, ал финал ойын нәтижесінен тәуелсіз жеребемен өтеді."
+    },
+    {
+      "id": "71b77689b965d9bc",
+      "campaignRef": "71b77689b965d9bc",
+      "title": "Материал 053",
+      "language": "translit",
+      "category": "free_ticket",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "d364580001208dc9",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Aq tebe»] Qysqy shanany tegin bileti bar adamdardyn arasynan random beremiz.",
+          "campaignRef": "71b77689b965d9bc"
+        },
+        {
+          "id": "ce89be2b476f18cb",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Aq tebe»] Bilet barshaga aqysyz beriledi, satyp alu nemese zharnaga baylanysty emes.",
+          "campaignRef": "71b77689b965d9bc"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Билет бесплатный и не зависит от покупки или взноса."
+    },
+    {
+      "id": "f9c683f5c3c442e7",
+      "campaignRef": "f9c683f5c3c442e7",
+      "title": "Материал 054",
+      "language": "kk",
+      "category": "ambiguous_support",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "76e3c9bc0fe37059",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Бұлақ сандық»] Қорап жүлдесінің соңғы иесі жеребемен шығады.\nТіркеуде «қолдау: 700 тг» деп тұр, алайда оны өт-кізіп жіберуге бола ма деген жері оқылмайды.",
+          "campaignRef": "f9c683f5c3c442e7"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Қолдау сомасының міндетті не ерікті екені анықталмайды."
+    },
+    {
+      "id": "a16e6e7eb8016d7b",
+      "campaignRef": "a16e6e7eb8016d7b",
+      "title": "Материал 055",
+      "language": "ru",
+      "category": "paid_workshop",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "1615e4ac31b933fd",
+          "type": "text",
+          "text": "[Вымышленная кампания «Горчичный круг»] Покупка места на кулинарном занятии обязательна для участия в розыгрыше формы для выпечки. Посещение и результат готовки не проверяются, окончательного призера случайно выберут среди оплативших места.",
+          "campaignRef": "a16e6e7eb8016d7b"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Оплата занятия необходима, итоговая награда распределяется случайно без оценки навыка."
+    },
+    {
+      "id": "dcb37962c5baeddf",
+      "campaignRef": "dcb37962c5baeddf",
+      "title": "Материал 056",
+      "language": "mixed",
+      "category": "free_alternative",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "bbd66f64988b8139",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Күлгін қадам»] Наушники получит случайный код, код бывает на чеке за футболку.",
+          "campaignRef": "dcb37962c5baeddf"
+        },
+        {
+          "id": "34bc691a9c928a94",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Күлгін қадам»] Бірақ дәл сондай кодты тегін сұрау батырмасымен де аласыз, сатып алмағандар сол бір финалға тең қатысады.",
+          "campaignRef": "dcb37962c5baeddf"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Бесплатный код дает равный допуск к тому же случайному финалу."
+    },
+    {
+      "id": "9af5bb0c1e57ca7d",
+      "campaignRef": "9af5bb0c1e57ca7d",
+      "title": "Материал 057",
+      "language": "ru",
+      "category": "paid_token",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "d7afda410ef78111",
+          "type": "text",
+          "text": "[Вымышленная кампания «Бархатный знак»] Мы выпускаем жетоны в поддержку мастерской. Каждый жетон стоит 650 тенге. Только владельцы купленных жетонов войдут в розыгрыш увлажнителя. Подаренные и бесплатные жетоны в этой серии не выпускаются. В последнем эфире ведущий наугад достанет один жетон из мешка. Увлажнитель передадим человеку с совпавшим номером.",
+          "campaignRef": "9af5bb0c1e57ca7d"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Жетон продается как обязательный носитель допуска, окончательный выбор случайный."
+    },
+    {
+      "id": "0e825191e5ce7512",
+      "campaignRef": "0e825191e5ce7512",
+      "title": "Материал 058",
+      "language": "translit",
+      "category": "final_stage_unknown",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "3ed091b189830f20",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Tañ syr»] Aqyly bilet algandardyn bir boligin random aldyn ala otkizedi, priz — termosumka. Biraq finalga otkenderdin arasynda songy iesin qalai tandaityny erejede joq.",
+          "campaignRef": "0e825191e5ce7512"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Платный вход и случайный предварительный этап известны, финальный способ не описан."
+    },
+    {
+      "id": "ba88136c23f9b7df",
+      "campaignRef": "ba88136c23f9b7df",
+      "title": "Материал 059",
+      "language": "ru",
+      "category": "jury",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "77bdf114440491bf",
+          "type": "text",
+          "text": "[Вымышленная кампания «Дальний рисунок»] Призовой графический монитор получит самый точный рисунок перспективы. Участники оплачивают доступ к выставке, но окончательный победитель определяется только оценкой жюри, без случайного выбора.",
+          "campaignRef": "ba88136c23f9b7df"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Финальный выбор основан на навыке, хотя доступ к выставке платный."
+    },
+    {
+      "id": "c9b9f62a1d15d38d",
+      "campaignRef": "c9b9f62a1d15d38d",
+      "title": "Материал 060",
+      "language": "translit",
+      "category": "sale",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "75c515bd9532d43f",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Zhana bet»] Muqaba jinaqty 2800 tengege satamyz, aqsha tolegen adam tolyq jinaqty birden alady. Bul sauda, kezdeisoq prizdiñ zhengimpazyn izdemeimiz.",
+          "campaignRef": "c9b9f62a1d15d38d"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Продажа определенного комплекта не содержит случайного приза."
+    },
+    {
+      "id": "054523f16fece037",
+      "campaignRef": "054523f16fece037",
+      "title": "Материал 061",
+      "language": "kk",
+      "category": "service_purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "d0868ce59d239fc6",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Таза кілем»] Бу тазартқыш ұтысына тек осы айда ақылы перде жуу қызметін алған клиенттер кіреді. Қызмет чектерінің бірін соңында кездейсоқ таңдап, бу тазартқышты береміз.",
+          "campaignRef": "054523f16fece037"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Ақылы қызмет сатып алу кіру шарты, жүлде чек жеребесімен беріледі."
+    },
+    {
+      "id": "f5eb4c71b73cc171",
+      "campaignRef": "f5eb4c71b73cc171",
+      "title": "Материал 062",
+      "language": "mixed",
+      "category": "sales_entry",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "c720e2ff4a91efcb",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Қоңырау бағы»] Для ярмарки мы приготовили набор садовых колокольчиков как приз. Его обычная стоимость нигде не указана. Чтобы войти в розыгрыш, нужно купить любой саженец у стенда. Сатып алусыз нөмір берілмейді. При закрытии ярмарки все выданные номера перемешают в прозрачной коробке. Колокольчики получит хозяин номера, вытянутого случайно.",
+          "campaignRef": "f5eb4c71b73cc171"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Покупка саженца обязательна для номера, итоговый приз выбирается случайно."
+    },
+    {
+      "id": "a255d5a56dc4e99d",
+      "campaignRef": "a255d5a56dc4e99d",
+      "title": "Материал 063",
+      "language": "translit",
+      "category": "donation",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "935f761d06d07919",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Qanaty bar sandyk»] Sandyq-priz ushin 1000 tenge qatysu zharnasyn tole, osy zharnasiz otinish qabyldanbaidy. Barlyq tolegen qatysushylardyn bireuin kezdeisoq tandap, sandyqty beremiz.",
+          "campaignRef": "a255d5a56dc4e99d"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Взнос является обязательным входом к случайному финальному выбору."
+    },
+    {
+      "id": "aa160a7053d9e34b",
+      "campaignRef": "aa160a7053d9e34b",
+      "title": "Материал 064",
+      "language": "ru",
+      "category": "free_entry",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "9e764a5d8eb12e59",
+          "type": "text",
+          "text": "[Вымышленная кампания «Тканевый сад»] Сумку из льна разыграем случайно среди всех, кто оставит бесплатную заявку.",
+          "campaignRef": "aa160a7053d9e34b"
+        },
+        {
+          "id": "bec57d6ce4798e41",
+          "type": "text",
+          "text": "[Вымышленная кампания «Тканевый сад»] Покупки, платные подписки и взносы для участия не нужны.",
+          "campaignRef": "aa160a7053d9e34b"
+        },
+        {
+          "id": "3dfe1b922b6cec3f",
+          "type": "text",
+          "text": "[Вымышленная кампания «Тканевый сад»] Победитель сможет сам забрать приз или оплатить курьера уже после выигрыша.",
+          "campaignRef": "aa160a7053d9e34b"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Вход явно бесплатный, курьер оплачивается только победителем после результата."
+    },
+    {
+      "id": "acce19bb7da33b78",
+      "campaignRef": "acce19bb7da33b78",
+      "title": "Материал 065",
+      "language": "kk",
+      "category": "jury",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "498a09ff00755124",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Күміс сызық»] Сурет байқауына қатысу тегін, жүлде — графикалық қалам.",
+          "campaignRef": "acce19bb7da33b78"
+        },
+        {
+          "id": "c6bc41f68f95a433",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Күміс сызық»] Жеңімпазды қазылар композиция мен идеяға қарай анықтайды, жеребе қолданылмайды.",
+          "campaignRef": "acce19bb7da33b78"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Қатысу тегін және финал қазылардың бағалауымен өтеді."
+    },
+    {
+      "id": "035173f4cb3db0b6",
+      "campaignRef": "035173f4cb3db0b6",
+      "title": "Материал 066",
+      "language": "translit",
+      "category": "skill",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "228b08267026edff",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Aq qadam»] Bii baigeisinin kirui aqyly, priz — muzika kolonkasy. Songy zhengimpazdy qazylar ritm men tehnikaga qarap tandaidy, zherebe men random joq.",
+          "campaignRef": "035173f4cb3db0b6"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Платный конкурс имеет финал по оценке навыка без случайности."
+    },
+    {
+      "id": "75ad73a1d41e1f5a",
+      "campaignRef": "75ad73a1d41e1f5a",
+      "title": "Материал 067",
+      "language": "translit",
+      "category": "deposit",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "630cd11598e16a9f",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Otken asu»] Qatysu tizimine kiru ushin 2000 tenge aqshaly kepil engizu mindetti, kepilsiz qatysushy nomeri joq. Qorytyndyda random generator bir nomerdi tandap, onyn iesine sayahat ryukzagin beredi.",
+          "campaignRef": "75ad73a1d41e1f5a"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Денежный залог до допуска обязателен, финальный выбор случайный."
+    },
+    {
+      "id": "9bc9270da5eef107",
+      "campaignRef": "9bc9270da5eef107",
+      "title": "Материал 068",
+      "language": "ru",
+      "category": "ocr_gap",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "0cc14ad58c2dff36",
+          "type": "text",
+          "text": "[Вымышленная кампания «Мятный чемодан»] Чемодан отдаём слу-чайному номеру, в заявке стоит «покупка ... обязательна».\nКусок с названием покупки не прочесть, а строчка «можно без ...» тоже обрезана.",
+          "campaignRef": "9bc9270da5eef107"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Потери текста оставляют неизвестными предмет покупки и наличие бесплатного пути."
+    },
+    {
+      "id": "e3e1eee788e2b9c1",
+      "campaignRef": "e3e1eee788e2b9c1",
+      "title": "Материал 069",
+      "language": "mixed",
+      "category": "free_membership",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "8709aae2341f34d2",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Көк нота»] Рандомом отдаём нотную тетрадь одному участнику клуба, вступле-ние бесплатное.\nАқылы пакет алудың қажеті жоқ, бәрі бір тізімде.",
+          "campaignRef": "e3e1eee788e2b9c1"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Членство и допуск бесплатны, платный пакет не нужен."
+    },
+    {
+      "id": "ba4c9c14620f0276",
+      "campaignRef": "ba4c9c14620f0276",
+      "title": "Материал 070",
+      "language": "mixed",
+      "category": "partial_terms",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "3d3c9772bc615d74",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Қағаз бұлт»] Подарком станет набор для каллиграфии. У поста есть кнопка участия. Рядом стоит сумма 2500 тенге. Бұл соманың жүлде бағасы ма, әлде кіру ақысы ма екені жазылмаған. Автор случайный выбор обещает только для какого-то списка. Как в этот список попадают, опубликованный текст не объясняет.",
+          "campaignRef": "ba4c9c14620f0276"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Неясны назначение суммы и условия попадания в список случайного выбора."
+    },
+    {
+      "id": "0692cc8c5029c4dd",
+      "campaignRef": "0692cc8c5029c4dd",
+      "title": "Материал 071",
+      "language": "ru",
+      "category": "free_form_different_purpose",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "85559d340984b0a5",
+          "type": "text",
+          "text": "[Вымышленная кампания «Лисья полка»] Доступ к розыгрышу книжного шкафа стоит 1600 тенге, неоплаченные записи в список призовых номеров не включаются.",
+          "campaignRef": "0692cc8c5029c4dd"
+        },
+        {
+          "id": "65a05af1bb4c9107",
+          "type": "text",
+          "text": "[Вымышленная кампания «Лисья полка»] Рядом есть бесплатная форма, но она оформляет только рассылку и права на участие в шкафе не дает.",
+          "campaignRef": "0692cc8c5029c4dd"
+        },
+        {
+          "id": "cf329b89f2e46f11",
+          "type": "text",
+          "text": "[Вымышленная кампания «Лисья полка»] Среди оплаченных призовых номеров проведем одну случайную финальную вытяжку.",
+          "campaignRef": "0692cc8c5029c4dd"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Бесплатная форма относится только к рассылке, допуск к случайному призу платный."
+    },
+    {
+      "id": "7e01545d38a0be95",
+      "campaignRef": "7e01545d38a0be95",
+      "title": "Материал 072",
+      "language": "ru",
+      "category": "free_mail_entry",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "74f564a1446aac31",
+          "type": "text",
+          "text": "[Вымышленная кампания «Меловой берег»] Билет на розыгрыш мольберта можно запросить бесплатно по электронной форме, ни марка, ни покупка не нужны. Финал случайный и все бесплатные билеты равны.",
+          "campaignRef": "7e01545d38a0be95"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Указан полноценный бесплатный билет без дополнительных затрат."
+    },
+    {
+      "id": "2fc6cead920ca382",
+      "campaignRef": "2fc6cead920ca382",
+      "title": "Материал 073",
+      "language": "kk",
+      "category": "stage_ambiguity",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "46f01f6b66e43f5c",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Шағын мұнара»] Үстелге қоятын сағат жүлдеге беріледі. Кіру үшін ақылы билет алу керек. Хабарламада алғашқы кезеңде жеребе болатыны айтылған. Одан өткендер финалға шығады. Финалда қазылар бола ма, әлде тағы жеребе өте ме, көрсетілмеген. Сондықтан соңғы шешімнің тәртібі әзірге белгісіз.",
+          "campaignRef": "2fc6cead920ca382"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Ақылы кіру мен алғашқы жеребе белгілі, бірақ финалдағы таңдау тәсілі жоқ."
+    },
+    {
+      "id": "56c52e63779206cf",
+      "campaignRef": "56c52e63779206cf",
+      "title": "Материал 074",
+      "language": "ru",
+      "category": "event_entry",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "54f09a35ddc04211",
+          "type": "text",
+          "text": "[Вымышленная кампания «Персиковый зал»] На вечере разыграем кресло-качалку, окончательного владельца выберем наугад из списка гостей.",
+          "campaignRef": "56c52e63779206cf"
+        },
+        {
+          "id": "c4bb307d9d1fadd4",
+          "type": "text",
+          "text": "[Вымышленная кампания «Персиковый зал»] Гостем считается только купивший входной билет, бесплатные приглашения для этой акции не предусмотрены.",
+          "campaignRef": "56c52e63779206cf"
+        },
+        {
+          "id": "daebbb2e0b9f82e9",
+          "type": "text",
+          "text": "[Вымышленная кампания «Персиковый зал»] Номер для жеребьевки выдают при проверке оплаченного билета.",
+          "campaignRef": "56c52e63779206cf"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Платный билет на мероприятие обязателен для финальной случайной жеребьевки."
+    },
+    {
+      "id": "935ff77bacbf1254",
+      "campaignRef": "935ff77bacbf1254",
+      "title": "Материал 075",
+      "language": "ru",
+      "category": "not_finalized",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "b394bf404b6f8c9b",
+          "type": "text",
+          "text": "[Вымышленная кампания «Ивовый знак»] Мы обсуждаем розыгрыш набора для резьбы. Победителя хотим выбирать случайно. Один участник команды предложил продавать значки для допуска. Другой предложил выдавать значки бесплатно. Решение еще не принято. Опубликованное объявление не открывает понятной процедуры регистрации.",
+          "campaignRef": "935ff77bacbf1254"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Проект не закрепляет действующее условие допуска."
+    },
+    {
+      "id": "6e8242b20923632f",
+      "campaignRef": "6e8242b20923632f",
+      "title": "Материал 076",
+      "language": "mixed",
+      "category": "prize_price",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "89b56775b08e5308",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Ашық қақпа»] Пылесос стоимостью 55 тысяч тенге станет призом случайной бесплатной заявки.",
+          "campaignRef": "6e8242b20923632f"
+        },
+        {
+          "id": "6e645bacd1d10b88",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Ашық қақпа»] Осы көрсетілген бағаны қатысушы төлемейді, сатып алу да қажет емес.",
+          "campaignRef": "6e8242b20923632f"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Цена описывает приз, допуск бесплатно доступен каждому."
+    },
+    {
+      "id": "21c3ee19cf370999",
+      "campaignRef": "21c3ee19cf370999",
+      "title": "Материал 077",
+      "language": "mixed",
+      "category": "entry_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "36274fe62eaf5ec7",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Жарық үстел»] Сначала выберите удобный цвет органайзера, который станет призом. Бұл байқауда бағалау комиссиясы болмайды. Участник оплачивает регистрационный взнос в 700 тенге. Без него карточка участия остается черновиком. После закрытия набора все оплаченные карточки попадут в электронный барабан. Органайзер получит случайно выпавший номер.",
+          "campaignRef": "21c3ee19cf370999"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Регистрационный взнос нужен для допуска, финальный выбор случайный."
+    },
+    {
+      "id": "7ef545a7981024a4",
+      "campaignRef": "7ef545a7981024a4",
+      "title": "Материал 078",
+      "language": "kk",
+      "category": "postwin_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "4ee615bf6c290640",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Кең аспан»] Батпырауықты бір адамға жеребемен сыйлаймыз. Қатысуға өтінім беру тегін. Тауар сатып алу талабы жоқ. Жеңімпаз жүлдені қоймадан ақысыз ала алады. Оған курьер керек болса, тек жеткізуді ұтқаннан кейін төлейді. Жеткізуге тапсырыс бермеуі жүлдені алу құқығын жоймайды.",
+          "campaignRef": "7ef545a7981024a4"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Еш төлемсіз қатысу мен самовывоз бар, кейінгі курьер ақысы допускқа қатыспайды."
+    },
+    {
+      "id": "633c25e7906e5214",
+      "campaignRef": "633c25e7906e5214",
+      "title": "Материал 079",
+      "language": "ru",
+      "category": "topup",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "3112079c2d4b888f",
+          "type": "text",
+          "text": "[Вымышленная кампания «Тихая полка»] Приз этого набора участников — электронная книга. Для входа пополните внутренний кошелек магазина минимум на 2000 тенге. Тратить зачисленные деньги сразу не требуется. Однако заявка без платного пополнения не принимается. В конце недели бот случайно выберет одну принятую заявку. Электронная книга будет передана этому участнику.",
+          "campaignRef": "633c25e7906e5214"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Обязательное платное пополнение открывает допуск к случайному финальному выбору."
+    },
+    {
+      "id": "64061347daad3129",
+      "campaignRef": "64061347daad3129",
+      "title": "Материал 080",
+      "language": "translit",
+      "category": "free_alternative",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "b7a02d2ae8ba9303",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Ainala gul»] Gul toby prizyn kezdeisoq tandalgan qatysushy alady, tolem talab etilmeidi.",
+          "campaignRef": "64061347daad3129"
+        },
+        {
+          "id": "ac8d3e67bde764c9",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Ainala gul»] Bizdin dukenge tapsyrys bermeseñ de, tegin anketany toltirip dal sol utusqa qatysasyñ.",
+          "campaignRef": "64061347daad3129"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Бесплатная анкета дает участие без заказа в магазине."
+    },
+    {
+      "id": "0e59bd6f870bcca7",
+      "campaignRef": "0e59bd6f870bcca7",
+      "title": "Материал 081",
+      "language": "kk",
+      "category": "donation",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a01c9872365dc742",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Ақ ниет»] Шам жүлдесіне кіру үшін «ерікті қолдау» деп аталған 500 теңгені бәрібір төлеу керек, төлемсіз нөмір берілмейді. Жеңімпаз нөмір соңында жеребемен анықталады.",
+          "campaignRef": "0e59bd6f870bcca7"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Несмотря на название взноса, текст прямо делает его обязательным и задает случайный финал."
+    },
+    {
+      "id": "01a5745122246353",
+      "campaignRef": "01a5745122246353",
+      "title": "Материал 082",
+      "language": "ru",
+      "category": "ordinary_sale",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "d84a2ed0506baa61",
+          "type": "text",
+          "text": "[Вымышленная кампания «Моховой берег»] Коврик продается по одной цене для всех покупателей, каждый получает выбранный размер.",
+          "campaignRef": "01a5745122246353"
+        },
+        {
+          "id": "03d60a3286287d5d",
+          "type": "text",
+          "text": "[Вымышленная кампания «Моховой берег»] Случайно распределяется только порядок упаковки заказов на складе.",
+          "campaignRef": "01a5745122246353"
+        },
+        {
+          "id": "1b3d2c07aac7c5e2",
+          "type": "text",
+          "text": "[Вымышленная кампания «Моховой берег»] Дополнительных призов и определения финального победителя у продажи нет.",
+          "campaignRef": "01a5745122246353"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Случайность касается логистики обычной продажи, призового финала нет."
+    },
+    {
+      "id": "3e5f865a6b8e7f77",
+      "campaignRef": "3e5f865a6b8e7f77",
+      "title": "Материал 083",
+      "language": "ru",
+      "category": "paid_membership",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "8449ce42693cb368",
+          "type": "text",
+          "text": "[Вымышленная кампания «Лавандовый стол»] Столик для ноутбука разыграем между участниками клуба, вступление в который стоит 2200 тенге. Вступить бесплатно нельзя, а финальный победитель выбирается наугад без учета активности.",
+          "campaignRef": "3e5f865a6b8e7f77"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Клубное членство платное и обязательно, финал случайный."
+    },
+    {
+      "id": "1aff122da3ce6d88",
+      "campaignRef": "1aff122da3ce6d88",
+      "title": "Материал 084",
+      "language": "kk",
+      "category": "guaranteed_discount",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "63862bcde40a4227",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Алақан дәм»] Тәттілерге купон алу тегін, оны 3000 теңгеден асқан тапсырыста қолданасыз. Шартты орындағандардың бәріне жеңілдік беріледі, жүлде жеребесі өткізілмейді.",
+          "campaignRef": "1aff122da3ce6d88"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Тапсырыс шегі жеңілдікті пайдалануға керек, кездейсоқ жүлде жоқ."
+    },
+    {
+      "id": "efa50cbe609945c9",
+      "campaignRef": "efa50cbe609945c9",
+      "title": "Материал 085",
+      "language": "kk",
+      "category": "receipt",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "8448cf04d89b5616",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Дәмді парақ»] Асүй таразысы дүкеннен аспаздық дәптер сатып алған адамдар арасында ойнатылады.",
+          "campaignRef": "efa50cbe609945c9"
+        },
+        {
+          "id": "36f32225d81e0df3",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Дәмді парақ»] Әр сатып алу чегі бір нөмір береді, соңында нөмірлердің бірін кездейсоқ таңдап жүлдені береміз.",
+          "campaignRef": "efa50cbe609945c9"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Сатып алу жүлдеге қатысу құқығын береді, соңғы нөмір кездейсоқ таңдалады."
+    },
+    {
+      "id": "d6d5903bed80af73",
+      "campaignRef": "d6d5903bed80af73",
+      "title": "Материал 086",
+      "language": "mixed",
+      "category": "coupon_redemption",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "d639ece1be180759",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Жеміс таң»] Купон даёт скидку на фрукты при чеке от 4 000 тг, это порог исполь-зования скидки.\nҰтыс өткізілмейді, «жеңімпаз» дегені тек купон суретіндегі әзіл.",
+          "campaignRef": "d6d5903bed80af73"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Минимальный чек нужен для обычной скидки, случайного розыгрыша нет."
+    },
+    {
+      "id": "c399bd4184eb51cb",
+      "campaignRef": "c399bd4184eb51cb",
+      "title": "Материал 087",
+      "language": "kk",
+      "category": "conflicting_payment",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "306ab337256507b4",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жусан қап»] Постта сөмке жеребесіне қатысу те-гін делінген.\nТіркеу беті сол науқанға «жарнасыз қабылданбайды» деп тұр, қай нұсқа дұрыс екені әлі хабарланбады.",
+          "campaignRef": "c399bd4184eb51cb"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Бір науқандағы тегін және міндетті жарналы кіру туралы нұсқалар қайшы."
+    },
+    {
+      "id": "68c0c5eb0f783d58",
+      "campaignRef": "68c0c5eb0f783d58",
+      "title": "Материал 088",
+      "language": "mixed",
+      "category": "mandatory_pledge",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "de77035ae1cf3a76",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Мейір қадам»] Призом будет складной самокат. Для заявки требуется обязательное денежное обещание поддержки. Бұл жай уәде емес, соманы тіркеу біткенше төлеу керек. Неоплаченные обещания из призового списка удаляются. После оплаты все номера становятся равными. В финале самокат получит один случайно вытянутый номер.",
+          "campaignRef": "68c0c5eb0f783d58"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Денежный взнос должен быть реально оплачен для допуска, финал случайный."
+    },
+    {
+      "id": "621bd021ec832e72",
+      "campaignRef": "621bd021ec832e72",
+      "title": "Материал 089",
+      "language": "translit",
+      "category": "free_alternative",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "9721bec9a190f87b",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Aspan qanat»] Oiynshyq zymyrandy random tañdalgan bir kod iesine beremiz.",
+          "campaignRef": "621bd021ec832e72"
+        },
+        {
+          "id": "298f783ebb4e8488",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Aspan qanat»] Kodty aqyly model satyp almay-aq, tegin surau arqyly aluga bolady, ol sol finalda teñ qatysady.",
+          "campaignRef": "621bd021ec832e72"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Бесплатный код участвует на равных в том же финале."
+    },
+    {
+      "id": "77c2547b64b01a2e",
+      "campaignRef": "77c2547b64b01a2e",
+      "title": "Материал 090",
+      "language": "translit",
+      "category": "unknown_admission",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a16752e891732250",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Qara qanat»] Qus beinesindegi brosh randommen bir adamga beriledi. Habarda qatysushy bolu jolyn keyin jazamyz delingen, tegin be, aqyly ma belgili emes.",
+          "campaignRef": "77c2547b64b01a2e"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Приз и случайный финал есть, условия допуска не опубликованы."
+    },
+    {
+      "id": "0c0261640fa7f834",
+      "campaignRef": "0c0261640fa7f834",
+      "title": "Материал 091",
+      "language": "kk",
+      "category": "skill",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "4968a10e278a62fe",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Іскер өрім»] Себет тоқу сайысына тіркелу тегін, ең мықты өрім иесіне құрал жиынтығы беріледі. Соңғы жеңімпазды қазылар беріктікке қарап таңдайды, жеребе жоқ.",
+          "campaignRef": "0c0261640fa7f834"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Тегін конкурс финалын қазылар шеберлікпен анықтайды."
+    },
+    {
+      "id": "739bf34ca031e2b2",
+      "campaignRef": "739bf34ca031e2b2",
+      "title": "Материал 092",
+      "language": "kk",
+      "category": "gift_price",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a3b6a8d7a7132edd",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Шалғын дәптер»] Сурет дәптерінің дүкендегі құны 9000 теңге деп көрсетілген. Бұл жүлденің анықтамалық бағасы. Қатысу үшін ол соманы төлеу керек емес. Өтінім қабылдау тегін. Бір өтінім соңында кездейсоқ таңдалады. Сол адам дәптерді сыйлық ретінде алады.",
+          "campaignRef": "739bf34ca031e2b2"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Аталған сома жүлденің бағасы ғана, өтінім тегін."
+    },
+    {
+      "id": "f3b3a5d42abe72d0",
+      "campaignRef": "f3b3a5d42abe72d0",
+      "title": "Материал 093",
+      "language": "ru",
+      "category": "tentative_rules",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "842e7f464a4a23e8",
+          "type": "text",
+          "text": "[Вымышленная кампания «Кленовый звук»] Мы готовим розыгрыш портативного радио. Черновик предлагает взнос за каждую заявку. Другой вариант предусматривает бесплатную форму. Пока ни один порядок входа не утвержден. Победителя планируем выбирать случайно. Запись в лист ожидания сейчас ничего не подтверждает.",
+          "campaignRef": "f3b3a5d42abe72d0"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Важное условие допуска пока обсуждается и окончательно не установлено."
+    },
+    {
+      "id": "3afbc03d45a715b2",
+      "campaignRef": "3afbc03d45a715b2",
+      "title": "Материал 094",
+      "language": "mixed",
+      "category": "donation",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "5ba34e3244121ef1",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Жылы орам»] Қатысу үшін қорға 1500 теңге міндетті жарна аударылады, төлемсіз анкета белсенбейді.",
+          "campaignRef": "3afbc03d45a715b2"
+        },
+        {
+          "id": "f85b8b534c249952",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Жылы орам»] Среди активных анкет случайным выбором разыграем плед, размер взноса шансы не меняет.",
+          "campaignRef": "3afbc03d45a715b2"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Міндетті жарна допускты ашады, плед иесі кездейсоқ анықталады."
+    },
+    {
+      "id": "8d5bc514aec321f2",
+      "campaignRef": "8d5bc514aec321f2",
+      "title": "Материал 095",
+      "language": "translit",
+      "category": "sale",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "fb351663f5596142",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Jumyr keshe»] Keshki paketti belgili bagaga satyp alasañ, tizimdegi sham men mayly boyau tolyq ozine beriledi. Qalgan satyp alushylarmen arada priz ushin random final bolmaidy.",
+          "campaignRef": "8d5bc514aec321f2"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Известный набор передается каждому покупателю, случайного распределения нет."
+    },
+    {
+      "id": "eb7ec2a7b1e7bdd4",
+      "campaignRef": "eb7ec2a7b1e7bdd4",
+      "title": "Материал 096",
+      "language": "kk",
+      "category": "paid_badge",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "449b8757fe7e490d",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Сары таспа»] Тігін жиынтығын жүлдеге беруге дайындадық. Қатысу үшін атаулы төсбелгіге ақы төлеу керек. Төсбелгі ақысын төлемеген өтінім қабылданбайды. Оның суретін өзіңіз салсаңыз да төлем өзгермейді. Соңғы таңдауда сурет сапасы қаралмайды. Жеребеден шыққан төсбелгі нөмірінің иесі жиынтықты алады.",
+          "campaignRef": "eb7ec2a7b1e7bdd4"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Ақылы төсбелгі допускты ашады, финал шеберлікке тәуелсіз жеребемен өтеді."
+    },
+    {
+      "id": "01e4a1ce328485d3",
+      "campaignRef": "01e4a1ce328485d3",
+      "title": "Материал 097",
+      "language": "ru",
+      "category": "entry_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "769d409a6972caf6",
+          "type": "text",
+          "text": "[Вымышленная кампания «Лунная коробка»] Заявка на колонку идёт в розы-грыш только после взноса 1 200 тг.\nБесплатных мест нет, ребят; в конце рандомайзер выберет победителя из оплаченных заявок.",
+          "campaignRef": "01e4a1ce328485d3"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Несмотря на перенос и разговорную речь, обязательный взнос и случайный финал указаны явно."
+    },
+    {
+      "id": "2516f9598540288c",
+      "campaignRef": "2516f9598540288c",
+      "title": "Материал 098",
+      "language": "ru",
+      "category": "rules_superseded",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "1a47fa7d3b91f8b6",
+          "type": "text",
+          "text": "[Вымышленная кампания «Хвойный свет»] Архивный анонс обещал бесплатный вход на розыгрыш торшера, но он помечен как отмененный.",
+          "campaignRef": "2516f9598540288c"
+        },
+        {
+          "id": "a1f3b0991df40b11",
+          "type": "text",
+          "text": "[Вымышленная кампания «Хвойный свет»] Действуют новые окончательные правила: для допуска обязательно купить регистрационную открытку, бесплатные заявки не участвуют.",
+          "campaignRef": "2516f9598540288c"
+        },
+        {
+          "id": "7065365add5c8762",
+          "type": "text",
+          "text": "[Вымышленная кампания «Хвойный свет»] После регистрации торшер получит один случайно выбранный номер купленной открытки.",
+          "campaignRef": "2516f9598540288c"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Отмена старой версии явно разрешена, актуальные правила требуют покупку и случайный финал."
+    },
+    {
+      "id": "444919a0e5164439",
+      "campaignRef": "444919a0e5164439",
+      "title": "Материал 099",
+      "language": "mixed",
+      "category": "unclear_requirement",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a2b40d949e3b75e7",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Айқын жол»] Разыграем дорожную подушку, победителя выберем случайно.",
+          "campaignRef": "444919a0e5164439"
+        },
+        {
+          "id": "5f20d616761cd918",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Айқын жол»] Для заявки указан пункт «поддержка проекта», бірақ оның міндетті төлем екені не ерікті көмек екені түсіндірілмеген.",
+          "campaignRef": "444919a0e5164439"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Способ финала известен, обязательность денежной поддержки не раскрыта."
+    },
+    {
+      "id": "f988cc76c8ed4c7b",
+      "campaignRef": "f988cc76c8ed4c7b",
+      "title": "Материал 100",
+      "language": "kk",
+      "category": "unknown_final",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "d8500bf397454b2e",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Сәлем сандық»] Қобдиша жүлдесіне қатысу үшін 800 теңге төлеу қажет.",
+          "campaignRef": "f988cc76c8ed4c7b"
+        },
+        {
+          "id": "cd484af0c40a9468",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Сәлем сандық»] Соңғы жеңімпазды қалай анықтайтынымыз келесі хабарламада айтылады, қазір тек өтінім жинап жатырмыз.",
+          "campaignRef": "f988cc76c8ed4c7b"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Ақылы кіру белгілі, бірақ соңғы жеңімпазды анықтау тәсілі жоқ."
+    },
+    {
+      "id": "32169496e3a97c78",
+      "campaignRef": "32169496e3a97c78",
+      "title": "Материал 101",
+      "language": "mixed",
+      "category": "paid_assessment",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "eab42b2bde2f2dd2",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Епті қадам»] Приз для этого набора — спортивная сумка. Сначала участник оплачивает тест на координацию. Тест нәтижесі жүлдеге әсер етпейді. Но без оплаты теста участника не вносят в ведомость. В финале ведущий случайно выберет одну строку ведомости. Сумку получит человек из этой строки даже с нулевым результатом.",
+          "campaignRef": "32169496e3a97c78"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Тест оплачивается для допуска, а финал зависит только от случайного выбора."
+    },
+    {
+      "id": "48ced964330951a3",
+      "campaignRef": "48ced964330951a3",
+      "title": "Материал 102",
+      "language": "translit",
+      "category": "purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "df32e82ddc284756",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Qumsaq nan»] Toster ushin utusqa tek nan jinaqyn satyp algan kunderin chekterin qabyldaimyz. Finaldy zherebede kezdeisoq bir chek alynady da, toster sol adamga beriledi.",
+          "campaignRef": "48ced964330951a3"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Покупка набора обязательна, финальный приз выбирается жеребьевкой."
+    },
+    {
+      "id": "a1c3881b37c95819",
+      "campaignRef": "a1c3881b37c95819",
+      "title": "Материал 103",
+      "language": "kk",
+      "category": "purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "0467a2922f72e6d9",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Көк қорап»] Термосты ұтып алғың келсе, осы науқанның шай жиынтығын сатып алып, чекті тіркеуің керек.",
+          "campaignRef": "a1c3881b37c95819"
+        },
+        {
+          "id": "317d1cc4a7985fa6",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Көк қорап»] Тегін өтінім қабылданбайды, тіркелген чектердің бірін соңында жеребемен таңдаймыз.",
+          "campaignRef": "a1c3881b37c95819"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Шай сатып алу кіру шарты, жүлделі термос соңғы жеребемен беріледі."
+    },
+    {
+      "id": "e1683b96302d947e",
+      "campaignRef": "e1683b96302d947e",
+      "title": "Материал 104",
+      "language": "translit",
+      "category": "skill",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "36b58673427ba71d",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Oner izi»] Qol oner baigeisine kiru tegin, priz — quraldar zhinagy. Qazylar eñ sapaly jumysty tandaidy, songy kezdeisoq tandau bolmaidy.",
+          "campaignRef": "e1683b96302d947e"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Жеңімпазды сапа бойынша қазылар анықтайды, кіру тегін."
+    },
+    {
+      "id": "1b2c5d34030990cf",
+      "campaignRef": "1b2c5d34030990cf",
+      "title": "Материал 105",
+      "language": "ru",
+      "category": "voucher_purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "74b36ab0054e32d0",
+          "type": "text",
+          "text": "[Вымышленная кампания «Зимняя ветка»] Среди держателей ваучеров подарим один обогреватель. Ваучер на будущую покупку стоит 4000 тенге. Для участия его необходимо купить заранее. Бесплатный запрос номера не предусмотрен. Сам ваучер сохраняет номинал и после объявления результата. Обогреватель получит держатель ваучера, чей код компьютер случайно выберет в финале.",
+          "campaignRef": "1b2c5d34030990cf"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Платный ваучер обязателен для допуска к отдельному случайному призу."
+    },
+    {
+      "id": "c0f04b6cedacb259",
+      "campaignRef": "c0f04b6cedacb259",
+      "title": "Материал 106",
+      "language": "ru",
+      "category": "subscription",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "dfd518a2f21a7a05",
+          "type": "text",
+          "text": "[Вымышленная кампания «Бумажный берег»] Мы собрали коробку блокнотов для одного подписчика. Оформить платную подписку нужно до пятницы. Льготной или бесплатной заявки для этого розыгрыша нет. Достаточно оплатить один месяц, продление после эфира не требуется. Ведущий перемешает карточки всех оплативших и вытянет одну. Владелец этой карточки получит всю коробку.",
+          "campaignRef": "c0f04b6cedacb259"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Оплаченная подписка обязательна, коробку разыгрывают случайной вытяжкой."
+    },
+    {
+      "id": "ae80a351878f23aa",
+      "campaignRef": "ae80a351878f23aa",
+      "title": "Материал 107",
+      "language": "mixed",
+      "category": "preliminary_final_conflict",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "93ca1f75093c9788",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Мөлдір із»] Вход на розыгрыш экшн-камеры платный, первый этап случайно отберет десять заявок.",
+          "campaignRef": "ae80a351878f23aa"
+        },
+        {
+          "id": "108d1a66ae8221b0",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Мөлдір із»] Финал туралы тек «жеңімпазды шешеміз» делінген, қазының бағасы ма әлде екінші жеребе ме — белгісіз.",
+          "campaignRef": "ae80a351878f23aa"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Предварительный случайный отбор не раскрывает способ окончательного выбора."
+    },
+    {
+      "id": "496ecf2a41294e53",
+      "campaignRef": "496ecf2a41294e53",
+      "title": "Материал 108",
+      "language": "ru",
+      "category": "fee_purpose",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "021d2b0cba0317c2",
+          "type": "text",
+          "text": "[Вымышленная кампания «Кедровое письмо»] Студия объявила розыгрыш кожаного чехла. Случайный номер назовут в пятницу. В анкете есть строка про 1000 тенге за конверт. Она не объясняет, обязателен ли конверт для допуска. Возможно, речь идет только о доставке уже выигранного чехла. Окончательных правил рядом нет.",
+          "campaignRef": "496ecf2a41294e53"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Неясно, относится ли сумма к обязательному входу или к доставке после выигрыша."
+    },
+    {
+      "id": "c4e14ec06611b367",
+      "campaignRef": "c4e14ec06611b367",
+      "title": "Материал 109",
+      "language": "mixed",
+      "category": "unclear_selection",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "ccd64a66c2c50fc2",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Терең өріс»] Купившие набор семян смогут претендовать на теплицу. Финалда «самый удачный участник» получит приз, бірақ бұл жеребе ме әлде өнім сапасын бағалау ма, ашып жазылмаған.",
+          "campaignRef": "c4e14ec06611b367"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Формулировка про удачу не устанавливает случайный либо экспертный способ финала."
+    },
+    {
+      "id": "e7631cc7c55ed1eb",
+      "campaignRef": "e7631cc7c55ed1eb",
+      "title": "Материал 110",
+      "language": "kk",
+      "category": "booking_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "6aee7c0418f63c98",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Кең көше»] Велосипед жүлдесінің қатысушы нөмірін алу үшін қайтарылмайтын бронь ақысын төлеу қажет. Броні төленген нөмірлер арасынан соңында біреуін кездейсоқ таңдаймыз.",
+          "campaignRef": "e7631cc7c55ed1eb"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Бронь ақысы міндетті, велосипед соңғы кездейсоқ нөмірге беріледі."
+    },
+    {
+      "id": "cb9b0e633134df71",
+      "campaignRef": "cb9b0e633134df71",
+      "title": "Материал 111",
+      "language": "kk",
+      "category": "conflicting_final",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "c14d5babd6e3f49c",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Қарлы көпір»] Ақылы билетпен кіретін сағат жүлдесінің финалы бір постта «жере-бе» делінген.\nСол науқанның келесі парағында қазылар шешеді деп тұр, қайсысы соңғы ереже екені жоқ.",
+          "campaignRef": "cb9b0e633134df71"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Ақылы кіру белгілі, бірақ финалдың кездейсоқ не қазылық екені қайшы."
+    },
+    {
+      "id": "c073553f538fb243",
+      "campaignRef": "c073553f538fb243",
+      "title": "Материал 112",
+      "language": "ru",
+      "category": "sale_gift_everyone",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "2c9294cfc1f79b7e",
+          "type": "text",
+          "text": "[Вымышленная кампания «Терракотовый дом»] Купивший чайник за указанную цену получает этот чайник и одну мерную ложку в подарок.",
+          "campaignRef": "c073553f538fb243"
+        },
+        {
+          "id": "f5237dc1d3e613b1",
+          "type": "text",
+          "text": "[Вымышленная кампания «Терракотовый дом»] Ложка положена каждому заказу, пока она значится в наличии.",
+          "campaignRef": "c073553f538fb243"
+        },
+        {
+          "id": "56dd28ba3af5570d",
+          "type": "text",
+          "text": "[Вымышленная кампания «Терракотовый дом»] Отдельного призера не определяем, очереди на случайный выбор нет.",
+          "campaignRef": "c073553f538fb243"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Обычная покупка с гарантированным подарком каждому покупателю не содержит случайного финала."
+    },
+    {
+      "id": "c8181cbce7193b03",
+      "campaignRef": "c8181cbce7193b03",
+      "title": "Материал 113",
+      "language": "translit",
+      "category": "purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "cb3022996ade942a",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Orman alań»] Portativdi pechti utuga tek aqyly piknik jinaqyn satyp algan adamdar qatysady. Songy randomda chekterdin bireui shygady, pech sol chektin iesine tiesili.",
+          "campaignRef": "c8181cbce7193b03"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Покупка набора необходима для участия, окончательный выбор случайный."
+    },
+    {
+      "id": "099095fd4af1b542",
+      "campaignRef": "099095fd4af1b542",
+      "title": "Материал 114",
+      "language": "ru",
+      "category": "basket_purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a2198b38dbc4e84e",
+          "type": "text",
+          "text": "[Вымышленная кампания «Вишневый круг»] Чтоб попасть в список на блендер, надо купить нашу фруктовую корзину, это обяза-тельно.\nПотом бот рандомно вытащит один чек, его хозяину и отдадим приз.",
+          "campaignRef": "099095fd4af1b542"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Обязательная покупка и случайное получение приза указаны, перенос не меняет смысла."
+    },
+    {
+      "id": "8b65908711ebd26f",
+      "campaignRef": "8b65908711ebd26f",
+      "title": "Материал 115",
+      "language": "mixed",
+      "category": "prize_value",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "62d25587c9bf3a32",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Мөлдір құты»] На фотографии показан дозатор для мыла. Под ним стоит его рыночная цена. Бұл қатысу жарнасы емес. Чтобы претендовать на дозатор, заполните бесплатную форму. В конце мы случайно выберем одну форму. Ни победителю, ни остальным участникам цену дозатора платить не придется.",
+          "campaignRef": "8b65908711ebd26f"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Сумма относится к стоимости приза при явно бесплатном участии."
+    },
+    {
+      "id": "3c5a8e55dd7d1fa8",
+      "campaignRef": "3c5a8e55dd7d1fa8",
+      "title": "Материал 116",
+      "language": "ru",
+      "category": "ordinary_sale",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "3b97caeda0bbaef5",
+          "type": "text",
+          "text": "[Вымышленная кампания «Ольховый дом»] Кресло стоит 42 тысячи тенге, при покупке вы сразу получаете выбранное кресло.",
+          "campaignRef": "3c5a8e55dd7d1fa8"
+        },
+        {
+          "id": "2c16f90237f2bb56",
+          "type": "text",
+          "text": "[Вымышленная кампания «Ольховый дом»] Число заказов ограничено наличием, никакого выбора победителя не будет.",
+          "campaignRef": "3c5a8e55dd7d1fa8"
+        },
+        {
+          "id": "a339716a66650e02",
+          "type": "text",
+          "text": "[Вымышленная кампания «Ольховый дом»] Слово «приз» на старой витрине было названием расцветки ткани.",
+          "campaignRef": "3c5a8e55dd7d1fa8"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Описана обычная продажа конкретного товара без случайного распределения."
+    },
+    {
+      "id": "5637e1897dfabe60",
+      "campaignRef": "5637e1897dfabe60",
+      "title": "Материал 117",
+      "language": "translit",
+      "category": "jury",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "3bb0179513d136b6",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Jas orun»] Zhoba baigeisine qatysu aqyly, priz — jumys oryndygy. Finaldy qazylar ergonomika men esepke qarap sheshedi, zherebe de random da qoldanbaidy.",
+          "campaignRef": "5637e1897dfabe60"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Платное участие завершается оценкой проекта без случайности."
+    },
+    {
+      "id": "0e79b93976361714",
+      "campaignRef": "0e79b93976361714",
+      "title": "Материал 118",
+      "language": "kk",
+      "category": "ordinary_rental",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "1f3cc20d4c7cadc0",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Баяу самал»] Желдеткішті екі күнге жалға алу ақысы көрсетілген, төлем жасасаңыз сол желдеткішті пайдаланасыз. Бұл келісімде жүлде де, кездейсоқ жеңімпаз да жоқ.",
+          "campaignRef": "0e79b93976361714"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Ақылы жалдау кәдімгі қызмет болып табылады, ұтыс механизмі жоқ."
+    },
+    {
+      "id": "b10e44fb761dc723",
+      "campaignRef": "b10e44fb761dc723",
+      "title": "Материал 119",
+      "language": "ru",
+      "category": "skill",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "2bc3a8671c39416e",
+          "type": "text",
+          "text": "[Вымышленная кампания «Точный узор»] Вышитый фартук получит автор лучшей работы. Участникам нужно прислать собственный орнамент. За прием работы ничего не берём. Два мастера независимо оценят аккуратность и сочетание цветов. При равенстве баллов они сравнят сложность стежков. Монетки, генератора и жеребьевки в финале нет.",
+          "campaignRef": "b10e44fb761dc723"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Финал определяется качеством работы и правилами разрешения ничьей без случайности."
+    },
+    {
+      "id": "af3842b9de9e2f4d",
+      "campaignRef": "af3842b9de9e2f4d",
+      "title": "Материал 120",
+      "language": "translit",
+      "category": "conflicting_versions",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "df2dff974117baf6",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Kum dala»] Bir habarda ryukzak random arqyly tek satyp alushylarga beriledi delingen. Sol nauqannyn basqa betinde satyp alu mindetti emes dep tur, qaysy ereje kushinde ekeni joq.",
+          "campaignRef": "af3842b9de9e2f4d"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Версии одной кампании противоречат по обязательности покупки."
+    },
+    {
+      "id": "a7cc4ef108e27487",
+      "campaignRef": "a7cc4ef108e27487",
+      "title": "Материал 121",
+      "language": "kk",
+      "category": "free_entry",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "83f6984f6ef4fd00",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Таза әуен»] Құлаққапты кездейсоқ таңдаумен сыйлаймыз, өтінім қалдыру тегін. Демеушінің дүкенінен бірдеңе алу талап етілмейді.",
+          "campaignRef": "a7cc4ef108e27487"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Кездейсоқ жүлде болғанымен кіру анық тегін."
+    },
+    {
+      "id": "0ca79302199aa89b",
+      "campaignRef": "0ca79302199aa89b",
+      "title": "Материал 122",
+      "language": "mixed",
+      "category": "purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "f5a015680c1372b5",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Жұмыр ағаш»] Купившие обычную деревянную подставку входят в розыгрыш мини-печи автоматически, без покупки участия нет. Финалда чек нөмірлерінің бірін кездейсоқ шығарамыз.",
+          "campaignRef": "0ca79302199aa89b"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Обычный товар покупают для допуска, финал определяется случайным номером чека."
+    },
+    {
+      "id": "f6a69edb3b85788c",
+      "campaignRef": "f6a69edb3b85788c",
+      "title": "Материал 123",
+      "language": "ru",
+      "category": "membership",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "ed9e453a58fd9653",
+          "type": "text",
+          "text": "[Вымышленная кампания «Глиняный круг»] Розыгрыш гончарного набора открыт только участникам, купившим месячный клубный пропуск.",
+          "campaignRef": "f6a69edb3b85788c"
+        },
+        {
+          "id": "60372babfa04b977",
+          "type": "text",
+          "text": "[Вымышленная кампания «Глиняный круг»] Бесплатного статуса у клуба нет, сам набор входит в призовой фонд.",
+          "campaignRef": "f6a69edb3b85788c"
+        },
+        {
+          "id": "75f1575e6beef031",
+          "type": "text",
+          "text": "[Вымышленная кампания «Глиняный круг»] Когда регистрация закроется, победителя определим случайной вытяжкой из списка действующих пропусков.",
+          "campaignRef": "f6a69edb3b85788c"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Платный клубный пропуск обязателен и финальный победитель определяется случайно."
+    },
+    {
+      "id": "2538a4352ca8f258",
+      "campaignRef": "2538a4352ca8f258",
+      "title": "Материал 124",
+      "language": "mixed",
+      "category": "free_purchase_optional",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "80f4d6e218ec682c",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Жұпар бұрыш»] Набор специй будет призом случайного номера. Мы раздаем эти номера на открытой встрече. Кіру де, нөмір алу да тегін. Желающие могут купить баночку приправы за соседним столом. Номер им выдадут один, как и тем, кто ничего не купил. В финале все номера положат в один барабан.",
+          "campaignRef": "2538a4352ca8f258"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Покупка приправ добровольна, все получают одинаковый бесплатный допуск."
+    },
+    {
+      "id": "6a45489e3bc77c77",
+      "campaignRef": "6a45489e3bc77c77",
+      "title": "Материал 125",
+      "language": "kk",
+      "category": "partial_rule",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "c052794c36a0ab8a",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Аққу белес»] Шағын сөре жүлдесіне соңғы нөмір жере-бемен шығады.\nЕрежеде «қатысу үшін ... төлеу қажет емес» деген жол үзілген, қандай төлем жоқ екені және басқа жарна бар-жоғы белгісіз.",
+          "campaignRef": "6a45489e3bc77c77"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Қиылған терістеу барлық кіру төлемінің жоқтығын растауға жеткіліксіз."
+    },
+    {
+      "id": "d4a6a57cf7e746cb",
+      "campaignRef": "d4a6a57cf7e746cb",
+      "title": "Материал 126",
+      "language": "ru",
+      "category": "transport_ticket",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "e8089289228e1d97",
+          "type": "text",
+          "text": "[Вымышленная кампания «Пыльный маршрут»] На прогулке разыграем туристический стул. До финала допускаются только пассажиры, оплатившие билет на эту прогулку. Пройти по маршруту бесплатно и получить номер нельзя. Билет покупается как обычная транспортная услуга. После возвращения в автобусе случайно вытащат один пассажирский номер. Его владелец станет окончательным обладателем стула.",
+          "campaignRef": "d4a6a57cf7e746cb"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Покупка транспортного билета обязательна для участия, стул получают случайно."
+    },
+    {
+      "id": "320fb93e3fead9e5",
+      "campaignRef": "320fb93e3fead9e5",
+      "title": "Материал 127",
+      "language": "mixed",
+      "category": "free_membership",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "4beda179aaddbe82",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Өрік орын»] Владельца пуфа определит жеребе среди членов сообщества. Қауымдастыққа қосылу толық тегін, ақылы деңгей де, міндетті сатып алу да жоқ.",
+          "campaignRef": "320fb93e3fead9e5"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Членство бесплатно, поэтому случайный финал не связан с оплатой входа."
+    },
+    {
+      "id": "cf227d07dcba4652",
+      "campaignRef": "cf227d07dcba4652",
+      "title": "Материал 128",
+      "language": "kk",
+      "category": "voluntary_donation",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "d63e71aa7ad03220",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Мата толқын»] Өтінім те-гін, жүлде ретінде көрпе жеребемен беріледі.\nҚайырымдылыққа ақша салу өз еркіңізде, салмасаңыз да тізімнен шығармаймыз.",
+          "campaignRef": "cf227d07dcba4652"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Ерікті қайырымдылық жарнасы тегін қатысуды шектемейді."
+    },
+    {
+      "id": "0204aab41311f644",
+      "campaignRef": "0204aab41311f644",
+      "title": "Материал 129",
+      "language": "mixed",
+      "category": "voluntary_donation",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a41d9b033910ad93",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Ауыл шырағы»] Наш розыгрыш садового фонаря бесплатный, выбор владельца случайный. «Сатып алу міндетті» деген жол ескі макеттен қалған және ресми түрде жойылды, қазіргі ереже бойынша еш төлем керек емес.",
+          "campaignRef": "0204aab41311f644"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Текущие правила явно отменяют старое требование покупки и устанавливают бесплатный вход."
+    },
+    {
+      "id": "d784167747c57ae6",
+      "campaignRef": "d784167747c57ae6",
+      "title": "Материал 130",
+      "language": "mixed",
+      "category": "voluntary_donation",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "f50fefc96e13f780",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Жұмсақ таң»] Мы случайно выберем владельца одеяла среди бесплатных заявок, пожертвование можно пропустить.",
+          "campaignRef": "d784167747c57ae6"
+        },
+        {
+          "id": "5da003a01f931b0f",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Жұмсақ таң»] Ақша жібермеген өтінімдер де бірдей қатысады, донат жүлдеге жол ашпайды.",
+          "campaignRef": "d784167747c57ae6"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Добровольный донат не влияет на бесплатный допуск."
+    },
+    {
+      "id": "f8ed319c8800cd19",
+      "campaignRef": "f8ed319c8800cd19",
+      "title": "Материал 131",
+      "language": "ru",
+      "category": "truncated_rules",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "133636168d42a967",
+          "type": "text",
+          "text": "[Вымышленная кампания «Рябиновый свет»] Разы-граем лампу в воскресенье, финал рандомом.\nВ карточке видно «для участия нужен оплаченный…», но конец строки с названием требования утрачен; про бесплатный путь ничего не сохранилось.",
+          "campaignRef": "f8ed319c8800cd19"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Обрезанный текст не позволяет установить точное условие допуска."
+    },
+    {
+      "id": "f5d068a215faaae0",
+      "campaignRef": "f5d068a215faaae0",
+      "title": "Материал 132",
+      "language": "mixed",
+      "category": "paid_sticker",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "c66a6288c78518de",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Қызыл өрім»] Победителя набора маркеров определим случайно из номеров наклеек. Жарамды нөмір тек осы науқанның ақылы жапсырмасын сатып алғанға беріледі, ақысыз нөмір жоқ.",
+          "campaignRef": "f5d068a215faaae0"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Платная наклейка обязательна для действующего номера, финал случайный."
+    },
+    {
+      "id": "dd097ef95d0dfab0",
+      "campaignRef": "dd097ef95d0dfab0",
+      "title": "Материал 133",
+      "language": "translit",
+      "category": "mandatory_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "5b9dc10f4064eb75",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Altyn kezek»] Qatysu nomeri 800 tenge, ony tolemei mini printernin utusyna kiru joq. Songynda generator kezdeisoq bir nomerdi shygaryp, printerdi sonyn iesine beredi.",
+          "campaignRef": "dd097ef95d0dfab0"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Оплата номера обязательна для допуска, мини-принтер разыгрывается случайно."
+    },
+    {
+      "id": "4cd1c841092c195f",
+      "campaignRef": "4cd1c841092c195f",
+      "title": "Материал 134",
+      "language": "kk",
+      "category": "quoted_news",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "9c6554a8ab6326ef",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Кешкі шолу»] Мәтін шолуында бөгде науқанның «ваучер сатып ал да, жеребемен шәйнек ұт» деген сөйлемі мысал ретінде келтірілген.",
+          "campaignRef": "4cd1c841092c195f"
+        },
+        {
+          "id": "6b7b93d04d8fb642",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Кешкі шолу»] Шолу авторы ваучер сатпайды, осы хабарлама арқылы қатысуға шақырмайды және өз жүлдесін жарияламаған.",
+          "campaignRef": "4cd1c841092c195f"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Бұл бөтен жарнаманы талдау, өзінің белсенді науқаны жоқ."
+    },
+    {
+      "id": "936a8439b73fe954",
+      "campaignRef": "936a8439b73fe954",
+      "title": "Материал 135",
+      "language": "ru",
+      "category": "equal_free_route",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "b86c97a87be5eef8",
+          "type": "text",
+          "text": "[Вымышленная кампания «Оранжевый склон»] Термокружку выберем для случайной заявки из единой базы участников.",
+          "campaignRef": "936a8439b73fe954"
+        },
+        {
+          "id": "859933d119ec45e4",
+          "type": "text",
+          "text": "[Вымышленная кампания «Оранжевый склон»] Чек от нашей лавки можно использовать как заявку, но такой же номер бесплатно выдается через форму без покупки.",
+          "campaignRef": "936a8439b73fe954"
+        },
+        {
+          "id": "ce1433882c943117",
+          "type": "text",
+          "text": "[Вымышленная кампания «Оранжевый склон»] Номера с чека и из формы участвуют в одном финале с равной вероятностью.",
+          "campaignRef": "936a8439b73fe954"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Равноправный бесплатный вход в тот же финал указан явно."
+    },
+    {
+      "id": "c71045a875c4c5c7",
+      "campaignRef": "c71045a875c4c5c7",
+      "title": "Материал 136",
+      "language": "kk",
+      "category": "activation_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "961265bf7088f285",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Көгілдір сақина»] Жарық сақинасын ұтуға берілген кодты 300 теңге төлеп белсендіру қажет, белсенді емес код финалға кірмейді. Жүлде соңында белсенді кодтардың арасынан кездейсоқ таңдалған біреуіне беріледі.",
+          "campaignRef": "c71045a875c4c5c7"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Кодты ақылы белсендіру міндетті, соңғы код кездейсоқ таңдалады."
+    },
+    {
+      "id": "fb7861cccaea4e4c",
+      "campaignRef": "fb7861cccaea4e4c",
+      "title": "Материал 137",
+      "language": "ru",
+      "category": "conflicting_version",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "2bb0c9e80a979218",
+          "type": "text",
+          "text": "[Вымышленная кампания «Вечерняя рама»] Форма на розыгрыш картины пропускает только оплативших рамку, победителя обещают определить случайно.",
+          "campaignRef": "fb7861cccaea4e4c"
+        },
+        {
+          "id": "891782baae6d3cf8",
+          "type": "text",
+          "text": "[Вымышленная кампания «Вечерняя рама»] Закрепленная инструкция к этой же кампании разрешает бесплатный номер без покупки рамки; дата вступления правил в силу не указана.",
+          "campaignRef": "fb7861cccaea4e4c"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Одна кампания имеет несовместимые указания о платном и бесплатном допуске."
+    },
+    {
+      "id": "feb46caf5d5b2183",
+      "campaignRef": "feb46caf5d5b2183",
+      "title": "Материал 138",
+      "language": "kk",
+      "category": "jury",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a136d3de0922a4ca",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Ақ сәуле»] Мүсін байқауының жүлдесі — айналмалы тұғыр, тіркеу жарнасы алынады.",
+          "campaignRef": "feb46caf5d5b2183"
+        },
+        {
+          "id": "c196d00efda0b600",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Ақ сәуле»] Қазылар соңғы мүсінді пропорция мен орындалуына қарай таңдайды, кездейсоқ тәсіл тіпті тең баллда да қолданылмайды.",
+          "campaignRef": "feb46caf5d5b2183"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Соңғы шешім шеберлікке негізделген, кездейсоқтық жоқ."
+    },
+    {
+      "id": "30ba9a5c003cfb4e",
+      "campaignRef": "30ba9a5c003cfb4e",
+      "title": "Материал 139",
+      "language": "mixed",
+      "category": "required_support",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "be69be77157d1180",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Қамқор құмыра»] На карточке написано «поддержи проект и получи шанс на кухонный комбайн», это наше текущее предложение. Қолдау жарнасынсыз өтінімді қабылдамаймыз, финалда төленген өтінімдердің бірін кездейсоқ таңдаймыз.",
+          "campaignRef": "30ba9a5c003cfb4e"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Собственное активное предложение требует взнос для случайного финала."
+    },
+    {
+      "id": "d542b0d7ebe49f7f",
+      "campaignRef": "d542b0d7ebe49f7f",
+      "title": "Материал 140",
+      "language": "translit",
+      "category": "ticket",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "3dd9ff84b3c252d4",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Kok beldem»] Demalys gamagyn utudyn jalgyz joly — 750 tengelik qatysu biletin satyp alu.",
+          "campaignRef": "d542b0d7ebe49f7f"
+        },
+        {
+          "id": "f90bdd8ed1d8e9d7",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Kok beldem»] Finalda satylgan biletterdin bireui kezdeisoq tandalady, gamak sol numnyn iesine beriledi.",
+          "campaignRef": "d542b0d7ebe49f7f"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Единственный путь — платный билет, гамак получает случайный финальный номер."
+    },
+    {
+      "id": "8f3f14f832f51505",
+      "campaignRef": "8f3f14f832f51505",
+      "title": "Материал 141",
+      "language": "kk",
+      "category": "paid_newspaper",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "b21342d188c888f6",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Күнделік із»] Жазу машинкасы ұтысына осы арнайы нөмірдегі ақылы газетті сатып алғандар ғана қатысады. Газеттегі кодтардың бірін финалда кездейсоқ таңдап, машинканы сол оқырманға береміз.",
+          "campaignRef": "8f3f14f832f51505"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Газетті сатып алу міндетті, жүлдені соңғы кездейсоқ код анықтайды."
+    },
+    {
+      "id": "726716668a2c9e83",
+      "campaignRef": "726716668a2c9e83",
+      "title": "Материал 142",
+      "language": "mixed",
+      "category": "required_donation",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "4eb2317a370c612f",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Ізгі жарық»] Мы пишем «донат за лампу», но это именно обязательный платеж за место в нашем розыгрыше. Төлемсіз адам тізімге қосылмайды, соңында бір есімді кездейсоқ таңдап жүлдені береміз.",
+          "campaignRef": "726716668a2c9e83"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Название доната не отменяет прямо установленную обязательность оплаты и случайный финал."
+    },
+    {
+      "id": "0beeea0374e723de",
+      "campaignRef": "0beeea0374e723de",
+      "title": "Материал 143",
+      "language": "translit",
+      "category": "ordinary_purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "8c3875f78caee7fb",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Zhuban as»] As dayyndau jinaǵyn satyp alsañ, ishindegi tizimde turghan azyqty tolyq alasyñ. Priz bolinetin kezdeisoq zherebe joq, bul belgili tauardy satu.",
+          "campaignRef": "0beeea0374e723de"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Продажа заранее определенного набора не содержит случайного приза."
+    },
+    {
+      "id": "53f6ec95b136d130",
+      "campaignRef": "53f6ec95b136d130",
+      "title": "Материал 144",
+      "language": "kk",
+      "category": "paid_points",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "050b5a20d998674d",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Таң нүктесі»] Планшет жүлдесіне өтінім беру үшін алдымен 1000 теңгеге ұпай топтамасын сатып алыңыз, тегін ұпай бұл науқанда жүрмейді.",
+          "campaignRef": "53f6ec95b136d130"
+        },
+        {
+          "id": "f714b865f71c2685",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Таң нүктесі»] Өтінім бергендердің бірін соңында кездейсоқ таңдаймыз, көп ұпай сатып алу міндетті емес.",
+          "campaignRef": "53f6ec95b136d130"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Сатып алынған ұпайлар ғана кіру құқығын береді, соңғы таңдау кездейсоқ."
+    },
+    {
+      "id": "db20c9a9f826f73c",
+      "campaignRef": "db20c9a9f826f73c",
+      "title": "Материал 145",
+      "language": "ru",
+      "category": "voluntary_donation",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "ef2eaace6c57758c",
+          "type": "text",
+          "text": "[Вымышленная кампания «Теплый бумажник»] Разыграем кошелек среди посетителей открытого мастер-класса. Вход на занятие бесплатный. Рядом будет ящик для добровольных пожертвований. Подходить к нему не обязательно. Всем посетителям выдадут одинаковый бесплатный номер для финальной жеребьевки. Размер пожертвования не записывается и ни на что не влияет.",
+          "campaignRef": "db20c9a9f826f73c"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Донат добровольный, бесплатные номера получают все посетители."
+    },
+    {
+      "id": "3294bdba003bfa04",
+      "campaignRef": "3294bdba003bfa04",
+      "title": "Материал 146",
+      "language": "ru",
+      "category": "paid_stamp",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "000db8dd901ee0be",
+          "type": "text",
+          "text": "[Вымышленная кампания «Зеленый штамп»] На утюг пустим только тех, кто купил наш штамп участ-ника за 450 тг.\nПосле закрытия продаж перемешаем все номера и наугад достанем один, ему и приз.",
+          "campaignRef": "3294bdba003bfa04"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Купленный штамп обязателен, окончательный выбор случайный."
+    },
+    {
+      "id": "4ef50c5592b96a84",
+      "campaignRef": "4ef50c5592b96a84",
+      "title": "Материал 147",
+      "language": "translit",
+      "category": "sale",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "dd76336e9d25ac12",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Qazaqsha tor»] Tor sebet 3500 tenge turady, satyp algan adam ony birden alady. Bilet te, zherebe de, songy zhengimpaz da joq.",
+          "campaignRef": "4ef50c5592b96a84"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Обычная продажа корзины не содержит конкурса или случайного приза."
+    },
+    {
+      "id": "55f47431240775bb",
+      "campaignRef": "55f47431240775bb",
+      "title": "Материал 148",
+      "language": "ru",
+      "category": "sale_voucher",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "4dcb5884f1591eb6",
+          "type": "text",
+          "text": "[Вымышленная кампания «Синий кошелек»] За 5000 тенге продаем сертификат номиналом 5000 тенге, которым оплачивают любые товары лавки. Сертификат не дает участия в конкурсе, отдельной случайной награды нет.",
+          "campaignRef": "55f47431240775bb"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Продается платежный сертификат без призового механизма."
+    },
+    {
+      "id": "7a78de1b34ebde34",
+      "campaignRef": "7a78de1b34ebde34",
+      "title": "Материал 149",
+      "language": "mixed",
+      "category": "voluntary_donation",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "b30c20e4908c4180",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Күн күрке»] Призом будет садовый тент, случайный номер выберем из бесплатных заявок. Қайырымдылық төлемі тек ұсыныс, оны жасамаған өтінім де қабылданып, сол финалға кіреді.",
+          "campaignRef": "7a78de1b34ebde34"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Донат добровольный и не ограничивает участие."
+    },
+    {
+      "id": "193de343a3893318",
+      "campaignRef": "193de343a3893318",
+      "title": "Материал 150",
+      "language": "kk",
+      "category": "free_entry",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "f47d0b32a36c61e0",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жеңіл қанат»] Қағаз ұшақ жинағының жере-бесіне тіркелу тегін.\nМіндетті жарна жоқ, «донат» батырмасын баспай-ақ өтінімді жіберуге болады.",
+          "campaignRef": "193de343a3893318"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Ерікті донатты өткізіп тегін қатысуға болады."
+    },
+    {
+      "id": "569297b9180f2c60",
+      "campaignRef": "569297b9180f2c60",
+      "title": "Материал 151",
+      "language": "translit",
+      "category": "topup",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "ae5c7a38ae05f8e1",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Sary sagat»] Qol sagatynyn utusyna kiru ushin onlain balansty aqshamen 1500 tengege tolyqtyru kerek.",
+          "campaignRef": "569297b9180f2c60"
+        },
+        {
+          "id": "c91953eac0cb5f63",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Sary sagat»] Tolyqtyrmagan qatysushyny qospaymyz, finalda barlyq rastalgan nomerdin bireuin random tandap sagat beremiz.",
+          "campaignRef": "569297b9180f2c60"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Пополнение деньгами обязательно, часы получает случайно выбранный финальный номер."
+    },
+    {
+      "id": "1ca128c572dba065",
+      "campaignRef": "1ca128c572dba065",
+      "title": "Материал 152",
+      "language": "kk",
+      "category": "prize_or_sale",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "c492c8a4e355fa12",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Көк жиек»] Постта қолсағаттың суреті тұр. Оның жанында 12000 теңге көрсетілген. Төменде «бір бақытты адамға» делінген. Бұл сағаттың сату бағасы ма, әлде ұтысқа кіру сомасы ма, жазылмаған. Кездейсоқ таңдау туралы ишара бар. Бірақ төлем мен өтінімнің байланысы түсіндірілмеген.",
+          "campaignRef": "1ca128c572dba065"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Бағаның мақсаты мен допуск механизмі анық емес, кездейсоқтық та тек ишарамен берілген."
+    },
+    {
+      "id": "7de41d38b6da23a3",
+      "campaignRef": "7de41d38b6da23a3",
+      "title": "Материал 153",
+      "language": "ru",
+      "category": "unclear_receipt",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "81fdeadc9d5c49cd",
+          "type": "text",
+          "text": "[Вымышленная кампания «Дымчатый холм»] Набор посуды разыграем рандомом; к заявке прицепите чек, ок.\nНо чей чек и обяза-тельно ли что-то покупать именно для входа, в объявлении не пояснили.",
+          "campaignRef": "7de41d38b6da23a3"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Чек упомянут, но его роль и обязательность покупки не определены."
+    },
+    {
+      "id": "3ca5a1d05804e864",
+      "campaignRef": "3ca5a1d05804e864",
+      "title": "Материал 154",
+      "language": "mixed",
+      "category": "refundable_deposit",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "043274ddd50f450e",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Алма есік»] Для участия в розыгрыше зеркала нужен регистрационный депозит. Его размер составляет 3000 тенге. Депозит кейін барлық қатысушыға қайтарылады. Однако до его внесения заявку не включают в общий список. После завершения регистрации компьютер случайно назовет одного участника. Он получит зеркало независимо от того, забрал ли уже свой депозит.",
+          "campaignRef": "3ca5a1d05804e864"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Обязательный денежный депозит до допуска образует платное условие при случайном финале."
+    },
+    {
+      "id": "ecbab8b5be59b667",
+      "campaignRef": "ecbab8b5be59b667",
+      "title": "Материал 155",
+      "language": "ru",
+      "category": "commission",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "3d1b3c951d7f9aa7",
+          "type": "text",
+          "text": "[Вымышленная кампания «Иней на стекле»] Вступительный билет на розыгрыш кофемолки стоит 1100 тенге, часть суммы составляет комиссия ведущего. Участвуют только оплатившие, победителем станет случайный номер из полного списка билетов.",
+          "campaignRef": "ecbab8b5be59b667"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Оплаченный билет обязателен, комиссия лишь дополнительное условие случайного розыгрыша."
+    },
+    {
+      "id": "ee10f46bb7a4f071",
+      "campaignRef": "ee10f46bb7a4f071",
+      "title": "Материал 156",
+      "language": "kk",
+      "category": "missing_final",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "0072756d864d232d",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жайлы шеңбер»] Жүлде ретінде үлкен кілем көрсетілген. Қатысушыға ақылы карта алу ұсынылған. Картасыз кіру болмайтыны анық жазылған. Ал жарнаманың соңғы бөлігі қиылып қалған. Жеңімпазды жеребе не қазылар анықтайтыны көрінбейді. Басқа ереже берілмеген.",
+          "campaignRef": "ee10f46bb7a4f071"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Ақылы допуск белгілі, бірақ жеңімпазды анықтау тәсілі жоғалған."
+    },
+    {
+      "id": "b5c402a762ff8071",
+      "campaignRef": "b5c402a762ff8071",
+      "title": "Материал 157",
+      "language": "kk",
+      "category": "reservation",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "86a64b4ef2c81dcc",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Дала жастығы»] Жастық ұтысына орын брондау 600 теңге тұрады және қайтарылмайды. Ақылы броні расталған адамдардың бірін финалда жеребе арқылы таңдаймыз.",
+          "campaignRef": "b5c402a762ff8071"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Қайтарылмайтын ақылы бронь міндетті, жүлде иесі жеребемен анықталады."
+    },
+    {
+      "id": "a92080e42ee6bbc4",
+      "campaignRef": "a92080e42ee6bbc4",
+      "title": "Материал 158",
+      "language": "ru",
+      "category": "minimum_purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "fe95853e964ccb69",
+          "type": "text",
+          "text": "[Вымышленная кампания «Каштановый двор»] Набор садовых инструментов получит один из чеков, который барабан вытянет случайно.",
+          "campaignRef": "a92080e42ee6bbc4"
+        },
+        {
+          "id": "da7cddcdc6b8ff5e",
+          "type": "text",
+          "text": "[Вымышленная кампания «Каштановый двор»] В барабан принимаются только чеки за покупки от 7000 тенге, бесплатной регистрации в этой кампании нет.",
+          "campaignRef": "a92080e42ee6bbc4"
+        },
+        {
+          "id": "873d2e82b4a4161a",
+          "type": "text",
+          "text": "[Вымышленная кампания «Каштановый двор»] Покупать можно любые обычные товары магазина, сам чек дает право участия.",
+          "campaignRef": "a92080e42ee6bbc4"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Минимальная покупка обязательна для допуска, финал случайный."
+    },
+    {
+      "id": "2fc52ca15b72dc1c",
+      "campaignRef": "2fc52ca15b72dc1c",
+      "title": "Материал 159",
+      "language": "kk",
+      "category": "purchase_bundle",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "59657f626c23213c",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жеті жапырақ»] Көгал шабатын құралды ұтуға тек жеті гүлдің ақылы жиынтығын алғандар қатысады.",
+          "campaignRef": "2fc52ca15b72dc1c"
+        },
+        {
+          "id": "3a074f080541cbc1",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Жеті жапырақ»] Тауардың өзін әр сатып алушы алады, ал жалғыз жүлденің иесін финалда чек нөмірлерінен жеребемен анықтаймыз.",
+          "campaignRef": "2fc52ca15b72dc1c"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Тауарды сатып алу кіруді ашады, бөлек жүлде соңғы жеребемен беріледі."
+    },
+    {
+      "id": "a4f7bb7b1bba4839",
+      "campaignRef": "a4f7bb7b1bba4839",
+      "title": "Материал 160",
+      "language": "kk",
+      "category": "warning_quote",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "64d6055824a3f8d6",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Көрнекі сабақ»] Дәрісте «жарна төле де, кездейсоқ самокат ұт» деген ойдан шығарылған бөгде жарнаманы экранға шығардық.",
+          "campaignRef": "a4f7bb7b1bba4839"
+        },
+        {
+          "id": "f13ef301d1d81cd2",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Көрнекі сабақ»] Осы дәріс мәтінінің өзі науқан ашпайды, жарна қабылдамайды және ешкімге ұтысқа орын ұсынбайды.",
+          "campaignRef": "a4f7bb7b1bba4839"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Бөгде мысал оқу үшін келтірілген, өзінің белсенді ұтысы жоқ."
+    },
+    {
+      "id": "b88111afef409adc",
+      "campaignRef": "b88111afef409adc",
+      "title": "Материал 161",
+      "language": "kk",
+      "category": "rental",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "2eba57d0bf5630c3",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Самал сөресі»] Жүлдеге шағын кітап сөресі қойылды. Қатысушы алдымен шеберханадан құралды бір күнге жалға алуы тиіс. Жалға алу ақылы, тек қызығушылық білдіру жеткіліксіз. Төлем түбіртегі өтінімге тіркеледі. Барлық қабылданған өтінімнің нөмірі араластырылып, бір нөмір жеребемен алынады. Сол нөмірдің иесі сөрені алады.",
+          "campaignRef": "b88111afef409adc"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Ақылы жалдау өтінімді қабылдаудың шарты, сөре соңғы жеребемен беріледі."
+    },
+    {
+      "id": "5853bd2bf6afdc21",
+      "campaignRef": "5853bd2bf6afdc21",
+      "title": "Материал 162",
+      "language": "translit",
+      "category": "purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "0be6672c11f02d72",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Balausa qus»] Qus uyasyn jasauga arnalgan qural jinaǵyn utuga arnaiy tigilgen aqyly qaltany satyp algan adamdar gana qatysady. Finalda chekterdi aralastyryp birin qaramaistan alamyz, priz sol chektin iesine beriledi.",
+          "campaignRef": "5853bd2bf6afdc21"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Покупка сумки является обязательным условием случайного финала."
+    },
+    {
+      "id": "d8bd747da40be82d",
+      "campaignRef": "d8bd747da40be82d",
+      "title": "Материал 163",
+      "language": "ru",
+      "category": "purchase_status",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "ff5d4ecfe9ecf4e6",
+          "type": "text",
+          "text": "[Вымышленная кампания «Золотистый луг»] Призом следующей акции станет набор для пикника. В черновике предлагается участие по чеку. Кто-то из организаторов также предложил бесплатную запись. Согласованной версии пока нет. Сам финал хотят провести случайной вытяжкой. Сейчас опубликовано только приглашение следить за обновлениями.",
+          "campaignRef": "d8bd747da40be82d"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Обязательность покупки еще обсуждается и не закреплена."
+    },
+    {
+      "id": "11f974343f80f7c3",
+      "campaignRef": "11f974343f80f7c3",
+      "title": "Материал 164",
+      "language": "ru",
+      "category": "ticket",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "c4e4ff74e777dafc",
+          "type": "text",
+          "text": "[Вымышленная кампания «Медный фонарь»] Один билет стоит 900 тенге, без оплаченного билета заявка на лампу не попадает в список.",
+          "campaignRef": "11f974343f80f7c3"
+        },
+        {
+          "id": "ab20f3aafdcb6099",
+          "type": "text",
+          "text": "[Вымышленная кампания «Медный фонарь»] В финале программа случайно выберет один номер, владельцу достанется настольная лампа.",
+          "campaignRef": "11f974343f80f7c3"
+        },
+        {
+          "id": "d43f6b2c04d6ce11",
+          "type": "text",
+          "text": "[Вымышленная кампания «Медный фонарь»] Организатор оставляет себе часть выручки на подготовку эфира.",
+          "campaignRef": "11f974343f80f7c3"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Платный билет обязателен для допуска, лампу получает случайно выбранный участник."
+    },
+    {
+      "id": "d67fe16a09d5b0e7",
+      "campaignRef": "d67fe16a09d5b0e7",
+      "title": "Материал 165",
+      "language": "kk",
+      "category": "paid_download",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "c6f741d41d86713b",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Өрнек бет»] Фотоаппарат жүлдесіне қатысу коды тек ақылы өрнек файлын жүктеп алған адамға беріледі, тегін файлда код жоқ.",
+          "campaignRef": "d67fe16a09d5b0e7"
+        },
+        {
+          "id": "e7aa17252cd91a6e",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Өрнек бет»] Науқанның соңғы күні жарамды кодтардың бірін жеребемен алып, фотоаппаратты оның иесіне табыстаймыз.",
+          "campaignRef": "d67fe16a09d5b0e7"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Ақылы файл сатып алу жарамды кодқа қажет, соңғы жеребе жүлдені анықтайды."
+    },
+    {
+      "id": "8f825ac32280b343",
+      "campaignRef": "8f825ac32280b343",
+      "title": "Материал 166",
+      "language": "mixed",
+      "category": "active_offer_after_quote",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "e75aaf09bbe5f133",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Терезе құс»] Вчера мы разбирали чужую рекламу платных номеров, а сегодня объявляем собственный розыгрыш бинокля по правилам ниже.",
+          "campaignRef": "8f825ac32280b343"
+        },
+        {
+          "id": "ff525d40acce1b50",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Терезе құс»] Біздің науқанда нөмір тек 900 теңге төлегенге беріледі және сол төленген нөмірдің бірін финалда кездейсоқ таңдаймыз.",
+          "campaignRef": "8f825ac32280b343"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Вторая часть содержит собственное активное предложение с обязательной оплатой и случайным финалом."
+    },
+    {
+      "id": "efcb5e73c79f112b",
+      "campaignRef": "efcb5e73c79f112b",
+      "title": "Материал 167",
+      "language": "mixed",
+      "category": "digital_badge",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "93457bfce415e002",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Сары белгі»] Цифровой значок за 400 тенге дает единственный способ попасть в список на розыгрыш проектора.",
+          "campaignRef": "efcb5e73c79f112b"
+        },
+        {
+          "id": "8b6e013edb0fb5de",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Сары белгі»] Белгі алмағандар қатыспайды, тізімнен бір есімді соңында кездейсоқ шығарамыз.",
+          "campaignRef": "efcb5e73c79f112b"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Только купленный значок допускает к случайному финалу."
+    },
+    {
+      "id": "807d34eed19fd4bc",
+      "campaignRef": "807d34eed19fd4bc",
+      "title": "Материал 168",
+      "language": "ru",
+      "category": "conflicting_final",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "88b95c007050048a",
+          "type": "text",
+          "text": "[Вымышленная кампания «Сиреневый ключ»] Главная карточка обещает платный вход и случайный финальный выбор владельца синтезатора.",
+          "campaignRef": "807d34eed19fd4bc"
+        },
+        {
+          "id": "18a5d2f4d6625496",
+          "type": "text",
+          "text": "[Вымышленная кампания «Сиреневый ключ»] В приложенном положении этой же кампании сказано, что синтезатор получит лучший музыкант по оценке жюри; приоритет версии не установлен.",
+          "campaignRef": "807d34eed19fd4bc"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Две версии одной кампании противоречат по способу окончательного выбора."
+    },
+    {
+      "id": "b0472b0c05c5ca8d",
+      "campaignRef": "b0472b0c05c5ca8d",
+      "title": "Материал 169",
+      "language": "ru",
+      "category": "archived_quote",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "4d17e6763c771ee5",
+          "type": "text",
+          "text": "[Вымышленная кампания «Палевый конверт»] Архивная заметка пересказывает чужое закрытое предложение купить номер ради случайной фотокамеры. Автор заметки не принимает оплату и не приглашает в собственный розыгрыш.",
+          "campaignRef": "b0472b0c05c5ca8d"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Архивный пересказ чужой рекламы не является собственным активным предложением."
+    },
+    {
+      "id": "bb8b74283f176c51",
+      "campaignRef": "bb8b74283f176c51",
+      "title": "Материал 170",
+      "language": "mixed",
+      "category": "bundle",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "60c6a3775095c0b0",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Күнтізбе үйі»] Купите календарь из серии «Күнтізбе үйі», затем откроется участие в розыгрыше кресла. Тек сатып алушылардың кодтары барабанға түседі, соңғы код кездейсоқ алынады.",
+          "campaignRef": "bb8b74283f176c51"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Покупка календаря обязательна для участия, кресло получает случайный код."
+    },
+    {
+      "id": "18fdcd2f90834625",
+      "campaignRef": "18fdcd2f90834625",
+      "title": "Материал 171",
+      "language": "mixed",
+      "category": "jury",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "c8df9015edcbc5f1",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Алтын қағаз»] За участие в конкурсе бумажных моделей берут фиксированный оргвзнос, призом станет набор ножей.",
+          "campaignRef": "18fdcd2f90834625"
+        },
+        {
+          "id": "8a4eaed806a77c04",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Алтын қағаз»] Қазылар ең дәл жасалған модельді бағалап таңдайды, тең баллда да сапаны қайта қарайды, жеребе болмайды.",
+          "campaignRef": "18fdcd2f90834625"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Платный конкурс завершается оценкой навыка без случайного победителя."
+    },
+    {
+      "id": "92196449da319a1e",
+      "campaignRef": "92196449da319a1e",
+      "title": "Материал 172",
+      "language": "ru",
+      "category": "paid_jury",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "b3573243a6cad675",
+          "type": "text",
+          "text": "[Вымышленная кампания «Тонкая нить»] За участие в конкурсе авторской игрушки берется организационный взнос, приз — швейная машинка. Лучшего автора определит жюри по качеству изделия, случайного выбора и жеребьевки нет.",
+          "campaignRef": "92196449da319a1e"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "При платном участии финал полностью зависит от оценки навыка, случайности нет."
+    },
+    {
+      "id": "6b3830a1a19ad007",
+      "campaignRef": "6b3830a1a19ad007",
+      "title": "Материал 173",
+      "language": "kk",
+      "category": "admission_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "837e3f63b81b1b60",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Сәнді орын»] Дизайн кешіндегі табурет жүлдесіне үміткер болу үшін міндетті қатысу ақысын төлейсіз. Соңғы жеңімпазды жобаларға қарамай, төлемі расталған адамдардың арасынан кездейсоқ таңдаймыз.",
+          "campaignRef": "6b3830a1a19ad007"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Міндетті ақы допускты ашады, финал жобаларды бағалаудан тәуелсіз кездейсоқ."
+    },
+    {
+      "id": "f5f3772da4e268cf",
+      "campaignRef": "f5f3772da4e268cf",
+      "title": "Материал 174",
+      "language": "ru",
+      "category": "ordinary_subscription",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "227abcd01c66676a",
+          "type": "text",
+          "text": "[Вымышленная кампания «Речной конверт»] За месячную плату вы получаете каждую неделю новый набор конвертов.",
+          "campaignRef": "f5f3772da4e268cf"
+        },
+        {
+          "id": "acadcc348e372cfc",
+          "type": "text",
+          "text": "[Вымышленная кампания «Речной конверт»] Доставка входит в стоимость, комплекты одинаковы для всех подписчиков.",
+          "campaignRef": "f5f3772da4e268cf"
+        },
+        {
+          "id": "a1ff31b133cd847e",
+          "type": "text",
+          "text": "[Вымышленная кампания «Речной конверт»] Случайного призера или отдельного призового фонда у подписки нет.",
+          "campaignRef": "f5f3772da4e268cf"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Плата относится к обычной подписке на товары, розыгрыша нет."
+    },
+    {
+      "id": "beddadbb863db341",
+      "campaignRef": "beddadbb863db341",
+      "title": "Материал 175",
+      "language": "ru",
+      "category": "paid_service_no_chance",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "e784ffbc065261e0",
+          "type": "text",
+          "text": "[Вымышленная кампания «Серебряный шов»] Оплата мастерской дает место на занятии и комплект ткани. На занятии каждый сошьет собственный чехол. Готовый чехол забирает его автор. Слова «подарок своими руками» описывают этот результат. Единственного призера между учениками не выбирают. Случайного распределения отдельной награды нет.",
+          "campaignRef": "beddadbb863db341"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Услуга и изготовленная вещь доступны каждому оплатившему, случайного приза нет."
+    },
+    {
+      "id": "64a8a341fb6141e0",
+      "campaignRef": "64a8a341fb6141e0",
+      "title": "Материал 176",
+      "language": "kk",
+      "category": "code",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "efeda44ffdc81a82",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Тау самалы»] Әр сатып алынған сабын қорабында қатысу коды бар, басқа жолмен код берілмейді.",
+          "campaignRef": "64a8a341fb6141e0"
+        },
+        {
+          "id": "b5e940e2cfebcda2",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Тау самалы»] Кодтар арасынан кездейсоқ біреуін таңдап, иесіне демалысқа арналған шатыр сыйлаймыз.",
+          "campaignRef": "64a8a341fb6141e0"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Кодты тек сатып алу арқылы алуға болады, шатыр кездейсоқ кодқа беріледі."
+    },
+    {
+      "id": "3f4f07df1a6ba144",
+      "campaignRef": "3f4f07df1a6ba144",
+      "title": "Материал 177",
+      "language": "translit",
+      "category": "jury",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "c6ac63d5abddc66b",
+          "type": "text",
+          "text": "[Oidan shygarylgan nauqan «Tereñ iz»] Essay baigeisine aqyly tirkelu bar, priz — printer. Soñgy zhengimpazdy qazylar argument pen tildiñ sapasyna qarap sheshedi, zherebe qoldanylmaidy.",
+          "campaignRef": "3f4f07df1a6ba144"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Финальный победитель определяется качеством текста без случайного выбора."
+    },
+    {
+      "id": "69b87db2903e1076",
+      "campaignRef": "69b87db2903e1076",
+      "title": "Материал 178",
+      "language": "mixed",
+      "category": "ordinary_sale",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "106b600dc1d8d919",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Таза ыдыс»] На витрине написано «счастливый набор». Внутри лежат четыре одинаково описанные тарелки. Сатып алушы көрсетілген бағасын төлеп, сол төрт тәрелкені алады. Никакого дополнительного приза договор не обещает. Покупатели друг с другом за результат не соревнуются. Случайного выбора владельца товара нет.",
+          "campaignRef": "69b87db2903e1076"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Продается заранее известный комплект без призового механизма."
+    },
+    {
+      "id": "e49cd22a7ceab3c2",
+      "campaignRef": "e49cd22a7ceab3c2",
+      "title": "Материал 179",
+      "language": "ru",
+      "category": "ordinary_access",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "6f02e670aad3a290",
+          "type": "text",
+          "text": "[Вымышленная кампания «Охристый зал»] Билет за 1200 тенге дает доступ к выставке чайников, посетитель осматривает экспонаты. Чайники не являются призами, победителей и жеребьевки на выставке нет.",
+          "campaignRef": "e49cd22a7ceab3c2"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Описана платная услуга посещения выставки без призового механизма."
+    },
+    {
+      "id": "9a440f8674d1e074",
+      "campaignRef": "9a440f8674d1e074",
+      "title": "Материал 180",
+      "language": "ru",
+      "category": "free_code",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "26b291a6d6e41212",
+          "type": "text",
+          "text": "[Вымышленная кампания «Городской блик»] Коды для розыгрыша отражателя бесплатно выдают всем у стойки, чек не спрашивают. Победителя выберут случайно, покупателям дополнительные коды не положены.",
+          "campaignRef": "9a440f8674d1e074"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Бесплатный код доступен без покупки и обеспечивает полный допуск."
+    },
+    {
+      "id": "21c1abfa474b8120",
+      "campaignRef": "21c1abfa474b8120",
+      "title": "Материал 181",
+      "language": "kk",
+      "category": "postwin_delivery",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "0eb62632ff8d882f",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Құмды бақ»] Бағбанға арналған құрал жүлдесінің жеребесіне жазылу тегін, жарна жоқ.",
+          "campaignRef": "21c1abfa474b8120"
+        },
+        {
+          "id": "c6494c13c580f4e5",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Құмды бақ»] Жеңімпаз құралды өзі алып кете алады, тек курьерді таңдаса жеткізу ақысын ұтқаннан кейін төлейді.",
+          "campaignRef": "21c1abfa474b8120"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Кіру тегін, жеткізу ақысын тек жеңімпаз кейін өзі таңдағанда төлейді."
+    },
+    {
+      "id": "e7369684bfed3ab7",
+      "campaignRef": "e7369684bfed3ab7",
+      "title": "Материал 182",
+      "language": "ru",
+      "category": "coupon_threshold",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "af33a85387b6980a",
+          "type": "text",
+          "text": "[Вымышленная кампания «Керамический лист»] Мы выдали посетителям купон на скидку. Он работает при заказе от 6000 тенге. Никакой жребий при его использовании не запускается. Клиент просто платит меньше за выбранную посуду. Кружка на картинке — пример товара со скидкой. Участников и победителя у предложения нет.",
+          "campaignRef": "e7369684bfed3ab7"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Порог покупки относится к обычной скидке, призовой случайной процедуры нет."
+    },
+    {
+      "id": "6b6db3f552f9a134",
+      "campaignRef": "6b6db3f552f9a134",
+      "title": "Материал 183",
+      "language": "mixed",
+      "category": "unconfirmed_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a6e3dfcb4a2f1ad5",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Қызғылт таң»] Владельца чемодана выберут случайно после регистрации. Ұйымдастырушылар жарна енгізуді әлі талқылап жатыр, бүгінгі өтінімнің тегін қабылданатыны да нақты айтылмаған.",
+          "campaignRef": "6b6db3f552f9a134"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Финал случайный, но действующая обязательность оплаты еще не установлена."
+    },
+    {
+      "id": "7deb71171e45c064",
+      "campaignRef": "7deb71171e45c064",
+      "title": "Материал 184",
+      "language": "kk",
+      "category": "purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "d1db3e8048c88467",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Бозғылт тау»] Тауға шығуға арналған таяқты жүлдеге береміз, қатысу үшін ақылы жол картасын сатып алу қажет. Финалдағы жалғыз жеңімпазды карта иелерінің арасынан жеребемен анықтаймыз.",
+          "campaignRef": "7deb71171e45c064"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Жол картасын сатып алу міндетті, соңғы жүлдегер жеребемен анықталады."
+    },
+    {
+      "id": "bb278d08197c86f1",
+      "campaignRef": "bb278d08197c86f1",
+      "title": "Материал 185",
+      "language": "ru",
+      "category": "paid_channel",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "627854e006e4ccc6",
+          "type": "text",
+          "text": "[Вымышленная кампания «Песчаный час»] Наш приз — песочные часы ручной работы, победителя назовет генератор случайных чисел.",
+          "campaignRef": "bb278d08197c86f1"
+        },
+        {
+          "id": "0d98ace9ff6cc3a5",
+          "type": "text",
+          "text": "[Вымышленная кампания «Песчаный час»] Участие доступно лишь внутри платного канала, оформить доступ без оплаты нельзя.",
+          "campaignRef": "bb278d08197c86f1"
+        },
+        {
+          "id": "9dec41fc85d33067",
+          "type": "text",
+          "text": "[Вымышленная кампания «Песчаный час»] На момент финала подписка должна быть оплачена, просмотры публикаций на шанс не влияют.",
+          "campaignRef": "bb278d08197c86f1"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Доступ через платный канал обязателен, победитель случайный."
+    },
+    {
+      "id": "a6c3f91f24b8cb94",
+      "campaignRef": "a6c3f91f24b8cb94",
+      "title": "Материал 186",
+      "language": "ru",
+      "category": "required_service_fee",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "8cca1f2060aa9545",
+          "type": "text",
+          "text": "[Вымышленная кампания «Молочный туман»] Беспроводную мышь разыграем после выставки. Участники платят только обязательный сбор за обработку заявки. Покупать билеты на саму выставку не требуется. Но без сбора заявку для мыши не принимают. Одинаковые принятые номера загрузим в случайный генератор. Единственный результат генератора определит окончательного владельца мыши.",
+          "campaignRef": "a6c3f91f24b8cb94"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Сбор за обработку обязателен для допуска к случайному финалу."
+    },
+    {
+      "id": "d512643c3cb2723b",
+      "campaignRef": "d512643c3cb2723b",
+      "title": "Материал 187",
+      "language": "mixed",
+      "category": "voluntary_support",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "a00ddad876773c3e",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Самал көрпе»] Подарим шерстяной шарф случайному участнику чтений. Чтения открыты бесплатно. Қолдау үшін төлем жасау батырмасы бар. Ее можно полностью пропустить. Номер на шарф получают все пришедшие без проверки платежа. В конце ведущий вытянет один такой номер из общей коробки.",
+          "campaignRef": "d512643c3cb2723b"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Добровольная поддержка не нужна для бесплатного номера и случайного финала."
+    },
+    {
+      "id": "4b11055af402a2c1",
+      "campaignRef": "4b11055af402a2c1",
+      "title": "Материал 188",
+      "language": "ru",
+      "category": "auction_admission",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "6166c80256793810",
+          "type": "text",
+          "text": "[Вымышленная кампания «Шерстяная тропа»] За доступ в список участников нужно купить моток пряжи по обычной цене. Среди покупателей один случайный номер получит вязальную машину; мастерство вязания не оцениваем.",
+          "campaignRef": "4b11055af402a2c1"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Моток покупают для допуска, вязальная машина достается случайно выбранному номеру."
+    },
+    {
+      "id": "6fadb39bc0a91b72",
+      "campaignRef": "6fadb39bc0a91b72",
+      "title": "Материал 189",
+      "language": "kk",
+      "category": "ordinary_sale",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "773dc46d2215affd",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Қоңыр дорба»] Белгіленген бағаға жаңғақ дорбасын сатып аласыз және дәл сол дорбаны аласыз. «Сәттілік қорабы» — өнім атауы ғана, ешкімге кездейсоқ жүлде берілмейді.",
+          "campaignRef": "6fadb39bc0a91b72"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Бұл белгіленген тауарды сату, жүлделі кездейсоқ ұтыс жоқ."
+    },
+    {
+      "id": "59ac98e58b2f1e64",
+      "campaignRef": "59ac98e58b2f1e64",
+      "title": "Материал 190",
+      "language": "ru",
+      "category": "skill_challenge",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "97f4c0be3f295dfa",
+          "type": "text",
+          "text": "[Вымышленная кампания «Ровный шаг»] Кроссовки получит победитель конкурса на точность движений. Для участия требуется оплатить аренду площадки. Сначала всех разбивают на пары случайным образом. Затем измеряют число ошибок в последовательности шагов. В финале выигрывает участник с наименьшим числом ошибок. При равенстве проводят повтор задания, жеребьевки за приз нет.",
+          "campaignRef": "59ac98e58b2f1e64"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Распределение пар случайно, однако финальный результат полностью зависит от навыка."
+    },
+    {
+      "id": "232f54d73c251d25",
+      "campaignRef": "232f54d73c251d25",
+      "title": "Материал 191",
+      "language": "kk",
+      "category": "coupon_threshold",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "7844930aa03fe970",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Алмалы кеш»] Кофеқайнатқыш ұтысына тек 600 теңгеге купон сатып алғандар кіреді, оны тегін алу жолы жоқ.",
+          "campaignRef": "232f54d73c251d25"
+        },
+        {
+          "id": "7f117032da8f5227",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Алмалы кеш»] Купонды кейін 5000 теңгелік тапсырысқа қолдануға болады, ал жүлдені финалда сатып алынған купондар арасынан кездейсоқ таңдаймыз.",
+          "campaignRef": "232f54d73c251d25"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Купонды сатып алу кіруге қажет, оны кейін қолдану шегі бөлек және финал кездейсоқ."
+    },
+    {
+      "id": "e3c0dce528591f2f",
+      "campaignRef": "e3c0dce528591f2f",
+      "title": "Материал 192",
+      "language": "mixed",
+      "category": "shipping_entry",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "af0a928aa7191161",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Қағаз кеме»] Призом будет большой набор бумаги для творчества. Өтінім бермес бұрын тіркеу конвертінің жеткізілуін төлеу қажет. Даже если конверт заберете сами, этот обязательный сбор остается. Без оплаты номер участника не присваивается. В финальном эфире случайный генератор назовет один из выданных номеров. Набор заберет его владелец.",
+          "campaignRef": "e3c0dce528591f2f"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Сбор до допуска обязателен даже при самовывозе, финал случайный."
+    },
+    {
+      "id": "213d8ef8c01a94f4",
+      "campaignRef": "213d8ef8c01a94f4",
+      "title": "Материал 193",
+      "language": "mixed",
+      "category": "preliminary_random",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "8120c0dbc156b999",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Ойлы сәуле»] Фотоконкурс проводим бесплатно. Сначала компьютер случайно распределит все работы по группам. Бұл іріктеу емес, тек қарау тәртібін анықтайды. Каждую работу увидят все члены жюри. Призом станет лампа для съемки, победителя выберут по свету и композиции. При равных баллах решение примет старший судья по тем же критериям.",
+          "campaignRef": "213d8ef8c01a94f4"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Случайность меняет лишь порядок просмотра, финальное решение принимает жюри по навыку."
+    },
+    {
+      "id": "c5997de7f39ed546",
+      "campaignRef": "c5997de7f39ed546",
+      "title": "Материал 194",
+      "language": "kk",
+      "category": "selection_unknown",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "e60856ab88802dfd",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Қоңыр қобыз»] Қобызға арналған қап жүлдесін алуға ақылы мүшелік иелері ғана өтінім береді.",
+          "campaignRef": "c5997de7f39ed546"
+        },
+        {
+          "id": "d380d39f6356c82d",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Қоңыр қобыз»] «Ең лайықты адамға береміз» деген сөз бар, бірақ өлшемі де, жеребе қолданылатыны да көрсетілмеген.",
+          "campaignRef": "c5997de7f39ed546"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Ақылы кіру белгілі, финалдағы «лайықты» таңдаудың тәсілі белгісіз."
+    },
+    {
+      "id": "ff9d704a6c3dbfa5",
+      "campaignRef": "ff9d704a6c3dbfa5",
+      "title": "Материал 195",
+      "language": "mixed",
+      "category": "unknown_scope",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "6f0f07de4d27b40f",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Жайлау үн»] Чтобы получить номер на розыгрыш акустической колонки, просят оплатить заявку.",
+          "campaignRef": "ff9d704a6c3dbfa5"
+        },
+        {
+          "id": "4a8f65c9caa50138",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Жайлау үн»] Екінші хабарламада тегін форма бар делінген, бірақ оның осы соңғы ұтысқа кіретіні әлде тек жаңалыққа жазатыны түсініксіз.",
+          "campaignRef": "ff9d704a6c3dbfa5"
+        }
+      ],
+      "expectedRisk": "medium",
+      "rationale": "Упомянутый бесплатный путь не связан однозначно с тем же призовым финалом."
+    },
+    {
+      "id": "0241c54a35814757",
+      "campaignRef": "0241c54a35814757",
+      "title": "Материал 196",
+      "language": "mixed",
+      "category": "warning",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "b2032236371ae46a",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Белгі тақта»] Памятка предупреждает: требование купить токен ради случайного приза надо внимательно проверять. Бұл тек қауіптерді талқылайтын мәтін, авторлар токен ұсынбайды және қатысушыларды тіркемейді.",
+          "campaignRef": "0241c54a35814757"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Текст предупреждения не содержит собственной действующей схемы."
+    },
+    {
+      "id": "afe818e14cd91a59",
+      "campaignRef": "afe818e14cd91a59",
+      "title": "Материал 197",
+      "language": "mixed",
+      "category": "coupon_threshold",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "76a4696128f87ff5",
+          "type": "text",
+          "text": "[Синтетикалық кампания «Шие себет»] В коробке с вишней лежит купон на 20 процентов скидки. Использовать его можно при следующей покупке от 8000 тенге. Бұл тек жеңілдік шегі. Купон не обещает случайный приз. Любой выполнивший условие покупатель получает одинаковую скидку. Финального победителя выбирать не планируем.",
+          "campaignRef": "afe818e14cd91a59"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Порог покупки относится к гарантированной скидке, случайного финала нет."
+    },
+    {
+      "id": "524c580723495c43",
+      "campaignRef": "524c580723495c43",
+      "title": "Материал 198",
+      "language": "ru",
+      "category": "skill_final",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "204c0b8c66259c2a",
+          "type": "text",
+          "text": "[Вымышленная кампания «Бирюзовый мост»] Конкурс рассказов заканчивается вручением диктофона. Работы принимаем без взноса. На первом этапе случайно распределим тексты между редакторами. Каждый текст получит одинаковое число оценок. Победит рассказ с наибольшим итоговым баллом за сюжет и язык. Если баллы совпадут, редакторы сравнят качество концовки и вынесут решение.",
+          "campaignRef": "524c580723495c43"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Случайность относится к распределению работ, финал определяется навыком."
+    },
+    {
+      "id": "5dc1f915a76bf736",
+      "campaignRef": "5dc1f915a76bf736",
+      "title": "Материал 199",
+      "language": "kk",
+      "category": "skill_free",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "aafe828d36b3f554",
+          "type": "text",
+          "text": "[Ойдан шығарылған науқан «Шынар өрнек»] Ою байқауы тегін өтеді, жүлде — кескіш жиынтығы. Соңғы жұмысты қазылар өрнектің симметриясына қарап таңдайды, жеребе қарастырылмаған.",
+          "campaignRef": "5dc1f915a76bf736"
+        }
+      ],
+      "expectedRisk": "low",
+      "rationale": "Тегін байқау шеберлікпен шешіледі, кездейсоқ финал жоқ."
+    },
+    {
+      "id": "657370d87f4968cf",
+      "campaignRef": "657370d87f4968cf",
+      "title": "Материал 200",
+      "language": "ru",
+      "category": "purchase",
+      "synthetic": true,
+      "manualGrouping": false,
+      "sources": [
+        {
+          "id": "7cb9c93863ee763c",
+          "type": "text",
+          "text": "[Вымышленная кампания «Коралловый пакет»] Для допуска к розы-грышу фена нужен чек за наш пакет косметики, без покупки заявка не проходит.\nФинал простой: случайный номер чека в эфире, ему и фен.",
+          "campaignRef": "657370d87f4968cf"
+        }
+      ],
+      "expectedRisk": "high",
+      "rationale": "Покупка обязательна, фен получает случайно выбранный чек."
+    }
+  ]
+}

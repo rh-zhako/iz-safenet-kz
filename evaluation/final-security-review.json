@@ -1,0 +1,28 @@
+{
+  "scope": "Read-only current tracked tree, selected input/render/report/storage modules, Google authentication code, standard secret signatures in tracked tree and history. No current GitHub account or remote used for writes. No provider login attempted.",
+  "blockingFindings": [],
+  "confirmedChecks": {
+    "trackedFilesScanned": 386,
+    "historyCommits": 19,
+    "historyTextBlobsScanned": 533,
+    "historyVendorOCRBlobsExcluded": 6,
+    "workingTreeBytes": 60431452,
+    "filesLargerThan20MiB": 0,
+    "realSecretPatternHits": 0,
+    "vendorFalsePositive": "An API-key-shaped sequence was confirmed inside a 3.8 MB base64 WebAssembly string; not a standalone key/configuration value.",
+    "maliciousExportProbe": "HTML title/organizer/platform/author/source/grouping text escaped; javascript URL and SVG data image rejected. Parsed exported HTML: zero scripts, event attributes or unsafe URL attributes.",
+    "invalidLocalStateRejected": ["malformed JSON", "duplicate campaign IDs", "duplicate source IDs"],
+    "googleVerification": ["RS256 signature", "issuer", "audience", "nonce", "verified email", "required claims", "expiry and max age"],
+    "googleStorage": "Credential is not persisted or logged. Verified profile stays in tab memory with expiry. No server session or cloud sync is claimed or implemented.",
+    "staticPortability": "Relative local modules, fonts, OCR worker/core/languages and assets. Buildless dist runs via Python HTTP server; START.command executable and falls back to PATH Python. No >100 MB GitHub file blocker."
+  },
+  "transferNotes": [
+    "New GitHub owner/repository URL is required before push. Do not use existing connector/account/remote to infer destination.",
+    "Copy only intended project source; exclude .git, .openai/local, runtime artifacts and personal browser data. Existing .openai/hosting.json is a platform binding, not a secret; decide deliberately whether to retain it in an independent hosting copy.",
+    "Public OAuth Client ID is not a client secret. If hosting domain changes, add the exact new HTTPS origin in Google Auth Platform. Moving source to GitHub alone does not change OAuth origins.",
+    "Google Cloud publication/audience/test-user status cannot be established from repository code and was not checked in this read-only audit.",
+    "New hosting requires privacy-page hosting description to match the actual provider. Existing Sites description remains correct while only source is copied to GitHub.",
+    "Use HTTPS or localhost for browser APIs. Loading via an insecure LAN HTTP address can fail at google-auth.mjs:6 (crypto.randomUUID is secure-context only); current documented localhost and public HTTPS are supported."
+  ],
+  "limits": "Pattern scanning and bounded probes are not a full penetration test, dependency-vulnerability audit, external Google configuration verification, or proof of absence of all secrets. No code or historical reports were changed."
+}

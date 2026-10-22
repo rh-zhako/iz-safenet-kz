@@ -1,0 +1,27 @@
+{
+  "status": "STATIC_IMPORT_GRAPH_COMPARISON_NOT_TIMING",
+  "at": "2026-10-22T18:51:21.712145+00:00",
+  "baselineCommit": "5bde6bc2a16056dea456c57e5ba90dc1585f1018",
+  "before": {
+    "modules": 35,
+    "rawBytes": 1455041
+  },
+  "after": {
+    "modules": 29,
+    "rawBytes": 441805
+  },
+  "removedFromInitialGraph": [
+    "dist/quality.mjs",
+    "dist/release-evaluation.mjs",
+    "dist/semantic-comparison.mjs",
+    "dist/development-evaluation.mjs",
+    "dist/fresh-v7-evaluation.mjs",
+    "dist/fresh-evaluation.mjs"
+  ],
+  "limits": [
+    "Raw source bytes, not compressed transfer bytes, load latency or real phone performance.",
+    "Quality/report data are still available after opening that route. OCR/model and images/fonts are outside this JavaScript-only graph."
+  ],
+  "qualityLoadFailureBrowserCheck": "An isolated 404 quality.mjs fixture showed a useful error, allowed return to check, and preserved exact typed draft.",
+  "qualityLoadFocusBrowserCheck": "Delayed report loading restored focus to final h1; opening the mobile menu while loading kept it expanded and focused after report replacement. Escape returned focus to menu toggle."
+}

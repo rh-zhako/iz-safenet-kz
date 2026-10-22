@@ -1,0 +1,54 @@
+{
+  "at": "2026-10-20T18:47:18.618166+00:00",
+  "engineVersion": "1.7.0-track1-evidence",
+  "method": "Actual CUA local browser actions on dedicated4176 origin, only agent-authored synthetic materials. Not human usability or real data evaluation.",
+  "passed": 9,
+  "total": 9,
+  "checks": [
+    {
+      "id": "three_source",
+      "passed": true,
+      "observed": "On builtin three-source demo, excluding fee or random source lowered high to medium; 2 essential sources displayed."
+    },
+    {
+      "id": "originals_kept",
+      "passed": true,
+      "observed": "Three original source cards remained after calculation and report export."
+    },
+    {
+      "id": "html_export",
+      "passed": true,
+      "observed": "Actual UI HTML download contained sensitivity section and exact original Kazakh fee quote."
+    },
+    {
+      "id": "contradiction",
+      "passed": true,
+      "observed": "Imported synthetic all-terms+free case remained medium; hypothetical removal of free source showed high and explicit do-not-discard warning. Both originals retained."
+    },
+    {
+      "id": "cache_invalidated",
+      "passed": true,
+      "observed": "Appending a third source invalidated the old comparison and restored the explicit Compare sources button."
+    },
+    {
+      "id": "keyboard_focus",
+      "passed": true,
+      "observed": "After calculation, activeElement was SUMMARY for the new panel."
+    },
+    {
+      "id": "mobile",
+      "passed": true,
+      "observed": "At390x844 panel and quality page both had documentWidth390."
+    },
+    {
+      "id": "model_disclosure",
+      "passed": true,
+      "observed": "Quality page displayed alternatives section; existing detector result was not replaced."
+    },
+    {
+      "id": "console",
+      "passed": true,
+      "observed": "Browser warn/error logs empty after comparison, export and contradiction checks."
+    }
+  ]
+}

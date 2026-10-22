@@ -1,0 +1,64 @@
+{
+  "engineVersion": "1.9.0-track1-evidence",
+  "at": "2026-10-22T17:56:55.001072+00:00",
+  "scope": "Actual CUA browser observations on isolated localhost:4185. Synthetic fixtures only.",
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "id": "mobile-analyst-entry",
+      "passed": true,
+      "observation": "Главное мобильное меню открывает рабочее место аналитика и закрывается."
+    },
+    {
+      "id": "responsive-widths",
+      "passed": true,
+      "observation": "Очередь без горизонтального переполнения при 320, 390, 768, 1024 и 1280 CSS px."
+    },
+    {
+      "id": "filter-search",
+      "passed": true,
+      "observation": "Фильтр низкого приоритета и поиск по демо возвращают соответствующие строки."
+    },
+    {
+      "id": "touch-and-contrast",
+      "passed": true,
+      "observation": "Фильтры 44 px; подписи источников и статусов 13 px, тёмные на бумажном фоне."
+    },
+    {
+      "id": "paid-and-free-analysis",
+      "passed": true,
+      "observation": "Платный и бесплатный примеры дают разные выводы с исходными цитатами."
+    },
+    {
+      "id": "draft-navigation",
+      "passed": true,
+      "observation": "Черновик формы сохраняется при переходе через меню и прямой hash-ссылке."
+    },
+    {
+      "id": "quality-data",
+      "passed": true,
+      "observation": "На странице отображаются 56/100, TP13 FP1 FN27 TN59; языки, интервалы и 44 ошибки раскрываются."
+    },
+    {
+      "id": "historical-results",
+      "passed": true,
+      "observation": "Открываются прежние результаты v1.7 и неудачный v1.8/v6; открытая разработка отделена от нового теста."
+    },
+    {
+      "id": "pilot-and-package",
+      "passed": true,
+      "observation": "Короткий план пилота и пакет защиты открываются на мобильном экране; текущие материалы расположены первыми."
+    },
+    {
+      "id": "console",
+      "passed": true,
+      "observation": "Во время итоговых проверок нет предупреждений и ошибок консоли."
+    }
+  ],
+  "limits": [
+    "Not a human usability trial or full accessibility audit.",
+    "No new OAuth provider, OCR accuracy, live platform or server-load claim.",
+    "New synthetic detector result remains 56/100 with 27/40 missed highs; these checks do not establish real-world accuracy."
+  ]
+}

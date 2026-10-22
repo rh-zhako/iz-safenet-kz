@@ -1,0 +1,32 @@
+{
+  "engineVersion": "2.0.1-track1-evidence",
+  "scope": "Word-boundary regression from a controlled OCR-flow example, not a fresh accuracy estimate.",
+  "passed": 6,
+  "total": 6,
+  "checks": [
+    {
+      "name": "actual OCR capture financial percentage is not a jury",
+      "passed": true
+    },
+    {
+      "name": "financial commission ten percent",
+      "passed": true
+    },
+    {
+      "name": "financial commission another percentage",
+      "passed": true
+    },
+    {
+      "name": "commission assessment of works is still judged",
+      "passed": true
+    },
+    {
+      "name": "jury grading with percent stays judged",
+      "passed": true
+    },
+    {
+      "name": "random draw plus genuine jury is still a conflict",
+      "passed": true
+    }
+  ]
+}

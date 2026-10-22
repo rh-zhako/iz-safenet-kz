@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX/ca5daf3d11b6c4b3143b1f4602a2edfb64c3ad7e/tokenizer_config.json",
+      "bytes": 1286,
+      "sha256": "329b7d21f02c6c6c9d358733b03a34a89cd8e4fe36998869a6ab824b98e9bf9d"
+    },
+    {
+      "path": "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX/ca5daf3d11b6c4b3143b1f4602a2edfb64c3ad7e/config.json",
+      "bytes": 989,
+      "sha256": "3ebbbdf3c3803649b49715fd169207c0f42c4250dfea5dd304b1d8b8f745852a"
+    },
+    {
+      "path": "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX/ca5daf3d11b6c4b3143b1f4602a2edfb64c3ad7e/tokenizer.json",
+      "bytes": 17082832,
+      "sha256": "d0091a328b3441d754e481db5a390d7f3b8dabc6016869fd13ba350d23ddc4cd"
+    },
+    {
+      "path": "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX/ca5daf3d11b6c4b3143b1f4602a2edfb64c3ad7e/onnx/model_quantized.onnx",
+      "bytes": 107415176,
+      "sha256": "55614f3c7da74184742eaa0006b978744437aa91de9ba4913db42f94d7844a8f"
+    },
+    {
+      "path": "onnx-community/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-ONNX/cdc8277b4682665e2f2e87cd83da7da07b153d75/tokenizer_config.json",
+      "bytes": 1396,
+      "sha256": "fc66a38a04a7e271944043a7d09ca0d6e30be0ed3c31c24b1d8bef842fcc1ea6"
+    },
+    {
+      "path": "onnx-community/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-ONNX/cdc8277b4682665e2f2e87cd83da7da07b153d75/config.json",
+      "bytes": 1016,
+      "sha256": "14877ff8e4699989ef08bed8fa570a803e1caef0cc0a35cb4372856deabba958"
+    },
+    {
+      "path": "onnx-community/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-ONNX/cdc8277b4682665e2f2e87cd83da7da07b153d75/tokenizer.json",
+      "bytes": 16316225,
+      "sha256": "ac9bd80d04d21b4df95917bdf7c750cbea28acc30a4462c76ca2b9c86d371863"
+    },
+    {
+      "path": "onnx-community/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-ONNX/cdc8277b4682665e2f2e87cd83da7da07b153d75/onnx/model_quantized.onnx",
+      "bytes": 338341610,
+      "sha256": "f1920d10296efd121a601b2161e8de9fa0c934a6c0331cd1764fd09a06a83041"
+    }
+  ]
+}

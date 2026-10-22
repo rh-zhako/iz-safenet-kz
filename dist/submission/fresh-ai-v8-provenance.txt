@@ -1,0 +1,10 @@
+Fresh-v8 provenance
+Author: separate blinded AI author, authoring independently from the frozen detector.
+Access: no repository or engine code, prior corpora, reports, predictions, other agent files, browsing, private data, or classifier execution.
+Method: all source texts, titles and rationales invented for this corpus; pure text, no actual publications and no OCR claims. No human adjudication.
+Labels: original author decisions using the supplied high/medium/low policy, before root measurement; no measurement-based relabelling.
+Population: designed synthetic hypotheses, not empirical prevalence or a claim of real-world performance.
+Composition: 160 shuffled cases; 40 each ru, kk, mixed, translit. Each language: high 16, medium 8, low 16. Total: high 64, medium 32, low 64.
+Sources: 273; multi-source cases: 93; cases with combined source text >1000 Unicode characters: 20.
+Validation: Python standard library checks composition, labels, unique case/source IDs, exact campaign references, nonempty texts, source kinds, long/multi-source minimums and JSON round-trip.
+Corpus SHA256: 0cc631e462e2cc13844cf7b18deab207c4b66c6c765e1d2e57d9ab75762ae871

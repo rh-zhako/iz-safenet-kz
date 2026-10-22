@@ -1,0 +1,1510 @@
+{
+  "schemaVersion": 1,
+  "status": "FRESH_ENGINE_BLINDED_AI_SYNTHETIC",
+  "at": "2026-10-22T17:48:25.690Z",
+  "engineVersion": "1.9.0-track1-evidence",
+  "engineSha256": "0bdc464676abbacb1c6f6353e31ecff7fa9f1dba474ba35d4cb194e70c3444ea",
+  "corpusSha256": "684a47c93f3815134f146fa182871f9b9be78996bfe90e4489e195b90a24d9b1",
+  "harnessSha256": "9005ef293c00502eb94273eb3bb0529b3e6bfaff06f1176c6af6f5244d618cba",
+  "freeze": {
+    "engineVersion": "1.9.0-track1-evidence",
+    "engineSha256": "0bdc464676abbacb1c6f6353e31ecff7fa9f1dba474ba35d4cb194e70c3444ea",
+    "at": "2026-10-22T17:33:50.550570+00:00",
+    "protocol": "Frozen after development on open v1-v6 and before authoring or opening new v7. First v7 predictions will be preserved unchanged. Synthetic AI labels, no humans or real publications."
+  },
+  "authoring": {
+    "kind": "separate_engine_blinded_ai_synthetic",
+    "sourceAccess": "No code, engine, reports, previous cases or predictions read",
+    "fictional": true,
+    "humans": 0
+  },
+  "counts": {
+    "cases": 100,
+    "sources": 181,
+    "multiSourceCases": 71
+  },
+  "result": {
+    "engineVersion": "1.9.0-track1-evidence",
+    "dataset": "Fresh AI-authored synthetic v7; frozen v1.9 before authoring, not real-world or human validation",
+    "synthetic": true,
+    "total": 100,
+    "positiveDefinition": "high: observed prize + mandatory entry payment + random selection, without unresolved contradiction",
+    "precision": 0.9285714285714286,
+    "recall": 0.325,
+    "falsePositiveRate": 0.016666666666666666,
+    "accuracy": 0.56,
+    "decisionCoverage": 0.51,
+    "tp": 13,
+    "fp": 1,
+    "tn": 59,
+    "fn": 27,
+    "matrix": {
+      "high": {
+        "high": 13,
+        "medium": 22,
+        "low": 5
+      },
+      "medium": {
+        "high": 1,
+        "medium": 15,
+        "low": 4
+      },
+      "low": {
+        "high": 0,
+        "medium": 12,
+        "low": 28
+      }
+    },
+    "quoteErrors": 0,
+    "cases": [
+      {
+        "id": "fv7-case-001",
+        "title": "Балықшылар кешінің билеті",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "paid_admission_random_final"
+      },
+      {
+        "id": "fv7-case-002",
+        "title": "Төлемсіз балама тіркелу",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "kk",
+        "category": "equal_free_entry_route"
+      },
+      {
+        "id": "fv7-case-003",
+        "title": "Абонемент и городской велосипед",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "paid_membership_and_random_final"
+      },
+      {
+        "id": "fv7-case-004",
+        "title": "Барлығына берілетін қап",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "kk",
+        "category": "guaranteed_purchase_bundle"
+      },
+      {
+        "id": "fv7-case-005",
+        "title": "Подписка на аудиоистории",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "subscription_purchase"
+      },
+      {
+        "id": "fv7-case-006",
+        "title": "Открытая форма музея",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "category": "explicit_free_entry"
+      },
+      {
+        "id": "fv7-case-007",
+        "title": "Квитанция мастерской",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "indirect_entry_fee"
+      },
+      {
+        "id": "fv7-case-008",
+        "title": "Набор для ремонта",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "mandatory_deposit"
+      },
+      {
+        "id": "fv7-case-009",
+        "title": "Спор о методе подведения итогов",
+        "expected": "medium",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "ru",
+        "category": "active_selection_contradiction"
+      },
+      {
+        "id": "fv7-case-010",
+        "title": "Екі жерде жарияланған тәртіп",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": true,
+        "score": 65,
+        "language": "kk",
+        "category": "active_payment_contradiction"
+      },
+      {
+        "id": "fv7-case-011",
+        "title": "Новая редакция условий магазина",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "superseded_free_rules"
+      },
+      {
+        "id": "fv7-case-012",
+        "title": "Подарок соседскому клубу",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "free_entry_optional_support"
+      },
+      {
+        "id": "fv7-case-013",
+        "title": "Возвращенные покупки",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "retained_purchase_required"
+      },
+      {
+        "id": "fv7-case-014",
+        "title": "Подарок заказчикам ремонта",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "service_purchase"
+      },
+      {
+        "id": "fv7-case-015",
+        "title": "Переход на бесплатную форму",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "translit",
+        "category": "superseded_paid_rule"
+      },
+      {
+        "id": "fv7-case-016",
+        "title": "Отмененное условие с чеком",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "category": "superseded_paid_condition"
+      },
+      {
+        "id": "fv7-case-017",
+        "title": "Пять кандидатов на фотоаппарат",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "ru",
+        "category": "random_shortlist_unknown_final"
+      },
+      {
+        "id": "fv7-case-018",
+        "title": "Курьер для победителя",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "category": "free_entry_post_win_shipping"
+      },
+      {
+        "id": "fv7-case-019",
+        "title": "Бесплатный билет с покупки не нужен",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "free_route_equal"
+      },
+      {
+        "id": "fv7-case-020",
+        "title": "Разбор сомнительных объявлений",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 3,
+        "language": "ru",
+        "category": "warning_quote"
+      },
+      {
+        "id": "fv7-case-021",
+        "title": "Үйірменің тіркеу картасы",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "administrative_fee"
+      },
+      {
+        "id": "fv7-case-022",
+        "title": "Две действующие памятки",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": true,
+        "score": 65,
+        "language": "ru",
+        "category": "active_entry_contradiction"
+      },
+      {
+        "id": "fv7-case-023",
+        "title": "Кандидаты на кухонный прибор",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "translit",
+        "category": "random_candidates_unknown_final"
+      },
+      {
+        "id": "fv7-case-024",
+        "title": "Конкурс перевода",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "ru",
+        "category": "skill_award"
+      },
+      {
+        "id": "fv7-case-025",
+        "title": "Замененные условия книжного шкафа",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "superseded_paid_rules"
+      },
+      {
+        "id": "fv7-case-026",
+        "title": "Кружки на полке",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "ru",
+        "category": "ordinary_retail"
+      },
+      {
+        "id": "fv7-case-027",
+        "title": "Мастер-класс и фартук",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "paid_class_random_final"
+      },
+      {
+        "id": "fv7-case-028",
+        "title": "Подарок за заказанный курс",
+        "expected": "medium",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 8,
+        "language": "translit",
+        "category": "selection_unpublished"
+      },
+      {
+        "id": "fv7-case-029",
+        "title": "Техника дүкеніндегі алдын ала тапсырыс",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "paid_reservation_random_final"
+      },
+      {
+        "id": "fv7-case-030",
+        "title": "Жылыжайдағы ақылы орын",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "kk",
+        "category": "paid_rental_eligibility"
+      },
+      {
+        "id": "fv7-case-031",
+        "title": "Скидка на весь набор",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "ru",
+        "category": "retail_discount"
+      },
+      {
+        "id": "fv7-case-032",
+        "title": "Ерікті аударым",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "kk",
+        "category": "optional_support_no_advantage"
+      },
+      {
+        "id": "fv7-case-033",
+        "title": "Жорық клубының маусым ашуы",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "paid_registration_random_final"
+      },
+      {
+        "id": "fv7-case-034",
+        "title": "Плата за внесение в список",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "translit",
+        "category": "mandatory_record_fee"
+      },
+      {
+        "id": "fv7-case-035",
+        "title": "Кітап сөресіне өтінім",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "kk",
+        "category": "missing_entry"
+      },
+      {
+        "id": "fv7-case-036",
+        "title": "Номер до публикации условий",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "mixed",
+        "category": "entry_not_stated"
+      },
+      {
+        "id": "fv7-case-037",
+        "title": "Покупатели саженцев",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "purchase_threshold"
+      },
+      {
+        "id": "fv7-case-038",
+        "title": "Жеңімпаздың жеткізуі",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "free_entry_shipping_after_win"
+      },
+      {
+        "id": "fv7-case-039",
+        "title": "Добровольная поддержка двора",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "category": "optional_donation"
+      },
+      {
+        "id": "fv7-case-040",
+        "title": "Алғашқы үш нөмір",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 35,
+        "language": "kk",
+        "category": "random_shortlist_undisclosed_final"
+      },
+      {
+        "id": "fv7-case-041",
+        "title": "Медиа сабағындағы мысал",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "kk",
+        "category": "educational_quote"
+      },
+      {
+        "id": "fv7-case-042",
+        "title": "Қолданбадағы ақылы жинақ",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "digital_purchase_entry"
+      },
+      {
+        "id": "fv7-case-043",
+        "title": "Сценическое мастерство",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 12,
+        "language": "mixed",
+        "category": "skill_jury_final"
+      },
+      {
+        "id": "fv7-case-044",
+        "title": "Ең жақсы макет",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 12,
+        "language": "kk",
+        "category": "judged_competition"
+      },
+      {
+        "id": "fv7-case-045",
+        "title": "Ескі жарнаманы талқылау",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "kk",
+        "category": "warning_no_offer"
+      },
+      {
+        "id": "fv7-case-046",
+        "title": "Кандидаты на подарок",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "mixed",
+        "category": "preliminary_random_unknown_final"
+      },
+      {
+        "id": "fv7-case-047",
+        "title": "Оплаченная настройка",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "service_before_entry"
+      },
+      {
+        "id": "fv7-case-048",
+        "title": "Платная новая редакция",
+        "expected": "high",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 5,
+        "language": "translit",
+        "category": "superseded_free_entry"
+      },
+      {
+        "id": "fv7-case-049",
+        "title": "Өзгертілген саябақ акциясы",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "kk",
+        "category": "superseded_purchase_requirement"
+      },
+      {
+        "id": "fv7-case-050",
+        "title": "Чек для возврата",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "ru",
+        "category": "refund_not_prize"
+      },
+      {
+        "id": "fv7-case-051",
+        "title": "Место в мастерской на выходные",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "mixed",
+        "category": "paid_workspace_random_final"
+      },
+      {
+        "id": "fv7-case-052",
+        "title": "Тегін ашық өтінім",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "explicit_no_purchase"
+      },
+      {
+        "id": "fv7-case-053",
+        "title": "Письменный конкурс",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "translit",
+        "category": "skill_jury_award"
+      },
+      {
+        "id": "fv7-case-054",
+        "title": "Платный конверт",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "entry_processing_fee"
+      },
+      {
+        "id": "fv7-case-055",
+        "title": "Кілем тазалау қызметі",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "service_purchase_entry"
+      },
+      {
+        "id": "fv7-case-056",
+        "title": "Доставка до включения в список",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "mixed",
+        "category": "pre_entry_logistics_fee"
+      },
+      {
+        "id": "fv7-case-057",
+        "title": "Прокат на озере",
+        "expected": "high",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "translit",
+        "category": "paid_rental_entry"
+      },
+      {
+        "id": "fv7-case-058",
+        "title": "Оплаченный тестовый доступ",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "trial_payment"
+      },
+      {
+        "id": "fv7-case-059",
+        "title": "Участие через доставку",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "ru",
+        "category": "mandatory_shipping_before_entry"
+      },
+      {
+        "id": "fv7-case-060",
+        "title": "Литературный вечер с билетом",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "paid_event_eligibility"
+      },
+      {
+        "id": "fv7-case-061",
+        "title": "Чайная подписка с подарком",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "required_subscription"
+      },
+      {
+        "id": "fv7-case-062",
+        "title": "Проверка заявки через пакет",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "mandatory_admin_purchase"
+      },
+      {
+        "id": "fv7-case-063",
+        "title": "Курьер после жеребьевки",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "category": "post_win_payment_only"
+      },
+      {
+        "id": "fv7-case-064",
+        "title": "Покупка или свободная анкета",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "ru",
+        "category": "unclear_alternative_entry"
+      },
+      {
+        "id": "fv7-case-065",
+        "title": "Заявка на колонку",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "translit",
+        "category": "entry_terms_unpublished"
+      },
+      {
+        "id": "fv7-case-066",
+        "title": "Сатып алушының баламалы жолы",
+        "expected": "medium",
+        "predicted": "high",
+        "baseline": "high",
+        "match": false,
+        "score": 90,
+        "language": "kk",
+        "category": "unclear_free_route"
+      },
+      {
+        "id": "fv7-case-067",
+        "title": "Ақысы төленетін таныстыру жинағы",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "mandatory_pre_entry_delivery"
+      },
+      {
+        "id": "fv7-case-068",
+        "title": "Тұрмыстық сөрелер",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "kk",
+        "category": "ordinary_retail"
+      },
+      {
+        "id": "fv7-case-069",
+        "title": "Ерікті қолдау клубына",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "translit",
+        "category": "optional_donation"
+      },
+      {
+        "id": "fv7-case-070",
+        "title": "Два равноправных способа записи",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "category": "free_alternative"
+      },
+      {
+        "id": "fv7-case-071",
+        "title": "Тапсырысқа қосылатын купон",
+        "expected": "high",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "kk",
+        "category": "purchase_minimum"
+      },
+      {
+        "id": "fv7-case-072",
+        "title": "Салфетки для каждого покупателя",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "mixed",
+        "category": "retail_guaranteed_bundle"
+      },
+      {
+        "id": "fv7-case-073",
+        "title": "Два порядка выбора снимка",
+        "expected": "medium",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "translit",
+        "category": "active_final_selection_contradiction"
+      },
+      {
+        "id": "fv7-case-074",
+        "title": "Билет киноклуба",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "paid_event_entry"
+      },
+      {
+        "id": "fv7-case-075",
+        "title": "Равные бесплатные заявки",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "translit",
+        "category": "equal_free_entry"
+      },
+      {
+        "id": "fv7-case-076",
+        "title": "Спортивный результат",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "mixed",
+        "category": "skill_performance"
+      },
+      {
+        "id": "fv7-case-077",
+        "title": "Архивное объявление в учебном чате",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "mixed",
+        "category": "quoted_warning"
+      },
+      {
+        "id": "fv7-case-078",
+        "title": "Покупка в новой редакции",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "mixed",
+        "category": "explicit_supersession"
+      },
+      {
+        "id": "fv7-case-079",
+        "title": "Ремесленный финал после жеребьевки",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "random_preliminary_skill_final"
+      },
+      {
+        "id": "fv7-case-080",
+        "title": "Аула шеберханасының құралдары",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "mandatory_material_purchase"
+      },
+      {
+        "id": "fv7-case-081",
+        "title": "Случайная очередность кулинаров",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "random_preliminary_skill_final"
+      },
+      {
+        "id": "fv7-case-082",
+        "title": "Сертификат участникам курса",
+        "expected": "medium",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "ru",
+        "category": "missing_final_selection"
+      },
+      {
+        "id": "fv7-case-083",
+        "title": "Чужое объявление в памятке",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "translit",
+        "category": "warning_quotation_no_promotion"
+      },
+      {
+        "id": "fv7-case-084",
+        "title": "Обычный обмен товара",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "translit",
+        "category": "retail_exchange"
+      },
+      {
+        "id": "fv7-case-085",
+        "title": "Сыйлықтың жарияланбаған тәртібі",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "kk",
+        "category": "missing_selection"
+      },
+      {
+        "id": "fv7-case-086",
+        "title": "Жөндеуден кейінгі кепілдік",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "kk",
+        "category": "warranty_service"
+      },
+      {
+        "id": "fv7-case-087",
+        "title": "Екі түрлі қорытынды",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "kk",
+        "category": "active_final_selection_conflict"
+      },
+      {
+        "id": "fv7-case-088",
+        "title": "Чайный вечер в клубе",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "purchase_and_random_final"
+      },
+      {
+        "id": "fv7-case-089",
+        "title": "Финалдағы бағалау",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "random_preliminary_jury_final"
+      },
+      {
+        "id": "fv7-case-090",
+        "title": "Набор школьной канцелярии",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "translit",
+        "category": "required_product_bundle"
+      },
+      {
+        "id": "fv7-case-091",
+        "title": "Спорт сөмкесінің жаңа ережесі",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "kk",
+        "category": "superseded_no_purchase"
+      },
+      {
+        "id": "fv7-case-092",
+        "title": "Доступ к архиву лекций",
+        "expected": "high",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 5,
+        "language": "translit",
+        "category": "paid_access_requirement"
+      },
+      {
+        "id": "fv7-case-093",
+        "title": "Подарок подписчикам мастерской",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 35,
+        "language": "ru",
+        "category": "missing_entry_conditions"
+      },
+      {
+        "id": "fv7-case-094",
+        "title": "Действуют оба объявления",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "mixed",
+        "category": "unresolved_current_conditions"
+      },
+      {
+        "id": "fv7-case-095",
+        "title": "Ярмарка рисунков",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 12,
+        "language": "ru",
+        "category": "jury_skill_final"
+      },
+      {
+        "id": "fv7-case-096",
+        "title": "Рабочая тетрадь садового марафона",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "mandatory_companion_purchase"
+      },
+      {
+        "id": "fv7-case-097",
+        "title": "Жазылымын ұзартқан тыңдармандар",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "renewal_required"
+      },
+      {
+        "id": "fv7-case-098",
+        "title": "Обещание без порядка выбора",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 35,
+        "language": "mixed",
+        "category": "selection_not_stated"
+      },
+      {
+        "id": "fv7-case-099",
+        "title": "Семейная выпечка",
+        "expected": "high",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 5,
+        "language": "ru",
+        "category": "receipt_entry"
+      },
+      {
+        "id": "fv7-case-100",
+        "title": "Доставка книжного набора",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "free_entry_shipping_only_after_win"
+      }
+    ],
+    "baseline": {
+      "name": "Any single source classified high",
+      "precision": 0.7,
+      "recall": 0.175,
+      "falsePositiveRate": 0.05
+    },
+    "limitations": [
+      "Synthetic textual scenarios; class prevalence and wording are designed.",
+      "Medium cases count as not-high for strict binary metrics; queue metrics use high + medium vs low.",
+      "Text metrics exclude OCR, ASR, platform access and human analyst performance."
+    ],
+    "confidence95": {
+      "precision": [
+        0.6853073044604219,
+        0.9872781138877085
+      ],
+      "recall": [
+        0.20084316962661725,
+        0.4798254191110201
+      ],
+      "falsePositiveRate": [
+        0.002948083860873682,
+        0.08855338226779477
+      ],
+      "accuracy": [
+        0.4622792771125631,
+        0.6532813459903167
+      ]
+    },
+    "triage": {
+      "positiveDefinition": "high + medium vs low",
+      "tp": 51,
+      "fp": 12,
+      "tn": 28,
+      "fn": 9,
+      "precision": 0.8095238095238095,
+      "recall": 0.85,
+      "falsePositiveRate": 0.3,
+      "confidence95": {
+        "precision": [
+          0.6959297958482789,
+          0.8875391815550149
+        ],
+        "recall": [
+          0.7388517410884038,
+          0.9190265075770431
+        ],
+        "falsePositiveRate": [
+          0.18074670915695296,
+          0.454303106543204
+        ]
+      }
+    },
+    "evidenceValidation": {
+      "signalErrorsReportedByEvaluate": 0,
+      "strictSignalAndContextErrors": 0,
+      "scope": "Main campaigns and their single-source baseline calls; exact original UTF-16 offsets."
+    },
+    "byLanguage": {
+      "kk": {
+        "n": 30,
+        "total": 30,
+        "tp": 7,
+        "fp": 1,
+        "tn": 17,
+        "fn": 5,
+        "precision": 0.875,
+        "recall": 0.5833333333333334,
+        "falsePositiveRate": 0.05555555555555555,
+        "confidence95": {
+          "precision": [
+            0.5291051942301386,
+            0.9775830911367038
+          ],
+          "recall": [
+            0.3195073356553728,
+            0.8067425380947535
+          ],
+          "falsePositiveRate": [
+            0.009874935830924525,
+            0.2575779980200754
+          ],
+          "accuracy": [
+            0.48779725813830266,
+            0.807697044731538
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 7,
+            "medium": 4,
+            "low": 1
+          },
+          "medium": {
+            "high": 1,
+            "medium": 5,
+            "low": 0
+          },
+          "low": {
+            "high": 0,
+            "medium": 4,
+            "low": 8
+          }
+        },
+        "accuracy": 0.6666666666666666,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 17,
+          "fp": 4,
+          "tn": 8,
+          "fn": 1,
+          "precision": 0.8095238095238095,
+          "recall": 0.9444444444444444,
+          "falsePositiveRate": 0.3333333333333333,
+          "confidence95": {
+            "precision": [
+              0.599990134607267,
+              0.9233255938482269
+            ],
+            "recall": [
+              0.7424220019799247,
+              0.9901250641690756
+            ],
+            "falsePositiveRate": [
+              0.13811783989736134,
+              0.609382412602386
+            ]
+          }
+        }
+      },
+      "ru": {
+        "n": 30,
+        "total": 30,
+        "tp": 5,
+        "fp": 0,
+        "tn": 18,
+        "fn": 7,
+        "precision": 1,
+        "recall": 0.4166666666666667,
+        "falsePositiveRate": 0,
+        "confidence95": {
+          "precision": [
+            0.5655085052479191,
+            1
+          ],
+          "recall": [
+            0.19325746190524656,
+            0.6804926643446272
+          ],
+          "falsePositiveRate": [
+            0,
+            0.1758845505823749
+          ],
+          "accuracy": [
+            0.42320052498273836,
+            0.7540960567391659
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 5,
+            "medium": 6,
+            "low": 1
+          },
+          "medium": {
+            "high": 0,
+            "medium": 4,
+            "low": 2
+          },
+          "low": {
+            "high": 0,
+            "medium": 3,
+            "low": 9
+          }
+        },
+        "accuracy": 0.6,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 15,
+          "fp": 3,
+          "tn": 9,
+          "fn": 3,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "falsePositiveRate": 0.25,
+          "confidence95": {
+            "precision": [
+              0.6077750036164076,
+              0.9416352959953425
+            ],
+            "recall": [
+              0.6077750036164076,
+              0.9416352959953425
+            ],
+            "falsePositiveRate": [
+              0.08894003962896138,
+              0.53231033912066
+            ]
+          }
+        }
+      },
+      "mixed": {
+        "n": 20,
+        "total": 20,
+        "tp": 1,
+        "fp": 0,
+        "tn": 12,
+        "fn": 7,
+        "precision": 1,
+        "recall": 0.125,
+        "falsePositiveRate": 0,
+        "confidence95": {
+          "precision": [
+            0.20654329147389294,
+            1
+          ],
+          "recall": [
+            0.02241690886329617,
+            0.4708948057698615
+          ],
+          "falsePositiveRate": [
+            0,
+            0.2425007574992425
+          ],
+          "accuracy": [
+            0.3420820083075997,
+            0.7418049791429071
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 1,
+            "medium": 7,
+            "low": 0
+          },
+          "medium": {
+            "high": 0,
+            "medium": 4,
+            "low": 0
+          },
+          "low": {
+            "high": 0,
+            "medium": 2,
+            "low": 6
+          }
+        },
+        "accuracy": 0.55,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 12,
+          "fp": 2,
+          "tn": 6,
+          "fn": 0,
+          "precision": 0.8571428571428571,
+          "recall": 1,
+          "falsePositiveRate": 0.25,
+          "confidence95": {
+            "precision": [
+              0.600580922361363,
+              0.9599069262620787
+            ],
+            "recall": [
+              0.7574992425007574,
+              1
+            ],
+            "falsePositiveRate": [
+              0.07147768885802763,
+              0.5907301208974108
+            ]
+          }
+        }
+      },
+      "translit": {
+        "n": 20,
+        "total": 20,
+        "tp": 0,
+        "fp": 0,
+        "tn": 12,
+        "fn": 8,
+        "precision": null,
+        "recall": 0,
+        "falsePositiveRate": 0,
+        "confidence95": {
+          "precision": null,
+          "recall": [
+            0,
+            0.3244156195108769
+          ],
+          "falsePositiveRate": [
+            0,
+            0.2425007574992425
+          ],
+          "accuracy": [
+            0.18118954786794464,
+            0.5671494897805354
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 0,
+            "medium": 5,
+            "low": 3
+          },
+          "medium": {
+            "high": 0,
+            "medium": 2,
+            "low": 2
+          },
+          "low": {
+            "high": 0,
+            "medium": 3,
+            "low": 5
+          }
+        },
+        "accuracy": 0.35,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 7,
+          "fp": 3,
+          "tn": 5,
+          "fn": 5,
+          "precision": 0.7,
+          "recall": 0.5833333333333334,
+          "falsePositiveRate": 0.375,
+          "confidence95": {
+            "precision": [
+              0.39677321997956516,
+              0.892210712513788
+            ],
+            "recall": [
+              0.3195073356553728,
+              0.8067425380947535
+            ],
+            "falsePositiveRate": [
+              0.13684175946152105,
+              0.6942621454161981
+            ]
+          }
+        }
+      }
+    }
+  },
+  "limitations": [
+    "A separate AI authored the new corpus without reading engine code, previous cases, reports or predictions. The engine was frozen before corpus creation.",
+    "Labels, prevalence and wording are AI-authored hypotheses. No human annotators or real publications participated.",
+    "This is a small synthetic text test. It does not estimate accuracy on the real social-media population.",
+    "The test does not measure OCR, speech recognition, analyst speed, platform integration or server capacity.",
+    "Once disclosed, this corpus is open. Tuning against its errors cannot be presented as a new blind result."
+  ]
+}

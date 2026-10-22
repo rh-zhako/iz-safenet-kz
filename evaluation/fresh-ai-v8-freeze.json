@@ -1,0 +1,8 @@
+{
+  "engineVersion": "2.0.0-track1-evidence",
+  "engineSha256": "e598edfd05ca82d55ea6c2e519c7343398dfad08d579a7a03925857554bf1009",
+  "harnessSha256": "d8d16f4a198de2df6909e674eba12dc16705a72257fe2a7b1db2729cbdaebdf8",
+  "frozenAt": "2026-10-22T18:47:28.281075+00:00",
+  "status": "FROZEN_BEFORE_FRESH_V8_AUTHORING",
+  "knownDevelopment": "v1-v7 are disclosed AI-synthetic development data. No v8 corpus exists or has been read at freeze."
+}

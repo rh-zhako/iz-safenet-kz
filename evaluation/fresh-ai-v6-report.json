@@ -1,0 +1,1291 @@
+{
+  "schemaVersion": 1,
+  "status": "FRESH_ENGINE_BLINDED_AI_SYNTHETIC",
+  "at": "2026-10-22T17:19:29.154Z",
+  "engineVersion": "1.8.0-track1-evidence",
+  "engineSha256": "97d180ba11deaba8918da777a5295705da36de3eac571b1a3dc5ea9c89c77d6c",
+  "corpusSha256": "393606887ffde615688ac458082af27c1c77a97005f1293b551487f5e53966db",
+  "harnessSha256": "18e194ce4ddd2430484d28030fe99cb2969af2943d7aa14713458ad042b28534",
+  "freeze": {
+    "engineVersion": "1.8.0-track1-evidence",
+    "engineSha256": "97d180ba11deaba8918da777a5295705da36de3eac571b1a3dc5ea9c89c77d6c",
+    "at": "2026-10-22T17:08:16.377064+00:00",
+    "sourceCommit": "798e5a6ee89243a1b4952bc3e60c0016efa3569a",
+    "protocol": "Engine frozen before creating a new separately AI-authored synthetic corpus. No engine tuning against this new corpus is permitted before recording the first run. Not human or real-world validation."
+  },
+  "authoring": {
+    "kind": "separate_engine_blinded_ai_synthetic",
+    "sourceAccess": "No engine, prior cases, reports, code or predictions read",
+    "fictional": true,
+    "humans": 0
+  },
+  "counts": {
+    "cases": 80,
+    "sources": 116,
+    "multiSourceCases": 36
+  },
+  "result": {
+    "engineVersion": "1.8.0-track1-evidence",
+    "dataset": "Fresh AI-authored synthetic v6; frozen v1.8 before authoring, not real-world or human validation",
+    "synthetic": true,
+    "total": 80,
+    "positiveDefinition": "high: observed prize + mandatory entry payment + random selection, without unresolved contradiction",
+    "precision": 0.8888888888888888,
+    "recall": 0.25,
+    "falsePositiveRate": 0.020833333333333332,
+    "accuracy": 0.4375,
+    "decisionCoverage": 0.35,
+    "tp": 8,
+    "fp": 1,
+    "tn": 47,
+    "fn": 24,
+    "matrix": {
+      "high": {
+        "high": 8,
+        "medium": 23,
+        "low": 1
+      },
+      "medium": {
+        "high": 1,
+        "medium": 12,
+        "low": 3
+      },
+      "low": {
+        "high": 0,
+        "medium": 17,
+        "low": 15
+      }
+    },
+    "quoteErrors": 0,
+    "cases": [
+      {
+        "id": "fresh-v6-ru-01",
+        "title": "Звоноклён: чайник по чеку",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "purchase_receipt_random"
+      },
+      {
+        "id": "fresh-v6-ru-02",
+        "title": "Листобар: билет на набор красок",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "ticket_final_draw"
+      },
+      {
+        "id": "fresh-v6-ru-03",
+        "title": "Пекарня Облачный мак: курс и кофемолка",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "paid_service_entry"
+      },
+      {
+        "id": "fresh-v6-ru-04",
+        "title": "Лунолес: обязательный взнос за фигурку",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "mandatory_contribution_random"
+      },
+      {
+        "id": "fresh-v6-ru-05",
+        "title": "Мятный компас: заменённые правила",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "superseded_free_rules"
+      },
+      {
+        "id": "fresh-v6-ru-06",
+        "title": "Тихий метеор: месячный клубный пропуск",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "paid_membership_gate"
+      },
+      {
+        "id": "fresh-v6-ru-07",
+        "title": "Карандашный кит: цифровая покупка",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "ru",
+        "category": "digital_product_purchase"
+      },
+      {
+        "id": "fresh-v6-ru-08",
+        "title": "Велолад: платная заявка на велосипед",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "ru",
+        "category": "application_fee_random"
+      },
+      {
+        "id": "fresh-v6-ru-09",
+        "title": "Фарфоровый ветер: два нынешних тарифа",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": true,
+        "score": 65,
+        "language": "ru",
+        "category": "contradictory_current_entry"
+      },
+      {
+        "id": "fresh-v6-ru-10",
+        "title": "Синий конверт: неопределённый финал",
+        "expected": "medium",
+        "predicted": "high",
+        "baseline": "high",
+        "match": false,
+        "score": 90,
+        "language": "ru",
+        "category": "unclear_final_selection"
+      },
+      {
+        "id": "fresh-v6-ru-11",
+        "title": "Кедровая точка: только обещание",
+        "expected": "medium",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "ru",
+        "category": "missing_entry_terms"
+      },
+      {
+        "id": "fresh-v6-ru-12",
+        "title": "Бумажная орбита: несовместимые способы выбора",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "ru",
+        "category": "contradictory_current_selection"
+      },
+      {
+        "id": "fresh-v6-ru-13",
+        "title": "Речной фонарь: бесплатная заявка и добровольная помощь",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "ru",
+        "category": "free_entry_optional_donation"
+      },
+      {
+        "id": "fresh-v6-ru-14",
+        "title": "Янтарный шов: доставка после выигрыша",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "category": "shipping_after_winning"
+      },
+      {
+        "id": "fresh-v6-ru-15",
+        "title": "Трёхлистник: случайный порядок выступлений",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "random_preliminary_skill_final"
+      },
+      {
+        "id": "fresh-v6-ru-16",
+        "title": "Кофейный парус: обычный комплект",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "ru",
+        "category": "ordinary_retail"
+      },
+      {
+        "id": "fresh-v6-ru-17",
+        "title": "Песочный архив: предупреждение с цитатой",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 3,
+        "language": "ru",
+        "category": "warning_quotation"
+      },
+      {
+        "id": "fresh-v6-ru-18",
+        "title": "Шёлковый дуб: отменённый платный этап",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "ru",
+        "category": "archived_paid_current_free"
+      },
+      {
+        "id": "fresh-v6-ru-19",
+        "title": "Медный мотылёк: оплаченная мастерская и оценка",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "ru",
+        "category": "paid_entry_skill_award"
+      },
+      {
+        "id": "fresh-v6-ru-20",
+        "title": "Снежный баркас: рекламная покупка отдельно",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "category": "independent_free_giveaway"
+      },
+      {
+        "id": "fresh-v6-kk-01",
+        "title": "Күмісқия: түбіртекпен қатысу",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "purchase_receipt_random"
+      },
+      {
+        "id": "fresh-v6-kk-02",
+        "title": "Таңсәуле шеберханасы: ақылы нөмір",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "ticket_final_draw"
+      },
+      {
+        "id": "fresh-v6-kk-03",
+        "title": "Қоңырбұлақ: сабаққа төлем және сыйлық",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "paid_service_entry"
+      },
+      {
+        "id": "fresh-v6-kk-04",
+        "title": "Шырайлы ұя: міндетті жарна",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "mandatory_contribution_random"
+      },
+      {
+        "id": "fresh-v6-kk-05",
+        "title": "Айжапырақ: ескі хабарлама күшін жойған",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "kk",
+        "category": "superseded_free_rules"
+      },
+      {
+        "id": "fresh-v6-kk-06",
+        "title": "Көкжиекше: ақылы мүшелік",
+        "expected": "high",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "kk",
+        "category": "paid_membership_gate"
+      },
+      {
+        "id": "fresh-v6-kk-07",
+        "title": "Шеберсамал: электронды үлгі сатып алу",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "digital_product_purchase"
+      },
+      {
+        "id": "fresh-v6-kk-08",
+        "title": "Далаұшқын: өтінімді тіркеу ақысы",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "application_fee_random"
+      },
+      {
+        "id": "fresh-v6-kk-09",
+        "title": "Маржанкеш: қазіргі шарттар қайшы",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "kk",
+        "category": "contradictory_current_entry"
+      },
+      {
+        "id": "fresh-v6-kk-10",
+        "title": "Желкенгүл: финал тәртібі белгісіз",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": true,
+        "score": 65,
+        "language": "kk",
+        "category": "unclear_final_selection"
+      },
+      {
+        "id": "fresh-v6-kk-11",
+        "title": "Ақмамық із: қатысу жолы айтылмаған",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "kk",
+        "category": "missing_entry_terms"
+      },
+      {
+        "id": "fresh-v6-kk-12",
+        "title": "Бозтаң таспа: екі түрлі финал",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "kk",
+        "category": "contradictory_current_selection"
+      },
+      {
+        "id": "fresh-v6-kk-13",
+        "title": "Самалкесте: ерікті көмек",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "kk",
+        "category": "free_entry_optional_donation"
+      },
+      {
+        "id": "fresh-v6-kk-14",
+        "title": "Күншолақ: ұтқаннан кейінгі жеткізу",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "shipping_after_winning"
+      },
+      {
+        "id": "fresh-v6-kk-15",
+        "title": "Өрнектау: жеребе тек кезекке",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "random_preliminary_skill_final"
+      },
+      {
+        "id": "fresh-v6-kk-16",
+        "title": "Жайнақұм: әр сатып алушыға жиынтық",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "kk",
+        "category": "ordinary_retail"
+      },
+      {
+        "id": "fresh-v6-kk-17",
+        "title": "Түсінікті із: оқу мысалы",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 3,
+        "language": "kk",
+        "category": "warning_quotation"
+      },
+      {
+        "id": "fresh-v6-kk-18",
+        "title": "Ақжелкенше: мұрағаттағы ақылы нұсқа",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "archived_paid_current_free"
+      },
+      {
+        "id": "fresh-v6-kk-19",
+        "title": "Балқоңырша: шеберлікпен берілетін марапат",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "paid_entry_skill_award"
+      },
+      {
+        "id": "fresh-v6-kk-20",
+        "title": "Жолақсәуле: сауда жанындағы тегін сыйлық",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "kk",
+        "category": "independent_free_giveaway"
+      },
+      {
+        "id": "fresh-v6-mixed-01",
+        "title": "Алмадым-студия: чек на колонку",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "purchase_receipt_random"
+      },
+      {
+        "id": "fresh-v6-mixed-02",
+        "title": "Тұмарлы штрих: платные места",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "ticket_final_draw"
+      },
+      {
+        "id": "fresh-v6-mixed-03",
+        "title": "Самалкадр: оплаченная фотопрогулка",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "mixed",
+        "category": "paid_service_entry"
+      },
+      {
+        "id": "fresh-v6-mixed-04",
+        "title": "Қоңыраугүл Lab: сбор с обязательным минимумом",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "mandatory_contribution_random"
+      },
+      {
+        "id": "fresh-v6-mixed-05",
+        "title": "Көкмарка: прежний бесплатный анонс отменён",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "superseded_free_rules"
+      },
+      {
+        "id": "fresh-v6-mixed-06",
+        "title": "Жұлдызқалта: клуб по подписке",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "mixed",
+        "category": "paid_membership_gate"
+      },
+      {
+        "id": "fresh-v6-mixed-07",
+        "title": "Қанатқалам: продажа цифрового альбома",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "digital_product_purchase"
+      },
+      {
+        "id": "fresh-v6-mixed-08",
+        "title": "Құмжол мастерская: плата за регистрацию",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "application_fee_random"
+      },
+      {
+        "id": "fresh-v6-mixed-09",
+        "title": "Таңбелгі: одновременно бесплатно и по покупке",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": true,
+        "score": 65,
+        "language": "mixed",
+        "category": "contradictory_current_entry"
+      },
+      {
+        "id": "fresh-v6-mixed-10",
+        "title": "Желбояу: случайная десятка без правил финала",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": true,
+        "score": 65,
+        "language": "mixed",
+        "category": "unclear_final_selection"
+      },
+      {
+        "id": "fresh-v6-mixed-11",
+        "title": "Ақпарақша: активный подарок без входных условий",
+        "expected": "medium",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "mixed",
+        "category": "missing_entry_terms"
+      },
+      {
+        "id": "fresh-v6-mixed-12",
+        "title": "Кешшырақ: конфликт финальных правил",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "mixed",
+        "category": "contradictory_current_selection"
+      },
+      {
+        "id": "fresh-v6-mixed-13",
+        "title": "Таңсамал box: бесплатная форма и помощь по желанию",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "category": "free_entry_optional_donation"
+      },
+      {
+        "id": "fresh-v6-mixed-14",
+        "title": "Құсбояу: курьер только после итога",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "mixed",
+        "category": "shipping_after_winning"
+      },
+      {
+        "id": "fresh-v6-mixed-15",
+        "title": "Сазтерек: случайные соперники, финал по умению",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 12,
+        "language": "mixed",
+        "category": "random_preliminary_skill_final"
+      },
+      {
+        "id": "fresh-v6-mixed-16",
+        "title": "Шағылқорап: обычный товарный комплект",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "mixed",
+        "category": "ordinary_retail"
+      },
+      {
+        "id": "fresh-v6-mixed-17",
+        "title": "Ойжолақ: учебная цитата",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 3,
+        "language": "mixed",
+        "category": "warning_quotation"
+      },
+      {
+        "id": "fresh-v6-mixed-18",
+        "title": "Салқынөрік: платный черновик в архиве",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "category": "archived_paid_current_free"
+      },
+      {
+        "id": "fresh-v6-mixed-19",
+        "title": "Қолтаңба-ай: оплаченная работа для жюри",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 12,
+        "language": "mixed",
+        "category": "paid_entry_skill_award"
+      },
+      {
+        "id": "fresh-v6-mixed-20",
+        "title": "Аспанқұты: покупка рядом с бесплатной акцией",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "independent_free_giveaway"
+      },
+      {
+        "id": "fresh-v6-translit-01",
+        "title": "Arshaqanat: chekten shygatyn prize",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "translit",
+        "category": "purchase_receipt_random"
+      },
+      {
+        "id": "fresh-v6-translit-02",
+        "title": "Tumarshyraq: oplachennyi nomer",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "translit",
+        "category": "ticket_final_draw"
+      },
+      {
+        "id": "fresh-v6-translit-03",
+        "title": "Kokterekshi: aqyly kursqa qosyldy",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "paid_service_entry"
+      },
+      {
+        "id": "fresh-v6-translit-04",
+        "title": "Zhelsana: mindetti audarym",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "mandatory_contribution_random"
+      },
+      {
+        "id": "fresh-v6-translit-05",
+        "title": "Aiqalpoq: arhiv tegin emes qoldanylmaidy",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "translit",
+        "category": "superseded_free_rules"
+      },
+      {
+        "id": "fresh-v6-translit-06",
+        "title": "Bulutkeste: klubtyn aqyly kartasy",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "translit",
+        "category": "paid_membership_gate"
+      },
+      {
+        "id": "fresh-v6-translit-07",
+        "title": "Qalamshabyt: cifrovoi tovar",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "translit",
+        "category": "digital_product_purchase"
+      },
+      {
+        "id": "fresh-v6-translit-08",
+        "title": "Saryshybyq: registratsiya aqysy",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "application_fee_random"
+      },
+      {
+        "id": "fresh-v6-translit-09",
+        "title": "Sholpankese: eki aktiv shart",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "translit",
+        "category": "contradictory_current_entry"
+      },
+      {
+        "id": "fresh-v6-translit-10",
+        "title": "Kuzqalem: kezdeisoq finalshylar",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "translit",
+        "category": "unclear_final_selection"
+      },
+      {
+        "id": "fresh-v6-translit-11",
+        "title": "Aqshynar: sharttary keyin",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "translit",
+        "category": "missing_entry_terms"
+      },
+      {
+        "id": "fresh-v6-translit-12",
+        "title": "Zhaztamyr: qarama-qayshy final",
+        "expected": "medium",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "translit",
+        "category": "contradictory_current_selection"
+      },
+      {
+        "id": "fresh-v6-translit-13",
+        "title": "Erkesamal: qoldau oz erkimen",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "free_entry_optional_donation"
+      },
+      {
+        "id": "fresh-v6-translit-14",
+        "title": "Jelshanyraq: jetkizu utqannan keyin",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "translit",
+        "category": "shipping_after_winning"
+      },
+      {
+        "id": "fresh-v6-translit-15",
+        "title": "Aspanosim: zherebe tek kez ekke",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "random_preliminary_skill_final"
+      },
+      {
+        "id": "fresh-v6-translit-16",
+        "title": "Qumshyraq: garantirovannyi komplekt",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "translit",
+        "category": "ordinary_retail"
+      },
+      {
+        "id": "fresh-v6-translit-17",
+        "title": "Bilimtamshy: sitata retindegi mysal",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "translit",
+        "category": "warning_quotation"
+      },
+      {
+        "id": "fresh-v6-translit-18",
+        "title": "Kokqurama: arhiv qana",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "archived_paid_current_free"
+      },
+      {
+        "id": "fresh-v6-translit-19",
+        "title": "Balshyqtagy ai: sheberlik syiy",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "paid_entry_skill_award"
+      },
+      {
+        "id": "fresh-v6-translit-20",
+        "title": "Shyrshabulaq: tauar jane tegin forma",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "translit",
+        "category": "independent_free_giveaway"
+      }
+    ],
+    "baseline": {
+      "name": "Any single source classified high",
+      "precision": 0.6428571428571429,
+      "recall": 0.28125,
+      "falsePositiveRate": 0.10416666666666667
+    },
+    "limitations": [
+      "Synthetic textual scenarios; class prevalence and wording are designed.",
+      "Medium cases count as not-high for strict binary metrics; queue metrics use high + medium vs low.",
+      "Text metrics exclude OCR, ASR, platform access and human analyst performance."
+    ],
+    "confidence95": {
+      "precision": [
+        0.5649937852319399,
+        0.9801096286728695
+      ],
+      "recall": [
+        0.1325224398262155,
+        0.42106891770246624
+      ],
+      "falsePositiveRate": [
+        0.003687015979399688,
+        0.10899469137531158
+      ],
+      "accuracy": [
+        0.3341368457196415,
+        0.5465906213134304
+      ]
+    },
+    "triage": {
+      "positiveDefinition": "high + medium vs low",
+      "tp": 44,
+      "fp": 17,
+      "tn": 15,
+      "fn": 4,
+      "precision": 0.7213114754098361,
+      "recall": 0.9166666666666666,
+      "falsePositiveRate": 0.53125,
+      "confidence95": {
+        "precision": [
+          0.5982833136872678,
+          0.8181160348790846
+        ],
+        "recall": [
+          0.8044643483893369,
+          0.9671167756500444
+        ],
+        "falsePositiveRate": [
+          0.3644923793257382,
+          0.6913087009831766
+        ]
+      }
+    },
+    "evidenceValidation": {
+      "signalErrorsReportedByEvaluate": 0,
+      "strictSignalAndContextErrors": 0,
+      "scope": "Main campaigns and their single-source baseline calls; exact original UTF-16 offsets."
+    },
+    "byLanguage": {
+      "ru": {
+        "n": 20,
+        "total": 20,
+        "tp": 2,
+        "fp": 1,
+        "tn": 11,
+        "fn": 6,
+        "precision": 0.6666666666666666,
+        "recall": 0.25,
+        "falsePositiveRate": 0.08333333333333333,
+        "confidence95": {
+          "precision": [
+            0.2076549551264879,
+            0.9385096847238394
+          ],
+          "recall": [
+            0.07147768885802763,
+            0.5907301208974108
+          ],
+          "falsePositiveRate": [
+            0.014864709450773478,
+            0.35388592179859524
+          ],
+          "accuracy": [
+            0.25819502085709295,
+            0.6579179916924003
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 2,
+            "medium": 6,
+            "low": 0
+          },
+          "medium": {
+            "high": 1,
+            "medium": 2,
+            "low": 1
+          },
+          "low": {
+            "high": 0,
+            "medium": 3,
+            "low": 5
+          }
+        },
+        "accuracy": 0.45,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 11,
+          "fp": 3,
+          "tn": 5,
+          "fn": 1,
+          "precision": 0.7857142857142857,
+          "recall": 0.9166666666666666,
+          "falsePositiveRate": 0.375,
+          "confidence95": {
+            "precision": [
+              0.5241027622679172,
+              0.9242875166308363
+            ],
+            "recall": [
+              0.6461140782014047,
+              0.9851352905492264
+            ],
+            "falsePositiveRate": [
+              0.13684175946152105,
+              0.6942621454161981
+            ]
+          }
+        }
+      },
+      "kk": {
+        "n": 20,
+        "total": 20,
+        "tp": 2,
+        "fp": 0,
+        "tn": 12,
+        "fn": 6,
+        "precision": 1,
+        "recall": 0.25,
+        "falsePositiveRate": 0,
+        "confidence95": {
+          "precision": [
+            0.34237195288961925,
+            1
+          ],
+          "recall": [
+            0.07147768885802763,
+            0.5907301208974108
+          ],
+          "falsePositiveRate": [
+            0,
+            0.2425007574992425
+          ],
+          "accuracy": [
+            0.21880396741419272,
+            0.613422057684794
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 2,
+            "medium": 5,
+            "low": 1
+          },
+          "medium": {
+            "high": 0,
+            "medium": 4,
+            "low": 0
+          },
+          "low": {
+            "high": 0,
+            "medium": 6,
+            "low": 2
+          }
+        },
+        "accuracy": 0.4,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 11,
+          "fp": 6,
+          "tn": 2,
+          "fn": 1,
+          "precision": 0.6470588235294118,
+          "recall": 0.9166666666666666,
+          "falsePositiveRate": 0.75,
+          "confidence95": {
+            "precision": [
+              0.4129996672121182,
+              0.826905138560951
+            ],
+            "recall": [
+              0.6461140782014047,
+              0.9851352905492264
+            ],
+            "falsePositiveRate": [
+              0.40926987910258916,
+              0.9285223111419724
+            ]
+          }
+        }
+      },
+      "mixed": {
+        "n": 20,
+        "total": 20,
+        "tp": 4,
+        "fp": 0,
+        "tn": 12,
+        "fn": 4,
+        "precision": 1,
+        "recall": 0.5,
+        "falsePositiveRate": 0,
+        "confidence95": {
+          "precision": [
+            0.5100999795960008,
+            1
+          ],
+          "recall": [
+            0.21521252682444186,
+            0.7847874731755582
+          ],
+          "falsePositiveRate": [
+            0,
+            0.2425007574992425
+          ],
+          "accuracy": [
+            0.43285051021946463,
+            0.8188104521320554
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 4,
+            "medium": 4,
+            "low": 0
+          },
+          "medium": {
+            "high": 0,
+            "medium": 3,
+            "low": 1
+          },
+          "low": {
+            "high": 0,
+            "medium": 2,
+            "low": 6
+          }
+        },
+        "accuracy": 0.65,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 11,
+          "fp": 2,
+          "tn": 6,
+          "fn": 1,
+          "precision": 0.8461538461538461,
+          "recall": 0.9166666666666666,
+          "falsePositiveRate": 0.25,
+          "confidence95": {
+            "precision": [
+              0.5776482949136899,
+              0.9567427368172621
+            ],
+            "recall": [
+              0.6461140782014047,
+              0.9851352905492264
+            ],
+            "falsePositiveRate": [
+              0.07147768885802763,
+              0.5907301208974108
+            ]
+          }
+        }
+      },
+      "translit": {
+        "n": 20,
+        "total": 20,
+        "tp": 0,
+        "fp": 0,
+        "tn": 12,
+        "fn": 8,
+        "precision": null,
+        "recall": 0,
+        "falsePositiveRate": 0,
+        "confidence95": {
+          "precision": null,
+          "recall": [
+            0,
+            0.3244156195108769
+          ],
+          "falsePositiveRate": [
+            0,
+            0.2425007574992425
+          ],
+          "accuracy": [
+            0.11186005278940309,
+            0.4687050099580636
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 0,
+            "medium": 8,
+            "low": 0
+          },
+          "medium": {
+            "high": 0,
+            "medium": 3,
+            "low": 1
+          },
+          "low": {
+            "high": 0,
+            "medium": 6,
+            "low": 2
+          }
+        },
+        "accuracy": 0.25,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 11,
+          "fp": 6,
+          "tn": 2,
+          "fn": 1,
+          "precision": 0.6470588235294118,
+          "recall": 0.9166666666666666,
+          "falsePositiveRate": 0.75,
+          "confidence95": {
+            "precision": [
+              0.4129996672121182,
+              0.826905138560951
+            ],
+            "recall": [
+              0.6461140782014047,
+              0.9851352905492264
+            ],
+            "falsePositiveRate": [
+              0.40926987910258916,
+              0.9285223111419724
+            ]
+          }
+        }
+      }
+    }
+  },
+  "limitations": [
+    "A separate AI authored the new corpus without reading engine code, previous cases, reports or predictions. The engine was frozen before corpus creation.",
+    "Labels, prevalence and wording are AI-authored hypotheses. No human annotators or real publications participated.",
+    "This is a small synthetic text test. It does not estimate accuracy on the real social-media population.",
+    "The test does not measure OCR, speech recognition, analyst speed, platform integration or server capacity.",
+    "Once disclosed, this corpus is open. Tuning against its errors cannot be presented as a new blind result."
+  ]
+}

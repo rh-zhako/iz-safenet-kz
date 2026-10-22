@@ -1,0 +1,7 @@
+{
+  "engineVersion": "1.8.0-track1-evidence",
+  "engineSha256": "97d180ba11deaba8918da777a5295705da36de3eac571b1a3dc5ea9c89c77d6c",
+  "at": "2026-10-22T17:08:16.377064+00:00",
+  "sourceCommit": "798e5a6ee89243a1b4952bc3e60c0016efa3569a",
+  "protocol": "Engine frozen before creating a new separately AI-authored synthetic corpus. No engine tuning against this new corpus is permitted before recording the first run. Not human or real-world validation."
+}

@@ -1,0 +1,11 @@
+{
+  "n": 160,
+  "agreed": 160,
+  "agreement": 1.0,
+  "cohenKappa": 1.0,
+  "sourceSha256": "0cc631e462e2cc13844cf7b18deab207c4b66c6c765e1d2e57d9ab75762ae871",
+  "secondLabelsSha256": "152723ac19784e9d00b19044e355b3d29be0598ad0f7e14435a07f673184b683",
+  "status": "INDEPENDENT_AI_LABEL_AGREEMENT_NOT_HUMAN_VALIDATION",
+  "protocol": "Second annotator read only unlabeled cases and a class policy, with no first labels, quotas, code or predictions. Original first labels and first run report remain unchanged.",
+  "disagreements": []
+}
