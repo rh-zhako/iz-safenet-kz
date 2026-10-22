@@ -32,11 +32,11 @@
 
 <table>
   <tr>
-    <td width="72%"><img src=".github/assets/desktop.png" alt="ІЗ на ноутбуке: рабочий экран проекта" width="100%"></td>
+    <td width="72%"><img src=".github/assets/desktop-analyst.png" alt="ІЗ на ноутбуке: подробный разбор и цитаты" width="100%"></td>
     <td width="28%"><img src=".github/assets/mobile.png" alt="ІЗ на телефоне: адаптивный интерфейс проекта" width="100%"></td>
   </tr>
   <tr>
-    <td><sub>Главный экран на ноутбуке</sub></td>
+    <td><sub>Рабочее место аналитика</sub></td>
     <td><sub>Мобильный экран</sub></td>
   </tr>
 </table>
