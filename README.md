@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://iz-safenet-kz.garden-gleam-9738.chatgpt.site/">
+  <a href="https://rh-zhako.github.io/iz-safenet-kz/">
     <img src=".github/assets/cover.svg" alt="ІЗ — Розыгрыши под контролем. Проект команды TEMIR для SafeNet KZ" width="100%">
   </a>
 </p>
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://iz-safenet-kz.garden-gleam-9738.chatgpt.site/"><strong>Открыть ІЗ ↗</strong></a>
+  <a href="https://rh-zhako.github.io/iz-safenet-kz/"><strong>Открыть ІЗ ↗</strong></a>
   &nbsp; · &nbsp; <a href="dist/submission/IZ_SafeNet_Deck.pdf">Презентация</a>
   &nbsp; · &nbsp; <a href="FINAL_REVIEW.md">Проверка проекта</a>
   &nbsp; · &nbsp; <a href="ROADMAP.md">План развития</a>
@@ -51,6 +51,10 @@
 | **Ручная проверка** | Структурированные подтверждения и история решений. Изменение материалов делает прежний разбор устаревшим. |
 | **Связи между материалами** | Граф совпадений полных ссылок и явных контактов с источником каждого ребра. Совпадение не повышает приоритет другого дела. |
 | **Сохранение и восстановление** | Черновики, JSON/HTML-экспорт, резервные копии и обработка конфликта записи между вкладками. |
+
+## Бесплатный хостинг
+
+Публичная версия: **[rh-zhako.github.io/iz-safenet-kz](https://rh-zhako.github.io/iz-safenet-kz/)**. GitHub Pages публикует корень ветки `gh-pages`: содержимое `dist/` и файл `.nojekyll`. Ветка `main` хранит исходники; её изменение само по себе не обновляет публикуемую ветку.
 
 ## Локальный запуск
 
@@ -108,4 +112,4 @@ Google-вход используется только для отображен�
 
 ---
 
-**TEMIR · SafeNet KZ** &nbsp; [Живое демо ↗](https://iz-safenet-kz.garden-gleam-9738.chatgpt.site/) · [Репозиторий](https://github.com/rh-zhako/iz-safenet-kz)
+**TEMIR · SafeNet KZ** &nbsp; [Живое демо ↗](https://rh-zhako.github.io/iz-safenet-kz/) · [Репозиторий](https://github.com/rh-zhako/iz-safenet-kz)

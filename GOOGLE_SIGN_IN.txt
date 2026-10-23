@@ -1,7 +1,7 @@
 ВХОД В ІЗ ЧЕРЕЗ GOOGLE — ИСТОРИЯ ПРОВЕРКИ 22.10.2026
 Финальный аудит кода 23.10.2026 не перепроверял внешние настройки audience.
 
-Client ID создан и подключён к локальной версии сайта.
+Client ID создан и подключён к статической версии сайта.
 Проект Google Cloud: iz-safenet (IZ SafeNet).
 Владелец и адрес поддержки: projectsupporti3@gmail.com.
 Клиент: ІЗ — Website, тип Web application.
@@ -13,6 +13,7 @@ http://127.0.0.1:4173
 http://localhost:4173
 http://localhost
 https://iz-safenet-kz.garden-gleam-9738.chatgpt.site
+https://rh-zhako.github.io
 
 Проверено в Chrome на http://localhost:4173/:
 — официальная кнопка Google открыла выбор аккаунта;
@@ -40,3 +41,10 @@ https://iz-safenet-kz.garden-gleam-9738.chatgpt.site
 https://console.cloud.google.com/auth/clients?project=iz-safenet
 Официальная инструкция:
 https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid
+
+ПЕРЕНОС НА GITHUB PAGES — 23.10.2026
+Публичный сайт: https://rh-zhako.github.io/iz-safenet-kz/
+Origin https://rh-zhako.github.io сохранён в существующем Google-клиенте;
+Google Cloud подтвердил «OAuth client saved». Права и запрашиваемые данные не расширялись.
+Фактический вход пользователя на новом домене пока не подтверждён.
+Смена хостинга не меняет OAuth audience и не переносит локальные проверки: для переноса используйте экспорт/импорт JSON.
