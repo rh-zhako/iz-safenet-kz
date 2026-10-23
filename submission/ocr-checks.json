@@ -1,0 +1,31 @@
+{
+  "scope": "Two clean browser-rendered synthetic screenshots, one per language; body text only, synthetic header excluded, whitespace normalized. Not a real-world OCR benchmark.",
+  "images": [
+    {
+      "language": "ru",
+      "reference": "Розыгрыш нового телефона. Для участия оплатите билет 3000 тенге. Победителя определит колесо фортуны. Комиссия организатора 10 процентов.",
+      "actual": "Розыгрыш нового телефона. Для участия оплатите билет 3000 тенге. Победителя определит колесо фортуны. Комиссия организатора 10 процентов.",
+      "characters": 137,
+      "characterEdits": 0,
+      "cer": 0.0,
+      "words": 17,
+      "wordEdits": 0,
+      "wer": 0.0,
+      "expectedRisk": "high",
+      "observedRisk": "high"
+    },
+    {
+      "language": "kk",
+      "reference": "Кітап ұтысы. Қатысу тегін. Сатып алу қажет емес. Жеңімпаз кездейсоқ таңдалады.",
+      "actual": "Кітап ұтысы. Қатысу тегін. Сатып алу қажет емес. Жеңімпаз кездейсоқ таңдалады.",
+      "characters": 78,
+      "characterEdits": 0,
+      "cer": 0.0,
+      "words": 11,
+      "wordEdits": 0,
+      "wer": 0.0,
+      "expectedRisk": "low",
+      "observedRisk": "low"
+    }
+  ]
+}

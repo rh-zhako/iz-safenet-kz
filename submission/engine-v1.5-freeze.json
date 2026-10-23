@@ -1,0 +1,14 @@
+{
+  "engineVersion": "1.5.0-track1-rules",
+  "engineSha256": "7f10238a32a51407ee7a871851b2618a8c66fef7834a8b2669f2036eaf38f4e4",
+  "frozenAt": "2026-10-20T15:08:45.430Z",
+  "frozenBeforeIndependentEvaluation": true,
+  "protocol": "Engine developed on prior v1/v2 data and disclosed OCR probes. Neither implementation author nor parent has opened v3 cases, expected labels or predictions before this record. No further rule changes after the first v3 run in this release.",
+  "developmentData": [
+    "challenge-v1",
+    "historical regression28",
+    "independent-v2 (now development)",
+    "four synthetic OCR stress probes"
+  ],
+  "labelScope": "Textual indicators and priority for human review; no fraud or legal status judgment."
+}

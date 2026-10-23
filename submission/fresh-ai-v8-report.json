@@ -1,0 +1,2170 @@
+{
+  "schemaVersion": 1,
+  "status": "FRESH_ENGINE_BLINDED_AI_SYNTHETIC",
+  "at": "2026-10-22T19:08:06.547Z",
+  "engineVersion": "2.0.0-track1-evidence",
+  "engineSha256": "e598edfd05ca82d55ea6c2e519c7343398dfad08d579a7a03925857554bf1009",
+  "corpusSha256": "0cc631e462e2cc13844cf7b18deab207c4b66c6c765e1d2e57d9ab75762ae871",
+  "harnessSha256": "d8d16f4a198de2df6909e674eba12dc16705a72257fe2a7b1db2729cbdaebdf8",
+  "freeze": {
+    "engineVersion": "2.0.0-track1-evidence",
+    "engineSha256": "e598edfd05ca82d55ea6c2e519c7343398dfad08d579a7a03925857554bf1009",
+    "harnessSha256": "d8d16f4a198de2df6909e674eba12dc16705a72257fe2a7b1db2729cbdaebdf8",
+    "frozenAt": "2026-10-22T18:47:28.281075+00:00",
+    "status": "FROZEN_BEFORE_FRESH_V8_AUTHORING",
+    "knownDevelopment": "v1-v7 are disclosed AI-synthetic development data. No v8 corpus exists or has been read at freeze."
+  },
+  "authoring": "Brand-new blinded AI-synthetic validation corpus authored by a separate AI author. No engine code, prior corpora, reports, predictions, other agent files, browsing or private data were accessed. These invented cases are synthetic hypotheses, with zero human adjudication. No classifier was executed, and author labels were set before root measurement.",
+  "counts": {
+    "cases": 160,
+    "sources": 273,
+    "multiSourceCases": 93
+  },
+  "result": {
+    "engineVersion": "2.0.0-track1-evidence",
+    "dataset": "Fresh AI-authored synthetic v8; frozen v2.0 before authoring, not real-world or human validation",
+    "synthetic": true,
+    "total": 160,
+    "positiveDefinition": "high: observed prize + mandatory entry payment + random selection, without unresolved contradiction",
+    "precision": 0.7391304347826086,
+    "recall": 0.53125,
+    "falsePositiveRate": 0.125,
+    "accuracy": 0.625,
+    "decisionCoverage": 0.58125,
+    "tp": 34,
+    "fp": 12,
+    "tn": 84,
+    "fn": 30,
+    "matrix": {
+      "high": {
+        "high": 34,
+        "medium": 25,
+        "low": 5
+      },
+      "medium": {
+        "high": 6,
+        "medium": 25,
+        "low": 1
+      },
+      "low": {
+        "high": 6,
+        "medium": 17,
+        "low": 41
+      }
+    },
+    "quoteErrors": 0,
+    "cases": [
+      {
+        "id": "fresh8-001",
+        "title": "Тіркелмеген сілтеме",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 35,
+        "language": "kk",
+        "category": "missing_terms"
+      },
+      {
+        "id": "fresh8-002",
+        "title": "Бүгін жай сатылым",
+        "expected": "low",
+        "predicted": "high",
+        "baseline": "high",
+        "match": false,
+        "score": 90,
+        "language": "kk",
+        "category": "withdrawn_promotion"
+      },
+      {
+        "id": "fresh8-003",
+        "title": "Обсуждение чужого риска",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "ru",
+        "category": "warning_discussion"
+      },
+      {
+        "id": "fresh8-004",
+        "title": "Диск за поддержку",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "mixed",
+        "category": "mandatory_paid_support"
+      },
+      {
+        "id": "fresh8-005",
+        "title": "Жеребе кезекті шешеді",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "mixed",
+        "category": "random_order_only"
+      },
+      {
+        "id": "fresh8-006",
+        "title": "Қауесетке жауап",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "kk",
+        "category": "quoted_false_gate"
+      },
+      {
+        "id": "fresh8-007",
+        "title": "Саундтрек в наушниках",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "paid_screening"
+      },
+      {
+        "id": "fresh8-008",
+        "title": "Шеберге кезек",
+        "expected": "low",
+        "predicted": "high",
+        "baseline": "high",
+        "match": false,
+        "score": 90,
+        "language": "kk",
+        "category": "random_service_order"
+      },
+      {
+        "id": "fresh8-009",
+        "title": "Түстер аптасы",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "paid_prepaid_order"
+      },
+      {
+        "id": "fresh8-010",
+        "title": "Жарияланбаған шешім",
+        "expected": "medium",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": false,
+        "score": 90,
+        "language": "kk",
+        "category": "unknown_final_method"
+      },
+      {
+        "id": "fresh8-011",
+        "title": "Переправа по жетону",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "paid_transport_pack"
+      },
+      {
+        "id": "fresh8-012",
+        "title": "Minutu do zakrytiya",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "closed_paid_entries"
+      },
+      {
+        "id": "fresh8-013",
+        "title": "Рама по желанию",
+        "expected": "low",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": false,
+        "score": 90,
+        "language": "mixed",
+        "category": "postwin_upgrade"
+      },
+      {
+        "id": "fresh8-014",
+        "title": "Жіберу кейін келісіледі",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "category": "postwin_delivery"
+      },
+      {
+        "id": "fresh8-015",
+        "title": "Қайтарылған билет",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "retained_paid_entry"
+      },
+      {
+        "id": "fresh8-016",
+        "title": "Возврат снял номер",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "purchase_retention"
+      },
+      {
+        "id": "fresh8-017",
+        "title": "Podpiska na zapiski",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "translit",
+        "category": "paid_newsletter"
+      },
+      {
+        "id": "fresh8-018",
+        "title": "Сабақтағы үзінді",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 3,
+        "language": "kk",
+        "category": "educational_example"
+      },
+      {
+        "id": "fresh8-019",
+        "title": "Клубная отметка",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "paid_subscription_with_action"
+      },
+      {
+        "id": "fresh8-020",
+        "title": "Zalog ot belogo stola",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "translit",
+        "category": "paid_deposit"
+      },
+      {
+        "id": "fresh8-021",
+        "title": "Rezerv dlya komnaty",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "translit",
+        "category": "paid_booking"
+      },
+      {
+        "id": "fresh8-022",
+        "title": "Istoriya otmeny",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "translit",
+        "category": "cancelled_raffle"
+      },
+      {
+        "id": "fresh8-023",
+        "title": "Случайный адрес полки",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "mixed",
+        "category": "no_reward"
+      },
+      {
+        "id": "fresh8-024",
+        "title": "Номер для очереди",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "ru",
+        "category": "random_order_only"
+      },
+      {
+        "id": "fresh8-025",
+        "title": "Лучший макет",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 12,
+        "language": "ru",
+        "category": "judged_final"
+      },
+      {
+        "id": "fresh8-026",
+        "title": "Шағын сахнадағы орын",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "paid_showcase"
+      },
+      {
+        "id": "fresh8-027",
+        "title": "Донатқа қарамаймыз",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "mixed",
+        "category": "optional_support"
+      },
+      {
+        "id": "fresh8-028",
+        "title": "Полка за взнос",
+        "expected": "high",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "ru",
+        "category": "mandatory_contribution"
+      },
+      {
+        "id": "fresh8-029",
+        "title": "Kiyiz qap",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "translit",
+        "category": "paid_craft_goods"
+      },
+      {
+        "id": "fresh8-030",
+        "title": "Сарапшының соңғы бағасы",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "judged_final"
+      },
+      {
+        "id": "fresh8-031",
+        "title": "Отменили до сбора",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "mixed",
+        "category": "cancelled_paid_raffle"
+      },
+      {
+        "id": "fresh8-032",
+        "title": "Кездейсоқ бес орын",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 35,
+        "language": "mixed",
+        "category": "unknown_final_stage"
+      },
+      {
+        "id": "fresh8-033",
+        "title": "Jai talqylau",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "translit",
+        "category": "hypothetical_warning"
+      },
+      {
+        "id": "fresh8-034",
+        "title": "Жауап пен түбіртек",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "paid_qualified_random"
+      },
+      {
+        "id": "fresh8-035",
+        "title": "Суретке баға",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "kk",
+        "category": "judged_tiebreak"
+      },
+      {
+        "id": "fresh8-036",
+        "title": "Бір кесе, бір мүмкіндік",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "paid_drink"
+      },
+      {
+        "id": "fresh8-037",
+        "title": "Сначала жеребьёвка команд",
+        "expected": "low",
+        "predicted": "high",
+        "baseline": "high",
+        "match": false,
+        "score": 90,
+        "language": "ru",
+        "category": "random_preliminary"
+      },
+      {
+        "id": "fresh8-038",
+        "title": "Орындыққа жазылған сан",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "kk",
+        "category": "paid_lease"
+      },
+      {
+        "id": "fresh8-039",
+        "title": "Чужая реклама в разборе",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "mixed",
+        "category": "warning_quote"
+      },
+      {
+        "id": "fresh8-040",
+        "title": "Стертая строка",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "ru",
+        "category": "incomplete_terms"
+      },
+      {
+        "id": "fresh8-041",
+        "title": "Өз затыңды ал",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "kk",
+        "category": "ordinary_purchase"
+      },
+      {
+        "id": "fresh8-042",
+        "title": "Номер на корешке",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "purchase_receipt"
+      },
+      {
+        "id": "fresh8-043",
+        "title": "Aqsha turaly qate",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "translit",
+        "category": "negated_paid_condition"
+      },
+      {
+        "id": "fresh8-044",
+        "title": "Nabor s neizvestnym risunkom",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "translit",
+        "category": "ordinary_random_goods"
+      },
+      {
+        "id": "fresh8-045",
+        "title": "Тіл сабағындағы мысал",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 3,
+        "language": "mixed",
+        "category": "educational_quotation"
+      },
+      {
+        "id": "fresh8-046",
+        "title": "Грядка у стены",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "mandatory_community_fee"
+      },
+      {
+        "id": "fresh8-047",
+        "title": "Koptik ushin tolem",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "translit",
+        "category": "paid_qualification"
+      },
+      {
+        "id": "fresh8-048",
+        "title": "Pismo posle itoga",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "translit",
+        "category": "postwin_shipping"
+      },
+      {
+        "id": "fresh8-049",
+        "title": "Priz ili prokachka",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "translit",
+        "category": "optional_postwin_upgrade"
+      },
+      {
+        "id": "fresh8-050",
+        "title": "Отбор или вручение",
+        "expected": "medium",
+        "predicted": "high",
+        "baseline": "high",
+        "match": false,
+        "score": 90,
+        "language": "ru",
+        "category": "unclear_selection_role"
+      },
+      {
+        "id": "fresh8-051",
+        "title": "Qashykqa san emes",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "random_seating_only"
+      },
+      {
+        "id": "fresh8-052",
+        "title": "Paket marshrutov",
+        "expected": "high",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 5,
+        "language": "translit",
+        "category": "paid_digital_pack"
+      },
+      {
+        "id": "fresh8-053",
+        "title": "Jar na emes komek",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "translit",
+        "category": "voluntary_donation"
+      },
+      {
+        "id": "fresh8-054",
+        "title": "Kezekke gana",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "translit",
+        "category": "random_queue"
+      },
+      {
+        "id": "fresh8-055",
+        "title": "Куәлік пен чек",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "paid_certification"
+      },
+      {
+        "id": "fresh8-056",
+        "title": "Отменённый формат",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "ru",
+        "category": "cancelled_raffle"
+      },
+      {
+        "id": "fresh8-057",
+        "title": "Два равных входа",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "equal_free_route"
+      },
+      {
+        "id": "fresh8-058",
+        "title": "Екеуі бірдей күште",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "mixed",
+        "category": "contradictory_free_route"
+      },
+      {
+        "id": "fresh8-059",
+        "title": "Письмо вместо сеанса",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "equal_free_alternative"
+      },
+      {
+        "id": "fresh8-060",
+        "title": "Сөмкедегі хат",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "paid_kit"
+      },
+      {
+        "id": "fresh8-061",
+        "title": "Нөмірі бар қап",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "mixed",
+        "category": "paid_goods_with_code"
+      },
+      {
+        "id": "fresh8-062",
+        "title": "Жюри ме, жеребе ме",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": true,
+        "score": 65,
+        "language": "mixed",
+        "category": "contradictory_final_method"
+      },
+      {
+        "id": "fresh8-063",
+        "title": "Kursqa kirgen kod",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "translit",
+        "category": "paid_course"
+      },
+      {
+        "id": "fresh8-064",
+        "title": "Dve formy odnoi daty",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "translit",
+        "category": "contradictory_eligibility"
+      },
+      {
+        "id": "fresh8-065",
+        "title": "Алты үміткер",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "kk",
+        "category": "unclear_final_stage"
+      },
+      {
+        "id": "fresh8-066",
+        "title": "Таңғы ас талондары",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "kk",
+        "category": "paid_meal"
+      },
+      {
+        "id": "fresh8-067",
+        "title": "Үлгіге берілген жауап",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "kk",
+        "category": "hypothetical_dialogue"
+      },
+      {
+        "id": "fresh8-068",
+        "title": "Гүл мен қорап",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "paid_reservation"
+      },
+      {
+        "id": "fresh8-069",
+        "title": "Қайта бастау шеберлікпен",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "mixed",
+        "category": "skill_tiebreak"
+      },
+      {
+        "id": "fresh8-070",
+        "title": "Suyemel kod",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "translit",
+        "category": "mandatory_support_payment"
+      },
+      {
+        "id": "fresh8-071",
+        "title": "Nikakogo ekstra shansa",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "translit",
+        "category": "equal_free_eligibility"
+      },
+      {
+        "id": "fresh8-072",
+        "title": "Оплата вчера, эфир завтра",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "ru",
+        "category": "timeline"
+      },
+      {
+        "id": "fresh8-073",
+        "title": "Kak vyberut luch",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "translit",
+        "category": "missing_final_method"
+      },
+      {
+        "id": "fresh8-074",
+        "title": "Жөндеуге бір орын",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "paid_repair_order"
+      },
+      {
+        "id": "fresh8-075",
+        "title": "Kto schitaetsya klubom",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "translit",
+        "category": "unknown_membership_cost"
+      },
+      {
+        "id": "fresh8-076",
+        "title": "Не оплатить, а отметить",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "category": "negated_payment_gate"
+      },
+      {
+        "id": "fresh8-077",
+        "title": "Жабық бөлменің кілті",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "kk",
+        "category": "paid_game_access"
+      },
+      {
+        "id": "fresh8-078",
+        "title": "Пустая графа способа",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "ru",
+        "category": "unknown_final_method"
+      },
+      {
+        "id": "fresh8-079",
+        "title": "Strahovka ne nuzhna",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "translit",
+        "category": "mandatory_ticket_despite_other_optional_cost"
+      },
+      {
+        "id": "fresh8-080",
+        "title": "Қала ізі картасы",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "paid_route_map"
+      },
+      {
+        "id": "fresh8-081",
+        "title": "Төлем жолының күтуі",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "kk",
+        "category": "unresolved_admission"
+      },
+      {
+        "id": "fresh8-082",
+        "title": "Баллы за расстояние",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "ru",
+        "category": "skill_winner"
+      },
+      {
+        "id": "fresh8-083",
+        "title": "Екі нұсқа қатар",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "kk",
+        "category": "contradictory_route"
+      },
+      {
+        "id": "fresh8-084",
+        "title": "Баға — сөренікі",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "mixed",
+        "category": "unrelated_price"
+      },
+      {
+        "id": "fresh8-085",
+        "title": "Көп ұпай жина",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "performance_award"
+      },
+      {
+        "id": "fresh8-086",
+        "title": "Цена напечатана",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "mixed",
+        "category": "price_only"
+      },
+      {
+        "id": "fresh8-087",
+        "title": "Өрнекті дәл көшір",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "kk",
+        "category": "skill_final"
+      },
+      {
+        "id": "fresh8-088",
+        "title": "Barlygyna beriledi",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "translit",
+        "category": "guaranteed_bonus"
+      },
+      {
+        "id": "fresh8-089",
+        "title": "Ne dogovorili pro vznos",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": true,
+        "score": 65,
+        "language": "translit",
+        "category": "unresolved_payment"
+      },
+      {
+        "id": "fresh8-090",
+        "title": "Келмей-ақ қатысу",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "kk",
+        "category": "equal_free_route"
+      },
+      {
+        "id": "fresh8-091",
+        "title": "Аударымның орны",
+        "expected": "medium",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": false,
+        "score": 90,
+        "language": "mixed",
+        "category": "unclear_payment_timing"
+      },
+      {
+        "id": "fresh8-092",
+        "title": "Qalaqsha ornyna balga",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "translit",
+        "category": "paid_exchange_topup"
+      },
+      {
+        "id": "fresh8-093",
+        "title": "Пример в памятке",
+        "expected": "low",
+        "predicted": "high",
+        "baseline": "high",
+        "match": false,
+        "score": 90,
+        "language": "ru",
+        "category": "educational_quote"
+      },
+      {
+        "id": "fresh8-094",
+        "title": "Цитату опровергли",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "negated_payment"
+      },
+      {
+        "id": "fresh8-095",
+        "title": "Три платных выпуска",
+        "expected": "high",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "mixed",
+        "category": "paid_media"
+      },
+      {
+        "id": "fresh8-096",
+        "title": "Ценник рядом",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "category": "price_without_gate"
+      },
+      {
+        "id": "fresh8-097",
+        "title": "Kod ili besplatnyi otklik",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "equal_free_route"
+      },
+      {
+        "id": "fresh8-098",
+        "title": "Толық нұсқа жоқ",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "mixed",
+        "category": "missing_payment_terms"
+      },
+      {
+        "id": "fresh8-099",
+        "title": "Жаңартылған тіркеу",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "kk",
+        "category": "later_payment_gate"
+      },
+      {
+        "id": "fresh8-100",
+        "title": "Неясный перевод",
+        "expected": "medium",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "ru",
+        "category": "payment_role"
+      },
+      {
+        "id": "fresh8-101",
+        "title": "Правка в закрепе",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "ru",
+        "category": "contradictory_eligibility"
+      },
+      {
+        "id": "fresh8-102",
+        "title": "Mera vyigrysha",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "translit",
+        "category": "performance_final"
+      },
+      {
+        "id": "fresh8-103",
+        "title": "Чей номер крутят",
+        "expected": "medium",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": false,
+        "score": 90,
+        "language": "ru",
+        "category": "unlinked_randomness"
+      },
+      {
+        "id": "fresh8-104",
+        "title": "Қолдау сатысы",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "kk",
+        "category": "mandatory_support"
+      },
+      {
+        "id": "fresh8-105",
+        "title": "Случайный рейс",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "ru",
+        "category": "paid_membership"
+      },
+      {
+        "id": "fresh8-106",
+        "title": "Tishina v ugolke",
+        "expected": "high",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 5,
+        "language": "translit",
+        "category": "paid_consultation"
+      },
+      {
+        "id": "fresh8-107",
+        "title": "Условия за ссылкой",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "ru",
+        "category": "missing_eligibility"
+      },
+      {
+        "id": "fresh8-108",
+        "title": "Gaiqanyn nomeri",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "paid_repair"
+      },
+      {
+        "id": "fresh8-109",
+        "title": "Бейдж коробкаға түседі",
+        "expected": "high",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": false,
+        "score": 18,
+        "language": "mixed",
+        "category": "paid_fair_access"
+      },
+      {
+        "id": "fresh8-110",
+        "title": "Сатып алуды сұрамайды",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "mixed",
+        "category": "free_random_award"
+      },
+      {
+        "id": "fresh8-111",
+        "title": "Random dlya chego",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 58,
+        "language": "translit",
+        "category": "unlinked_random_operation"
+      },
+      {
+        "id": "fresh8-112",
+        "title": "Қызыл тас емес",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "mixed",
+        "category": "random_object_assignment"
+      },
+      {
+        "id": "fresh8-113",
+        "title": "Сатып алған топ",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 65,
+        "language": "mixed",
+        "category": "paid_group_access"
+      },
+      {
+        "id": "fresh8-114",
+        "title": "Тариф после поздравления",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "postwin_shipping"
+      },
+      {
+        "id": "fresh8-115",
+        "title": "Finaldyn bos beti",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": true,
+        "score": 65,
+        "language": "translit",
+        "category": "missing_final_stage"
+      },
+      {
+        "id": "fresh8-116",
+        "title": "Пазл в коробке",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": false,
+        "score": 65,
+        "language": "ru",
+        "category": "random_prize_not_random_goods"
+      },
+      {
+        "id": "fresh8-117",
+        "title": "Kto luchshe derzhit ritm",
+        "expected": "low",
+        "predicted": "high",
+        "baseline": "high",
+        "match": false,
+        "score": 90,
+        "language": "translit",
+        "category": "skill_final_random_order"
+      },
+      {
+        "id": "fresh8-118",
+        "title": "Случайный цвет покупки",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "ru",
+        "category": "ordinary_retail"
+      },
+      {
+        "id": "fresh8-119",
+        "title": "Keshki dapter",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "translit",
+        "category": "paid_notebook"
+      },
+      {
+        "id": "fresh8-120",
+        "title": "Белгісіз мүшелік",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "kk",
+        "category": "ambiguous_membership_payment"
+      },
+      {
+        "id": "fresh8-121",
+        "title": "Платёж не за участие",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "category": "unrelated_service"
+      },
+      {
+        "id": "fresh8-122",
+        "title": "Жеңімпаздың қаптамасы",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "kk",
+        "category": "postwin_optional_cost"
+      },
+      {
+        "id": "fresh8-123",
+        "title": "Глиняная луна",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "paid_workshop"
+      },
+      {
+        "id": "fresh8-124",
+        "title": "Выбор без глагола",
+        "expected": "medium",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": false,
+        "score": 90,
+        "language": "mixed",
+        "category": "unknown_final_method"
+      },
+      {
+        "id": "fresh8-125",
+        "title": "Кездейсоқ қай бөлім",
+        "expected": "medium",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": false,
+        "score": 90,
+        "language": "kk",
+        "category": "unclear_random_target"
+      },
+      {
+        "id": "fresh8-126",
+        "title": "Платёж под вопросом",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "ru",
+        "category": "unresolved_payment"
+      },
+      {
+        "id": "fresh8-127",
+        "title": "Индивидуальный подарок",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "ru",
+        "category": "guaranteed_reward"
+      },
+      {
+        "id": "fresh8-128",
+        "title": "Тек тапсырыс есебі",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "kk",
+        "category": "no_raffle"
+      },
+      {
+        "id": "fresh8-129",
+        "title": "Bolek satylym",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "translit",
+        "category": "unrelated_paid_service"
+      },
+      {
+        "id": "fresh8-130",
+        "title": "Бөлек тегін сауалнама",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "kk",
+        "category": "independent_free_raffle"
+      },
+      {
+        "id": "fresh8-131",
+        "title": "Конверт с тремя полосами",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "ru",
+        "category": "paid_entry"
+      },
+      {
+        "id": "fresh8-132",
+        "title": "Қысқы аула картасы",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "paid_pass"
+      },
+      {
+        "id": "fresh8-133",
+        "title": "Қай жарна екен",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "kk",
+        "category": "payment_purpose"
+      },
+      {
+        "id": "fresh8-134",
+        "title": "Тізімнің мәртебесі",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 65,
+        "language": "mixed",
+        "category": "unresolved_free_entry"
+      },
+      {
+        "id": "fresh8-135",
+        "title": "Aqsha qai kezde",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "translit",
+        "category": "unclear_payment_role"
+      },
+      {
+        "id": "fresh8-136",
+        "title": "Цветной браслет",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "paid_access"
+      },
+      {
+        "id": "fresh8-137",
+        "title": "Шестой жетон",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "purchase_token"
+      },
+      {
+        "id": "fresh8-138",
+        "title": "Кубок за случай",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "random_final_after_skill"
+      },
+      {
+        "id": "fresh8-139",
+        "title": "Вечер без жюри",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "paid_contest"
+      },
+      {
+        "id": "fresh8-140",
+        "title": "Сандықтағы ою",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "paid_digital_asset"
+      },
+      {
+        "id": "fresh8-141",
+        "title": "Приз уже выбранному",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "ru",
+        "category": "postwin_redemption"
+      },
+      {
+        "id": "fresh8-142",
+        "title": "Пятничная крошка",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "paid_subscription"
+      },
+      {
+        "id": "fresh8-143",
+        "title": "Тұқым түбіртегі",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "paid_agriculture_goods"
+      },
+      {
+        "id": "fresh8-144",
+        "title": "Двойной тёплый след",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 58,
+        "language": "ru",
+        "category": "purchase_bundle"
+      },
+      {
+        "id": "fresh8-145",
+        "title": "Помощь без билета",
+        "expected": "low",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "ru",
+        "category": "voluntary_donation"
+      },
+      {
+        "id": "fresh8-146",
+        "title": "Odin iz zakazov",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "translit",
+        "category": "paid_commission"
+      },
+      {
+        "id": "fresh8-147",
+        "title": "Tungi angime kodi",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "high",
+        "match": false,
+        "score": 65,
+        "language": "translit",
+        "category": "paid_audio_code"
+      },
+      {
+        "id": "fresh8-148",
+        "title": "Архив ашылады",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "mixed",
+        "category": "paid_archive"
+      },
+      {
+        "id": "fresh8-149",
+        "title": "Дорога к маяку",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "paid_event"
+      },
+      {
+        "id": "fresh8-150",
+        "title": "Құлыпсыз сөре",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "kk",
+        "category": "paid_storage"
+      },
+      {
+        "id": "fresh8-151",
+        "title": "Барлығына бірдей",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 8,
+        "language": "kk",
+        "category": "guaranteed_bonus"
+      },
+      {
+        "id": "fresh8-152",
+        "title": "Выбери ткань",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "ru",
+        "category": "mandatory_paid_acquisition"
+      },
+      {
+        "id": "fresh8-153",
+        "title": "Кілемшедегі белгі",
+        "expected": "high",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": false,
+        "score": 45,
+        "language": "kk",
+        "category": "paid_class_package"
+      },
+      {
+        "id": "fresh8-154",
+        "title": "Тірек ерікті",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 5,
+        "language": "kk",
+        "category": "voluntary_donation"
+      },
+      {
+        "id": "fresh8-155",
+        "title": "Ескі қолшатыр орнына",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "paid_exchange"
+      },
+      {
+        "id": "fresh8-156",
+        "title": "Жиынтықтың соңғы күні",
+        "expected": "high",
+        "predicted": "high",
+        "baseline": "not-high",
+        "match": true,
+        "score": 90,
+        "language": "kk",
+        "category": "paid_preorder"
+      },
+      {
+        "id": "fresh8-157",
+        "title": "Tolyk jol joq",
+        "expected": "medium",
+        "predicted": "medium",
+        "baseline": "not-high",
+        "match": true,
+        "score": 45,
+        "language": "translit",
+        "category": "missing_paid_gate"
+      },
+      {
+        "id": "fresh8-158",
+        "title": "Tolko tsitaty dlya zanyatiya",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "translit",
+        "category": "educational_quote"
+      },
+      {
+        "id": "fresh8-159",
+        "title": "Каждому, бірақ түсі бөлек",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "mixed",
+        "category": "guaranteed_gift"
+      },
+      {
+        "id": "fresh8-160",
+        "title": "Қораптағы хош иіс",
+        "expected": "low",
+        "predicted": "low",
+        "baseline": "not-high",
+        "match": true,
+        "score": 18,
+        "language": "kk",
+        "category": "random_product_variant"
+      }
+    ],
+    "baseline": {
+      "name": "Any single source classified high",
+      "precision": 0.7441860465116279,
+      "recall": 0.5,
+      "falsePositiveRate": 0.11458333333333333
+    },
+    "limitations": [
+      "Synthetic textual scenarios; class prevalence and wording are designed.",
+      "Medium cases count as not-high for strict binary metrics; queue metrics use high + medium vs low.",
+      "Text metrics exclude OCR, ASR, platform access and human analyst performance."
+    ],
+    "confidence95": {
+      "precision": [
+        0.5974057019172069,
+        0.8439926480555066
+      ],
+      "recall": [
+        0.41071875000475133,
+        0.6482421235595515
+      ],
+      "falsePositiveRate": [
+        0.07297128992395069,
+        0.2058864206896613
+      ],
+      "accuracy": [
+        0.5478802447703629,
+        0.6962579960671288
+      ]
+    },
+    "triage": {
+      "positiveDefinition": "high + medium vs low",
+      "tp": 90,
+      "fp": 23,
+      "tn": 41,
+      "fn": 6,
+      "precision": 0.7964601769911505,
+      "recall": 0.9375,
+      "falsePositiveRate": 0.359375,
+      "confidence95": {
+        "precision": [
+          0.7130582204818585,
+          0.8603676826211459
+        ],
+        "recall": [
+          0.8702889506383905,
+          0.9710437203123955
+        ],
+        "falsePositiveRate": [
+          0.2528823053221461,
+          0.48179376363849163
+        ]
+      }
+    },
+    "evidenceValidation": {
+      "signalErrorsReportedByEvaluate": 0,
+      "strictSignalAndContextErrors": 0,
+      "scope": "Main campaigns and their single-source baseline calls; exact original UTF-16 offsets."
+    },
+    "byLanguage": {
+      "kk": {
+        "n": 40,
+        "total": 40,
+        "tp": 8,
+        "fp": 4,
+        "tn": 20,
+        "fn": 8,
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "falsePositiveRate": 0.16666666666666666,
+        "confidence95": {
+          "precision": [
+            0.3906175873976139,
+            0.8618821601026385
+          ],
+          "recall": [
+            0.2799923761135083,
+            0.7200076238864916
+          ],
+          "falsePositiveRate": [
+            0.06678568000728924,
+            0.3585347038786943
+          ],
+          "accuracy": [
+            0.445956198273935,
+            0.7365188938759863
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 8,
+            "medium": 8,
+            "low": 0
+          },
+          "medium": {
+            "high": 2,
+            "medium": 6,
+            "low": 0
+          },
+          "low": {
+            "high": 2,
+            "medium": 4,
+            "low": 10
+          }
+        },
+        "accuracy": 0.6,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 24,
+          "fp": 6,
+          "tn": 10,
+          "fn": 0,
+          "precision": 0.8,
+          "recall": 1,
+          "falsePositiveRate": 0.375,
+          "confidence95": {
+            "precision": [
+              0.6269395261897256,
+              0.9049502189759876
+            ],
+            "recall": [
+              0.8620194241710247,
+              1
+            ],
+            "falsePositiveRate": [
+              0.18480982554752806,
+              0.613593529020652
+            ]
+          }
+        }
+      },
+      "ru": {
+        "n": 40,
+        "total": 40,
+        "tp": 10,
+        "fp": 4,
+        "tn": 20,
+        "fn": 6,
+        "precision": 0.7142857142857143,
+        "recall": 0.625,
+        "falsePositiveRate": 0.16666666666666666,
+        "confidence95": {
+          "precision": [
+            0.4535045882751561,
+            0.882788120898909
+          ],
+          "recall": [
+            0.3864064709793481,
+            0.815190174452472
+          ],
+          "falsePositiveRate": [
+            0.06678568000728924,
+            0.3585347038786943
+          ],
+          "accuracy": [
+            0.445956198273935,
+            0.7365188938759863
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 10,
+            "medium": 5,
+            "low": 1
+          },
+          "medium": {
+            "high": 2,
+            "medium": 5,
+            "low": 1
+          },
+          "low": {
+            "high": 2,
+            "medium": 5,
+            "low": 9
+          }
+        },
+        "accuracy": 0.6,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 22,
+          "fp": 7,
+          "tn": 9,
+          "fn": 2,
+          "precision": 0.7586206896551724,
+          "recall": 0.9166666666666666,
+          "falsePositiveRate": 0.4375,
+          "confidence95": {
+            "precision": [
+              0.578920477816713,
+              0.8778173181493787
+            ],
+            "recall": [
+              0.741507847985494,
+              0.9768416721570266
+            ],
+            "falsePositiveRate": [
+              0.2309836333518552,
+              0.6682180439322347
+            ]
+          }
+        }
+      },
+      "mixed": {
+        "n": 40,
+        "total": 40,
+        "tp": 8,
+        "fp": 3,
+        "tn": 21,
+        "fn": 8,
+        "precision": 0.7272727272727273,
+        "recall": 0.5,
+        "falsePositiveRate": 0.125,
+        "confidence95": {
+          "precision": [
+            0.4343497069897537,
+            0.9025411942607853
+          ],
+          "recall": [
+            0.2799923761135083,
+            0.7200076238864916
+          ],
+          "falsePositiveRate": [
+            0.04344255039315584,
+            0.3100428814785757
+          ],
+          "accuracy": [
+            0.445956198273935,
+            0.7365188938759863
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 8,
+            "medium": 6,
+            "low": 2
+          },
+          "medium": {
+            "high": 2,
+            "medium": 6,
+            "low": 0
+          },
+          "low": {
+            "high": 1,
+            "medium": 5,
+            "low": 10
+          }
+        },
+        "accuracy": 0.6,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 22,
+          "fp": 6,
+          "tn": 10,
+          "fn": 2,
+          "precision": 0.7857142857142857,
+          "recall": 0.9166666666666666,
+          "falsePositiveRate": 0.375,
+          "confidence95": {
+            "precision": [
+              0.6046105292072612,
+              0.8978767829881058
+            ],
+            "recall": [
+              0.741507847985494,
+              0.9768416721570266
+            ],
+            "falsePositiveRate": [
+              0.18480982554752806,
+              0.613593529020652
+            ]
+          }
+        }
+      },
+      "translit": {
+        "n": 40,
+        "total": 40,
+        "tp": 8,
+        "fp": 1,
+        "tn": 23,
+        "fn": 8,
+        "precision": 0.8888888888888888,
+        "recall": 0.5,
+        "falsePositiveRate": 0.041666666666666664,
+        "confidence95": {
+          "precision": [
+            0.5649937852319399,
+            0.9801096286728695
+          ],
+          "recall": [
+            0.2799923761135083,
+            0.7200076238864916
+          ],
+          "falsePositiveRate": [
+            0.007393265354805126,
+            0.20242226248842232
+          ],
+          "accuracy": [
+            0.545696893456796,
+            0.8192532908430471
+          ]
+        },
+        "matrix": {
+          "high": {
+            "high": 8,
+            "medium": 6,
+            "low": 2
+          },
+          "medium": {
+            "high": 0,
+            "medium": 8,
+            "low": 0
+          },
+          "low": {
+            "high": 1,
+            "medium": 3,
+            "low": 12
+          }
+        },
+        "accuracy": 0.7,
+        "triage": {
+          "positiveDefinition": "high + medium vs low",
+          "tp": 22,
+          "fp": 4,
+          "tn": 12,
+          "fn": 2,
+          "precision": 0.8461538461538461,
+          "recall": 0.9166666666666666,
+          "falsePositiveRate": 0.25,
+          "confidence95": {
+            "precision": [
+              0.6646841558168644,
+              0.9385006600107053
+            ],
+            "recall": [
+              0.741507847985494,
+              0.9768416721570266
+            ],
+            "falsePositiveRate": [
+              0.10181901984237346,
+              0.49498768929398645
+            ]
+          }
+        }
+      }
+    }
+  },
+  "limitations": [
+    "A separate AI authored the new corpus without reading engine code, previous cases, reports or predictions. The engine was frozen before corpus creation.",
+    "Labels, prevalence and wording are AI-authored hypotheses. No human annotators or real publications participated.",
+    "This is a small synthetic text test. It does not estimate accuracy on the real social-media population.",
+    "The test does not measure OCR, speech recognition, analyst speed, platform integration or server capacity.",
+    "Once disclosed, this corpus is open. Tuning against its errors cannot be presented as a new blind result."
+  ]
+}

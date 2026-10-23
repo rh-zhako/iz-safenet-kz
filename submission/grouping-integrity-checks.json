@@ -1,0 +1,104 @@
+{
+  "format": "iz-grouping-integrity-checks-v1",
+  "createdAt": "2026-10-22T18:50:11.438Z",
+  "engineVersion": "2.0.0-track1-evidence",
+  "groupingSha256": "7cf6edd5cd52f5414f9b395a571802168b150906bc247a51abc66e0709cfec31",
+  "scope": "Deterministic synthetic functional assertions for campaign membership; not an independent detection benchmark, human study, or accuracy estimate.",
+  "total": 23,
+  "passed": 23,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "existing complete paid/free/ordinary demo stays three campaigns",
+      "passed": true
+    },
+    {
+      "name": "identical explicit refs merge",
+      "passed": true
+    },
+    {
+      "name": "case and optional hash normalize an otherwise exact reference",
+      "passed": true
+    },
+    {
+      "name": "identical single text identifiers merge",
+      "passed": true
+    },
+    {
+      "name": "text identifier can match exact supplied ref without repeating tag",
+      "passed": true
+    },
+    {
+      "name": "unreferenced reply chain remains supported",
+      "passed": true
+    },
+    {
+      "name": "single known identity may anchor an unreferenced chain",
+      "passed": true
+    },
+    {
+      "name": "unique publication URL resolves a reply with tracking parameters",
+      "passed": true
+    },
+    {
+      "name": "shared author and common domain never merge sources",
+      "passed": true
+    },
+    {
+      "name": "different explicit refs veto a direct reply merge",
+      "passed": true
+    },
+    {
+      "name": "different explicit refs with one shared text tag remain separate",
+      "passed": true
+    },
+    {
+      "name": "conditions from different campaigns cannot assemble a false high",
+      "passed": true
+    },
+    {
+      "name": "unreferenced bridge touching two different refs is quarantined",
+      "passed": true
+    },
+    {
+      "name": "bridge assignment does not depend on input order",
+      "passed": true
+    },
+    {
+      "name": "multi-node unknown bridge cannot transitively merge campaign refs",
+      "passed": true
+    },
+    {
+      "name": "single text IDs also protect against contradictory replies",
+      "passed": true
+    },
+    {
+      "name": "multiple text IDs without explicit ref cannot serve as a bridge",
+      "passed": true
+    },
+    {
+      "name": "explicit ref is preserved when caption mentions a different raffle",
+      "passed": true
+    },
+    {
+      "name": "ambiguous reply URL does not choose the last matching post",
+      "passed": true
+    },
+    {
+      "name": "original IDs refs and reply targets survive grouping",
+      "passed": true
+    },
+    {
+      "name": "synthetic and supplied provenance are not lost in a valid group",
+      "passed": true
+    },
+    {
+      "name": "duplicate source IDs are still rejected",
+      "passed": true
+    },
+    {
+      "name": "import limit remains enforced",
+      "passed": true
+    }
+  ]
+}

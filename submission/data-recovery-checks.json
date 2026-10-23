@@ -1,0 +1,124 @@
+{
+  "at": "2026-10-22T18:50:11.756Z",
+  "scope": "Functional backup and corruption handling, not detector accuracy.",
+  "passed": 29,
+  "total": 29,
+  "checks": [
+    {
+      "name": "backup version is explicit",
+      "passed": true
+    },
+    {
+      "name": "101 cases are a supported restorable copy",
+      "passed": true
+    },
+    {
+      "name": "derived analysis excluded from backup",
+      "passed": true
+    },
+    {
+      "name": "source text image and provenance not lost",
+      "passed": true
+    },
+    {
+      "name": "manual review and draft not lost",
+      "passed": true
+    },
+    {
+      "name": "input not mutated",
+      "passed": true
+    },
+    {
+      "name": "101 cases split into 100 and 1",
+      "passed": true
+    },
+    {
+      "name": "350 sources split without splitting campaigns",
+      "passed": true
+    },
+    {
+      "name": "counts detect truncated copy",
+      "passed": true
+    },
+    {
+      "name": "unknown schema rejected",
+      "passed": true
+    },
+    {
+      "name": "file size bound applied before restore",
+      "passed": true
+    },
+    {
+      "name": "creator and reader share case bound",
+      "passed": true
+    },
+    {
+      "name": "empty copy is not silently offered",
+      "passed": true
+    },
+    {
+      "name": "oversize individual source rejected",
+      "passed": true
+    },
+    {
+      "name": "restore progress is cumulative",
+      "passed": true
+    },
+    {
+      "name": "cancel between chunks returns no partial database",
+      "passed": true
+    },
+    {
+      "name": "pre-cancel prevents work",
+      "passed": true
+    },
+    {
+      "name": "incomplete worker batch rejected",
+      "passed": true
+    },
+    {
+      "name": "new local store initializes cleanly",
+      "passed": true
+    },
+    {
+      "name": "legacy local store without new maps retained",
+      "passed": true
+    },
+    {
+      "name": "malformed JSON is not interpreted as empty database",
+      "passed": true
+    },
+    {
+      "name": "valid JSON of wrong shape rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicate case ids rejected",
+      "passed": true
+    },
+    {
+      "name": "bad source rejected before rendering",
+      "passed": true
+    },
+    {
+      "name": "bad draft dictionary rejected",
+      "passed": true
+    },
+    {
+      "name": "backup preserves global input drafts",
+      "passed": true
+    },
+    {
+      "name": "draft-only backup is restorable",
+      "passed": true
+    },
+    {
+      "name": "malformed input draft blocks damaged state",
+      "passed": true
+    },
+    {
+      "name": "local input draft whitespace survives",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "at": "2026-10-20T17:25:11.004192+00:00",
+  "engineVersion": "1.6.0-track1-context",
+  "method": "Actual CUA browser interactions with localhost,agent-authored synthetic fixtures and filesystem assertions of UI downloads. Not human usability or real platform validation.",
+  "checks": [
+    {
+      "id": "batch_cancel",
+      "passed": true,
+      "observed": "12,368,737-byte synthetic JSON /100cases cancelled through actual UI before commit; no long cases appeared."
+    },
+    {
+      "id": "batch_complete",
+      "passed": true,
+      "observed": "Three synthetic campaigns imported through real file chooser; all three appeared."
+    },
+    {
+      "id": "quote_guard",
+      "passed": true,
+      "observed": "Nonexistent manual quote was rejected; exact original quote accepted."
+    },
+    {
+      "id": "three_conditions",
+      "passed": true,
+      "observed": "Prize/payment/random each confirmed using exact source quotes/offsets."
+    },
+    {
+      "id": "separate_outcomes",
+      "passed": true,
+      "observed": "Manual medium saved while automated high remained high; neither overwritten."
+    },
+    {
+      "id": "draft_tabs_reload",
+      "passed": true,
+      "observed": "Manual comment and completed condition draft survived graph tab and page reload/reopen."
+    },
+    {
+      "id": "json_html_export",
+      "passed": true,
+      "observed": "Actual downloaded JSON/HTML contained independent manual/automatic priorities,3exact quotes,provenance,engine and14,116ms visible session."
+    },
+    {
+      "id": "json_ui_roundtrip",
+      "passed": true,
+      "observed": "Exported reviewed JSON imported through actual chooser; sourceIDs regenerated, manual review stayed current."
+    },
+    {
+      "id": "queue_counters",
+      "passed": true,
+      "observed": "Resolved filter count1 and pending21 matched structured outcome; synthetic review excluded from own-only session summary."
+    },
+    {
+      "id": "append_stale",
+      "passed": true,
+      "observed": "Append to imported reviewed case produced mixed provenance,2sources and stale structured review/draft."
+    },
+    {
+      "id": "stale_tab_conflict",
+      "passed": true,
+      "observed": "Second tab showed conflict after first tab saved; input in old tab produced no storage write. Reload+actual export confirmed QA2draft null and latest2sourcecase retained."
+    },
+    {
+      "id": "delete_backup_cancel",
+      "passed": true,
+      "observed": "UI backup file checked for2sources/manual review/draft; cancel deletion left case intact."
+    },
+    {
+      "id": "delete_one",
+      "passed": true,
+      "observed": "Only agent-created test case with recoverable JSON backup deleted via UI; returned to history with success."
+    },
+    {
+      "id": "context_ui",
+      "passed": true,
+      "observed": "Accepted context mentions and exact source positions rendered; mobile expanded panel did not overflow."
+    },
+    {
+      "id": "quality_ui",
+      "passed": true,
+      "observed": "v1.6/160scenarios/P90.9/R46.9/FPR3.1/98of160/62errors visible; queue and AI limitations visible."
+    },
+    {
+      "id": "mobile",
+      "passed": true,
+      "observed": "390x844: home,paid result,advanced/manual/context,quality,sourcecatalog,queue,network had documentWidth390."
+    },
+    {
+      "id": "console",
+      "passed": true,
+      "observed": "Browser warn/error logs empty after above interactions."
+    }
+  ],
+  "passed": 17,
+  "total": 17,
+  "notPerformed": [
+    "Real human pilot or time-savings experiment",
+    "New real screenshot OCR recognition this turn; prior recognized fixtures re-scored separately",
+    "PowerPoint/GoogleSlides application opening",
+    "Team registration or submission",
+    "Real social platform crawling or ASR",
+    "Simultaneous server transactions/load"
+  ]
+}

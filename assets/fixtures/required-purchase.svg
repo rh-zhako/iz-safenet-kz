@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="600" viewBox="0 0 840 600" role="img" aria-labelledby="title desc">
+  <title id="title">Синтетическая карточка обязательной покупки Samal Market</title>
+  <desc id="desc">Чтобы участвовать, обязательно купите набор за 8 000 ₸. Один оплаченный чек — один билет на розыгрыш велосипеда.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#ece9e3"/><stop offset="1" stop-color="#deddd6"/></linearGradient>
+    <linearGradient id="poster" x2="1" y2="1"><stop stop-color="#d5f18b"/><stop offset="1" stop-color="#bce26e"/></linearGradient>
+  </defs>
+  <rect width="840" height="600" fill="url(#bg)"/>
+  <rect width="840" height="82" fill="#fafaf7"/>
+  <circle cx="49" cy="41" r="23" fill="#254335"/>
+  <text x="49" y="49" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#d4f19d">S</text>
+  <text x="89" y="37" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#26382c">Samal Market · демо</text>
+  <text x="89" y="59" font-family="Arial, sans-serif" font-size="12" fill="#788578">Вымышленная публикация · 20 октября</text>
+  <rect x="569" y="24" width="243" height="33" rx="16.5" fill="#ebeee8"/>
+  <text x="590" y="45" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1" fill="#5b6f50">СИНТЕТИЧЕСКИЙ ПРИМЕР</text>
+  <rect x="78" y="118" width="684" height="401" rx="28" fill="url(#poster)"/>
+  <circle cx="697" cy="180" r="106" fill="#eaffba" fill-opacity=".4"/>
+  <circle cx="741" cy="493" r="90" fill="#2e512d" fill-opacity=".045"/>
+  <text x="113" y="166" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#38532b">УДАЧНЫЙ ЧЕК</text>
+  <text x="113" y="232" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#203820">Чтобы участвовать,</text>
+  <text x="113" y="276" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#203820">обязательно купите набор</text>
+  <text x="113" y="327" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#203820">за 8 000 ₸.</text>
+  <path d="M113 350h605" stroke="#4b702d" stroke-opacity=".25"/>
+  <text x="113" y="397" font-family="Arial, sans-serif" font-size="27" fill="#304b26">Один оплаченный чек —</text>
+  <text x="113" y="436" font-family="Arial, sans-serif" font-size="27" fill="#304b26">один билет на розыгрыш</text>
+  <text x="113" y="475" font-family="Arial, sans-serif" font-size="27" fill="#304b26">велосипеда.</text>
+  <text x="420" y="561" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7d8879">Учебный материал ІЗ · вымышленные условия акции</text>
+</svg>

@@ -1,0 +1,313 @@
+{
+  "format": "iz-focus-checks-v1",
+  "createdAt": "2026-10-22T18:50:11.719Z",
+  "scope": "Deterministic helper contract checks with DOM doubles and WCAG relative-luminance calculations for declared CSS color pairs. This is not a complete accessibility audit or browser keyboard test.",
+  "focusSha256": "2ac2ab356d4606713e1e42c9e93e9f5f63d59d18d62d3b7a9a137abe441eeaa3",
+  "total": 23,
+  "passed": 23,
+  "failed": 0,
+  "contrastPairs": [
+    {
+      "name": "quoted evidence",
+      "selector": ".plain-reason blockquote",
+      "foreground": "#565660",
+      "background": "#fff",
+      "ratio": 7.252,
+      "required": 4.5
+    },
+    {
+      "name": "unknown condition",
+      "selector": ".plain-reason.unknown h3",
+      "foreground": "#565660",
+      "background": "#fff",
+      "ratio": 7.252,
+      "required": 4.5
+    },
+    {
+      "name": "provided material text",
+      "selector": ".plain-material p",
+      "foreground": "#565660",
+      "background": "#fff",
+      "ratio": 7.252,
+      "required": 4.5
+    },
+    {
+      "name": "material OCR warning",
+      "selector": ".plain-material small",
+      "foreground": "#565660",
+      "background": "#fff",
+      "ratio": 7.252,
+      "required": 4.5
+    },
+    {
+      "name": ".consumer-limit",
+      "selector": ".consumer-limit",
+      "foreground": "#565660",
+      "background": "#f5f5f7",
+      "ratio": 6.66,
+      "required": 4.5
+    },
+    {
+      "name": ".quick-scope",
+      "selector": ".quick-scope",
+      "foreground": "#565660",
+      "background": "#f5f5f7",
+      "ratio": 6.66,
+      "required": 4.5
+    },
+    {
+      "name": ".simple-footer",
+      "selector": ".simple-footer",
+      "foreground": "#565660",
+      "background": "#f5f5f7",
+      "ratio": 6.66,
+      "required": 4.5
+    },
+    {
+      "name": ".simple-legal-links span",
+      "selector": ".simple-legal-links span",
+      "foreground": "#565660",
+      "background": "#f5f5f7",
+      "ratio": 6.66,
+      "required": 4.5
+    },
+    {
+      "name": ".quick-private",
+      "selector": ".quick-private",
+      "foreground": "#565660",
+      "background": "#fff",
+      "ratio": 7.252,
+      "required": 4.5
+    },
+    {
+      "name": ".quick-data-note",
+      "selector": ".quick-data-note",
+      "foreground": "#565660",
+      "background": "#fff",
+      "ratio": 7.252,
+      "required": 4.5
+    },
+    {
+      "name": ".quick-upload-row>span",
+      "selector": ".quick-upload-row>span",
+      "foreground": "#565660",
+      "background": "#fff",
+      "ratio": 7.252,
+      "required": 4.5
+    },
+    {
+      "name": "relationship limitation",
+      "selector": ".relations-limit",
+      "foreground": "#565660",
+      "background": "#fff",
+      "ratio": 7.252,
+      "required": 4.5
+    },
+    {
+      "name": "about limitations",
+      "selector": ".about-limits p",
+      "foreground": "#565660",
+      "background": "#fff",
+      "ratio": 7.252,
+      "required": 4.5
+    },
+    {
+      "name": "source notes",
+      "selector": ".origin-grid .field small",
+      "foreground": "#565660",
+      "background": "#fff",
+      "ratio": 7.252,
+      "required": 4.5
+    },
+    {
+      "name": "verdict label caution",
+      "selector": ".verdict-hero",
+      "foreground": "#755417",
+      "background": "#fff6e9",
+      "ratio": 6.458,
+      "required": 4.5
+    },
+    {
+      "name": "verdict explanation caution",
+      "selector": ".verdict-hero>p",
+      "foreground": "#655a50",
+      "background": "#fff6e9",
+      "ratio": 6.262,
+      "required": 4.5
+    },
+    {
+      "name": "verdict label .danger",
+      "selector": ".verdict-hero.danger",
+      "foreground": "#8e4133",
+      "background": "#fff0ed",
+      "ratio": 6.411,
+      "required": 4.5
+    },
+    {
+      "name": "verdict explanation .danger",
+      "selector": ".verdict-hero.danger>p",
+      "foreground": "#704b43",
+      "background": "#fff0ed",
+      "ratio": 6.821,
+      "required": 4.5
+    },
+    {
+      "name": "verdict label .calm",
+      "selector": ".verdict-hero.calm",
+      "foreground": "#3f6852",
+      "background": "#edf5f0",
+      "ratio": 5.71,
+      "required": 4.5
+    },
+    {
+      "name": "verdict explanation .calm",
+      "selector": ".verdict-hero.calm>p",
+      "foreground": "#3f6852",
+      "background": "#edf5f0",
+      "ratio": 5.71,
+      "required": 4.5
+    },
+    {
+      "name": "verdict label .neutral",
+      "selector": ".verdict-hero.neutral",
+      "foreground": "#466482",
+      "background": "#eef3fa",
+      "ratio": 5.531,
+      "required": 4.5
+    },
+    {
+      "name": "verdict explanation .neutral",
+      "selector": ".verdict-hero.neutral>p",
+      "foreground": "#466482",
+      "background": "#eef3fa",
+      "ratio": 5.531,
+      "required": 4.5
+    },
+    {
+      "name": "structured muted #ffffff",
+      "selector": ".sr-panel .sr-muted",
+      "foreground": "#526176",
+      "background": "#ffffff",
+      "ratio": 6.306,
+      "required": 4.5
+    },
+    {
+      "name": "structured muted #f1f6fd",
+      "selector": ".sr-panel .sr-muted",
+      "foreground": "#526176",
+      "background": "#f1f6fd",
+      "ratio": 5.808,
+      "required": 4.5
+    },
+    {
+      "name": "structured muted #fff7e8",
+      "selector": ".sr-panel .sr-muted",
+      "foreground": "#526176",
+      "background": "#fff7e8",
+      "ratio": 5.922,
+      "required": 4.5
+    },
+    {
+      "name": "input placeholder",
+      "selector": ".quick-form>textarea::placeholder",
+      "foreground": "#656570",
+      "background": "#f8f8fa",
+      "ratio": 5.426,
+      "required": 4.5
+    }
+  ],
+  "checks": [
+    {
+      "name": "main heading receives explicit focus and negative tabindex",
+      "passed": true
+    },
+    {
+      "name": "main is a fallback when no heading exists",
+      "passed": true
+    },
+    {
+      "name": "structured step heading receives focus",
+      "passed": true
+    },
+    {
+      "name": "structured title is a fallback before a step is available",
+      "passed": true
+    },
+    {
+      "name": "source card uses exact ID and adds negative tabindex",
+      "passed": true
+    },
+    {
+      "name": "source ID is never interpreted as a CSS selector",
+      "passed": true
+    },
+    {
+      "name": "source helper refuses an unrelated element with a colliding ID",
+      "passed": true
+    },
+    {
+      "name": "control selector restores focus without changing its tabindex",
+      "passed": true
+    },
+    {
+      "name": "existing heading tabindex is respected",
+      "passed": true
+    },
+    {
+      "name": "new user focus is not stolen by a scheduled helper",
+      "passed": true
+    },
+    {
+      "name": "explicit force is available for a deliberate user navigation",
+      "passed": true
+    },
+    {
+      "name": "disconnected old focus does not block restored navigation focus",
+      "passed": true
+    },
+    {
+      "name": "caller can allow scrolling when focus is the intended scroll target",
+      "passed": true
+    },
+    {
+      "name": "hidden or detached targets are skipped",
+      "passed": true
+    },
+    {
+      "name": "aria disabled targets and hidden ancestors are skipped",
+      "passed": true
+    },
+    {
+      "name": "targets with no rendered rectangle are skipped",
+      "passed": true
+    },
+    {
+      "name": "source outside a supplied subtree cannot receive focus",
+      "passed": true
+    },
+    {
+      "name": "invalid and missing selectors fail safely",
+      "passed": true
+    },
+    {
+      "name": "helpers are safe without browser globals",
+      "passed": true
+    },
+    {
+      "name": "declared evidence quotes and unknown headings have at least 4.5 contrast",
+      "passed": true
+    },
+    {
+      "name": "declared privacy scope and relationship limits have at least 4.5 contrast",
+      "passed": true
+    },
+    {
+      "name": "declared verdict body text and labels meet 4.5 on all four surfaces",
+      "passed": true
+    },
+    {
+      "name": "structured notes and input placeholders meet 4.5 on their light surfaces",
+      "passed": true
+    }
+  ]
+}

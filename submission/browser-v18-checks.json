@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": "1.8.0-track1-evidence",
+  "at": "2026-10-20T19:29:10.468Z",
+  "environment": "IAB local origin 127.0.0.1:4177; agent-authored synthetic inputs; no user-origin storage cleared",
+  "passed": 8,
+  "total": 8,
+  "checks": [
+    {
+      "name": "translit paid UI",
+      "passed": true
+    },
+    {
+      "name": "original translit quotes in analyst UI",
+      "passed": true
+    },
+    {
+      "name": "actual downloaded HTML has v1.8 and exact original quotes",
+      "passed": true
+    },
+    {
+      "name": "translit free UI",
+      "passed": true
+    },
+    {
+      "name": "KK payment question UI remains medium",
+      "passed": true
+    },
+    {
+      "name": "quality distinguishes v1.8 open development and v1.7 blind result",
+      "passed": true
+    },
+    {
+      "name": "390px viewport has 390px document width; comparison font 14px",
+      "passed": true
+    },
+    {
+      "name": "no warning/error console logs",
+      "passed": true
+    }
+  ],
+  "limits": "Functional browser checks, not a human usability trial. OCR not rerun."
+}

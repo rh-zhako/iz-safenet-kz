@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-20T18:29:32.872488+00:00",
+  "purpose": "Exploratory paired comparison on already disclosed synthetic v5. Not a new blinded test or real-data validation.",
+  "runtime": "@huggingface/transformers@3.8.1 CPU ONNX q8",
+  "model": "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX",
+  "revision": "ca5daf3d11b6c4b3143b1f4602a2edfb64c3ad7e",
+  "baselineEngine": "1.7.0-track1-evidence",
+  "baselineEngineSha256": "d75b486aa53bdae2462b7ae121ddfbc76b3076f9cbc7f68223bcadb0b55619c3",
+  "dataset": "evaluation/independent-v5.json",
+  "datasetSha256": "839ffab18108e34df6b22940273978912a8ca36cc72c4891b6cbcb268c10b756",
+  "hypotheses": {
+    "prize": "Организатор обещает передать приз одному из участников.",
+    "payment": "Для допуска к розыгрышу участнику обязательно заплатить или совершить покупку.",
+    "random": "Окончательный победитель определяется случайно.",
+    "free": "Можно участвовать бесплатно, без покупки и взноса.",
+    "judged": "Окончательного победителя определяют по мастерству, оценке жюри или результату соревнования.",
+    "warning": "Автор предупреждает о чужой схеме и не предлагает читателю участвовать в своём розыгрыше."
+  },
+  "acceptThreshold": 0.7,
+  "decision": "high if prize,payment,random all entailment>=threshold and none free,judged,warning>=threshold; medium on positive-negative conflict or at least2core; low otherwise. Hybrid suggestion is rules high retained and semantic high/medium adds review priority only, never a conclusive fraud result.",
+  "adoptionGate": "Do not replace baseline unless paired macro F1 and high recall improve without materially increasing false positives. Independent unseen and human evaluation still required.",
+  "limits": "Max512tokens per text-hypothesis pair; truncation logged. No protected user materials, only previously authored synthetic benchmark."
+}

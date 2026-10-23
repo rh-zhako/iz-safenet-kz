@@ -1,0 +1,12 @@
+// Fictional accounts and raffle IDs; no references to real social profiles.
+export const networkDemoCampaigns=[
+ {id:'network-demo-01',title:'Розыгрыш № 01 · слот и колесо',organizer:'Аккаунт A · вымышленный',platform:'Демонстрация',synthetic:true,manualGrouping:false,groupingNotes:['Одинаковый явный ID #DRAW_DEMO_01 в двух материалах. Принадлежность указана в синтетическом наборе.'],sources:[
+  {id:'network-demo-01-s1',text:'Разыгрываем смартфон. Для участия купите слот за 3 000 ₸. Продажа слотов открыта, собираем оплату на карту. Условия участия: https://raffle.temir.test/rules/season-a #DRAW_DEMO_01',account:{platform:'demo',handle:'account-a'},author:'Аккаунт A · вымышленный',type:'text',kind:'post',url:'https://example.com/demo/draw-01',campaignRef:'network-demo-01',originalCampaignRef:'DRAW_DEMO_01',timestamp:'2026-10-20T10:00:00+05:00'},
+  {id:'network-demo-01-s2',text:'Текст эфира: победителя определит колесо фортуны. Комиссия организатора — 10% от собранной суммы. Условия участия: https://raffle.temir.test/rules/season-a #DRAW_DEMO_01',account:{platform:'demo',handle:'account-b'},author:'Аккаунт B · вымышленный',type:'text',kind:'live',url:'https://example.com/demo/live-01',campaignRef:'network-demo-01',originalCampaignRef:'DRAW_DEMO_01',timestamp:'2026-10-20T11:00:00+05:00'},
+ ]},
+ {id:'network-demo-02',title:'Розыгрыш № 02 · тот же аккаунт',organizer:'Аккаунт A · вымышленный',platform:'Демонстрация',synthetic:true,manualGrouping:false,groupingNotes:['Отдельный ID #DRAW_DEMO_02. С первым розыгрышем не объединяется.'],sources:[
+  {id:'network-demo-02-s1',text:'Следующий розыгрыш: приз — наушники. Для участия оплатите билет за 1 000 ₸. Победителя выберет рандомайзер. #DRAW_DEMO_02',account:{platform:'demo',handle:'account-a'},author:'Аккаунт A · вымышленный',type:'text',kind:'post',url:'https://example.com/demo/draw-02',campaignRef:'network-demo-02',originalCampaignRef:'DRAW_DEMO_02',timestamp:'2026-10-21T10:00:00+05:00'},
+ ]},
+ {id:'network-demo-03',title:'Бесплатный розыгрыш · общая ссылка',organizer:'Аккаунт C · вымышленный',platform:'Демонстрация',synthetic:true,manualGrouping:false,sources:[
+ {id:'network-demo-03-s1',text:'Розыгрыш книги. Участие бесплатно, без покупки и оплаты. Победителя выбираем случайно. Условия участия: https://raffle.temir.test/rules/season-a #DRAW_DEMO_03',account:{platform:'demo',handle:'account-c'},author:'Аккаунт C · вымышленный',type:'text',kind:'post',campaignRef:'network-demo-03',originalCampaignRef:'DRAW_DEMO_03',timestamp:'2026-10-22T10:00:00+05:00'}]},
+];

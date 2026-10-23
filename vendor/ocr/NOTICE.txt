@@ -1,0 +1,3 @@
+Tesseract.js 7.0.0 and tesseract.js-core 7.0.0: Apache License 2.0.
+Language data: tesseract-ocr/tessdata_fast (rus, kaz), Apache License 2.0.
+Sources: https://github.com/naptha/tesseract.js and https://github.com/tesseract-ocr/tessdata_fast

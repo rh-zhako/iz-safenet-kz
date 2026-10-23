@@ -1,0 +1,66 @@
+{
+  "engineVersion": "2.0.0-track1-evidence",
+  "engineSha256": "e598edfd05ca82d55ea6c2e519c7343398dfad08d579a7a03925857554bf1009",
+  "checks": {
+    "passed": 82,
+    "total": 82
+  },
+  "development": {
+    "challenge-v1": {
+      "accuracy": 1,
+      "precision": 1,
+      "recall": 1,
+      "fpr": 0,
+      "quoteErrors": 0
+    },
+    "independent-v2": {
+      "accuracy": 0.98,
+      "precision": 1,
+      "recall": 0.975,
+      "fpr": 0,
+      "quoteErrors": 0
+    },
+    "independent-v3": {
+      "accuracy": 0.9916666666666667,
+      "precision": 1,
+      "recall": 0.9791666666666666,
+      "fpr": 0,
+      "quoteErrors": 0
+    },
+    "independent-v4": {
+      "accuracy": 0.9875,
+      "precision": 1,
+      "recall": 1,
+      "fpr": 0,
+      "quoteErrors": 0
+    }
+  },
+  "historical": 1,
+  "families": 1,
+  "remainingV4Errors": [
+    {
+      "id": "iv4-bwnnt2xto2",
+      "expected": "low",
+      "predicted": "medium",
+      "match": false,
+      "language": "kk",
+      "missing": [
+        "random"
+      ],
+      "contradictions": []
+    },
+    {
+      "id": "iv4-5joujwtr14l",
+      "expected": "low",
+      "predicted": "medium",
+      "match": false,
+      "language": "translit",
+      "missing": [
+        "payment"
+      ],
+      "contradictions": []
+    }
+  ],
+  "status": "OPEN_COMPATIBILITY_REGRESSION",
+  "provenance": "Unchanged v1.7 assertions on current v2.0; not a new blind test."
+}

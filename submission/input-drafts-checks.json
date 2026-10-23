@@ -1,0 +1,135 @@
+{
+  "format": "iz-input-drafts-checks-v1",
+  "createdAt": "2026-10-22T18:50:11.681Z",
+  "scope": "Deterministic local draft contract checks with form doubles; not a browser navigation test, human usability study, or detection benchmark.",
+  "moduleSha256": "97bb18800a249c0ba98044669f1c33bf8c77e1dc8155bff10c4270736981d7c3",
+  "limits": {
+    "drafts": 100,
+    "text": 60000,
+    "serializedCharacters": 1000000,
+    "filesPerDraft": 3,
+    "fileBytes": 15728640,
+    "totalFileBytes": 31457280
+  },
+  "total": 29,
+  "passed": 29,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "text whitespace and exact characters survive capture and restore",
+      "passed": true
+    },
+    {
+      "name": "metadata fields survive a serializable snapshot roundtrip",
+      "passed": true
+    },
+    {
+      "name": "quick and modal case keys do not overwrite each other",
+      "passed": true
+    },
+    {
+      "name": "capture whitelist excludes secrets files and hidden controls",
+      "passed": true
+    },
+    {
+      "name": "restore uses value assignment and never interprets user HTML",
+      "passed": true
+    },
+    {
+      "name": "readonly campaign metadata is not replaced by an older form draft",
+      "passed": true
+    },
+    {
+      "name": "unchanged input and change events do not emit duplicate records",
+      "passed": true
+    },
+    {
+      "name": "external mutation of a callback or snapshot cannot change store contents",
+      "passed": true
+    },
+    {
+      "name": "example replacement preserves the previous manually entered text",
+      "passed": true
+    },
+    {
+      "name": "switching two examples keeps the original manual text",
+      "passed": true
+    },
+    {
+      "name": "manual edits after an example become the next recoverable input",
+      "passed": true
+    },
+    {
+      "name": "previous input survives reload through text-only snapshot",
+      "passed": true
+    },
+    {
+      "name": "clear success removes current text previous text and files for one key",
+      "passed": true
+    },
+    {
+      "name": "file objects remain only in memory and disappear on serialized reload",
+      "passed": true
+    },
+    {
+      "name": "file limits reject new selection without replacing earlier files",
+      "passed": true
+    },
+    {
+      "name": "aggregate file memory is bounded across draft keys",
+      "passed": true
+    },
+    {
+      "name": "unknown keys and record schemas cannot enter the map",
+      "passed": true
+    },
+    {
+      "name": "text and metadata length bounds apply to untrusted records",
+      "passed": true
+    },
+    {
+      "name": "invalid select values are excluded instead of restored into controls",
+      "passed": true
+    },
+    {
+      "name": "100-draft limit refuses a new key without silently evicting old input",
+      "passed": true
+    },
+    {
+      "name": "file-only drafts also count toward the 100-key limit",
+      "passed": true
+    },
+    {
+      "name": "serialized text budget refuses addition without damaging prior records",
+      "passed": true
+    },
+    {
+      "name": "installer captures input without rendering or stealing focus and detaches",
+      "passed": true
+    },
+    {
+      "name": "installer ignores unrelated and file inputs and reports bounded errors",
+      "passed": true
+    },
+    {
+      "name": "untouched default draft does not block restoration",
+      "passed": true
+    },
+    {
+      "name": "meaningful current text blocks conflicting restoration",
+      "passed": true
+    },
+    {
+      "name": "current memory files prevent replacement of empty draft",
+      "passed": true
+    },
+    {
+      "name": "previous manual text is protected even if examples match",
+      "passed": true
+    },
+    {
+      "name": "matching content may be restored despite a different timestamp",
+      "passed": true
+    }
+  ]
+}

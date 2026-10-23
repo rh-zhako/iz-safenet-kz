@@ -1,0 +1,154 @@
+{
+  "at": "2026-10-20T18:17:26.808923+00:00",
+  "engineVersion": "1.7.0-track1-evidence",
+  "method": "Actual CUA browser interactions on dedicated4174/4175 local origins, only agent-authored synthetic data. Downloaded JSON/HTML inspected from filesystem. Not human usability or real platform validation.",
+  "passed": 26,
+  "total": 26,
+  "checks": [
+    {
+      "id": "draft_text",
+      "passed": true,
+      "observed": "Exact own text/whitespace survived history navigation and page reload."
+    },
+    {
+      "id": "example_restore",
+      "passed": true,
+      "observed": "Switching paid/free examples then Return my text restored the original own input."
+    },
+    {
+      "id": "draft_files",
+      "passed": true,
+      "observed": "ru-small.png stayed attached between history and new-check navigation; memory only."
+    },
+    {
+      "id": "draft_export",
+      "passed": true,
+      "observed": "Actual draft-only backup download contained exact text and0cases/0sources, no image/base64 data."
+    },
+    {
+      "id": "draft_only_restore",
+      "passed": true,
+      "observed": "Actual draft-only backup restored through chooser on clean4175 origin despite default empty form; text returned."
+    },
+    {
+      "id": "restore101",
+      "passed": true,
+      "observed": "Actual schema2 backup of101cases restored fully through chooser into analyst table."
+    },
+    {
+      "id": "restore350",
+      "passed": true,
+      "observed": "Actual backup7cases/350sources restored in bounded batches; all7cases appeared."
+    },
+    {
+      "id": "cancel_import",
+      "passed": true,
+      "observed": "12,368,737-byte100case synthetic import cancelled via Stop import; no result committed."
+    },
+    {
+      "id": "corrupt_guard",
+      "passed": true,
+      "observed": "Separate localhost origin seeded malformed JSON only while empty; app showed protected-source recovery banner."
+    },
+    {
+      "id": "corrupt_download",
+      "passed": true,
+      "observed": "Actual raw download was byte-identical to malformed source: {\"campaigns\":["
+    },
+    {
+      "id": "corrupt_restore",
+      "passed": true,
+      "observed": "Explicit valid101case backup restored from corruption banner; table displayed114 including13builtin demos."
+    },
+    {
+      "id": "group_membership",
+      "passed": true,
+      "observed": "Fresh imported case with originalrefsONE/TWO produced medium contradiction after worker adapter fix."
+    },
+    {
+      "id": "split",
+      "passed": true,
+      "observed": "Explicit split action opened newONE copy with original text; original conflict case remained in local data."
+    },
+    {
+      "id": "manual_identity_guard",
+      "passed": true,
+      "observed": "New conflicted case final-step high option disabled; clear warning rendered."
+    },
+    {
+      "id": "quick_note",
+      "passed": true,
+      "observed": "Save note and defer displayed incomplete quick annotation and kept case in queue."
+    },
+    {
+      "id": "focus_steps",
+      "passed": true,
+      "observed": "Navigation focusedH1; manual step change focused correctH3; open-source focusedARTICLE source card."
+    },
+    {
+      "id": "quote_guard",
+      "passed": true,
+      "observed": "Manual paraphrase rejected with exact-match error; source verbatim quote accepted."
+    },
+    {
+      "id": "three_conditions",
+      "passed": true,
+      "observed": "Prize/payment/random each explicitly confirmed with exact source quotes and offsets."
+    },
+    {
+      "id": "manual_separate",
+      "passed": true,
+      "observed": "Saved humanmedium remained separate from automatichigh, reflected in actualJSONdownload."
+    },
+    {
+      "id": "report_export",
+      "passed": true,
+      "observed": "ActualHTMLreport included current1.7engine, manual note and exact evidence; JSON contained3confirmed conditions."
+    },
+    {
+      "id": "resolved_queue",
+      "passed": true,
+      "observed": "Analyst filter showed exactly1resolved after complete structured review; note alone did not resolve."
+    },
+    {
+      "id": "stale_tab",
+      "passed": true,
+      "observed": "Old tab showed persistent conflict; typing there did not overwrite latest draft confirmed after original tabreload."
+    },
+    {
+      "id": "delete_cancel_files",
+      "passed": true,
+      "observed": "Opening deletion dialog and cancelling retained append-form ru-small.png; no deletion confirmed."
+    },
+    {
+      "id": "free_control",
+      "passed": true,
+      "observed": "Free example displayed no mandatory entry payment and retained non-guarantee limitation."
+    },
+    {
+      "id": "mobile",
+      "passed": true,
+      "observed": "Actual390x844 home, paid result, quality and network documentWidth390; no horizontal page overflow."
+    },
+    {
+      "id": "console",
+      "passed": true,
+      "observed": "Browser warning/error logs empty after tested app interactions."
+    }
+  ],
+  "bugsFoundAndFixed": [
+    "Worker payload omitted originalCampaignRef, bypassing conflicting-identity guard in imported cached analysis. Preserved fields and added4adapter equality tests.",
+    "Default empty draft blocked restoring a nonempty draft. Added replacement conflict helper and5tests.",
+    "Delete-dialog cancellation overwrote background quick-form file memory. Made draft-form selection modal-aware and captured before opening.",
+    "Manual high could combine different original identities. Added validation/currentness/UI guard and5tests."
+  ],
+  "notPerformed": [
+    "New OCR recognition;4historical controlled OCRoutputs rescored separately.",
+    "Human double annotation or real permitted corpus.",
+    "Human pilot or time-saving experiment.",
+    "PowerPoint app opening or human rehearsal.",
+    "Registration, submission or team identity validation.",
+    "Live platform crawling, ASR, server concurrency/load.",
+    "Permanent deletion of user data or malformed raw QA snapshot."
+  ]
+}

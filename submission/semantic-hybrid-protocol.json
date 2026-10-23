@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-20T18:37:56.043169+00:00",
+  "purpose": "Exploratory paired comparison on already disclosed synthetic v5. Not a new blinded test or real-data validation.",
+  "runtime": "@huggingface/transformers@3.8.1 CPU ONNX q8",
+  "model": "onnx-community/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-ONNX",
+  "revision": "cdc8277b4682665e2f2e87cd83da7da07b153d75",
+  "baselineEngine": "1.7.0-track1-evidence",
+  "baselineEngineSha256": "d75b486aa53bdae2462b7ae121ddfbc76b3076f9cbc7f68223bcadb0b55619c3",
+  "dataset": "evaluation/independent-v5.json",
+  "datasetSha256": "839ffab18108e34df6b22940273978912a8ca36cc72c4891b6cbcb268c10b756",
+  "hypotheses": {
+    "prize": "В тексте говорится о розыгрыше приза.",
+    "payment": "В тексте сказано, что участие платное.",
+    "random": "В тексте сказано, что победителя выбирают случайно.",
+    "free": "В тексте сказано, что участие бесплатно.",
+    "judged": "В тексте сказано, что победителя выбирает жюри.",
+    "warning": "Текст является предупреждением о мошенниках."
+  },
+  "acceptThreshold": 0.7,
+  "decision": "Documented zero-shot independent normalization: entailment/(entailment+contradiction). Positive threshold0.7 with raw entailment>=0.3 and entailment>neutral. Negative threshold0.8 with raw entailment>=0.5. Hybrid retains all baselinehigh, blocks promotions on explicit free/warning/contradictions; otherwise each core can be supported by a baseline signal or positive NLI. Three core→high, two→medium, otherwise baseline priority. No production engine replacement in this experiment.",
+  "adoptionGate": "Do not replace baseline unless paired macro F1 and high recall improve without materially increasing false positives. Independent unseen and human evaluation still required.",
+  "limits": "Max512tokens per text-hypothesis pair; truncation logged. No protected user materials, only previously authored synthetic benchmark.",
+  "predecessor": "Two raw NLI threshold experiments failed; preserved. This protocol uses the documented entailment-vs-contradiction zero-shot normalization and simpler source-claim hypotheses. Calibration used only two literal developer control examples, no v5 case-specific fixes.",
+  "runName": "hybrid",
+  "sources": [
+    "https://huggingface.co/docs/transformers.js/api/pipelines",
+    "https://huggingface.co/onnx-community/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7-ONNX"
+  ]
+}

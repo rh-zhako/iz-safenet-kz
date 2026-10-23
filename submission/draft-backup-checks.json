@@ -1,0 +1,31 @@
+{
+  "scope": "Case-bound draft export and backup restore contracts; not a human study.",
+  "passed": 6,
+  "total": 6,
+  "checks": [
+    {
+      "name": "new draft restores without any unrelated cases",
+      "passed": true
+    },
+    {
+      "name": "append draft includes its complete parent and review",
+      "passed": true
+    },
+    {
+      "name": "modal and quick parents deduplicate and omit unrelated cases",
+      "passed": true
+    },
+    {
+      "name": "every case-bound draft has a parent for clean restore remapping",
+      "passed": true
+    },
+    {
+      "name": "missing parent fails visibly rather than exporting an unreachable draft",
+      "passed": true
+    },
+    {
+      "name": "backup does not mutate parents or drop source provenance",
+      "passed": true
+    }
+  ]
+}

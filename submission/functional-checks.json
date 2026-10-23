@@ -1,0 +1,160 @@
+{
+  "engineVersion": "2.0.0-track1-evidence",
+  "at": "2026-10-22T18:50:10.833Z",
+  "passed": 38,
+  "total": 38,
+  "checks": [
+    {
+      "name": "paid entry + random winner → high",
+      "passed": true
+    },
+    {
+      "name": "income not inferred from payment",
+      "passed": true
+    },
+    {
+      "name": "free contest → low",
+      "passed": true
+    },
+    {
+      "name": "missing entry terms → medium",
+      "passed": true
+    },
+    {
+      "name": "no text → no high verdict",
+      "passed": true
+    },
+    {
+      "name": "conflicting free and paid → medium",
+      "passed": true
+    },
+    {
+      "name": "foreign campaign excluded",
+      "passed": true
+    },
+    {
+      "name": "verbatim evidence offsets",
+      "passed": true
+    },
+    {
+      "name": "feed grouping and scores",
+      "passed": true
+    },
+    {
+      "name": "shared author does not merge",
+      "passed": true
+    },
+    {
+      "name": "duplicate post IDs rejected",
+      "passed": true
+    },
+    {
+      "name": "empty feed rejected",
+      "passed": true
+    },
+    {
+      "name": "over-limit feed rejected",
+      "passed": true
+    },
+    {
+      "name": "malformed feed rejected",
+      "passed": true
+    },
+    {
+      "name": "same explicit reference merges",
+      "passed": true
+    },
+    {
+      "name": "Instagram profile normalization",
+      "passed": true
+    },
+    {
+      "name": "Instagram post URL does not identify owner",
+      "passed": true
+    },
+    {
+      "name": "TikTok supplied profile normalization",
+      "passed": true
+    },
+    {
+      "name": "unsafe URL not treated as account",
+      "passed": true
+    },
+    {
+      "name": "malformed handle rejected",
+      "passed": true
+    },
+    {
+      "name": "network demo two supplied accounts",
+      "passed": true
+    },
+    {
+      "name": "different explicit raffle IDs show series",
+      "passed": true
+    },
+    {
+      "name": "duplicate body does not count as series",
+      "passed": true
+    },
+    {
+      "name": "review current for unchanged materials",
+      "passed": true
+    },
+    {
+      "name": "changed source invalidates review",
+      "passed": true
+    },
+    {
+      "name": "engine version invalidates review",
+      "passed": true
+    },
+    {
+      "name": "review survives ID-only remapping",
+      "passed": true
+    },
+    {
+      "name": "review history preserved",
+      "passed": true
+    },
+    {
+      "name": "review history limited to 100",
+      "passed": true
+    },
+    {
+      "name": "unrecognized review rejected",
+      "passed": true
+    },
+    {
+      "name": "JSON roundtrip analysis stable",
+      "passed": true
+    },
+    {
+      "name": "HTML report includes evidence and review",
+      "passed": true
+    },
+    {
+      "name": "HTML report escapes injected title",
+      "passed": true
+    },
+    {
+      "name": "HTML report drops unsafe source URL",
+      "passed": true
+    },
+    {
+      "name": "historical independent metrics match frozen v1.7 snapshot",
+      "passed": true
+    },
+    {
+      "name": "frozen dataset hash matches report",
+      "passed": true
+    },
+    {
+      "name": "all evaluation sets have valid quote offsets",
+      "passed": true
+    },
+    {
+      "name": "fresh v5 matrix and counts are internally consistent",
+      "passed": true
+    }
+  ]
+}
